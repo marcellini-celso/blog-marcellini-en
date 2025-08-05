@@ -1,0 +1,40 @@
+# Quarto output directory
+_site/
+*.html
+
+# Editor-specific files
+.Rproj.user/
+*.Rproj
+.Rhistory
+.RData
+.Ruserdata
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# LaTeX (se usar .tex ou compilar PDF)
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# VSCode
+.vscode/
+
+# Quarto publish cache (opcional)
+.quarto/
+
+# Node/npm (se usar JS ou ObservableJS integrado)
+node_modules/
+package-lock.json
+yarn.lock
+
+
+/.quarto/

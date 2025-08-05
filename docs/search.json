@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to Marcellini’s Blog",
+    "section": "",
+    "text": "1 👋 Hello and Welcome\nThis is the English version of Blog do Marcellini, where I share content about:\n\n🧮 Mathematics\n\n📊 Statistics\n\n🔬 Physics\n\n💻 Programming\n\nWith clear explanations, practical examples, and visualizations.\nStay tuned!"
+  },
+  {
+    "objectID": "posts/welcome.html",
+    "href": "posts/welcome.html",
+    "title": "🚀 First Post — Getting Started",
+    "section": "",
+    "text": "1 Welcome to Marcellini’s Blog\nThis blog explores mathematical beauty and clarity in explanation.\nFuture posts will cover:\n\nCalculus\n\nProbability\n\nNumber theory\n\nData analysis with R and Python\n\nGeometry and physics applications\n\nFeel free to explore and share!"
+  }
+]

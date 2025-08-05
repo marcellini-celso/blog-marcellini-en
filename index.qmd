@@ -1,0 +1,18 @@
+---
+title: "Welcome to Marcellini's Blog"
+format: html
+---
+
+# 👋 Hello and Welcome
+
+This is the **English version** of [Blog do Marcellini](https://blogdomarcellini.com.br), where I share content about:
+
+- 🧮 Mathematics  
+- 📊 Statistics  
+- 🔬 Physics  
+- 💻 Programming  
+
+With clear explanations, practical examples, and visualizations.
+
+Stay tuned!
+

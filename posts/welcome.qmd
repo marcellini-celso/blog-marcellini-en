@@ -1,0 +1,21 @@
+---
+title: "🚀 First Post — Getting Started"
+description: "Welcome to the English version of the blog!"
+date: 2025-08-05
+format: html
+---
+
+# Welcome to Marcellini’s Blog
+
+This blog explores mathematical beauty and clarity in explanation.
+
+Future posts will cover:
+
+- Calculus  
+- Probability  
+- Number theory  
+- Data analysis with R and Python  
+- Geometry and physics applications
+
+Feel free to explore and share!
+

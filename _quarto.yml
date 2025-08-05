@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Marcellini's Blog"
+  site-url: https://marcellini-celso.github.io/blog-marcellini-en
+  favicon: images/favicon.png
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: posts/welcome.qmd
+        text: Welcome
+  page-footer:
+    left: "© 2025 – Marcellini"
+    right: "[GitHub](https://github.com/marcellini-celso/blog-marcellini-en)"
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    number-sections: true
+    code-copy: true
+    fig-align: center
+    code-overflow: scroll
+    highlight-style: github
+
