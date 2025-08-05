@@ -1,0 +1,10 @@
+---
+title: "personal"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **personal**
+
+- [📘 🧑‍💻 About the Blog and About Me](/posts/personal/about-the-blog.html)

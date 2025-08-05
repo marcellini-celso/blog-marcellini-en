@@ -1,28 +1,74 @@
 project:
   type: website
   output-dir: docs
+  pre-render: "python3 gerar_posts_json.py"
 
 website:
   title: "Marcellini's Blog"
-  site-url: https://marcellini-celso.github.io/blog-marcellini-en
-  favicon: images/favicon.png
+  favicon: images/banner.jpeg
+  site-url: https://marcellini-celso.github.io/blog-marcellini-en/
+
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - href: posts/welcome.qmd
-        text: Welcome
+      - text: "🏷️ Tags 📂 Categories"
+        menu:
+          - text: "🏷️ Tags"
+            href: tags.qmd
+          - text: "📂 Categories"
+            href: categories.qmd
+      - text: "🧠 Exact Sciences"
+        menu:
+          - text: "🧮 Mathematics"
+            href: posts/mathematics/index.qmd
+          - text: "📊 Statistics"
+            href: posts/statistics/index.qmd
+          - text: "🔭 Physics"
+            href: posts/physics/index.qmd
+          - text: "💻 Programming"
+            href: posts/programming/index.qmd
+      - text: "📝 Personal Blog"
+        menu:
+          - text: "📝 Personal Posts"
+            href: posts/personal/index.qmd
+          - text: "👤 About Me and the Blog"
+            href: posts/personal/about-the-blog.qmd
+      - text: "📘 Courses"
+        menu:
+          - text: "🧮 Math Courses"
+            href: posts/courses/math/index.qmd
+          - text: "📊 Statistics Courses"
+            href: posts/courses/statistics/index.qmd
+      - href: guide.qmd
+        text: "🗺️ Site Map"
+    right:
+      - icon: envelope
+        text: "Contact"
+        href: "mailto:prof.marcellini@gmail.com" 
+
   page-footer:
-    left: "© 2025 – Marcellini"
-    right: "[GitHub](https://github.com/marcellini-celso/blog-marcellini-en)"
+    left: "© 2025 - Marcellini's Blog"
+    right: >
+      📬 [Contact via Email](mailto:prof.marcellini@gmail.com)<br>
+      💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">GitHub Repository</a>
 
 format:
   html:
     theme: cosmo
+    css: 
+      - styles.css
+      - assets/css/custom.css
     toc: true
-    number-sections: true
-    code-copy: true
-    fig-align: center
-    code-overflow: scroll
+    toc-title: "On this page"
     highlight-style: github
+    include-in-header: analytics.html
+
+search: true
+
+publish:
+  provider: gh-pages
+
+resources:
+  - posts.json
 

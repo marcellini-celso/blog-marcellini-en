@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Welcome to Marcellini’s Blog – Marcellini's Blog</title>
+<title>Marcellini’s Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -30,7 +65,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./images/favicon.png" rel="icon" type="image/png">
+<link href="./images/banner.jpeg" rel="icon" type="image/jpeg">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -40,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-234273d1456647dabc34a594ac50e507.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-c8464d00f4a8a0a426c9a6585646efb3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-5762651256a8b94b9686b158db7693f7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,8 +103,48 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-P2KY6K26MG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-P2KY6K26MG');
+</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="assets/css/custom.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -93,9 +168,84 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-tags-📂-categories" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">🏷️ Tags 📂 Categories</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-tags-📂-categories">    
+        <li>
+    <a class="dropdown-item" href="./tags.html">
+ <span class="dropdown-text">🏷️ Tags</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./categories.html">
+ <span class="dropdown-text">📂 Categories</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-exact-sciences" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">🧠 Exact Sciences</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-exact-sciences">    
+        <li>
+    <a class="dropdown-item" href="./posts/mathematics/index.qmd">
+ <span class="dropdown-text">🧮 Mathematics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/statistics/index.qmd">
+ <span class="dropdown-text">📊 Statistics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/physics/index.qmd">
+ <span class="dropdown-text">🔭 Physics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/programming/index.qmd">
+ <span class="dropdown-text">💻 Programming</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-personal-blog" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">📝 Personal Blog</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-personal-blog">    
+        <li>
+    <a class="dropdown-item" href="./posts/personal/index.qmd">
+ <span class="dropdown-text">📝 Personal Posts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/personal/about-the-blog.html">
+ <span class="dropdown-text">👤 About Me and the Blog</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-courses" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">📘 Courses</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-courses">    
+        <li>
+    <a class="dropdown-item" href="./posts/courses/math/index.qmd">
+ <span class="dropdown-text">🧮 Math Courses</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/courses/statistics/index.qmd">
+ <span class="dropdown-text">📊 Statistics Courses</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="./posts/welcome.html"> 
-<span class="menu-text">Welcome</span></a>
+    <a class="nav-link" href="./guide.qmd"> 
+<span class="menu-text">🗺️ Site Map</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="mailto:prof.marcellini@gmail.com"> <i class="bi bi-envelope" role="img">
+</i> 
+<span class="menu-text">Contact</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -113,46 +263,297 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#hello-and-welcome" id="toc-hello-and-welcome" class="nav-link active" data-scroll-target="#hello-and-welcome"><span class="header-section-number">1</span> 👋 Hello and Welcome</a></li>
+  <li><a href="#latest-posts" id="toc-latest-posts" class="nav-link active" data-scroll-target="#latest-posts">🆕 Latest Posts</a></li>
+  <li><a href="#useful-links" id="toc-useful-links" class="nav-link" data-scroll-target="#useful-links">🔗 Useful Links</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Welcome to Marcellini’s Blog</h1>
+
+
+
+<p><img src="images/banner.png" class="img-fluid" style="margin-bottom: 2rem;;width:100.0%"></p>
+<div class="columns">
+<div class="column" style="width:65%;">
+<div class="callout callout-style-default callout-note callout-titled" title="👋 Welcome to Marcellini's Blog">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="hello-and-welcome" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> 👋 Hello and Welcome</h1>
-<p>This is the <strong>English version</strong> of <a href="https://blogdomarcellini.com.br">Blog do Marcellini</a>, where I share content about:</p>
+<div class="callout-title-container flex-fill">
+👋 Welcome to Marcellini’s Blog
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>In this blog, you’ll find content on <strong>Mathematics</strong>, <strong>Statistics</strong>, and <strong>Physics</strong>, developed with <strong>rigor</strong>, <strong>theoretical foundation</strong>, and a <strong>didactic approach</strong>. The goal is to combine conceptual clarity with a professional visual presentation, using tools like <strong>LaTeX</strong>, <strong>Quarto</strong>, <strong>Python</strong>, and <strong>R</strong>.</p>
+<p>The aim is to explore deep ideas with <strong>simplicity</strong>, <strong>intuition</strong>, and <strong>beauty</strong> — through accessible explanations, <strong>graphical visualizations</strong>, <strong>complete courses with solved exercises</strong>, and <strong>structured reading guides</strong>.</p>
+</div>
+</div>
+<section id="what-youll-find-here" class="level3">
+<h3 class="anchored" data-anchor-id="what-youll-find-here">🌟 What you’ll find here:</h3>
 <ul>
-<li>🧮 Mathematics<br>
-</li>
-<li>📊 Statistics<br>
-</li>
-<li>🔬 Physics<br>
-</li>
-<li>💻 Programming</li>
+<li>✨ LaTeX and Quarto tips for visualization</li>
+<li>🧠 Mathematical concepts illustrated step-by-step</li>
+<li>📘 Experiments with visual and graphic teaching</li>
+<li>🧮 Mathematics that is both accessible and rigorous</li>
+<li>🔭 Physics explained with context and history</li>
+<li>📊 Statistics focused on real-world applications</li>
+<li>💻 Programming in R, Python, Julia, and Shell</li>
+<li>📝 Reflections on science, method, and language</li>
 </ul>
-<p>With clear explanations, practical examples, and visualizations.</p>
-<p>Stay tuned!</p>
+</section>
+</div><div class="column" style="width:35%;">
+<blockquote class="blockquote">
+<p><strong>“Beauty is the first test: there is no permanent place in the world for ugly mathematics.”</strong><br>
+— G. H. Hardy</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>“The universe cannot be read until we have learned the language and become familiar with the characters in which it is written. It is written in mathematical language, and its letters are triangles, circles, and other geometric figures.”</strong><br>
+— <em>Galileo Galilei</em></p>
+</blockquote>
+</div><div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">🎓 Cursos</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">📘 Projetos Especiais</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">🏷️ Tags e 🗂️ Categorias</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">🗺️ Mapa do Site</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<ul>
+<li>🧮 <a href="posts/cursos/matematica/">Matemática</a></li>
+<li>📊 <a href="posts/cursos/estatistica/">Estatística</a></li>
+</ul>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<ul>
+<li>🔭 <a href="posts/fisica/guia-100-anos-mecanica-quantica.qmd">Série 100 Anos da Mecânica Quântica</a></li>
+<li>🧠 <a href="posts/fisica/guia-relatividade-especial.qmd">Série Relatividade Especial</a></li>
+<li>🌠 <a href="posts/fisica/guia-relatividade-geral.qmd">Série Relatividade Geral</a></li>
+</ul>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<ul>
+<li><a href="./tags.html">🏷️ Tags</a></li>
+<li><a href="./categories.html">🗂️ Categorias</a></li>
+</ul>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<ul>
+<li><a href="./guia.html">🗺️ Mapa do Site</a></li>
+</ul>
+</div>
+</div>
+</div><div class="callout callout-style-default callout-note callout-titled" title="✨ Formulas That Made History">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+✨ Formulas That Made History
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Over the centuries, certain formulas have stood out for their beauty, depth, and impact. This post celebrates some of the gems of mathematics and physics.</p>
+<hr>
+<section id="eulers-identity" class="level3">
+<h3 class="anchored" data-anchor-id="eulers-identity">🧠 Euler’s Identity</h3>
+<p><span class="math display">\[
+e^{i\pi} + 1 = 0
+\]</span></p>
+<p>Connects the five most fundamental numbers in mathematics in a simple and elegant equation.</p>
+<hr>
+</section>
+<section id="the-wave-equation" class="level3">
+<h3 class="anchored" data-anchor-id="the-wave-equation">📡 The Wave Equation</h3>
+<p><span class="math display">\[
+\frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}
+\]</span></p>
+<p>Models vibrations, sounds, light, and other waves. Appears naturally in physics and differential equations.</p>
+<hr>
+</section>
+<section id="ramanujans-formula-for-frac1pi" class="level3">
+<h3 class="anchored" data-anchor-id="ramanujans-formula-for-frac1pi">🔢 Ramanujan’s Formula for <span class="math inline">\(\frac{1}{\pi}\)</span></h3>
+<p><span class="math display">\[
+\frac{1}{\pi} = \frac{2\sqrt{2}}{9801} \sum_{k=0}^{\infty} \frac{(4k)!\,(1103 + 26390k)}{(k!)^4\,396^{4k}}
+\]</span></p>
+<p>One of the fastest known formulas for calculating <span class="math inline">\(\pi\)</span>, discovered by Ramanujan with extraordinary intuition.</p>
+<hr>
+<p>🔍 <a href="posts/mathematics/historic-equations.qmd" class="button button-outline">Read the full post: Historic Equations ›</a></p>
+</section>
+</div>
+</div>
+</div><div class="callout callout-style-default callout-note callout-titled" title="🌍 Normal Distribution (Part 1): Course">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+🌍 Normal Distribution (Part 1): Course
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<section id="importance-of-the-normal-distribution" class="level2 callout-body-container callout-body">
+<h2 class="anchored" data-anchor-id="importance-of-the-normal-distribution">🌍 Importance of the Normal Distribution</h2>
+<p>The normal distribution is a fundamental statistical model because it accurately describes many real-world phenomena — both natural and social. It especially emerges when <strong>multiple random and independent causes</strong> influence an outcome. In such cases, data tend to concentrate around a mean, forming the classic bell-shaped curve.</p>
+<p>🔎 <strong>Why does this matter?</strong><br>
+Because assuming normality <strong>simplifies statistical analysis</strong> and enables the use of powerful inference tools.</p>
+<p>📌 <strong>Practical examples</strong>:</p>
+<ul>
+<li><p>📚 <strong>Standardized test scores</strong>: Scores tend to cluster around the average, with few students at the extremes.</p></li>
+<li><p>🌿 <strong>Plant heights</strong> of a single species grown under similar conditions often group around a central value.</p></li>
+<li><p>📉 <strong>Asset returns</strong> (stocks, currencies) approximate a normal curve in short timeframes — with caveats for extreme events.</p></li>
+</ul>
+<p>📈 <strong>Assuming normality allows us to</strong>:</p>
+<ul>
+<li>Calculate probabilities using known formulas and tables<br>
+</li>
+<li>Estimate confidence intervals<br>
+</li>
+<li>Apply hypothesis testing<br>
+</li>
+<li>Visualize data clearly and comparably</li>
+</ul>
+<hr>
+<p>🔍 <a href="posts/courses/statistics/normal_distribution/index.qmd" class="button button-outline">See the full course: Normal Distribution (Course) ›</a></p>
+</section>
+</div>
+</div><div class="callout callout-style-default callout-note callout-titled" title="🌊🌊 Interference of Two Waves">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+🌊🌊 Interference of Two Waves
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>🧠 <strong>This example shows the power of computational visualization to understand physical phenomena and is part of the blog’s studies on visual teaching.</strong></p>
+<p>In physics, <strong>interference</strong> occurs when two waves meet in space. The resulting pattern depends on their relative phase.</p>
+<p>The superposition of two sinusoidal waves with the same frequency can be written as:</p>
+<p><span class="math display">\[
+u(x,t) = A \sin(kx - \omega t) + A \sin(kx + \omega t)
+\]</span></p>
+<p>This sum results in a <strong>standing wave</strong> (which oscillates but does not propagate):</p>
+<p><span class="math display">\[
+u(x,t) = 2A \sin(kx) \cos(\omega t)
+\]</span></p>
+<p>🎬 Below is an animation of the interference between two identical waves traveling in opposite directions:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/interferencia_ondas.gif" class="img-fluid figure-img"></p>
+<figcaption>Wave Interference</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div><div class="callout callout-style-default callout-note callout-titled" title="🌊🌊 Interference of Two Waves: Python Code">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+🌊🌊 Interference of Two Waves: Python Code
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># interference_waves.py</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.animation <span class="im">as</span> animation</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Domain</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.linspace(<span class="dv">0</span>, <span class="dv">4</span> <span class="op">*</span> np.pi, <span class="dv">1000</span>)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>A <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>k <span class="op">=</span> <span class="dv">2</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>omega <span class="op">=</span> <span class="dv">2</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">4</span>))</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>line, <span class="op">=</span> ax.plot([], [], lw<span class="op">=</span><span class="dv">2</span>, color<span class="op">=</span><span class="st">'crimson'</span>)</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>ax.set_xlim(<span class="dv">0</span>, <span class="dv">4</span> <span class="op">*</span> np.pi)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>ax.set_ylim(<span class="op">-</span><span class="fl">2.5</span>, <span class="fl">2.5</span>)</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>ax.set_title(<span class="st">"Interference of Two Opposing Waves"</span>)</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>ax.set_xlabel(<span class="st">"x"</span>)</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>ax.set_ylabel(<span class="st">"u(x,t)"</span>)</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>ax.grid(<span class="va">True</span>)</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> init():</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>    line.set_data([], [])</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> line,</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> animate(i):</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>    t <span class="op">=</span> i <span class="op">*</span> <span class="fl">0.1</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>    y1 <span class="op">=</span> A <span class="op">*</span> np.sin(k <span class="op">*</span> x <span class="op">-</span> omega <span class="op">*</span> t)</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>    y2 <span class="op">=</span> A <span class="op">*</span> np.sin(k <span class="op">*</span> x <span class="op">+</span> omega <span class="op">*</span> t)</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>    y <span class="op">=</span> y1 <span class="op">+</span> y2  <span class="co"># Wave superposition</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>    line.set_data(x, y)</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> line,</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>ani <span class="op">=</span> animation.FuncAnimation(fig, animate, init_func<span class="op">=</span>init, frames<span class="op">=</span><span class="dv">100</span>, interval<span class="op">=</span><span class="dv">50</span>, blit<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>ani.save(<span class="st">"interference_waves.gif"</span>, writer<span class="op">=</span><span class="st">'pillow'</span>, fps<span class="op">=</span><span class="dv">20</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div><div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>👉 <a href="posts/programming/python-quarto-examples.qmd">See more Python examples</a></p>
+<p>👉 <a href="posts/programming/r-quarto-examples.qmd">See more R examples</a></p>
+</div>
+</div><p>🔝 <a href="./index.html">Back to Top</a></p>
+</div>
+<hr>
+<section id="latest-posts" class="level2">
+<h2 class="anchored" data-anchor-id="latest-posts">🆕 Latest Posts</h2>
+<!-- start-latest-posts -->
+<ul>
+<li><a href="posts/programming/index.html">👨‍💻 Programming</a></li>
+<li><a href="posts/courses/math/calculus/module-1/1.2-number-sets.html">🔢 Module 1.2: Number Sets</a></li>
+<li><a href="posts/programming/programming-guide.html">🧭 👨‍💻 Programming Guide</a></li>
+<li><a href="posts/physics/physics-guide.html">🧭 ⚛️ Physics Guide</a></li>
+<li><a href="posts/personal/personal-guide.html">🧭 🧑‍🏫 Personal Blog Guide</a></li>
+<li><a href="posts/personal/index.html">🧑‍🏫 Personal Blog</a></li>
+<li><a href="posts/programming/markdown-template-part2.html">📘 👨‍💻 📄 Quarto Markdown Template — Part 2</a></li>
+<li><a href="posts/courses/math/calculus/module-1/1.2-number-sets-ap.html">🧠 🔢 Module 1.2 AP: Number Sets — Advanced</a></li>
+<li><a href="posts/courses/statistics/normal_distribution/part-3/normal-distribution-part3.html">🎓 📊 Statistics Course: Normal Distribution (Part 3)</a></li>
+<li><a href="posts/courses/statistics/normal_distribution/part-2/normal-distribution-part2.html">🎓 📊 Statistics Course: Normal Distribution (Part 2)</a> <!-- end-latest-posts --></li>
+</ul>
+<blockquote class="blockquote">
+<p>This section is automatically updated with each new post.</p>
+</blockquote>
+<hr>
+<p><em>Marcellini’s Blog — Exploring Mathematics, Statistics, and Physics with Rigor and Beauty</em></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><em>Created by Blog do Marcellini with ❤️ and code.</em></p>
+</div>
+</div>
+</section>
+<section id="useful-links" class="level2">
+<h2 class="anchored" data-anchor-id="useful-links">🔗 Useful Links</h2>
+<ul>
+<li>🧑‍🏫 <a href="./posts/personal/about-the-blog.html">About the Blog</a></li>
+<li>💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">GitHub Repository</a></li>
+<li>📬 <a href="mailto:prof.marcellini@gmail.com">Contact via Email</a></li>
+</ul>
 
 
 </section>
@@ -230,7 +631,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/marcellini-celso\.github\.io\/blog-marcellini-en");
+        var filterRegex = new RegExp("https:\/\/marcellini-celso\.github\.io\/blog-marcellini-en\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -561,13 +962,13 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2025 – Marcellini</p>
+<p>© 2025 - Marcellini’s Blog</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p><a href="https://github.com/marcellini-celso/blog-marcellini-en">GitHub</a></p>
+<p>📬 <a href="mailto:prof.marcellini@gmail.com">Contact via Email</a><br> 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">GitHub Repository</a></p>
 </div>
   </div>
 </footer>

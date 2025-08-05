@@ -1,0 +1,19 @@
+---
+title: "Tags"
+format: html
+page-layout: full
+---
+
+::: {.tag-nuvem}
+![](nuvem_tags.png){width=100%}
+:::
+
+## 📚 Todas as Tags
+
+::: {.tag-grid}
+
+<a href="/tags/about.html" class="tag-card">about (1)</a>
+<a href="/tags/about-me.html" class="tag-card">about me (1)</a>
+<a href="/tags/about-the-blog.html" class="tag-card">about the blog (1)</a>
+<a href="/tags/personal.html" class="tag-card">personal (1)</a>
+:::
