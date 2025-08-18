@@ -134,3 +134,4 @@ Para dúvidas, sugestões ou colaborações, entre em contato por e-mail:
 ✉️ **[prof.marcellini@gmail.com](mailto:prof.marcellini@gmail.com)**
 # blog-marcellini-V2
 Teste seg 18 ago 2025 05:53:19 -03
+Teste seg 18 ago 2025 05:56:13 -03
