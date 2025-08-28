@@ -1,0 +1,7 @@
+::: {.callout-tip icon="ℹ️" title="About the Project"}
+This site was born from the desire to share ideas with **good mathematics**, **good typography**, and **good explanations**.  
+Want to know more about the editorial line, technologies, and behind-the-scenes?
+
+[📘 Read “About the Blog and About Me” ›](/posts/personal/about-the-blog.qmd){.button .button-outline}
+:::
+

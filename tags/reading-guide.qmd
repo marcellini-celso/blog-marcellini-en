@@ -1,0 +1,10 @@
+---
+title: "reading guide"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **reading guide**
+
+- [🧭 🧑‍🏫 Reading Guide — Personal Blog](/posts/personal/personal-guide.html)

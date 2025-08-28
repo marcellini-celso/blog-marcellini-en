@@ -1,43 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://marcellini-celso.github.io/blog-marcellini-en/tags/about-me.html</loc>
-    <lastmod>2025-08-05T11:16:35.654Z</lastmod>
+    <loc>https://en.blogdomarcellini.com.br/guia.html</loc>
+    <lastmod>2025-08-18T08:34:26.461Z</lastmod>
   </url>
   <url>
-    <loc>https://marcellini-celso.github.io/blog-marcellini-en/tags/personal.html</loc>
-    <lastmod>2025-08-05T11:16:35.653Z</lastmod>
+    <loc>https://en.blogdomarcellini.com.br/tags/about-me.html</loc>
+    <lastmod>2025-08-28T17:16:21.066Z</lastmod>
   </url>
   <url>
-    <loc>https://marcellini-celso.github.io/blog-marcellini-en/tags.html</loc>
-    <lastmod>2025-08-05T11:16:30.653Z</lastmod>
+    <loc>https://en.blogdomarcellini.com.br/tags/personal-blog-summary.html</loc>
+    <lastmod>2025-08-28T17:16:21.066Z</lastmod>
   </url>
   <url>
-    <loc>https://marcellini-celso.github.io/blog-marcellini-en/guia.html</loc>
-    <lastmod>2025-08-03T12:47:08.000Z</lastmod>
+    <loc>https://en.blogdomarcellini.com.br/tags/reading-guide.html</loc>
+    <lastmod>2025-08-28T17:16:21.066Z</lastmod>
   </url>
   <url>
-    <loc>https://marcellini-celso.github.io/blog-marcellini-en/lista_tags_gerada.html</loc>
-    <lastmod>2025-08-03T12:47:08.000Z</lastmod>
+    <loc>https://en.blogdomarcellini.com.br/tags/summary.html</loc>
+    <lastmod>2025-08-28T17:16:21.066Z</lastmod>
   </url>
   <url>
-    <loc>https://marcellini-celso.github.io/blog-marcellini-en/categories.html</loc>
-    <lastmod>2025-08-03T12:47:08.000Z</lastmod>
+    <loc>https://en.blogdomarcellini.com.br/tags.html</loc>
+    <lastmod>2025-08-28T17:16:19.810Z</lastmod>
   </url>
   <url>
-    <loc>https://marcellini-celso.github.io/blog-marcellini-en/posts/personal/about-the-blog.html</loc>
-    <lastmod>2025-08-04T09:40:23.413Z</lastmod>
+    <loc>https://en.blogdomarcellini.com.br/posts/personal/about-the-blog.html</loc>
+    <lastmod>2025-08-28T11:30:52.857Z</lastmod>
   </url>
   <url>
-    <loc>https://marcellini-celso.github.io/blog-marcellini-en/index.html</loc>
-    <lastmod>2025-08-05T11:16:30.284Z</lastmod>
+    <loc>https://en.blogdomarcellini.com.br/posts/personal/index.html</loc>
+    <lastmod>2025-08-28T11:30:37.049Z</lastmod>
   </url>
   <url>
-    <loc>https://marcellini-celso.github.io/blog-marcellini-en/tags/about-the-blog.html</loc>
-    <lastmod>2025-08-05T11:16:35.653Z</lastmod>
+    <loc>https://en.blogdomarcellini.com.br/nareal_template/example.html</loc>
+    <lastmod>2025-08-28T15:55:27.522Z</lastmod>
   </url>
   <url>
-    <loc>https://marcellini-celso.github.io/blog-marcellini-en/tags/about.html</loc>
-    <lastmod>2025-08-05T11:16:35.653Z</lastmod>
+    <loc>https://en.blogdomarcellini.com.br/index.html</loc>
+    <lastmod>2025-08-28T17:16:19.654Z</lastmod>
+  </url>
+  <url>
+    <loc>https://en.blogdomarcellini.com.br/nareal_template/example_presentation.html</loc>
+    <lastmod>2025-08-28T15:55:27.522Z</lastmod>
+  </url>
+  <url>
+    <loc>https://en.blogdomarcellini.com.br/posts/personal/personal-guide.html</loc>
+    <lastmod>2025-08-28T11:31:05.833Z</lastmod>
+  </url>
+  <url>
+    <loc>https://en.blogdomarcellini.com.br/categories.html</loc>
+    <lastmod>2025-08-18T08:34:26.433Z</lastmod>
+  </url>
+  <url>
+    <loc>https://en.blogdomarcellini.com.br/lista_tags_gerada.html</loc>
+    <lastmod>2025-08-18T08:34:26.869Z</lastmod>
+  </url>
+  <url>
+    <loc>https://en.blogdomarcellini.com.br/tags/about.html</loc>
+    <lastmod>2025-08-28T17:16:21.066Z</lastmod>
+  </url>
+  <url>
+    <loc>https://en.blogdomarcellini.com.br/tags/personal.html</loc>
+    <lastmod>2025-08-28T17:16:21.066Z</lastmod>
+  </url>
+  <url>
+    <loc>https://en.blogdomarcellini.com.br/tags/personal-blog.html</loc>
+    <lastmod>2025-08-28T17:16:21.066Z</lastmod>
+  </url>
+  <url>
+    <loc>https://en.blogdomarcellini.com.br/tags/about-the-blog.html</loc>
+    <lastmod>2025-08-28T17:16:21.066Z</lastmod>
   </url>
 </urlset>

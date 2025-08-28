@@ -1,4 +1,8 @@
-1 about
-1 about me
-1 about the blog
-1 personal
+2 about
+2 about me
+2 about the blog
+2 personal
+1 personal blog
+1 personal blog summary
+1 reading guide
+1 summary

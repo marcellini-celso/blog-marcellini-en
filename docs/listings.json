@@ -3,14 +3,22 @@
     "listing": "/categories.html",
     "items": [
       "/guia.html",
+      "/posts/personal/personal-guide.html",
       "/posts/personal/about-the-blog.html",
-      "/lista_tags_gerada.html",
+      "/posts/personal/index.html",
       "/index.html",
+      "/nareal_template/example.html",
+      "/nareal_template/example_presentation.html",
       "/tags.html",
-      "/tags/about-the-blog.html",
-      "/tags/personal.html",
+      "/lista_tags_gerada.html",
+      "/tags/summary.html",
       "/tags/about.html",
-      "/tags/about-me.html"
+      "/tags/reading-guide.html",
+      "/tags/personal.html",
+      "/tags/personal-blog-summary.html",
+      "/tags/personal-blog.html",
+      "/tags/about-me.html",
+      "/tags/about-the-blog.html"
     ]
   }
 ]

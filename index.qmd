@@ -13,211 +13,106 @@ format:
     code-link: true
 ---
 
+<div style="text-align:right; font-size:0.95em;">
+🌐 <a href="https://blogdomarcellini.com.br/">Português</a> ·
+<a href="https://en.blogdomarcellini.com.br/" rel="noopener" target="_blank">English</a>
+</div>
+
 ![](images/banner.png){width=100% style="margin-bottom: 2rem;"}
 
 ::: {.columns}
 ::: {.column width="65%"}
 
-::: {.callout-note title="👋 Welcome to Marcellini's Blog"}
+::: {.callout-note title="👋 Welcome to the Blog do Marcellini"}
 
-In this blog, you'll find content on **Mathematics**, **Statistics**, and **Physics**, developed with **rigor**, **theoretical foundation**, and a **didactic approach**. The goal is to combine conceptual clarity with a professional visual presentation, using tools like **LaTeX**, **Quarto**, **Python**, and **R**.
+In this blog, you will find content on **Mathematics**, **Statistics**, and **Physics**, developed with **rigor**, solid **theoretical foundations**, and a **didactic approach**.  
+The goal is to combine conceptual clarity with a professional visual presentation, using tools such as **LaTeX**, **Quarto**, **Python**, and **R**.
 
-The aim is to explore deep ideas with **simplicity**, **intuition**, and **beauty** — through accessible explanations, **graphical visualizations**, **complete courses with solved exercises**, and **structured reading guides**.
+The aim is to explore profound ideas with **simplicity**, **intuition**, and **beauty** — through accessible explanations, **graphical visualizations**, **complete courses with solved exercises**, and **structured reading guides**.
 
 :::
 
-### 🌟 What you'll find here:
 
-- ✨ LaTeX and Quarto tips for visualization
-- 🧠 Mathematical concepts illustrated step-by-step
-- 📘 Experiments with visual and graphic teaching
-- 🧮 Mathematics that is both accessible and rigorous
-- 🔭 Physics explained with context and history
-- 📊 Statistics focused on real-world applications
-- 💻 Programming in R, Python, Julia, and Shell
-- 📝 Reflections on science, method, and language
+### 🌟 What you will find here:
+
+- ✨ LaTeX and Quarto tips for visualizations  
+- 🧠 Step-by-step illustrated mathematical concepts  
+- 📘 Experiments with visual and graphical teaching  
+- 🧮 Mathematics that is both accessible and rigorous  
+- 🔭 Physics explained with context and history  
+- 📊 Statistics with focus on real-world applications  
+- 💻 Programming in R, Python, Julia, and Shell  
+- 📝 Reflections on science, method, and language  
+
+{{< include /_includes/editorial-policy-mini.qmd >}}
 
 :::
 
 ::: {.column width="35%"}
 
 > **"Beauty is the first test: there is no permanent place in the world for ugly mathematics."**  
-> — G. H. Hardy
+> — G. H. Hardy  
 
-> **“The universe cannot be read until we have learned the language and become familiar with the characters in which it is written. It is written in mathematical language, and its letters are triangles, circles, and other geometric figures.”**  
-> — *Galileo Galilei*
+> **“The universe cannot be read until we have learned the language and become familiar with the characters in which it is written. It is written in the language of mathematics, and its letters are triangles, circles, and other geometrical figures, without which it is humanly impossible to comprehend a single word.”**  
+> — *Galileo Galilei*  
 
 :::
 
-{{< include /_includes/menu-principal.qmd >}}
+{{< include /_includes/principal-menu.qmd >}}
 
-::: {.callout-note collapse=true title="✨ Formulas That Made History"}
-
-Over the centuries, certain formulas have stood out for their beauty, depth, and impact. This post celebrates some of the gems of mathematics and physics.
+:::
 
 ---
 
-### 🧠 Euler’s Identity
+## ✨ Highlights
 
-$$
-e^{i\pi} + 1 = 0
-$$
+::: {.callout-note collapse=true title="🧠 Historical Equations (Mathematics + Physics)"}
+A selection of formulas that shaped science, such as **Euler's Identity** \(e^{i\pi}+1=0\) and the **Wave Equation**.  
+[Explore Historical Equations ›](posts/matematica/equacoes-historicas.qmd){.button .button-outline}
+:::
 
-Connects the five most fundamental numbers in mathematics in a simple and elegant equation.
+::: {.callout-note collapse=true title="🌍 Normal Distribution — Course (Statistics)"}
+Why does normality appear so often? Probabilities, confidence intervals, and hypothesis tests — with charts and exercises.  
+[See the course ›](posts/cursos/statistics/distribuicao_normal/index.qmd){.button .button-outline}
+:::
+
+::: {.callout-note collapse=true title="📘 Calculus Course — Introduction"}
+A progressive course that combines **mathematical rigor**, **LaTeX typographical quality**, and **practical examples in R and Python**.
+
+📌 Topics already covered:
+
+- Number sets and fundamental properties  
+- Step-by-step solved exercises  
+
+[👉 Follow the Calculus Course ›](posts/cursos/mathematics/calculo/index.qmd){.button .button-outline}
+:::
+
+<div style="margin-top: .25rem"></div>
+
+> 🔧 Programmable examples:  
+> 👉 [Python Models](posts/programming/modelos-python-quarto.qmd) · 👉 [R Models](posts/programming/modelos-r-quarto.qmd)
 
 ---
-
-### 📡 The Wave Equation
-
-$$
-\frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}
-$$
-
-Models vibrations, sounds, light, and other waves. Appears naturally in physics and differential equations.
-
----
-
-### 🔢 Ramanujan’s Formula for $\frac{1}{\pi}$
-
-$$
-\frac{1}{\pi} = \frac{2\sqrt{2}}{9801} \sum_{k=0}^{\infty} \frac{(4k)!\,(1103 + 26390k)}{(k!)^4\,396^{4k}}
-$$
-
-One of the fastest known formulas for calculating $\pi$, discovered by Ramanujan with extraordinary intuition.
-
----
-
-🔍 [Read the full post: Historic Equations ›](posts/mathematics/historic-equations.qmd){.button .button-outline}
-
-:::
-
-::: {.callout-note collapse=true title="🌍 Normal Distribution (Part 1): Course"}
-
-## 🌍 Importance of the Normal Distribution
-
-The normal distribution is a fundamental statistical model because it accurately describes many real-world phenomena — both natural and social. It especially emerges when **multiple random and independent causes** influence an outcome. In such cases, data tend to concentrate around a mean, forming the classic bell-shaped curve.
-
-🔎 **Why does this matter?**  
-Because assuming normality **simplifies statistical analysis** and enables the use of powerful inference tools.
-
-📌 **Practical examples**:
-
-- 📚 **Standardized test scores**: Scores tend to cluster around the average, with few students at the extremes.
-
-- 🌿 **Plant heights** of a single species grown under similar conditions often group around a central value.
-
-- 📉 **Asset returns** (stocks, currencies) approximate a normal curve in short timeframes — with caveats for extreme events.
-
-📈 **Assuming normality allows us to**:
-
-- Calculate probabilities using known formulas and tables  
-- Estimate confidence intervals  
-- Apply hypothesis testing  
-- Visualize data clearly and comparably
-
----
-
-🔍 [See the full course: Normal Distribution (Course) ›](posts/courses/statistics/normal_distribution/index.qmd){.button .button-outline}
-
-:::
-
-::: {.callout-note collapse=true title="🌊🌊 Interference of Two Waves"}
-
-🧠 **This example shows the power of computational visualization to understand physical phenomena and is part of the blog’s studies on visual teaching.**
-
-In physics, **interference** occurs when two waves meet in space. The resulting pattern depends on their relative phase.
-
-The superposition of two sinusoidal waves with the same frequency can be written as:
-
-$$
-u(x,t) = A \sin(kx - \omega t) + A \sin(kx + \omega t)
-$$
-
-This sum results in a **standing wave** (which oscillates but does not propagate):
-
-$$
-u(x,t) = 2A \sin(kx) \cos(\omega t)
-$$
-
-🎬 Below is an animation of the interference between two identical waves traveling in opposite directions:
-
-![Wave Interference](images/interferencia_ondas.gif)
-
-:::
-
-::: {.callout-note collapse=true title="🌊🌊 Interference of Two Waves: Python Code"}
-
-```python
-# interference_waves.py
-import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib.animation as animation
-
-# Domain
-x = np.linspace(0, 4 * np.pi, 1000)
-A = 1
-k = 2
-omega = 2
-
-fig, ax = plt.subplots(figsize=(8, 4))
-line, = ax.plot([], [], lw=2, color='crimson')
-ax.set_xlim(0, 4 * np.pi)
-ax.set_ylim(-2.5, 2.5)
-ax.set_title("Interference of Two Opposing Waves")
-ax.set_xlabel("x")
-ax.set_ylabel("u(x,t)")
-ax.grid(True)
-
-def init():
-    line.set_data([], [])
-    return line,
-
-def animate(i):
-    t = i * 0.1
-    y1 = A * np.sin(k * x - omega * t)
-    y2 = A * np.sin(k * x + omega * t)
-    y = y1 + y2  # Wave superposition
-    line.set_data(x, y)
-    return line,
-
-ani = animation.FuncAnimation(fig, animate, init_func=init, frames=100, interval=50, blit=True)
-ani.save("interference_waves.gif", writer='pillow', fps=20)
-```
-
-:::
-
-::: {.callout-tip}
-👉 [See more Python examples](posts/programming/python-quarto-examples.qmd)
-
-👉 [See more R examples](posts/programming/r-quarto-examples.qmd)
-:::
 
 🔝 [Back to Top](index.qmd)
-
-:::
 
 ---
 
 ## 🆕 Latest Posts
 
-<!-- start-latest-posts -->
-- [👨‍💻 Programming](posts/programming/index.html)
-- [🔢 Module 1.2: Number Sets](posts/courses/math/calculus/module-1/1.2-number-sets.html)
-- [🧭 👨‍💻 Programming Guide](posts/programming/programming-guide.html)
-- [🧭 ⚛️ Physics Guide](posts/physics/physics-guide.html)
-- [🧭 🧑‍🏫 Personal Blog Guide](posts/personal/personal-guide.html)
+<!-- inicio-ultimos-posts -->
+- [🧭 🧑‍🏫 Reading Guide — Personal Blog](posts/personal/personal-guide.html)
 - [🧑‍🏫 Personal Blog](posts/personal/index.html)
-- [📘 👨‍💻 📄 Quarto Markdown Template — Part 2](posts/programming/markdown-template-part2.html)
-- [🧠 🔢 Module 1.2 AP: Number Sets — Advanced](posts/courses/math/calculus/module-1/1.2-number-sets-ap.html)
-- [🎓 📊 Statistics Course: Normal Distribution (Part 3)](posts/courses/statistics/normal_distribution/part-3/normal-distribution-part3.html)
-- [🎓 📊 Statistics Course: Normal Distribution (Part 2)](posts/courses/statistics/normal_distribution/part-2/normal-distribution-part2.html)
-<!-- end-latest-posts -->
+- [📘 🧑‍💻 About the Blog and About Me](posts/personal/about-the-blog.html)
+<!-- fim-ultimos-posts -->
 
-> This section is automatically updated with each new post.
+> This section is automatically updated with each new publication.
 
 ---
 
-*Marcellini’s Blog — Exploring Mathematics, Statistics, and Physics with Rigor and Beauty*
+*Blog do Marcellini — Exploring Mathematics, Statistics, and Physics with Rigor and Beauty*
+
+{{< include /_includes/about-project.qmd >}}
 
 :::{.callout-note}
 *Created by Blog do Marcellini with ❤️ and code.*
@@ -225,7 +120,7 @@ ani.save("interference_waves.gif", writer='pillow', fps=20)
 
 ## 🔗 Useful Links
 
-- 🧑‍🏫 [About the Blog](posts/personal/about-the-blog.qmd)
-- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">GitHub Repository</a>
-- 📬 [Contact via Email](mailto:prof.marcellini@gmail.com)
+- 🧑‍🏫 [About the Blog](posts/pessoal/sobre-o-blog.qmd)  
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">Project GitHub</a>  
+- 📬 [Contact via Email](mailto:prof.marcellini@gmail.com)  
 

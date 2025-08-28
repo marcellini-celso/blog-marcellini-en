@@ -1,13 +1,13 @@
 ---
 title: "📘 🧑‍💻 About the Blog and About Me"
-description: "Learn more about the author, the blog’s goals, how it was built, and the technical foundations behind the project."
+description: "Learn more about the author, the blog's purpose, how it was built, and the technical behind-the-scenes of the project."
 author: "Blog do Marcellini"
 date: 2025-07-05
 lang: en
 format:
   html:
     toc: true
-    number-sections: true
+    number-sections: false
     theme: cosmo
     fig-align: center
     code-overflow: scroll
@@ -19,104 +19,93 @@ categories: [personal, about, about the blog, about me]
 tags: [personal, about, about the blog, about me]
 ---
 
----
-
-[← Back to the Personal Blog Section 🧑‍🏫](/en/posts/personal/)
+[← Back to the Personal Blog Section 🧑‍🏫](index.qmd)
 
 ---
 
 # 👋 About Me
 
 ::: {.callout-tip collapse=false icon='🌟'}
-This blog was born from the desire to share ideas, experiences, and insights about science, mathematics, and programming with curious and engaged minds.
+This blog was born from the desire to share ideas, experiences, and learning about science, mathematics, and programming with curious and interested people.
 :::
 
-My name is Celso Marcellini. I hold a Bachelor’s degree in Mathematics from the Institute of Mathematics and Statistics of the University of São Paulo (IME-USP).  
-This blog emerged from my wish to explore mathematics, statistics, physics, LaTeX, Quarto, and programming in an accessible and visual way.
+My name is **Celso Marcellini**, I hold a **Bachelor’s degree in Mathematics** from IME-USP.  
+Here I explore **mathematics, statistics, physics, LaTeX, Quarto**, and **programming** in an **accessible** and **visual** way — with good typography, graphics, and reproducible code.
 
-::: {.callout-note icon="✍️" title="✍️ Author’s Reflection"}
-
-I studied pure mathematics and have always been fascinated by the theory of relativity — both special and general.  
-The mathematics underlying these physical theories is, to me, indescribably beautiful.
-
-One of the most striking ideas I encountered was the concept of the **four-velocity vector** in four-dimensional spacetime.  
-Understanding that a physical quantity like velocity can be represented as a vector in Minkowski space — with the quadratic sum of its components equal to $c^2$ — revealed something deeply profound.
-
-When I realized that, for any massive body, the **norm of the four-velocity** is always $c$, I also understood this:  
-if we are at rest, our spatial velocity is zero, and our temporal velocity is $c$;  
-as we move through space, some of that “total velocity” is redirected into space, reducing our velocity in time.  
-Yet the vector sum — under the pseudo-Euclidean metric — remains constant.  
-This directly implies **time dilation**: we age less when we move.
-
-Later, while studying general relativity, I discovered that spacetime is a **pseudo-Riemannian differentiable manifold**, with a metric that curves in response to mass and energy.  
-Wheeler’s quote has stayed with me ever since:
-
-> *“Spacetime tells matter how to move; matter tells spacetime how to curve.”*
-
-To me, this synthesis is uniquely beautiful.
-
-I am also fascinated by the idea that physics still seeks a **unified theory** — one that integrates general relativity with quantum mechanics.  
-If we ever succeed in explaining the macro and the micro with a single coherent mathematical structure, that will undoubtedly be one of humanity’s greatest intellectual triumphs.
-
-Finally, as a mathematician, I find the same beauty in the formal foundations of mathematics itself.  
-The axiomatic way we develop theorems, structures, and theories demands elegance, consistency, and inevitability.  
-It’s no coincidence that Hardy said **beauty is the first test**.  
-That statement isn’t just philosophical — it’s a quiet criterion that guides us while we prove.
-
+::: {.callout-note icon="🎨" title="🎨 Beauty as a Criterion (Hardy)"}
+What drives me most is the **beauty of ideas** in pure mathematics and theoretical physics.  
+I follow Hardy’s intuition — *“beauty is the first test”* — and try to show that beauty here is **conceptual**: natural definitions, concise proofs, and inevitable connections between topics.  
+Typography and graphics are the **wrapping**; at the core lies the **elegance of the constructions**.
 :::
+
+---
 
 # 💡 About the Blog
 
-This blog was built using [Quarto](https://quarto.org), a powerful tool for creating scientific documents and presentations with Markdown and LaTeX.
+::: {.callout-tip icon="🧮" title="🧮 Why Highlight Calculus and Statistics?"}
+Because they are **mandatory and essential subjects** in most undergraduate courses.  
+In this blog, this emphasis appears mainly in the **courses** — with tracks, solved examples, and visualizations to strengthen the foundation that supports the rest.
+:::
 
-## Technologies used
+::: {.callout-note icon="📚" title="📚 Editorial Scope"}
+Beyond the courses, **articles and series** may address **any topic** in science, mathematics, statistics, computing, and technology.  
+Editorial commitment: **rigor, beauty, and clarity**.  
+There is no place here for **hermetic** presentations “only for specialists.”
 
-- **Quarto**: to render `.qmd` files as HTML  
-- **RevealJS**: for interactive presentations  
-- **MathJax**: for mathematical notation  
-- **AWS S3** or **GitHub Pages**: for static hosting  
-- **TikZ + PNG**: for diagrams converted and embedded  
+Advanced subjects (for example, **differentiable manifolds**, **Lie groups**, **quantum field theory**, **general relativity**) **do appear** here — but always with a **clear depth** and a **solid conceptual foundation**.  
+Superficial expositions often obscure what is, by itself, beautiful and natural; therefore, the idea is to build the **foundations** that support each concept.
+:::
+
+This site was built with **[Quarto](https://quarto.org)**, a tool for creating scientific documents, reports, and static websites using Markdown and LaTeX.
+
+## Technologies Used
+
+- **Quarto**: rendering `.qmd` files into HTML  
+- **RevealJS**: interactive presentations  
+- **MathJax**: mathematical formulas  
+- **AWS S3** or **GitHub Pages**: static hosting  
+- **TikZ (exported to PNG/SVG)**: diagrams  
 - **Bootstrap theme `cosmo`** + custom `styles.scss`
 
-## General structure
+## General Structure
 
-- `index.qmd`: home page  
+- `index.qmd`: homepage  
 - `posts/*.qmd`: individual posts  
-- `about-the-blog.qmd`: about the author and blog  
-- `images/`: image directory  
-- `_quarto.yml`: site configuration
+- `posts/pessoal/sobre-o-blog.qmd`: this “About” page  
+- `images/`: images  
+- `_quarto.yml`: site configuration  
 
 ---
 
 ## 🛠️ How This Project Works
 
-### 📜 Active scripts
+### 📜 Active Scripts
 
-- `atualizar-ultimos-posts.sh`:  
-  Generates the latest posts list based on date and stores it in a reusable chunk (e.g., `ultimos_posts.qmd`).
+- `atualizar-ultimos-posts.sh`  
+  Generates the list of the most recent posts by date and saves it in a reusable block (e.g., `ultimos_posts.qmd`).
 
-- `gerar_posts_json.py`:  
-  Scans all `.qmd` files and extracts metadata (title, tags, path) to create `docs/posts.json`, used in tag and navigation scripts.
+- `gerar_posts_json.py`  
+  Scans all `.qmd` files and extracts metadata (title, tags, path) to generate `docs/posts.json`, used in tag pages and navigation.
 
-- `gerar_tags.py`:  
-  Reads `posts.json` and generates `tags_freq.txt`, `tags.qmd`, and `lista_tags_gerada.html` with tag counts.
+- `gerar_tags.py`  
+  Reads `posts.json` and generates `tags_freq.txt`, `tags.qmd`, and `lista_tags_gerada.html` with the frequency of each tag.
 
-- `nuvem_tags.py`:  
-  Creates the image `nuvem_tags.png` with a word cloud from tag frequency, used in the tag navigation post.
+- `nuvem_tags.py`  
+  Creates `nuvem_tags.png` (a word cloud with tag frequencies), displayed on the tags navigation page.
 
-- `atualizar_tags.sh`:  
-  Builds individual pages for each tag (`tags/*.qmd`), updates `tags.qmd` with links, and generates the tag cloud.
+- `atualizar_tags.sh`  
+  Creates individual pages for each tag (`tags/*.qmd`), updates `tags.qmd` with links, and regenerates the word cloud.
 
-- `atualizar_tudo.sh`:  
-  Runs all previous scripts in logical order (latest posts → JSON → tags → cloud), ensuring everything is up to date with a single command.
-
----
-
-[← Back to the Personal Blog Section 🧑‍🏫](/en/posts/personal/)
+- `atualizar_tudo.sh`  
+  Runs everything in order (latest posts → JSON → tags → word cloud), ensuring the site is updated with a single command.
 
 ---
 
-🔝 [Back to Top](about-the-blog.qmd)
+[← Back to the Personal Blog Section 🧑‍🏫](index.qmd)
+
+---
+
+🔝 [Back to Top](#top)
 
 ---
 
@@ -126,9 +115,9 @@ This blog was built using [Quarto](https://quarto.org), a powerful tool for crea
 *Created by Blog do Marcellini with ❤️ and code.*
 :::
 
-# 🔗 Useful Links
+## 🔗 Useful Links
 
-- 🧑‍🏫 [About the Blog](about-the-blog.qmd)
-- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub Project</a>
-- 📬 [Contact via Email](mailto:prof.marcellini@gmail.com)
+- 🗂️ [Personal Blog Section](index.qmd)  
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank" rel="noopener">Project GitHub</a>  
+- 📬 [Contact via Email](mailto:prof.marcellini@gmail.com)  
 

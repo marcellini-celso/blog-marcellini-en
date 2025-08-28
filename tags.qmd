@@ -12,8 +12,12 @@ page-layout: full
 
 ::: {.tag-grid}
 
-<a href="/tags/about.html" class="tag-card">about (1)</a>
-<a href="/tags/about-me.html" class="tag-card">about me (1)</a>
-<a href="/tags/about-the-blog.html" class="tag-card">about the blog (1)</a>
-<a href="/tags/personal.html" class="tag-card">personal (1)</a>
+<a href="/tags/about.html" class="tag-card">about (2)</a>
+<a href="/tags/about-me.html" class="tag-card">about me (2)</a>
+<a href="/tags/about-the-blog.html" class="tag-card">about the blog (2)</a>
+<a href="/tags/personal.html" class="tag-card">personal (2)</a>
+<a href="/tags/personal-blog.html" class="tag-card">personal blog (1)</a>
+<a href="/tags/personal-blog-summary.html" class="tag-card">personal blog summary (1)</a>
+<a href="/tags/reading-guide.html" class="tag-card">reading guide (1)</a>
+<a href="/tags/summary.html" class="tag-card">summary (1)</a>
 :::

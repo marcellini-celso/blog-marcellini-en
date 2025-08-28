@@ -1,0 +1,24 @@
+::: {.panel-tabset}
+
+## 🎓 Courses
+
+- 🧮 [Mathematics](posts/cursos/mathematica/)
+- 📊 [Statistics](posts/cursos/statistics/)
+
+## 📘 Special Projects
+
+- 🔭 [100 Years of Quantum Mechanics Series](posts/physics/guia-100-anos-mecanica-quantica.qmd)
+- 🧠 [Special Relativity Series](posts/physics/guia-relatividade-especial.qmd)
+- 🌠 [General Relativity Series](posts/physics/guia-relatividade-geral.qmd)
+
+## 🏷️ Tags and 🗂️ Categories
+
+- [🏷️ Tags](tags.qmd)
+- [🗂️ Categories](categories.qmd)
+
+## 🗺️ Sitemap
+
+- [🗺️ Sitemap](guia.qmd)
+
+:::
+

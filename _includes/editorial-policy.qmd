@@ -1,0 +1,8 @@
+::: {.callout-note icon="🎨" title="Editorial Policy"}
+**Rigor, beauty, and clarity.**  
+The **courses** emphasize **Calculus** and **Statistics** because they are core foundations in undergraduate studies.  
+**Articles and series** may address any topic in science, mathematics, statistics, computing, or technology.
+
+No hermetic style “only for specialists”: advanced topics (e.g., differentiable manifolds, Lie groups, quantum field theory, general relativity) are presented with a **solid conceptual foundation**, in a **clear and thorough** manner.
+:::
+

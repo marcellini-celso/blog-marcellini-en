@@ -1,0 +1,9 @@
+::: {.callout-note collapse=true icon="🎨" title="Editorial Policy (summary)"}
+**Rigor, beauty, and clarity.**  
+The **courses** emphasize **Calculus** and **Statistics** as fundamental foundations.  
+**Articles and series** cover a wide range of topics in science, mathematics, statistics, computing, and technology.  
+No hermetic style: advanced topics (manifolds, Lie groups, QFT, GR) are presented with a **solid conceptual basis** and **clear language**.
+
+[Learn more ›](/posts/personal/about-the-blog.qmd){.button .button-outline}
+:::
+

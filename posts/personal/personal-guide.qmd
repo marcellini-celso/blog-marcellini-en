@@ -1,0 +1,74 @@
+---
+title: "🧭 🧑‍🏫 Reading Guide — Personal Blog"
+description: "Recommended reading track for the Personal Blog Section of Blog do Marcellini. Includes a suggested order for articles and reflections, based on complexity level and application."
+author: "Blog do Marcellini"
+date: 2025-07-30
+lang: en
+categories: [personal blog, reading guide]
+tags: [personal blog, reading guide]
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+---
+
+[← Back to the Personal Blog Section 🧑‍🏫](index.qmd)
+
+---
+
+## About this Guide
+
+This space gathers reflections, notes, and paths I have been following in the study of Mathematics and related fields.  
+The proposal is to share a **suggested reading order**, combining authorial texts and behind-the-scenes in a structured way — from introduction to deepening — always with conceptual rigor and accessible language.
+
+---
+
+## ✅ Suggested Order
+
+1. **[📘 🧑‍🏫 About Me & About the Blog](about-the-blog.qmd)** — Ideal for new visitors to understand the project. It presents the purpose, structure, and a brief introduction of the author.
+
+📌 This guide is updated as new content is published.
+
+---
+
+## 📅 Coming Soon
+
+A preview of upcoming texts planned for the Personal Blog:
+
+- **How I study mathematics daily** — routine, readings, and notes.  
+- **Tools I use** — Quarto, LaTeX, R/Python, and project organization.  
+- **Behind the Blog** — publishing pipeline (folder structure, Git, deploy).  
+- **Scientific design** — typographic choices, figures, and diagram standards.  
+- **Editorial roadmap** — how I decide the sequence of posts and series.  
+
+> When each text is published, it will automatically appear here and in the section index.
+
+---
+
+[← Back to the Personal Blog Section 🧑‍🏫](index.qmd)
+
+---
+
+🔝 [Back to Top](#top)
+
+---
+
+*Blog do Marcellini — Exploring Mathematics with Rigor and Beauty.*
+
+:::{.callout-note}
+*Created by Blog do Marcellini with ❤️ and code.*
+:::
+
+## 🔗 Useful Links
+
+- 🧑‍🏫 [About the Blog](about-the-blog.qmd)  
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">Project GitHub</a>  
+- 📬 [Contact via Email](mailto:prof.marcellini@gmail.com)  
+

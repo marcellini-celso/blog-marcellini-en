@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "guia.html",
+    "href": "guia.html",
+    "title": "🗺️ Mapa do Site",
+    "section": "",
+    "text": "1 📚 Cursos\n\n👉 Cursos de Estatística\n🧮 Cursos de Matemática\n\n\n\n2 ✨ Séries Especiais\n\n🧭 📘 🛰️ Guia de Leitura da Relatividade Especial\n🧭 📚 🧬 Guia de Leitura da Série 100 Anos da Mecânica Quântica\n🧭 📚 🌠 Guia de Leitura da Série Relatividade Geral\n\n\n\n3 🧮 Matemática\n\n🧮 Todos os posts da Seção de Matemática\n🧭 🧮 Guia de Leitura da Seção de Matemática\n\n\n\n4 📊 Estatística\n\n📊 Todos os posts da Seção de Estatística\n🧭 📊 Guia de Leitura da Seção de Estatística\n\n\n\n5 ⚛️ Física\n\n⚛️ Todos os posts da Seção de Física\n🧭 📘 ⚛️ Guia de Leitura da Seção de Física\n\n\n\n6 👨‍💻 Programação\n\n👨‍💻 Todos os posts da Seção de Programação\n📐 LaTeX\n📄 Quarto\n🐍 Python\n📊 R\n\n\n\n7 🧑‍🏫 Blog Pessoal\n\n🧑‍🏫 Todos os posts da Seção de Blog Pessoal\n🧭 📊 Guia de Leitura da Seção de Blog Pessoal\n\n\n\n8 📘 Outros\n\n🧑‍🏫 Sobre o Blog\n📬 Contato por E-mail\n💻 Repositório no GitHub\n\n\n\n9 🏷️ Tags\n\n🏷️ Explorar por Tags\n\n\n\n10 🗂️ Categorias\n\n🗂️ Explorar por Categorias\n\n📌 Este guia é atualizado à medida que novos conteúdos forem sendo publicados.\n\n🔝 Voltar ao Topo\n\nBlog do Marcellini — Explorando a Matemática, a Estatística e a Física com Rigor e Beleza.\n\n\n\n\n\n\nNota\n\n\n\nCriado por Blog do Marcellini com ❤️ e código.\n\n\n\n\n11 🔗 Links Úteis\n\n🧑‍🏫 Sobre o Blog\n💻 GitHub do Projeto\n📬 Contato por E-mail"
+  },
+  {
     "objectID": "tags/about-me.html",
     "href": "tags/about-me.html",
     "title": "about me",
@@ -11,49 +18,56 @@
     "href": "tags/about-me.html#posts-com-a-tag-about-me",
     "title": "about me",
     "section": "Posts com a tag about me",
-    "text": "Posts com a tag about me\n\n📘 🧑‍💻 About the Blog and About Me"
+    "text": "Posts com a tag about me\n\n🧑‍🏫 Personal Blog\n📘 🧑‍💻 About the Blog and About Me"
   },
   {
-    "objectID": "tags/personal.html",
-    "href": "tags/personal.html",
-    "title": "personal",
+    "objectID": "tags/personal-blog-summary.html",
+    "href": "tags/personal-blog-summary.html",
+    "title": "personal blog summary",
     "section": "",
     "text": "⬅ Voltar para Todas as Tags"
   },
   {
-    "objectID": "tags/personal.html#posts-com-a-tag-personal",
-    "href": "tags/personal.html#posts-com-a-tag-personal",
-    "title": "personal",
-    "section": "Posts com a tag personal",
-    "text": "Posts com a tag personal\n\n📘 🧑‍💻 About the Blog and About Me"
+    "objectID": "tags/personal-blog-summary.html#posts-com-a-tag-personal-blog-summary",
+    "href": "tags/personal-blog-summary.html#posts-com-a-tag-personal-blog-summary",
+    "title": "personal blog summary",
+    "section": "Posts com a tag personal blog summary",
+    "text": "Posts com a tag personal blog summary\n\n🧑‍🏫 Personal Blog"
+  },
+  {
+    "objectID": "tags/reading-guide.html",
+    "href": "tags/reading-guide.html",
+    "title": "reading guide",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/reading-guide.html#posts-com-a-tag-reading-guide",
+    "href": "tags/reading-guide.html#posts-com-a-tag-reading-guide",
+    "title": "reading guide",
+    "section": "Posts com a tag reading guide",
+    "text": "Posts com a tag reading guide\n\n🧭 🧑‍🏫 Reading Guide — Personal Blog"
+  },
+  {
+    "objectID": "tags/summary.html",
+    "href": "tags/summary.html",
+    "title": "summary",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/summary.html#posts-com-a-tag-summary",
+    "href": "tags/summary.html#posts-com-a-tag-summary",
+    "title": "summary",
+    "section": "Posts com a tag summary",
+    "text": "Posts com a tag summary\n\n🧑‍🏫 Personal Blog"
   },
   {
     "objectID": "tags.html#todas-as-tags",
     "href": "tags.html#todas-as-tags",
     "title": "Tags",
     "section": "📚 Todas as Tags",
-    "text": "📚 Todas as Tags\n\nabout (1) about me (1) about the blog (1) personal (1)"
-  },
-  {
-    "objectID": "guia.html",
-    "href": "guia.html",
-    "title": "🗺️ Mapa do Site",
-    "section": "",
-    "text": "1 📚 Cursos\n\n👉 Cursos de Estatística\n🧮 Cursos de Matemática\n\n\n\n2 ✨ Séries Especiais\n\n🧭 📘 🛰️ Guia de Leitura da Relatividade Especial\n🧭 📚 🧬 Guia de Leitura da Série 100 Anos da Mecânica Quântica\n🧭 📚 🌠 Guia de Leitura da Série Relatividade Geral\n\n\n\n3 🧮 Matemática\n\n🧮 Todos os posts da Seção de Matemática\n🧭 🧮 Guia de Leitura da Seção de Matemática\n\n\n\n4 📊 Estatística\n\n📊 Todos os posts da Seção de Estatística\n🧭 📊 Guia de Leitura da Seção de Estatística\n\n\n\n5 ⚛️ Física\n\n⚛️ Todos os posts da Seção de Física\n🧭 📘 ⚛️ Guia de Leitura da Seção de Física\n\n\n\n6 👨‍💻 Programação\n\n👨‍💻 Todos os posts da Seção de Programação\n📐 LaTeX\n📄 Quarto\n🐍 Python\n📊 R\n\n\n\n7 🧑‍🏫 Blog Pessoal\n\n🧑‍🏫 Todos os posts da Seção de Blog Pessoal\n🧭 📊 Guia de Leitura da Seção de Blog Pessoal\n\n\n\n8 📘 Outros\n\n🧑‍🏫 Sobre o Blog\n📬 Contato por E-mail\n💻 Repositório no GitHub\n\n\n\n9 🏷️ Tags\n\n🏷️ Explorar por Tags\n\n\n\n10 🗂️ Categorias\n\n🗂️ Explorar por Categorias\n\n📌 Este guia é atualizado à medida que novos conteúdos forem sendo publicados.\n\n🔝 Voltar ao Topo\n\nBlog do Marcellini — Explorando a Matemática, a Estatística e a Física com Rigor e Beleza.\n\n\n\n\n\n\nNota\n\n\n\nCriado por Blog do Marcellini com ❤️ e código.\n\n\n\n\n11 🔗 Links Úteis\n\n🧑‍🏫 Sobre o Blog\n💻 GitHub do Projeto\n📬 Contato por E-mail"
-  },
-  {
-    "objectID": "lista_tags_gerada.html",
-    "href": "lista_tags_gerada.html",
-    "title": "Marcellini's Blog",
-    "section": "",
-    "text": "albert einstein (1 post)\nanálise combinatória (1 post)\nanálise de dados (2 posts)\nano milagroso (1 post)\narte e matemática (1 post)\nartigos de 1905 (1 post)\nbeleza matemática (1 post)\nblocos de código (2 posts)\ncabeçalho yaml (3 posts)\nconfiguração de post (1 post)\ncontração do comprimento (1 post)\ndefinição recursiva (1 post)\ndemonstrações elegantes (1 post)\ndivulgação científica (1 post)\ndocumentos científicos (2 posts)\nensino (1 post)\nepub (1 post)\nespaço-tempo (2 posts)\nestética matemática (1 post)\nestrutura de documento (1 post)\nestrutura de documentos (1 post)\nestrutura de site (1 post)\nfatorial de zero (1 post)\nfilosofia da matemática (1 post)\nfísica (2 posts)\nformatação (1 post)\nformatação de texto (1 post)\nfórmulas matemáticas (1 post)\ng.h. hardy (1 post)\ngráficos com ggplot2 (1 post)\ngráficos com python (1 post)\nhtml (3 posts)\nindex.qmd (1 post)\nintegração R e Quarto (1 post)\njustificativa lógica (1 post)\nlatex (2 posts)\nluz (1 post)\nmarkdown (1 post)\nmatemática (3 posts)\nmetadados (1 post)\nmodelos latex (1 post)\nnúmeros fatoriais (1 post)\norganização de capítulos (1 post)\nparâmetros yaml (1 post)\npessoal (1 post)\nprincípio multiplicativo (1 post)\nprogramação (6 posts)\nprojetos científicos (1 post)\npropósito do blog (1 post)\npython (2 posts)\nquarto (5 posts)\nR (1 post)\nreferencial inercial (1 post)\nrelatividade especial (1 post)\nrelatórios automatizados (1 post)\nrelatórios em R (1 post)\nrenderização latex (1 post)\nsimultaneidade (1 post)\nslides (1 post)\nsobre o blog (1 post)\ntabulate (1 post)\ntemplates quarto (1 post)\ntempo dilatado (1 post)\ntransformação de lorentz (1 post)\nvelocidade (1 post)\nvelocidade da luz (1 post)\nvisualização de dados (1 post)\nyaml no quarto (1 post)"
-  },
-  {
-    "objectID": "categories.html",
-    "href": "categories.html",
-    "title": "Marcellini's Blog",
-    "section": "",
-    "text": "🗺️ Mapa do Site\n\n\n\nmapa do site\n\nguia de leitura\n\n\n\nTodos os cursos, artigos, séries e categorias organizadas do Blog do Marcellini\n\n\n\nBlog do Marcellini\n\n\n30 de jul. de 2025\n\n\n\n\n\n\n\n\n\n\n\n📘 🧑‍💻 About the Blog and About Me\n\n\n\npersonal\n\nabout\n\nabout the blog\n\nabout me\n\n\n\nLearn more about the author, the blog’s goals, how it was built, and the technical foundations behind the project.\n\n\n\nBlog do Marcellini\n\n\n5 de jul. de 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🌟 What you’ll find here:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTags\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nabout the blog\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\npersonal\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nabout\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nabout me\n\n\n\n\n\n\n\n\n\n\n\n\n\nSem itens correspondentes"
+    "text": "📚 Todas as Tags\n\nabout (2) about me (2) about the blog (2) personal (2) personal blog (1) personal blog summary (1) reading guide (1) summary (1)"
   },
   {
     "objectID": "posts/personal/about-the-blog.html",
@@ -66,57 +80,197 @@
     "objectID": "posts/personal/about-the-blog.html#technologies-used",
     "href": "posts/personal/about-the-blog.html#technologies-used",
     "title": "📘 🧑‍💻 About the Blog and About Me",
-    "section": "2.1 Technologies used",
-    "text": "2.1 Technologies used\n\nQuarto: to render .qmd files as HTML\n\nRevealJS: for interactive presentations\n\nMathJax: for mathematical notation\n\nAWS S3 or GitHub Pages: for static hosting\n\nTikZ + PNG: for diagrams converted and embedded\n\nBootstrap theme cosmo + custom styles.scss"
+    "section": "Technologies Used",
+    "text": "Technologies Used\n\nQuarto: rendering .qmd files into HTML\n\nRevealJS: interactive presentations\n\nMathJax: mathematical formulas\n\nAWS S3 or GitHub Pages: static hosting\n\nTikZ (exported to PNG/SVG): diagrams\n\nBootstrap theme cosmo + custom styles.scss"
   },
   {
     "objectID": "posts/personal/about-the-blog.html#general-structure",
     "href": "posts/personal/about-the-blog.html#general-structure",
     "title": "📘 🧑‍💻 About the Blog and About Me",
-    "section": "2.2 General structure",
-    "text": "2.2 General structure\n\nindex.qmd: home page\n\nposts/*.qmd: individual posts\n\nabout-the-blog.qmd: about the author and blog\n\nimages/: image directory\n\n_quarto.yml: site configuration"
+    "section": "General Structure",
+    "text": "General Structure\n\nindex.qmd: homepage\n\nposts/*.qmd: individual posts\n\nposts/pessoal/sobre-o-blog.qmd: this “About” page\n\nimages/: images\n\n_quarto.yml: site configuration"
   },
   {
     "objectID": "posts/personal/about-the-blog.html#how-this-project-works",
     "href": "posts/personal/about-the-blog.html#how-this-project-works",
     "title": "📘 🧑‍💻 About the Blog and About Me",
-    "section": "2.3 🛠️ How This Project Works",
-    "text": "2.3 🛠️ How This Project Works\n\n2.3.1 📜 Active scripts\n\natualizar-ultimos-posts.sh:\nGenerates the latest posts list based on date and stores it in a reusable chunk (e.g., ultimos_posts.qmd).\ngerar_posts_json.py:\nScans all .qmd files and extracts metadata (title, tags, path) to create docs/posts.json, used in tag and navigation scripts.\ngerar_tags.py:\nReads posts.json and generates tags_freq.txt, tags.qmd, and lista_tags_gerada.html with tag counts.\nnuvem_tags.py:\nCreates the image nuvem_tags.png with a word cloud from tag frequency, used in the tag navigation post.\natualizar_tags.sh:\nBuilds individual pages for each tag (tags/*.qmd), updates tags.qmd with links, and generates the tag cloud.\natualizar_tudo.sh:\nRuns all previous scripts in logical order (latest posts → JSON → tags → cloud), ensuring everything is up to date with a single command.\n\n\n← Back to the Personal Blog Section 🧑‍🏫\n\n🔝 Back to Top\n\nBlog do Marcellini — Exploring Mathematics, Statistics, and Physics with Rigor and Beauty.\n\n\n\n\n\n\nNote\n\n\n\nCreated by Blog do Marcellini with ❤️ and code."
+    "section": "🛠️ How This Project Works",
+    "text": "🛠️ How This Project Works\n\n📜 Active Scripts\n\natualizar-ultimos-posts.sh\nGenerates the list of the most recent posts by date and saves it in a reusable block (e.g., ultimos_posts.qmd).\ngerar_posts_json.py\nScans all .qmd files and extracts metadata (title, tags, path) to generate docs/posts.json, used in tag pages and navigation.\ngerar_tags.py\nReads posts.json and generates tags_freq.txt, tags.qmd, and lista_tags_gerada.html with the frequency of each tag.\nnuvem_tags.py\nCreates nuvem_tags.png (a word cloud with tag frequencies), displayed on the tags navigation page.\natualizar_tags.sh\nCreates individual pages for each tag (tags/*.qmd), updates tags.qmd with links, and regenerates the word cloud.\natualizar_tudo.sh\nRuns everything in order (latest posts → JSON → tags → word cloud), ensuring the site is updated with a single command.\n\n\n← Back to the Personal Blog Section 🧑‍🏫\n\n🔝 Back to Top\n\nBlog do Marcellini — Exploring Mathematics, Statistics, and Physics with Rigor and Beauty.\n\n\n\n\n\n\nNote\n\n\n\nCreated by Blog do Marcellini with ❤️ and code."
   },
   {
-    "objectID": "index.html#importance-of-the-normal-distribution",
-    "href": "index.html#importance-of-the-normal-distribution",
+    "objectID": "posts/personal/about-the-blog.html#useful-links",
+    "href": "posts/personal/about-the-blog.html#useful-links",
+    "title": "📘 🧑‍💻 About the Blog and About Me",
+    "section": "🔗 Useful Links",
+    "text": "🔗 Useful Links\n\n🗂️ Personal Blog Section\n\n💻 Project GitHub\n\n📬 Contact via Email"
+  },
+  {
+    "objectID": "posts/personal/index.html",
+    "href": "posts/personal/index.html",
+    "title": "🧑‍🏫 Personal Blog",
+    "section": "",
+    "text": "📘 🧑‍🏫 About Me & About the Blog\n\n\n\nPurpose, editorial structure, and project behind-the-scenes.\nGo to the text ›\n\n\n\n\n\n\n\n\n\n🧭 Personal Blog Guide\n\n\n\nSuggested reading track in progressive order.\nSee the guide ›"
+  },
+  {
+    "objectID": "posts/personal/index.html#series-and-texts",
+    "href": "posts/personal/index.html#series-and-texts",
+    "title": "🧑‍🏫 Personal Blog",
+    "section": "",
+    "text": "📘 🧑‍🏫 About Me & About the Blog\n\n\n\nPurpose, editorial structure, and project behind-the-scenes.\nGo to the text ›\n\n\n\n\n\n\n\n\n\n🧭 Personal Blog Guide\n\n\n\nSuggested reading track in progressive order.\nSee the guide ›"
+  },
+  {
+    "objectID": "posts/personal/index.html#articles-and-reflections",
+    "href": "posts/personal/index.html#articles-and-reflections",
+    "title": "🧑‍🏫 Personal Blog",
+    "section": "📘 🧑‍🏫 Articles and Reflections",
+    "text": "📘 🧑‍🏫 Articles and Reflections\n\n📘 🧑‍🏫 About Me & About the Blog\nPresentation of the blog’s purpose, structure, and editorial line, as well as a brief introduction of the author (background, interests, and motivations)."
+  },
+  {
+    "objectID": "posts/personal/index.html#reading-guide",
+    "href": "posts/personal/index.html#reading-guide",
+    "title": "🧑‍🏫 Personal Blog",
+    "section": "🧭 🧑‍🏫 Reading Guide",
+    "text": "🧭 🧑‍🏫 Reading Guide\n\n🧭 🧑‍🏫 Reading Guide — Personal Blog — Suggested reading order, combining authorial texts and behind-the-scenes with a focus on clarity and rigor.\n\n📌 This guide is updated as new content is published.\n\n🔝 Back to Top\n\nBlog do Marcellini — Exploring Mathematics, Statistics, and Physics with Rigor and Beauty.\n\n\n\n\n\n\nNote\n\n\n\nCreated by Blog do Marcellini with ❤️ and code."
+  },
+  {
+    "objectID": "posts/personal/index.html#useful-links",
+    "href": "posts/personal/index.html#useful-links",
+    "title": "🧑‍🏫 Personal Blog",
+    "section": "🔗 Useful Links",
+    "text": "🔗 Useful Links\n\n🧑‍🏫 About the Blog\n\n💻 Project GitHub\n\n📬 Contact via Email"
+  },
+  {
+    "objectID": "nareal_template/example.html",
+    "href": "nareal_template/example.html",
+    "title": "Quiz example",
+    "section": "",
+    "text": "This document illustrates the usage of the naquiz quarto extension.\nThe extension enables adding multiple choice questions when using HTML documents. It also adds Alpine.js javascript framework to the document."
+  },
+  {
+    "objectID": "nareal_template/example.html#a-basic-example",
+    "href": "nareal_template/example.html#a-basic-example",
+    "title": "Quiz example",
+    "section": "A basic example",
+    "text": "A basic example\n\nBill Gates was the founder of:\n\n\n\n\n ✗Apple\n\n\n ✓Microsoft\n\n\n ✗Facebook\n\n\n ✗Google"
+  },
+  {
+    "objectID": "nareal_template/example.html#a-quiz-with-a-clear-answer-button",
+    "href": "nareal_template/example.html#a-quiz-with-a-clear-answer-button",
+    "title": "Quiz example",
+    "section": "A quiz with a clear answer button",
+    "text": "A quiz with a clear answer button\n\nBill Gates was the founder of:\n\n\n\n\n ✗Apple\n\n\n ✓Microsoft\n\n\n ✗Facebook\n\n\n ✗Google\n\n\nClear answer"
+  },
+  {
+    "objectID": "nareal_template/example.html#a-quiz-with-additional-buttons",
+    "href": "nareal_template/example.html#a-quiz-with-additional-buttons",
+    "title": "Quiz example",
+    "section": "A quiz with additional buttons",
+    "text": "A quiz with additional buttons\n\nBill Gates was the founder of:\n\n\n\n\n ✗Apple\n\n\n ✓Microsoft\n\n\n ✗Facebook\n\n\n ✗Google\n\n\nClear answer\n\n\n\n\n\n\n\n\n\n\n\nShow hint\n\nThe company name starts with an ‘M’…\n\n\n\n\n\n\nShow Answer\n\nBill Gates and Paul Allen founded Microsoft on April 4, 1975."
+  },
+  {
+    "objectID": "nareal_template/example.html#a-quiz-with-additional-information-in-callouts",
+    "href": "nareal_template/example.html#a-quiz-with-additional-information-in-callouts",
+    "title": "Quiz example",
+    "section": "A quiz with additional information in callouts",
+    "text": "A quiz with additional information in callouts\n\nBill Gates was the founder of:\n\n\n\n\n ✗Apple\n\n\n ✓Microsoft\n\n\n ✗Facebook\n\n\n ✗Google\n\n\nClear answer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHint\n\n\n\n\n\nThe company name starts with an ‘M’…\n\n\n\n\n\n\n\n\n\nAnswer\n\n\n\n\n\nBill Gates and Paul Allen founded Microsoft on April 4, 1975."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "Marcellini's Blog",
-    "section": "🌍 Importance of the Normal Distribution",
-    "text": "🌍 Importance of the Normal Distribution\nThe normal distribution is a fundamental statistical model because it accurately describes many real-world phenomena — both natural and social. It especially emerges when multiple random and independent causes influence an outcome. In such cases, data tend to concentrate around a mean, forming the classic bell-shaped curve.\n🔎 Why does this matter?\nBecause assuming normality simplifies statistical analysis and enables the use of powerful inference tools.\n📌 Practical examples:\n\n📚 Standardized test scores: Scores tend to cluster around the average, with few students at the extremes.\n🌿 Plant heights of a single species grown under similar conditions often group around a central value.\n📉 Asset returns (stocks, currencies) approximate a normal curve in short timeframes — with caveats for extreme events.\n\n📈 Assuming normality allows us to:\n\nCalculate probabilities using known formulas and tables\n\nEstimate confidence intervals\n\nApply hypothesis testing\n\nVisualize data clearly and comparably\n\n\n🔍 See the full course: Normal Distribution (Course) ›"
+    "section": "",
+    "text": "🌐 Português · English"
+  },
+  {
+    "objectID": "index.html#highlights",
+    "href": "index.html#highlights",
+    "title": "Marcellini's Blog",
+    "section": "✨ Highlights",
+    "text": "✨ Highlights\n\n\n\n\n\n\n🧠 Historical Equations (Mathematics + Physics)\n\n\n\n\n\nA selection of formulas that shaped science, such as Euler’s Identity \\(e^{i\\pi}+1=0\\) and the Wave Equation.\nExplore Historical Equations ›\n\n\n\n\n\n\n\n\n\n🌍 Normal Distribution — Course (Statistics)\n\n\n\n\n\nWhy does normality appear so often? Probabilities, confidence intervals, and hypothesis tests — with charts and exercises.\nSee the course ›\n\n\n\n\n\n\n\n\n\n📘 Calculus Course — Introduction\n\n\n\n\n\nA progressive course that combines mathematical rigor, LaTeX typographical quality, and practical examples in R and Python.\n📌 Topics already covered:\n\nNumber sets and fundamental properties\n\nStep-by-step solved exercises\n\n👉 Follow the Calculus Course ›\n\n\n\n\n\n\n\n🔧 Programmable examples:\n👉 Python Models · 👉 R Models\n\n\n🔝 Back to Top"
   },
   {
     "objectID": "index.html#latest-posts",
     "href": "index.html#latest-posts",
     "title": "Marcellini's Blog",
     "section": "🆕 Latest Posts",
-    "text": "🆕 Latest Posts\n\n\n👨‍💻 Programming\n🔢 Module 1.2: Number Sets\n🧭 👨‍💻 Programming Guide\n🧭 ⚛️ Physics Guide\n🧭 🧑‍🏫 Personal Blog Guide\n🧑‍🏫 Personal Blog\n📘 👨‍💻 📄 Quarto Markdown Template — Part 2\n🧠 🔢 Module 1.2 AP: Number Sets — Advanced\n🎓 📊 Statistics Course: Normal Distribution (Part 3)\n🎓 📊 Statistics Course: Normal Distribution (Part 2) \n\n\nThis section is automatically updated with each new post.\n\n\nMarcellini’s Blog — Exploring Mathematics, Statistics, and Physics with Rigor and Beauty\n\n\n\n\n\n\nNote\n\n\n\nCreated by Blog do Marcellini with ❤️ and code."
+    "text": "🆕 Latest Posts\n\n\n🧭 🧑‍🏫 Reading Guide — Personal Blog\n🧑‍🏫 Personal Blog\n📘 🧑‍💻 About the Blog and About Me \n\n\nThis section is automatically updated with each new publication.\n\n\nBlog do Marcellini — Exploring Mathematics, Statistics, and Physics with Rigor and Beauty\n\n\n\n\n\n\nAbout the Project\n\n\n\nThis site was born from the desire to share ideas with good mathematics, good typography, and good explanations.\nWant to know more about the editorial line, technologies, and behind-the-scenes?\n📘 Read “About the Blog and About Me” ›\n\n\n\n\n\n\n\n\nNote\n\n\n\nCreated by Blog do Marcellini with ❤️ and code."
   },
   {
     "objectID": "index.html#useful-links",
     "href": "index.html#useful-links",
     "title": "Marcellini's Blog",
     "section": "🔗 Useful Links",
-    "text": "🔗 Useful Links\n\n🧑‍🏫 About the Blog\n💻 GitHub Repository\n📬 Contact via Email"
+    "text": "🔗 Useful Links\n\n🧑‍🏫 About the Blog\n\n💻 Project GitHub\n\n📬 Contact via Email"
   },
   {
-    "objectID": "tags/about-the-blog.html",
-    "href": "tags/about-the-blog.html",
-    "title": "about the blog",
+    "objectID": "nareal_template/example_presentation.html#a-basic-example",
+    "href": "nareal_template/example_presentation.html#a-basic-example",
+    "title": "Quiz example",
+    "section": "A basic example",
+    "text": "A basic example\n\nBill Gates was the founder of:\n\n\n\n\n ✗Apple\n\n\n ✓Microsoft\n\n\n ✗Facebook\n\n\n ✗Google"
+  },
+  {
+    "objectID": "nareal_template/example_presentation.html#a-quiz-with-a-clear-answer-button",
+    "href": "nareal_template/example_presentation.html#a-quiz-with-a-clear-answer-button",
+    "title": "Quiz example",
+    "section": "A quiz with a clear answer button",
+    "text": "A quiz with a clear answer button\n\nBill Gates was the founder of:\n\n\n\n\n ✗Apple\n\n\n ✓Microsoft\n\n\n ✗Facebook\n\n\n ✗Google\n\n\nClear answer"
+  },
+  {
+    "objectID": "nareal_template/example_presentation.html#a-quiz-with-additional-buttons",
+    "href": "nareal_template/example_presentation.html#a-quiz-with-additional-buttons",
+    "title": "Quiz example",
+    "section": "A quiz with additional buttons",
+    "text": "A quiz with additional buttons\n\nBill Gates was the founder of:\n\n\n\n\n ✗Apple\n\n\n ✓Microsoft\n\n\n ✗Facebook\n\n\n ✗Google\n\n\nClear answer\n\n\n\n\n\n\n\n\n\n\nShow hint\n\nThe company name starts with an ‘M’…\n\n\n\n\n\n\nShow Answer\n\nBill Gates and Paul Allen founded Microsoft on April 4, 1975."
+  },
+  {
+    "objectID": "posts/personal/personal-guide.html",
+    "href": "posts/personal/personal-guide.html",
+    "title": "🧭 🧑‍🏫 Reading Guide — Personal Blog",
     "section": "",
-    "text": "⬅ Voltar para Todas as Tags"
+    "text": "← Back to the Personal Blog Section 🧑‍🏫"
   },
   {
-    "objectID": "tags/about-the-blog.html#posts-com-a-tag-about-the-blog",
-    "href": "tags/about-the-blog.html#posts-com-a-tag-about-the-blog",
-    "title": "about the blog",
-    "section": "Posts com a tag about the blog",
-    "text": "Posts com a tag about the blog\n\n📘 🧑‍💻 About the Blog and About Me"
+    "objectID": "posts/personal/personal-guide.html#about-this-guide",
+    "href": "posts/personal/personal-guide.html#about-this-guide",
+    "title": "🧭 🧑‍🏫 Reading Guide — Personal Blog",
+    "section": "1 About this Guide",
+    "text": "1 About this Guide\nThis space gathers reflections, notes, and paths I have been following in the study of Mathematics and related fields.\nThe proposal is to share a suggested reading order, combining authorial texts and behind-the-scenes in a structured way — from introduction to deepening — always with conceptual rigor and accessible language."
+  },
+  {
+    "objectID": "posts/personal/personal-guide.html#suggested-order",
+    "href": "posts/personal/personal-guide.html#suggested-order",
+    "title": "🧭 🧑‍🏫 Reading Guide — Personal Blog",
+    "section": "2 ✅ Suggested Order",
+    "text": "2 ✅ Suggested Order\n\n📘 🧑‍🏫 About Me & About the Blog — Ideal for new visitors to understand the project. It presents the purpose, structure, and a brief introduction of the author.\n\n📌 This guide is updated as new content is published."
+  },
+  {
+    "objectID": "posts/personal/personal-guide.html#coming-soon",
+    "href": "posts/personal/personal-guide.html#coming-soon",
+    "title": "🧭 🧑‍🏫 Reading Guide — Personal Blog",
+    "section": "3 📅 Coming Soon",
+    "text": "3 📅 Coming Soon\nA preview of upcoming texts planned for the Personal Blog:\n\nHow I study mathematics daily — routine, readings, and notes.\n\nTools I use — Quarto, LaTeX, R/Python, and project organization.\n\nBehind the Blog — publishing pipeline (folder structure, Git, deploy).\n\nScientific design — typographic choices, figures, and diagram standards.\n\nEditorial roadmap — how I decide the sequence of posts and series.\n\n\nWhen each text is published, it will automatically appear here and in the section index.\n\n\n← Back to the Personal Blog Section 🧑‍🏫\n\n🔝 Back to Top\n\nBlog do Marcellini — Exploring Mathematics with Rigor and Beauty.\n\n\n\n\n\n\nNote\n\n\n\nCreated by Blog do Marcellini with ❤️ and code."
+  },
+  {
+    "objectID": "posts/personal/personal-guide.html#useful-links",
+    "href": "posts/personal/personal-guide.html#useful-links",
+    "title": "🧭 🧑‍🏫 Reading Guide — Personal Blog",
+    "section": "4 🔗 Useful Links",
+    "text": "4 🔗 Useful Links\n\n🧑‍🏫 About the Blog\n\n💻 Project GitHub\n\n📬 Contact via Email"
+  },
+  {
+    "objectID": "categories.html",
+    "href": "categories.html",
+    "title": "Marcellini's Blog",
+    "section": "",
+    "text": "🗺️ Mapa do Site\n\n\n\nmapa do site\n\nguia de leitura\n\n\n\nTodos os cursos, artigos, séries e categorias organizadas do Blog do Marcellini\n\n\n\nBlog do Marcellini\n\n\n30 de jul. de 2025\n\n\n\n\n\n\n\n\n\n\n\n🧭 🧑‍🏫 Reading Guide — Personal Blog\n\n\n\npersonal blog\n\nreading guide\n\n\n\nRecommended reading track for the Personal Blog Section of Blog do Marcellini. Includes a suggested order for articles and reflections, based on complexity level and…\n\n\n\nBlog do Marcellini\n\n\n30 de jul. de 2025\n\n\n\n\n\n\n\n\n\n\n\n📘 🧑‍💻 About the Blog and About Me\n\n\n\npersonal\n\nabout\n\nabout the blog\n\nabout me\n\n\n\nLearn more about the author, the blog’s purpose, how it was built, and the technical behind-the-scenes of the project.\n\n\n\nBlog do Marcellini\n\n\n5 de jul. de 2025\n\n\n\n\n\n\n\n\n\n\n\n🧑‍🏫 Personal Blog\n\n\n\npersonal\n\npersonal blog summary\n\nsummary\n\nabout\n\nabout the blog\n\nabout me\n\n\n\nA space for more personal texts, free reflections, experience reports, behind-the-scenes of the blog, and author’s notes.\n\n\n\nBlog do Marcellini\n\n\n30 de jul. de 2025\n\n\n\n\n\n\n\n\n\n\n\n🌟 What you will find here:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuiz example\n\n\n\n\n\n\nNelson Areal\n\n\n\n\n\n\n\n\n\n\n\nQuiz example\n\n\n\n\n\n\nNelson Areal\n\n\n\n\n\n\n\n\n\n\n\nTags\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nsummary\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nabout\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nreading guide\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\npersonal\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\npersonal blog summary\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\npersonal blog\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nabout me\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nabout the blog\n\n\n\n\n\n\n\n\n\n\n\n\n\nSem itens correspondentes"
+  },
+  {
+    "objectID": "lista_tags_gerada.html",
+    "href": "lista_tags_gerada.html",
+    "title": "Marcellini's Blog",
+    "section": "",
+    "text": "albert einstein (1 post)\nanálise combinatória (1 post)\nanálise de dados (2 posts)\nano milagroso (1 post)\narte e matemática (1 post)\nartigos de 1905 (1 post)\nbeleza matemática (1 post)\nblocos de código (2 posts)\ncabeçalho yaml (3 posts)\nconfiguração de post (1 post)\ncontração do comprimento (1 post)\ndefinição recursiva (1 post)\ndemonstrações elegantes (1 post)\ndivulgação científica (1 post)\ndocumentos científicos (2 posts)\nensino (1 post)\nepub (1 post)\nespaço-tempo (2 posts)\nestética matemática (1 post)\nestrutura de documento (1 post)\nestrutura de documentos (1 post)\nestrutura de site (1 post)\nfatorial de zero (1 post)\nfilosofia da matemática (1 post)\nfísica (2 posts)\nformatação (1 post)\nformatação de texto (1 post)\nfórmulas matemáticas (1 post)\ng.h. hardy (1 post)\ngráficos com ggplot2 (1 post)\ngráficos com python (1 post)\nhtml (3 posts)\nindex.qmd (1 post)\nintegração R e Quarto (1 post)\njustificativa lógica (1 post)\nlatex (2 posts)\nluz (1 post)\nmarkdown (1 post)\nmatemática (3 posts)\nmetadados (1 post)\nmodelos latex (1 post)\nnúmeros fatoriais (1 post)\norganização de capítulos (1 post)\nparâmetros yaml (1 post)\npessoal (1 post)\nprincípio multiplicativo (1 post)\nprogramação (6 posts)\nprojetos científicos (1 post)\npropósito do blog (1 post)\npython (2 posts)\nquarto (5 posts)\nR (1 post)\nreferencial inercial (1 post)\nrelatividade especial (1 post)\nrelatórios automatizados (1 post)\nrelatórios em R (1 post)\nrenderização latex (1 post)\nsimultaneidade (1 post)\nslides (1 post)\nsobre o blog (1 post)\ntabulate (1 post)\ntemplates quarto (1 post)\ntempo dilatado (1 post)\ntransformação de lorentz (1 post)\nvelocidade (1 post)\nvelocidade da luz (1 post)\nvisualização de dados (1 post)\nyaml no quarto (1 post)"
   },
   {
     "objectID": "tags/about.html",
@@ -130,6 +284,48 @@
     "href": "tags/about.html#posts-com-a-tag-about",
     "title": "about",
     "section": "Posts com a tag about",
-    "text": "Posts com a tag about\n\n📘 🧑‍💻 About the Blog and About Me"
+    "text": "Posts com a tag about\n\n🧑‍🏫 Personal Blog\n📘 🧑‍💻 About the Blog and About Me"
+  },
+  {
+    "objectID": "tags/personal.html",
+    "href": "tags/personal.html",
+    "title": "personal",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/personal.html#posts-com-a-tag-personal",
+    "href": "tags/personal.html#posts-com-a-tag-personal",
+    "title": "personal",
+    "section": "Posts com a tag personal",
+    "text": "Posts com a tag personal\n\n🧑‍🏫 Personal Blog\n📘 🧑‍💻 About the Blog and About Me"
+  },
+  {
+    "objectID": "tags/personal-blog.html",
+    "href": "tags/personal-blog.html",
+    "title": "personal blog",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/personal-blog.html#posts-com-a-tag-personal-blog",
+    "href": "tags/personal-blog.html#posts-com-a-tag-personal-blog",
+    "title": "personal blog",
+    "section": "Posts com a tag personal blog",
+    "text": "Posts com a tag personal blog\n\n🧭 🧑‍🏫 Reading Guide — Personal Blog"
+  },
+  {
+    "objectID": "tags/about-the-blog.html",
+    "href": "tags/about-the-blog.html",
+    "title": "about the blog",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/about-the-blog.html#posts-com-a-tag-about-the-blog",
+    "href": "tags/about-the-blog.html#posts-com-a-tag-about-the-blog",
+    "title": "about the blog",
+    "section": "Posts com a tag about the blog",
+    "text": "Posts com a tag about the blog\n\n🧑‍🏫 Personal Blog\n📘 🧑‍💻 About the Blog and About Me"
   }
 ]

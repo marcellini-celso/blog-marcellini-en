@@ -1,0 +1,69 @@
+---
+title: "🧑‍🏫 Personal Blog"
+description: "A space for more personal texts, free reflections, experience reports, behind-the-scenes of the blog, and author’s notes."
+author: "Blog do Marcellini"
+date: 2025-07-30
+lang: en
+categories: [personal, personal blog summary, summary, about, about the blog, about me]
+tags: [personal, personal blog summary, summary, about, about the blog, about me]
+format:
+  html:
+    toc: true
+    number-sections: false
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+---
+
+## 📚 Series and Texts
+
+::: {.columns}
+::: {.column width="50%"}
+::: {.callout-note title="📘 🧑‍🏫 About Me & About the Blog"}
+Purpose, editorial structure, and project behind-the-scenes.
+
+[Go to the text ›](about-the-blog.qmd){.button .button-outline}
+:::
+:::
+::: {.column width="50%"}
+::: {.callout-tip title="🧭 Personal Blog Guide"}
+Suggested reading track in progressive order.
+
+[See the guide ›](personal-guide.qmd){.button .button-outline}
+:::
+:::
+:::
+
+## 📘 🧑‍🏫 Articles and Reflections
+
+### [📘 🧑‍🏫 About Me & About the Blog](about-the-blog.qmd)
+Presentation of the blog’s purpose, structure, and editorial line, as well as a brief introduction of the author (background, interests, and motivations).
+
+## 🧭 🧑‍🏫 Reading Guide
+
+1. **[🧭 🧑‍🏫 Reading Guide — Personal Blog](personal-guide.qmd)** — Suggested reading order, combining authorial texts and behind-the-scenes with a focus on clarity and rigor.
+
+📌 This guide is updated as new content is published.
+
+---
+
+🔝 [Back to Top](#top)
+
+---
+
+*Blog do Marcellini — Exploring Mathematics, Statistics, and Physics with Rigor and Beauty.*
+
+:::{.callout-note}
+*Created by Blog do Marcellini with ❤️ and code.*
+:::
+
+## 🔗 Useful Links
+
+- 🧑‍🏫 [About the Blog](about-the-blog.qmd)  
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">Project GitHub</a>  
+- 📬 [Contact via Email](mailto:prof.marcellini@gmail.com)  
+

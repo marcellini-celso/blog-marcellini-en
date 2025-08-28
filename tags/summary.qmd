@@ -1,0 +1,10 @@
+---
+title: "summary"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **summary**
+
+- [🧑‍🏫 Personal Blog](/posts/personal/index.html)

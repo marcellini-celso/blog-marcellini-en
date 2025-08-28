@@ -1,5 +1,25 @@
 [
   {
+    "title": "🧑‍🏫 Personal Blog",
+    "href": "posts/personal/index.html",
+    "tags": [
+      "personal",
+      "personal blog summary",
+      "summary",
+      "about",
+      "about the blog",
+      "about me"
+    ]
+  },
+  {
+    "title": "🧭 🧑‍🏫 Reading Guide — Personal Blog",
+    "href": "posts/personal/personal-guide.html",
+    "tags": [
+      "personal blog",
+      "reading guide"
+    ]
+  },
+  {
     "title": "📘 🧑‍💻 About the Blog and About Me",
     "href": "posts/personal/about-the-blog.html",
     "tags": [

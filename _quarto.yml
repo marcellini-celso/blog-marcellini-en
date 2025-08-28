@@ -3,16 +3,18 @@ project:
   output-dir: docs
   pre-render: "python3 gerar_posts_json.py"
 
+lang: en
+
 website:
   title: "Marcellini's Blog"
   favicon: images/banner.jpeg
-  site-url: https://marcellini-celso.github.io/blog-marcellini-en/
+  site-url: https://en.blogdomarcellini.com.br
 
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - text: "🏷️ Tags 📂 Categories"
+      - text: "🧭 Explore"
         menu:
           - text: "🏷️ Tags"
             href: tags.qmd
@@ -42,10 +44,15 @@ website:
             href: posts/courses/statistics/index.qmd
       - href: guide.qmd
         text: "🗺️ Site Map"
+
     right:
+      - text: "PT 🇧🇷"
+        href: "https://blogdomarcellini.com.br/"
+        target: _blank
+        rel: noopener
       - icon: envelope
         text: "Contact"
-        href: "mailto:prof.marcellini@gmail.com" 
+        href: "mailto:prof.marcellini@gmail.com"
 
   page-footer:
     left: "© 2025 - Marcellini's Blog"
@@ -56,19 +63,39 @@ website:
 format:
   html:
     theme: cosmo
-    css: 
+    css:
       - styles.css
       - assets/css/custom.css
+      - assets/css/cards.css
+      - assets/css/chips.css
     toc: true
     toc-title: "On this page"
     highlight-style: github
-    include-in-header: analytics.html
+    open-graph: true
+    twitter-card: true
+    image: images/banner.png
+    include-in-header:
+      - "analytics.html"
+      - text: |
+          <link rel="alternate" hreflang="pt-BR"
+                href="https://blogdomarcellini.com.br/" />
+          <link rel="alternate" hreflang="x-default"
+                href="https://en.blogdomarcellini.com.br/" />
+    include-after-body:
+      - assets/js/enhance-categories.js
 
 search: true
 
 publish:
   provider: gh-pages
+  domain: en.blogdomarcellini.com.br
+
+filters:
+  - naquiz
 
 resources:
   - posts.json
+  - images/**
+
+from: markdown+tex_math_dollars+tex_math_single_backslash
 
