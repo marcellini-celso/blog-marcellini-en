@@ -3,8 +3,8 @@ title: "summary"
 format: html
 ---
 
-[⬅ Voltar para Todas as Tags](../tags.qmd)
+[⬅ Back to All Tags](../tags.qmd)
 
-## Posts com a tag **summary**
+## Posts with the **summary** tag
 
 - [🧑‍🏫 Personal Blog](/posts/personal/index.html)

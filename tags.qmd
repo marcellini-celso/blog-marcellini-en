@@ -5,13 +5,12 @@ page-layout: full
 ---
 
 ::: {.tag-nuvem}
-![](nuvem_tags.png){width=100%}
+![](tag_cloud.png){width=100%}
 :::
 
-## 📚 Todas as Tags
+## 📚 All Tags
 
 ::: {.tag-grid}
-
 <a href="/tags/about.html" class="tag-card">about (2)</a>
 <a href="/tags/about-me.html" class="tag-card">about me (2)</a>
 <a href="/tags/about-the-blog.html" class="tag-card">about the blog (2)</a>

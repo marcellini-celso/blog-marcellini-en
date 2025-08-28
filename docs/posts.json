@@ -9,7 +9,18 @@
       "about",
       "about the blog",
       "about me"
-    ]
+    ],
+    "categories": [
+      "personal",
+      "personal blog summary",
+      "summary",
+      "about",
+      "about the blog",
+      "about me"
+    ],
+    "date": "2025-07-30",
+    "description": "A space for more personal texts, free reflections, experience reports, behind-the-scenes of the blog, and author’s notes.",
+    "image": null
   },
   {
     "title": "🧭 🧑‍🏫 Reading Guide — Personal Blog",
@@ -17,7 +28,14 @@
     "tags": [
       "personal blog",
       "reading guide"
-    ]
+    ],
+    "categories": [
+      "personal blog",
+      "reading guide"
+    ],
+    "date": "2025-07-30",
+    "description": "Recommended reading track for the Personal Blog Section of Blog do Marcellini. Includes a suggested order for articles and reflections, based on complexity level and application.",
+    "image": null
   },
   {
     "title": "📘 🧑‍💻 About the Blog and About Me",
@@ -27,6 +45,15 @@
       "about",
       "about the blog",
       "about me"
-    ]
+    ],
+    "categories": [
+      "personal",
+      "about",
+      "about the blog",
+      "about me"
+    ],
+    "date": "2025-07-05",
+    "description": "Learn more about the author, the blog's purpose, how it was built, and the technical behind-the-scenes of the project.",
+    "image": null
   }
 ]

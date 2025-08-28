@@ -3,8 +3,8 @@ title: "reading guide"
 format: html
 ---
 
-[⬅ Voltar para Todas as Tags](../tags.qmd)
+[⬅ Back to All Tags](../tags.qmd)
 
-## Posts com a tag **reading guide**
+## Posts with the **reading guide** tag
 
 - [🧭 🧑‍🏫 Reading Guide — Personal Blog](/posts/personal/personal-guide.html)

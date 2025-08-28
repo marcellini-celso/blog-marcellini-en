@@ -1,9 +1,26 @@
 ---
-lang: pt-BR
-listing:
-  type: grid
-  sort: "categories"
-  categories: true
+title: "📂 Categories"
+description: "Browse all posts by category."
 page-layout: full
+format:
+  html:
+    toc: true
+    toc-title: "On this page"
+
+listing:
+  id: listing
+  contents:
+    - posts/**/*.qmd
+  type: grid
+  grid-columns: 3
+  image-height: "150px"        # <= string com unidade
+  image-placeholder: "images/placeholder-dark-en.png"  # <= caminho da imagem fallback
+  sort: "date desc"
+  sort-ui: true
+  filter-ui: true
+  categories: true
+  fields: [image, title, categories, description, author, date]
 ---
+
+## 📚 All Categories
 

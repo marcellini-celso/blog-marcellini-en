@@ -1,7 +1,7 @@
 project:
   type: website
   output-dir: docs
-  pre-render: "python3 gerar_posts_json.py"
+  pre-render: "python3 generate_posts_json.py"
 
 lang: en
 
@@ -94,6 +94,7 @@ filters:
   - naquiz
 
 resources:
+  - robots.txt
   - posts.json
   - images/**
 

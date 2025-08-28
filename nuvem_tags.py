@@ -1,50 +1,63 @@
-import unicodedata
-import matplotlib.pyplot as plt
-from wordcloud import WordCloud
+#!/usr/bin/env python3
 import os
+import unicodedata
+import argparse
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt  # noqa: F401  (ensures matplotlib backend is available)
 
-ARQUIVO_FREQ = "tags_freq.txt"
-ARQUIVO_SAIDA = "nuvem_tags.png"
+DEFAULT_FREQ_FILE = "tags_freq.txt"
+DEFAULT_OUTPUT = "nuvem_tags.png"  # keep current filename to preserve compatibility
 
-def carregar_frequencias(caminho):
-    """Lê o arquivo de frequências e retorna um dicionário tag → contagem"""
-    if not os.path.exists(caminho):
-        print(f"❌ Arquivo '{caminho}' não encontrado.")
+def load_frequencies(path: str):
+    """Read frequency file and return a dict {tag: count}."""
+    if not os.path.exists(path):
+        print(f"❌ File '{path}' not found.")
         return {}
 
-    frequencias = {}
-    with open(caminho, encoding="utf-8") as f:
-        for linha in f:
-            partes = linha.strip().split()
-            if len(partes) >= 2:
+    freqs = {}
+    with open(path, encoding="utf-8") as f:
+        for line in f:
+            parts = line.strip().split()
+            if len(parts) >= 2:
                 try:
-                    count = int(partes[0])
-                    tag = unicodedata.normalize("NFC", " ".join(partes[1:]).strip())
-                    frequencias[tag] = count
+                    count = int(parts[0])
+                    tag = unicodedata.normalize("NFC", " ".join(parts[1:]).strip())
+                    if tag:
+                        freqs[tag] = count
                 except ValueError:
-                    print(f"⚠️ Erro ao converter linha: {linha}")
-    return frequencias
+                    print(f"⚠️ Could not parse line (ignored): {line.strip()}")
+    return freqs
 
-def gerar_nuvem(frequencias, saida):
-    """Gera a imagem da nuvem de palavras"""
-    if not frequencias:
-        print("⚠️ Nenhuma frequência válida encontrada.")
+def build_wordcloud(freqs: dict, out_path: str, width: int, height: int, colormap: str):
+    """Generate a tag word cloud image."""
+    if not freqs:
+        print("⚠️ No valid frequencies found.")
         return
 
     wc = WordCloud(
-        width=1000,
-        height=500,
+        width=width,
+        height=height,
         background_color="white",
-        colormap="tab20c",
-        font_path=None,  # pode definir um caminho específico de fonte aqui
+        colormap=colormap,
+        font_path=None,     # set a font path if you need specific glyph coverage
         prefer_horizontal=0.8,
-        margin=5
+        margin=5,
     )
-    wc.generate_from_frequencies(frequencias)
-    wc.to_file(saida)
-    print(f"✅ Nuvem de tags salva como '{saida}'")
+    wc.generate_from_frequencies(freqs)
+    wc.to_file(out_path)
+    print(f"✅ Tag cloud saved as '{out_path}'")
+
+def parse_args():
+    p = argparse.ArgumentParser(description="Generate a tag word cloud image.")
+    p.add_argument("--freq-file", default=DEFAULT_FREQ_FILE, help="Path to the frequencies file (default: tags_freq.txt)")
+    p.add_argument("--out", default=DEFAULT_OUTPUT, help="Output image path (default: nuvem_tags.png)")
+    p.add_argument("--width", type=int, default=1000, help="Image width (default: 1000)")
+    p.add_argument("--height", type=int, default=500, help="Image height (default: 500)")
+    p.add_argument("--colormap", default="tab20c", help="Matplotlib colormap (default: tab20c)")
+    return p.parse_args()
 
 if __name__ == "__main__":
-    freq = carregar_frequencias(ARQUIVO_FREQ)
-    gerar_nuvem(freq, ARQUIVO_SAIDA)
+    args = parse_args()
+    freqs = load_frequencies(args.freq_file)
+    build_wordcloud(freqs, args.out, args.width, args.height, args.colormap)
 

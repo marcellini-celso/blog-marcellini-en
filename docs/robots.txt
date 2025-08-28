@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://blogdomarcellini.com.br/sitemap.xml
+Sitemap: https://en.blogdomarcellini.com.br/sitemap.xml

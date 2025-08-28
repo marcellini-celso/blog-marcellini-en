@@ -1,0 +1,22 @@
+---
+title: "personal blog summary"
+format: html
+page-layout: full
+---
+
+[⬅ Back to All Categories](../categories.qmd)
+
+## Posts in **personal blog summary**
+
+::: {.cards-grid}
+<div class="card">
+<a class="card-link" href="/posts/personal/index.html">
+<div class="card-image"><img src="/images/banner.png" alt="🧑‍🏫 Personal Blog"></div>
+<div class="card-content">
+<h3 class="card-title">🧑‍🏫 Personal Blog</h3>
+<p class="card-desc">A space for more personal texts, free reflections, experience reports, behind-the-scenes of the blog, and author’s notes.</p>
+<div class="chips"><span class="chip">#personal</span> <span class="chip">#personal blog summary</span> <span class="chip">#summary</span> <span class="chip">#about</span> <span class="chip">#about the blog</span> <span class="chip">#about me</span></div>
+</div>
+</a>
+</div>
+:::

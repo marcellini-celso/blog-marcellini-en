@@ -1,0 +1,32 @@
+---
+title: "about"
+format: html
+page-layout: full
+---
+
+[⬅ Back to All Categories](../categories.qmd)
+
+## Posts in **about**
+
+::: {.cards-grid}
+<div class="card">
+<a class="card-link" href="/posts/personal/index.html">
+<div class="card-image"><img src="/images/banner.png" alt="🧑‍🏫 Personal Blog"></div>
+<div class="card-content">
+<h3 class="card-title">🧑‍🏫 Personal Blog</h3>
+<p class="card-desc">A space for more personal texts, free reflections, experience reports, behind-the-scenes of the blog, and author’s notes.</p>
+<div class="chips"><span class="chip">#personal</span> <span class="chip">#personal blog summary</span> <span class="chip">#summary</span> <span class="chip">#about</span> <span class="chip">#about the blog</span> <span class="chip">#about me</span></div>
+</div>
+</a>
+</div>
+<div class="card">
+<a class="card-link" href="/posts/personal/about-the-blog.html">
+<div class="card-image"><img src="/images/banner.png" alt="📘 🧑‍💻 About the Blog and About Me"></div>
+<div class="card-content">
+<h3 class="card-title">📘 🧑‍💻 About the Blog and About Me</h3>
+<p class="card-desc">Learn more about the author, the blog&#x27;s purpose, how it was built, and the technical behind-the-scenes of the project.</p>
+<div class="chips"><span class="chip">#personal</span> <span class="chip">#about</span> <span class="chip">#about the blog</span> <span class="chip">#about me</span></div>
+</div>
+</a>
+</div>
+:::

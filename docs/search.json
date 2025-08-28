@@ -11,63 +11,119 @@
     "href": "tags/about-me.html",
     "title": "about me",
     "section": "",
-    "text": "⬅ Voltar para Todas as Tags"
+    "text": "⬅ Back to All Tags"
   },
   {
-    "objectID": "tags/about-me.html#posts-com-a-tag-about-me",
-    "href": "tags/about-me.html#posts-com-a-tag-about-me",
+    "objectID": "tags/about-me.html#posts-with-the-about-me-tag",
+    "href": "tags/about-me.html#posts-with-the-about-me-tag",
     "title": "about me",
-    "section": "Posts com a tag about me",
-    "text": "Posts com a tag about me\n\n🧑‍🏫 Personal Blog\n📘 🧑‍💻 About the Blog and About Me"
+    "section": "Posts with the about me tag",
+    "text": "Posts with the about me tag\n\n🧑‍🏫 Personal Blog\n📘 🧑‍💻 About the Blog and About Me"
   },
   {
     "objectID": "tags/personal-blog-summary.html",
     "href": "tags/personal-blog-summary.html",
     "title": "personal blog summary",
     "section": "",
-    "text": "⬅ Voltar para Todas as Tags"
+    "text": "⬅ Back to All Tags"
   },
   {
-    "objectID": "tags/personal-blog-summary.html#posts-com-a-tag-personal-blog-summary",
-    "href": "tags/personal-blog-summary.html#posts-com-a-tag-personal-blog-summary",
+    "objectID": "tags/personal-blog-summary.html#posts-with-the-personal-blog-summary-tag",
+    "href": "tags/personal-blog-summary.html#posts-with-the-personal-blog-summary-tag",
     "title": "personal blog summary",
-    "section": "Posts com a tag personal blog summary",
-    "text": "Posts com a tag personal blog summary\n\n🧑‍🏫 Personal Blog"
+    "section": "Posts with the personal blog summary tag",
+    "text": "Posts with the personal blog summary tag\n\n🧑‍🏫 Personal Blog"
   },
   {
     "objectID": "tags/reading-guide.html",
     "href": "tags/reading-guide.html",
     "title": "reading guide",
     "section": "",
-    "text": "⬅ Voltar para Todas as Tags"
+    "text": "⬅ Back to All Tags"
   },
   {
-    "objectID": "tags/reading-guide.html#posts-com-a-tag-reading-guide",
-    "href": "tags/reading-guide.html#posts-com-a-tag-reading-guide",
+    "objectID": "tags/reading-guide.html#posts-with-the-reading-guide-tag",
+    "href": "tags/reading-guide.html#posts-with-the-reading-guide-tag",
     "title": "reading guide",
-    "section": "Posts com a tag reading guide",
-    "text": "Posts com a tag reading guide\n\n🧭 🧑‍🏫 Reading Guide — Personal Blog"
+    "section": "Posts with the reading guide tag",
+    "text": "Posts with the reading guide tag\n\n🧭 🧑‍🏫 Reading Guide — Personal Blog"
   },
   {
     "objectID": "tags/summary.html",
     "href": "tags/summary.html",
     "title": "summary",
     "section": "",
-    "text": "⬅ Voltar para Todas as Tags"
+    "text": "⬅ Back to All Tags"
   },
   {
-    "objectID": "tags/summary.html#posts-com-a-tag-summary",
-    "href": "tags/summary.html#posts-com-a-tag-summary",
+    "objectID": "tags/summary.html#posts-with-the-summary-tag",
+    "href": "tags/summary.html#posts-with-the-summary-tag",
     "title": "summary",
-    "section": "Posts com a tag summary",
-    "text": "Posts com a tag summary\n\n🧑‍🏫 Personal Blog"
+    "section": "Posts with the summary tag",
+    "text": "Posts with the summary tag\n\n🧑‍🏫 Personal Blog"
   },
   {
-    "objectID": "tags.html#todas-as-tags",
-    "href": "tags.html#todas-as-tags",
+    "objectID": "tags.html#all-tags",
+    "href": "tags.html#all-tags",
     "title": "Tags",
-    "section": "📚 Todas as Tags",
-    "text": "📚 Todas as Tags\n\nabout (2) about me (2) about the blog (2) personal (2) personal blog (1) personal blog summary (1) reading guide (1) summary (1)"
+    "section": "📚 All Tags",
+    "text": "📚 All Tags\n\nabout (2) about me (2) about the blog (2) personal (2) personal blog (1) personal blog summary (1) reading guide (1) summary (1)"
+  },
+  {
+    "objectID": "categories/about-the-blog.html",
+    "href": "categories/about-the-blog.html",
+    "title": "about the blog",
+    "section": "",
+    "text": "⬅ Back to All Categories"
+  },
+  {
+    "objectID": "categories/about-the-blog.html#posts-in-about-the-blog",
+    "href": "categories/about-the-blog.html#posts-in-about-the-blog",
+    "title": "about the blog",
+    "section": "Posts in about the blog",
+    "text": "Posts in about the blog\n\n\n\n\n\n\n\n\n🧑‍🏫 Personal Blog\n\n\nA space for more personal texts, free reflections, experience reports, behind-the-scenes of the blog, and author’s notes.\n\n\n#personal #personal blog summary #summary #about #about the blog #about me\n\n\n\n\n\n\n\n\n\n\n\n📘 🧑‍💻 About the Blog and About Me\n\n\nLearn more about the author, the blog's purpose, how it was built, and the technical behind-the-scenes of the project.\n\n\n#personal #about #about the blog #about me"
+  },
+  {
+    "objectID": "categories/personal-blog.html",
+    "href": "categories/personal-blog.html",
+    "title": "personal blog",
+    "section": "",
+    "text": "⬅ Back to All Categories"
+  },
+  {
+    "objectID": "categories/personal-blog.html#posts-in-personal-blog",
+    "href": "categories/personal-blog.html#posts-in-personal-blog",
+    "title": "personal blog",
+    "section": "Posts in personal blog",
+    "text": "Posts in personal blog\n\n\n\n\n\n\n\n\n🧭 🧑‍🏫 Reading Guide — Personal Blog\n\n\nRecommended reading track for the Personal Blog Section of Blog do Marcellini. Includes a suggested order for articles and reflections, based on complexity level and application.\n\n\n#personal blog #reading guide"
+  },
+  {
+    "objectID": "categories/personal.html",
+    "href": "categories/personal.html",
+    "title": "personal",
+    "section": "",
+    "text": "⬅ Back to All Categories"
+  },
+  {
+    "objectID": "categories/personal.html#posts-in-personal",
+    "href": "categories/personal.html#posts-in-personal",
+    "title": "personal",
+    "section": "Posts in personal",
+    "text": "Posts in personal\n\n\n\n\n\n\n\n\n🧑‍🏫 Personal Blog\n\n\nA space for more personal texts, free reflections, experience reports, behind-the-scenes of the blog, and author’s notes.\n\n\n#personal #personal blog summary #summary #about #about the blog #about me\n\n\n\n\n\n\n\n\n\n\n\n📘 🧑‍💻 About the Blog and About Me\n\n\nLearn more about the author, the blog's purpose, how it was built, and the technical behind-the-scenes of the project.\n\n\n#personal #about #about the blog #about me"
+  },
+  {
+    "objectID": "categories/about.html",
+    "href": "categories/about.html",
+    "title": "about",
+    "section": "",
+    "text": "⬅ Back to All Categories"
+  },
+  {
+    "objectID": "categories/about.html#posts-in-about",
+    "href": "categories/about.html#posts-in-about",
+    "title": "about",
+    "section": "Posts in about",
+    "text": "Posts in about\n\n\n\n\n\n\n\n\n🧑‍🏫 Personal Blog\n\n\nA space for more personal texts, free reflections, experience reports, behind-the-scenes of the blog, and author’s notes.\n\n\n#personal #personal blog summary #summary #about #about the blog #about me\n\n\n\n\n\n\n\n\n\n\n\n📘 🧑‍💻 About the Blog and About Me\n\n\nLearn more about the author, the blog's purpose, how it was built, and the technical behind-the-scenes of the project.\n\n\n#personal #about #about the blog #about me"
   },
   {
     "objectID": "posts/personal/about-the-blog.html",
@@ -259,11 +315,60 @@
     "text": "4 🔗 Useful Links\n\n🧑‍🏫 About the Blog\n\n💻 Project GitHub\n\n📬 Contact via Email"
   },
   {
-    "objectID": "categories.html",
-    "href": "categories.html",
-    "title": "Marcellini's Blog",
+    "objectID": "categories/summary.html",
+    "href": "categories/summary.html",
+    "title": "summary",
     "section": "",
-    "text": "🗺️ Mapa do Site\n\n\n\nmapa do site\n\nguia de leitura\n\n\n\nTodos os cursos, artigos, séries e categorias organizadas do Blog do Marcellini\n\n\n\nBlog do Marcellini\n\n\n30 de jul. de 2025\n\n\n\n\n\n\n\n\n\n\n\n🧭 🧑‍🏫 Reading Guide — Personal Blog\n\n\n\npersonal blog\n\nreading guide\n\n\n\nRecommended reading track for the Personal Blog Section of Blog do Marcellini. Includes a suggested order for articles and reflections, based on complexity level and…\n\n\n\nBlog do Marcellini\n\n\n30 de jul. de 2025\n\n\n\n\n\n\n\n\n\n\n\n📘 🧑‍💻 About the Blog and About Me\n\n\n\npersonal\n\nabout\n\nabout the blog\n\nabout me\n\n\n\nLearn more about the author, the blog’s purpose, how it was built, and the technical behind-the-scenes of the project.\n\n\n\nBlog do Marcellini\n\n\n5 de jul. de 2025\n\n\n\n\n\n\n\n\n\n\n\n🧑‍🏫 Personal Blog\n\n\n\npersonal\n\npersonal blog summary\n\nsummary\n\nabout\n\nabout the blog\n\nabout me\n\n\n\nA space for more personal texts, free reflections, experience reports, behind-the-scenes of the blog, and author’s notes.\n\n\n\nBlog do Marcellini\n\n\n30 de jul. de 2025\n\n\n\n\n\n\n\n\n\n\n\n🌟 What you will find here:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuiz example\n\n\n\n\n\n\nNelson Areal\n\n\n\n\n\n\n\n\n\n\n\nQuiz example\n\n\n\n\n\n\nNelson Areal\n\n\n\n\n\n\n\n\n\n\n\nTags\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nsummary\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nabout\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nreading guide\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\npersonal\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\npersonal blog summary\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\npersonal blog\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nabout me\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nabout the blog\n\n\n\n\n\n\n\n\n\n\n\n\n\nSem itens correspondentes"
+    "text": "⬅ Back to All Categories"
+  },
+  {
+    "objectID": "categories/summary.html#posts-in-summary",
+    "href": "categories/summary.html#posts-in-summary",
+    "title": "summary",
+    "section": "Posts in summary",
+    "text": "Posts in summary\n\n\n\n\n\n\n\n\n🧑‍🏫 Personal Blog\n\n\nA space for more personal texts, free reflections, experience reports, behind-the-scenes of the blog, and author’s notes.\n\n\n#personal #personal blog summary #summary #about #about the blog #about me"
+  },
+  {
+    "objectID": "categories/reading-guide.html",
+    "href": "categories/reading-guide.html",
+    "title": "reading guide",
+    "section": "",
+    "text": "⬅ Back to All Categories"
+  },
+  {
+    "objectID": "categories/reading-guide.html#posts-in-reading-guide",
+    "href": "categories/reading-guide.html#posts-in-reading-guide",
+    "title": "reading guide",
+    "section": "Posts in reading guide",
+    "text": "Posts in reading guide\n\n\n\n\n\n\n\n\n🧭 🧑‍🏫 Reading Guide — Personal Blog\n\n\nRecommended reading track for the Personal Blog Section of Blog do Marcellini. Includes a suggested order for articles and reflections, based on complexity level and application.\n\n\n#personal blog #reading guide"
+  },
+  {
+    "objectID": "categories/personal-blog-summary.html",
+    "href": "categories/personal-blog-summary.html",
+    "title": "personal blog summary",
+    "section": "",
+    "text": "⬅ Back to All Categories"
+  },
+  {
+    "objectID": "categories/personal-blog-summary.html#posts-in-personal-blog-summary",
+    "href": "categories/personal-blog-summary.html#posts-in-personal-blog-summary",
+    "title": "personal blog summary",
+    "section": "Posts in personal blog summary",
+    "text": "Posts in personal blog summary\n\n\n\n\n\n\n\n\n🧑‍🏫 Personal Blog\n\n\nA space for more personal texts, free reflections, experience reports, behind-the-scenes of the blog, and author’s notes.\n\n\n#personal #personal blog summary #summary #about #about the blog #about me"
+  },
+  {
+    "objectID": "categories/about-me.html",
+    "href": "categories/about-me.html",
+    "title": "about me",
+    "section": "",
+    "text": "⬅ Back to All Categories"
+  },
+  {
+    "objectID": "categories/about-me.html#posts-in-about-me",
+    "href": "categories/about-me.html#posts-in-about-me",
+    "title": "about me",
+    "section": "Posts in about me",
+    "text": "Posts in about me\n\n\n\n\n\n\n\n\n🧑‍🏫 Personal Blog\n\n\nA space for more personal texts, free reflections, experience reports, behind-the-scenes of the blog, and author’s notes.\n\n\n#personal #personal blog summary #summary #about #about the blog #about me\n\n\n\n\n\n\n\n\n\n\n\n📘 🧑‍💻 About the Blog and About Me\n\n\nLearn more about the author, the blog's purpose, how it was built, and the technical behind-the-scenes of the project.\n\n\n#personal #about #about the blog #about me"
   },
   {
     "objectID": "lista_tags_gerada.html",
@@ -277,55 +382,55 @@
     "href": "tags/about.html",
     "title": "about",
     "section": "",
-    "text": "⬅ Voltar para Todas as Tags"
+    "text": "⬅ Back to All Tags"
   },
   {
-    "objectID": "tags/about.html#posts-com-a-tag-about",
-    "href": "tags/about.html#posts-com-a-tag-about",
+    "objectID": "tags/about.html#posts-with-the-about-tag",
+    "href": "tags/about.html#posts-with-the-about-tag",
     "title": "about",
-    "section": "Posts com a tag about",
-    "text": "Posts com a tag about\n\n🧑‍🏫 Personal Blog\n📘 🧑‍💻 About the Blog and About Me"
+    "section": "Posts with the about tag",
+    "text": "Posts with the about tag\n\n🧑‍🏫 Personal Blog\n📘 🧑‍💻 About the Blog and About Me"
   },
   {
     "objectID": "tags/personal.html",
     "href": "tags/personal.html",
     "title": "personal",
     "section": "",
-    "text": "⬅ Voltar para Todas as Tags"
+    "text": "⬅ Back to All Tags"
   },
   {
-    "objectID": "tags/personal.html#posts-com-a-tag-personal",
-    "href": "tags/personal.html#posts-com-a-tag-personal",
+    "objectID": "tags/personal.html#posts-with-the-personal-tag",
+    "href": "tags/personal.html#posts-with-the-personal-tag",
     "title": "personal",
-    "section": "Posts com a tag personal",
-    "text": "Posts com a tag personal\n\n🧑‍🏫 Personal Blog\n📘 🧑‍💻 About the Blog and About Me"
+    "section": "Posts with the personal tag",
+    "text": "Posts with the personal tag\n\n🧑‍🏫 Personal Blog\n📘 🧑‍💻 About the Blog and About Me"
   },
   {
     "objectID": "tags/personal-blog.html",
     "href": "tags/personal-blog.html",
     "title": "personal blog",
     "section": "",
-    "text": "⬅ Voltar para Todas as Tags"
+    "text": "⬅ Back to All Tags"
   },
   {
-    "objectID": "tags/personal-blog.html#posts-com-a-tag-personal-blog",
-    "href": "tags/personal-blog.html#posts-com-a-tag-personal-blog",
+    "objectID": "tags/personal-blog.html#posts-with-the-personal-blog-tag",
+    "href": "tags/personal-blog.html#posts-with-the-personal-blog-tag",
     "title": "personal blog",
-    "section": "Posts com a tag personal blog",
-    "text": "Posts com a tag personal blog\n\n🧭 🧑‍🏫 Reading Guide — Personal Blog"
+    "section": "Posts with the personal blog tag",
+    "text": "Posts with the personal blog tag\n\n🧭 🧑‍🏫 Reading Guide — Personal Blog"
   },
   {
     "objectID": "tags/about-the-blog.html",
     "href": "tags/about-the-blog.html",
     "title": "about the blog",
     "section": "",
-    "text": "⬅ Voltar para Todas as Tags"
+    "text": "⬅ Back to All Tags"
   },
   {
-    "objectID": "tags/about-the-blog.html#posts-com-a-tag-about-the-blog",
-    "href": "tags/about-the-blog.html#posts-com-a-tag-about-the-blog",
+    "objectID": "tags/about-the-blog.html#posts-with-the-about-the-blog-tag",
+    "href": "tags/about-the-blog.html#posts-with-the-about-the-blog-tag",
     "title": "about the blog",
-    "section": "Posts com a tag about the blog",
-    "text": "Posts com a tag about the blog\n\n🧑‍🏫 Personal Blog\n📘 🧑‍💻 About the Blog and About Me"
+    "section": "Posts with the about the blog tag",
+    "text": "Posts with the about the blog tag\n\n🧑‍🏫 Personal Blog\n📘 🧑‍💻 About the Blog and About Me"
   }
 ]
