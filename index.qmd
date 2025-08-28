@@ -14,8 +14,8 @@ format:
 ---
 
 <div style="text-align:right; font-size:0.95em;">
-🌐 <a href="https://blogdomarcellini.com.br/">Português</a> ·
-<a href="https://en.blogdomarcellini.com.br/" rel="noopener" target="_blank">English</a>
+  🌐 <a href="https://blogdomarcellini.com.br/">Português</a> ·
+  <span aria-current="page">English</span>
 </div>
 
 ![](images/banner.png){width=100% style="margin-bottom: 2rem;"}
