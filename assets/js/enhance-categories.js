@@ -12,14 +12,14 @@ document.addEventListener("DOMContentLoaded", () => {
   const toSlug = (s) => rmDiacritics(String(s||"")).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"");
 
   const classMap = [
-    ["matematica","cat--matematica"],
-    ["estatistica","cat--estatistica"],
-    ["fisica","cat--fisica"],
-    ["programacao","cat--programacao"],
-    ["curso","cat--curso"],
-    ["artigo","cat--artigo"],
-    ["serie","cat--serie"],
-    ["sumario","cat--sumario"],
+    ["mathematics","cat--mathematics"],
+    ["statistics","cat--statistics"],
+    ["physics","cat--physics"],
+    ["programming","cat--programming"],
+    ["course","cat--course"],
+    ["article","cat--article"],
+    ["series","cat--series"],
+    ["summary","cat--summary"],
   ];
 
   const enhanceWrap = (wrap, sortDedup=false) => {

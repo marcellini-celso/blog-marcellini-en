@@ -1,0 +1,87 @@
+---
+title: "🧮 Mathematics"
+description: "Reflections and fundamental content in mathematics, focusing on the beauty, logic, and structure of the field’s main concepts."
+author: "Blog do Marcellini"
+date: 2025-07-11
+lang: en
+categories: [mathematics, mathematics summary, summary]
+tags: [mathematics, mathematics summary, summary]
+format:
+  html:
+    toc: true
+    number-sections: false
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+---
+
+## 📚 Series and Courses
+
+::: {.columns}
+::: {.column width="50%"}
+::: {.callout-note title="🎓 🧮 Differential and Integral Calculus Course"}
+Clear theory, practical examples, and applications — with **Advanced Path (AP)** modules.
+
+[Go to course ›](../courses/mathematics/calculus/index.qmd){.button .button-outline}
+:::
+:::
+::: {.column width="50%"}
+::: {.callout-tip title="🧭 🧮 Mathematics Reading Guide"}
+A reading path with progressive order and connections between topics.
+
+[View the guide ›](math-guide.qmd){.button .button-outline}
+:::
+:::
+:::
+
+{{< include /_includes/editorial-policy.qmd >}}
+
+## 📘 🧮 Articles and Reflections
+
+### [📘 🧮 Beauty is the First Test — G. H. Hardy and Mathematics as Art](mathematical-beauty.qmd)
+A reflection on aesthetics in pure mathematics, with classical examples.
+
+### [📘 🧮 Why is \(0! = 1\)?](zero-factorial.qmd)
+Intuition and formalism for the definition of zero factorial.
+
+### [📘 🧮 Historical Equations](historical-equations.qmd)
+Formulas that shaped the history of mathematics and physics.
+
+## 🎓 🧮 Available Courses
+
+### [🎓 🧮 Differential and Integral Calculus](../courses/mathematics/calculus/index.qmd)
+A course to master limits, derivatives, and integrals with **visualizations**, **R**, and **Python**.
+
+::: {.callout-tip}
+All modules include an **Advanced Path (AP)** with more advanced topics that may be skipped on a first reading.
+:::
+
+## 🧭 🧮 Reading Guide
+
+1. **[🧭 🧮 Mathematics Reading Guide](math-guide.qmd)** — Suggested path with progressive order, connecting the main topics.
+
+📌 This guide is updated as new content is published.
+
+---
+
+🔝 [Back to Top](#top)
+
+---
+
+*Blog do Marcellini — Exploring Mathematics with Rigor and Beauty.*
+
+{{< include /_includes/about-project.qmd >}}
+
+:::{.callout-note}
+*Created by Blog do Marcellini with ❤️ and code.*
+:::
+
+## 🔗 Useful Links
+
+- 🧑‍🏫 [About the Blog](../personal/about-the-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">Project GitHub</a>
+- 📬 [Contact by Email](mailto:prof.marcellini@gmail.com)

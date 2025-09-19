@@ -1,6 +1,14 @@
 ---
+<<<<<<< HEAD
 title: "📂 Categories"
 description: "Browse all posts by category."
+=======
+lang: en
+listing:
+  type: grid
+  sort: "categories"
+  categories: true
+>>>>>>> 17321b0 (Atualizações no blog)
 page-layout: full
 format:
   html:

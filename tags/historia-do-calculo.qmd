@@ -1,0 +1,10 @@
+---
+title: "história do cálculo"
+format: html
+---
+
+[⬅ Return to All Tags](../tags.qmd)
+
+## Posts with the tag **história do cálculo**
+
+- [🧠 Módulo 1.1: O que é Cálculo? História e aplicações](/posts/cursos/matematica/calculo/modulo-1/1.1-introducao.html)

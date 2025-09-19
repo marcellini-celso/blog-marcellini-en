@@ -1,0 +1,36 @@
+---
+title: "📘 👨‍💻 📄 index.qmd Models for Quarto Projects"
+description: "The `index.qmd` file is usually the **main entry point** of a Quarto project."
+author: "Blog do Marcellini"
+date: 2025-06-29
+lang: en
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+editor: visual
+categories: [programming, Quarto, YAML, article]
+tags: [programming, Quarto, YAML, article]
+---
+
+---
+
+[← Back to Programming Reading Guide 👨‍💻](/posts/programming/programming-guide.qmd)
+
+[← Back to Quarto Section 📄](/posts/programming/quarto/)
+
+[← Back to Programming Section 👨‍💻](/posts/programming/)
+
+---
+
+![Quarto](../../images/thumbnail-2.jpg){width=50% style="margin-bottom: 2rem;"}
+
+
+

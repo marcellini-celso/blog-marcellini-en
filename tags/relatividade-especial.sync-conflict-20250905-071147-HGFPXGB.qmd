@@ -1,0 +1,12 @@
+---
+title: "relatividade especial"
+format: html
+---
+
+[⬅ Return to All Tags](../tags.qmd)
+
+## Posts with the tag **relatividade especial**
+
+- [📘 🛰️ A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica](/posts/fisica/relatividade-especial-academico.html)
+- [📘 🛰️ Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz](/posts/fisica/relatividade-especial.html)
+- [🧭 🛰️ Guia de Leitura — Série Relatividade Especial](/posts/fisica/guia-relatividade-especial.html)

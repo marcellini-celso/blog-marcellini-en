@@ -1,0 +1,76 @@
+---
+title: "📊 Statistics"
+description: "Explore essential statistical concepts with a focus on applications, data interpretation, visualizations, and theoretical foundations. Includes full courses, solved examples, and reading guides."
+author: "Blog do Marcellini"
+date: 2025-07-11
+lang: en
+categories: [statistics, statistics summary, summary]
+tags: [statistics, statistics summary, summary]
+format:
+  html:
+    toc: true
+    number-sections: false
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+---
+
+## 📚 Series and Courses
+
+::: {.columns}
+::: {.column width="50%"}
+::: {.callout-note title="📊 The Normal Distribution (Course)"}
+Definition, properties, graphs, applications, and solved exercises (R and Excel).
+
+[Go to course ›](../courses/statistics/normal_distribution/index.qmd){.button .button-outline}
+:::
+:::
+::: {.column width="50%"}
+::: {.callout-tip title="🧭 Statistics Guide"}
+Suggested reading path with progressive order.
+
+[View the guide ›](statistics-guide.qmd){.button .button-outline}
+:::
+:::
+:::
+
+{{< include /_includes/editorial-policy.qmd >}}
+
+## 📘 📊 Articles and Reflections
+
+There are no articles available in this section yet.
+
+## 🎓 📊 Available Courses
+
+### [🎓 📊 The Normal Distribution](../courses/statistics/normal_distribution/index.qmd)
+Complete course on the normal distribution: definition, properties, graphs, practical applications, and solved exercises with R and Excel.
+
+## 🧭 📊 Reading Guide
+
+1. **[🧭 📊 Reading Guide — Statistics Section](statistics-guide.qmd)** — Suggested progressive path connecting the main content of the section.
+
+📌 This guide is updated as new content is published.
+
+---
+
+🔝 [Back to Top](#top)
+
+---
+
+*Blog do Marcellini — Exploring Statistics with Rigor and Beauty.*
+
+{{< include /_includes/about-project.qmd >}}
+
+:::{.callout-note}
+*Created by Blog do Marcellini with ❤️ and code.*
+:::
+
+## 🔗 Useful Links
+
+- 🧑‍🏫 [About the Blog](../personal/about-the-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">Project GitHub</a>
+- 📬 [Contact by Email](mailto:prof.marcellini@gmail.com)

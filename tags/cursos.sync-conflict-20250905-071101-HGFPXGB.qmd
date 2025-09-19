@@ -1,0 +1,18 @@
+---
+title: "cursos"
+format: html
+---
+
+[⬅ Return to All Tags](../tags.qmd)
+
+## Posts with the tag **cursos**
+
+- [🎓 📊 Cursos de Estatística](/posts/cursos/estatistica/index.html)
+- [🎓 📊 Curso de Estatística: A Distribuição Normal](/posts/cursos/estatistica/distribuicao_normal/index.html)
+- [🎓 📊 Curso de Estatística: A Distribuição Normal (Parte 1): Introdução à Distribuição Normal](/posts/cursos/estatistica/distribuicao_normal/parte-1/distribuicao-normal.html)
+- [🎓 🧮 Cursos de Matemática](/posts/cursos/matematica/index.html)
+- [🎓 Curso de Cálculo Diferencial e Integral](/posts/cursos/matematica/calculo/index.html)
+- [🔢 Módulo 1.2: Conjuntos Numéricos](/posts/cursos/matematica/calculo/modulo-1/1.2-conjuntos.html)
+- [🧠 Módulo 1.1: O que é Cálculo? História e aplicações](/posts/cursos/matematica/calculo/modulo-1/1.1-introducao.html)
+- [🧠 🔢 Módulo 1.2 AP: Conjuntos Numéricos — Aprofundamento](/posts/cursos/matematica/calculo/modulo-1/1.2-conjuntos-ap.html)
+- [📘 Módulo 1.3: Intervalos e Inequações](/posts/cursos/matematica/calculo/modulo-1/1.3-intervalos-inequacoes.html)

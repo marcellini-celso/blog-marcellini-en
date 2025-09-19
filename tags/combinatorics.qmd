@@ -1,0 +1,10 @@
+---
+title: "combinatorics"
+format: html
+---
+
+[⬅ Return to All Tags](../tags.qmd)
+
+## Posts with the tag **combinatorics**
+
+- [📘 🧮 Why is 0! = 1?](/posts/mathematics/zero-factorial.html)

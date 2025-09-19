@@ -1,0 +1,11 @@
+---
+title: "normal distribution"
+format: html
+---
+
+[⬅ Return to All Tags](../tags.qmd)
+
+## Posts with the tag **normal distribution**
+
+- [🎓 📊 Statistics Course: The Normal Distribution](/posts/courses/statistics/normal_distribution/index.html)
+- [🎓 📊 Statistics Course: The Normal Distribution (Part 1): Introduction to the Normal Distribution](/posts/courses/statistics/normal_distribution/part-1/normal-distribution.html)

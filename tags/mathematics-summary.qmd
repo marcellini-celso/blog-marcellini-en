@@ -1,0 +1,10 @@
+---
+title: "mathematics summary"
+format: html
+---
+
+[⬅ Return to All Tags](../tags.qmd)
+
+## Posts with the tag **mathematics summary**
+
+- [🧮 Mathematics](/posts/mathematics/index.html)

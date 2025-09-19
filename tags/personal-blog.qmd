@@ -3,8 +3,14 @@ title: "personal blog"
 format: html
 ---
 
+<<<<<<< HEAD
 [⬅ Back to All Tags](../tags.qmd)
 
 ## Posts with the **personal blog** tag
+=======
+[⬅ Return to All Tags](../tags.qmd)
+
+## Posts with the tag **personal blog**
+>>>>>>> 17321b0 (Atualizações no blog)
 
 - [🧭 🧑‍🏫 Reading Guide — Personal Blog](/posts/personal/personal-guide.html)

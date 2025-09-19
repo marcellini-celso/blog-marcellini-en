@@ -1,0 +1,10 @@
+---
+title: "sumário de estatística"
+format: html
+---
+
+[⬅ Return to All Tags](../tags.qmd)
+
+## Posts with the tag **sumário de estatística**
+
+- [📊 Estatística](/posts/estatistica/index.html)

@@ -1,0 +1,10 @@
+---
+title: "qqplot"
+format: html
+---
+
+[⬅ Return to All Tags](../tags.qmd)
+
+## Posts with the tag **qqplot**
+
+- [🎓📊 Distribuição Normal — Parte 3: Gráficos, TCL e Normalidade Aproximada](/posts/cursos/estatistica/distribuicao_normal/parte-3/distribuicao-normal-parte3.html)

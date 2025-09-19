@@ -27,24 +27,40 @@ website:
           - text: "📊 Statistics"
             href: posts/statistics/index.qmd
           - text: "🔭 Physics"
+<<<<<<< HEAD
             href: posts/physics/index.qmd
+=======
+            href: posts/fisica/index.qmd
+>>>>>>> 17321b0 (Atualizações no blog)
           - text: "💻 Programming"
             href: posts/programming/index.qmd
       - text: "📝 Personal Blog"
         menu:
+<<<<<<< HEAD
           - text: "📝 Personal Posts"
+=======
+          - text: "📝 Personal Blog"
+>>>>>>> 17321b0 (Atualizações no blog)
             href: posts/personal/index.qmd
           - text: "👤 About Me and the Blog"
             href: posts/personal/about-the-blog.qmd
       - text: "📘 Courses"
         menu:
           - text: "🧮 Math Courses"
+<<<<<<< HEAD
             href: posts/courses/math/index.qmd
           - text: "📊 Statistics Courses"
             href: posts/courses/statistics/index.qmd
       - href: guide.qmd
         text: "🗺️ Site Map"
 
+=======
+            href: posts/courses/mathematics/index.qmd
+          - text: "📊 Statistics Courses"
+            href: posts/courses/statistics/index.qmd
+      - href: guia.qmd
+        text: "🗺️ Site Map"
+>>>>>>> 17321b0 (Atualizações no blog)
     right:
       - text: "PT 🇧🇷"
         href: "https://blogdomarcellini.com.br/"
@@ -52,12 +68,20 @@ website:
         rel: noopener
       - icon: envelope
         text: "Contact"
+<<<<<<< HEAD
         href: "mailto:prof.marcellini@gmail.com"
+=======
+        href: "mailto:prof.marcellini@gmail.com" 
+>>>>>>> 17321b0 (Atualizações no blog)
 
   page-footer:
     left: "© 2025 - Marcellini's Blog"
     right: >
+<<<<<<< HEAD
       📬 [Contact via Email](mailto:prof.marcellini@gmail.com)<br>
+=======
+      📬 [Contact via E-mail](mailto:prof.marcellini@gmail.com)<br>
+>>>>>>> 17321b0 (Atualizações no blog)
       💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">GitHub Repository</a>
 
 format:
@@ -89,7 +113,11 @@ search: true
 publish:
   provider: gh-pages
   domain: en.blogdomarcellini.com.br
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 17321b0 (Atualizações no blog)
 filters:
   - naquiz
 

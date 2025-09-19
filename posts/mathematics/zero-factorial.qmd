@@ -1,0 +1,510 @@
+---
+title: "📘 🧮 Why is 0! = 1?"
+description: "We explore **10 distinct justifications** for the value of $0!$."
+author: "Blog do Marcellini — Presentation adapted from LaTeX Beamer slides"
+date: 2025-06-22
+lang: en
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+categories: [mathematics, combinatorics, factorial, article]
+tags: [mathematics, combinatorics, factorial, article]
+execute:
+  echo: false
+  warning: false
+  message: false
+  eval: false  # ← disables execution of blocks even if present
+---
+
+---
+
+[← Back to the Mathematics Reading Guide 🧭 🧮](/posts/mathematics/math-guide.qmd)
+
+[← Back to the Mathematics Section 🧮](/posts/mathematics/)
+
+---
+
+![Factorial Table](../../images/tabela-fatorial.png){width=40% style="margin-bottom: 2rem;"}
+
+# 📘 🧮 Why is 0! = 1?
+
+In this post we explore **10 distinct justifications** for the value of $0!$. Each section below was adapted from an original LaTeX Beamer presentation and keeps the didactic spirit with formulas and examples.
+
+---
+
+## 🧠 Form 1: Combinatorial Interpretation
+
+The factorial $n!$ represents the number of ways to arrange $n$ distinct elements.
+
+- For $n = 3$: $3! = 6$ permutations
+- For $n = 2$: $2! = 2$ permutations
+- For $n = 1$: $1! = 1$ permutation
+- For $n = 0$: **How many permutations of the empty set?**
+
+Answer:
+$$
+\boxed{1 \text{ permutation (the empty set itself)}}
+$$
+$$
+\Rightarrow \boxed{0! = 1}
+$$
+
+---
+
+### 🌳 Illustration: Combinatorial Interpretation
+
+::: {.columns}
+::: {.column width="60%"}
+
+The factorial $n!$ represents the number of permutations of $n$ elements.
+
+**Example: permutations of $\{a, b\}$**
+
+$$
+\begin{aligned}
+2! &= 2: \{a,b\}, \{b,a\} \\\\
+1! &= 1: \{a\} \\\\
+0! &= 1: \{\,\} \text{ (empty set)}
+\end{aligned}
+$$
+
+:::
+
+::: {.column width="30%"}
+![](../../images/figura1.png){width=50% fig-align="center"}
+
+*Visual representation of permutations*
+:::
+:::
+
+---
+
+**Conclusion:** There are exactly $\boxed{1}$ ways to arrange zero elements.
+
+$$
+\boxed{0! = 1}
+$$
+
+---
+
+## 🔁 Form 2: Recursive Definition
+
+The factorial function is defined recursively:
+
+$$
+n! = n \cdot (n - 1)!, \quad \text{with } 1! = 1
+$$
+
+Applying the definition for $n = 1$:
+
+$$
+1! = 1 \cdot 0! \Rightarrow 1 = 1 \cdot 0! \Rightarrow \boxed{0! = 1}
+$$
+
+This definition is essential for the factorial function to be valid from $n = 1$ onward.
+
+---
+
+### 🌳 Illustration: Recursive Definition
+
+![](../../images/figura2.png){width=50% fig-align="center"}
+
+---
+
+- $3! = 3 \cdot 2!$
+- $2! = 2 \cdot 1!$
+- $1! = 1 \cdot 0! \Rightarrow 0! = 1$
+
+<div style="text-align:center; margin-top: 1rem;">
+$\boxed{0! = 1}$ is necessary so that the recursion “terminates” correctly.
+</div>
+
+---
+
+## 🔢 Form 3: Binomial Coefficient
+
+Use the binomial coefficient formula:
+
+$$
+\binom{n}{k} = \frac{n!}{k!(n-k)!}
+$$
+
+Special case:
+
+$$
+\binom{0}{0} = \frac{0!}{0! \cdot 0!}
+\Rightarrow 1 = \frac{0!}{(0!)^2}
+\Rightarrow (0!)^2 = 0!
+$$
+$$
+\Rightarrow \boxed{0! = 1}
+$$
+
+This ensures that combinatorial formulas remain valid for $n = 0$.
+
+---
+
+### 🧩 Illustration: Binomial Coefficient
+
+![](../../images/figura3.png){width=30% fig-align="center"}
+
+*There is exactly one way to choose 0 elements from the empty set.*
+
+---
+
+## 🧬 Form 4: Gamma Function
+
+The Gamma function generalizes the factorial to real and complex numbers:
+
+$$
+\Gamma(n) = \int_0^{\infty} x^{n-1} e^{-x} \, dx, \quad \text{for } n > 0
+$$
+
+It satisfies the relation:
+
+$$
+\Gamma(n+1) = n! \quad \text{when } n \in \mathbb{N}
+$$
+
+Therefore:
+
+$$
+0! = \Gamma(1) = \int_0^{\infty} e^{-x} \, dx = \left[ -e^{-x} \right]_0^{\infty} =
+$$
+$$
+= 0 - (-1) = 1
+$$
+
+<div style="text-align:center; margin-top: 1rem;">
+<em>Thus, the definition $0! = 1$ is consistent with the Gamma function.</em>
+</div>
+
+---
+
+### 🧠 Proof that $\Gamma(n+1) = n!$
+
+**1. Definition of the Gamma function:**
+
+$$
+\Gamma(x) = \int_0^{\infty} t^{x-1} e^{-t} \, dt
+$$
+
+**2. Fundamental property:**
+
+$$
+\Gamma(x+1) = x \cdot \Gamma(x)
+$$
+
+**3. Base case:**
+$\Gamma(1) = \int_0^{\infty} e^{-t} \, dt = 1 = 0!$
+
+**4. Inductive step:**
+Assume $\Gamma(k+1) = k!$. Then:
+
+$$
+\Gamma(k+2) = (k+1) \cdot \Gamma(k+1) =
+$$
+$$
+= (k+1) \cdot k! = (k+1)!
+$$
+
+---
+
+**Conclusion:**
+
+$$
+\boxed{\Gamma(n+1) = n! \quad \text{for all } n \in \mathbb{N}}
+$$
+
+---
+
+### 📐 Proof of the Property $\Gamma(x+1) = x \cdot \Gamma(x)$
+
+**Goal:** Show that
+
+$$
+\Gamma(x+1) = x \cdot \Gamma(x)
+$$
+
+**Definition of the Gamma function:**
+
+$$
+\Gamma(x+1) = \int_0^{\infty} t^x e^{-t} \, dt
+$$
+
+**Integration by parts formula:**
+
+$$
+\int u \, dv = uv - \int v \, du
+$$
+
+Applying integration by parts:
+
+- Let $u = t^x \Rightarrow du = x t^{x-1} \, dt$
+- Let $dv = e^{-t} \, dt \Rightarrow v = -e^{-t}$
+
+---
+
+**Applying the formula:**
+
+$$
+\Gamma(x+1) = -t^x e^{-t} \Big|_0^\infty + \int_0^{\infty} x t^{x-1} e^{-t} \, dt
+$$
+
+**Analyzing the boundary term:**
+
+$$
+\lim_{t \to \infty} t^x e^{-t} = 0, \quad \lim_{t \to 0^+} t^x e^{-t} = 0 \; \text{(for $x > 0$)}
+$$
+
+Hence:
+
+$$
+-t^x e^{-t} \Big|_0^\infty = 0
+$$
+
+**Therefore:**
+
+$$
+\Gamma(x+1) = x \int_0^\infty t^{x-1} e^{-t} \, dt = x \cdot \Gamma(x)
+$$
+
+---
+
+<div style="text-align:center; margin-top:1rem;">
+<em>Thus, the relation holds for all $x > 0$.</em>
+</div>
+
+---
+
+### 🔎 Justification of the Limits
+
+To apply integration by parts, we show that:
+
+$$
+\lim_{t \to \infty} t^x e^{-t} = 0 \quad \text{and} \quad \lim_{t \to 0^+} t^x e^{-t} = 0 \quad (x > 0)
+$$
+
+---
+
+**1. As** $t \to \infty$:
+
+$$
+\frac{t^x}{e^t} \to 0
+$$
+
+since the exponential dominates any power.
+
+Therefore:
+
+$$
+\boxed{\lim_{t \to \infty} t^x e^{-t} = 0}
+$$
+
+---
+
+**2. As** $t \to 0^+$:
+
+$$
+t^x \to 0, \quad e^{-t} \to 1 \quad \Rightarrow \quad t^x e^{-t} \to 0 \cdot 1 = 0
+$$
+
+Therefore:
+
+$$
+\boxed{\lim_{t \to 0^+} t^x e^{-t} = 0}
+$$
+
+---
+
+<div style="text-align:center; margin-top: 1rem;">
+<em>Both limits ensure the boundary term of the integration by parts vanishes.</em>
+</div>
+
+---
+
+### 📊 Visualizing the Limits with Graphs
+
+![](../../images/figura4.png){width=100% fig-align="center"}
+
+*Behavior of $t^x e^{-t}$ as $t \to 0^+$ and $t \to \infty$.*
+
+---
+
+### 📈 Graph of the Gamma Function
+
+![](../../images/figura5.png){width=80% fig-align="center"}
+
+*The plot shows that $\Gamma(x)$ is continuous and satisfies $\Gamma(1) = 1$, hence $0! = 1$.*
+
+---
+
+### 🧮 Gamma Function — Graphic Illustration
+
+![](../../images/figura6.png){width=80% fig-align="center"}
+
+*The plot highlights that $\Gamma(1) = 1$, which justifies that $0! = 1$.*
+
+---
+
+## 🧩 Form 5: Limit of the Gamma Function
+
+The Gamma function extends the factorial beyond positive integers. We can define:
+
+$$
+0! = \lim_{x \to 0^+} \Gamma(x + 1) = \Gamma(1) = 1
+$$
+
+*Justification via continuity of the analytic extension of the factorial.*
+
+---
+
+## ✴️ Form 6: Empty Product and Product Definition
+
+The general definition of factorial as a product:
+
+$$
+n! = \prod_{k=1}^{n} k
+$$
+
+Applying this definition for $n = 0$:
+
+$$
+0! = \prod_{k=1}^{0} k = 1
+$$
+
+*In algebra, the product over an empty set equals 1, because 1 is the multiplicative identity.*
+
+---
+
+## 🔄 Form 7: Permutation $P(0,0)$
+
+The general formula for permutations is:
+
+$$
+P(n, r) = \frac{n!}{(n - r)!}
+$$
+
+Applying with $n = 0$ and $r = 0$:
+
+$$
+P(0, 0) = \frac{0!}{0!} = 1
+$$
+
+*For the number of permutations of $0$ elements to be $1$, it is necessary that $0! = 1$.*
+
+---
+
+## 🔢 Form 8: Taylor Series of $e^x$
+
+The exponential function has the following Taylor series expansion:
+
+$$
+e^x = \sum_{n=0}^\infty \frac{x^n}{n!}
+$$
+
+The constant term of the series is:
+
+$$
+\frac{1}{0!}
+$$
+
+We know that:
+
+$$
+e^0 = 1 \quad \Rightarrow \quad \frac{1}{0!} = 1 \quad \Rightarrow \boxed{0! = 1}
+$$
+
+---
+
+## 🧮 Form 9: Logarithm of the Factorial
+
+A known identity relates the factorial to logarithms:
+
+$$
+\log(n!) = \sum_{k=1}^{n} \log(k)
+$$
+
+Applying with \( n = 0 \):
+
+$$
+\log(0!) = \sum_{k=1}^{0} \log(k) = 0 \quad \Rightarrow \quad \boxed{0! = 1}
+$$
+
+*The empty sum returns zero, preserving the coherence of the logarithm property.*
+
+---
+
+## 💻 Form 10: Computational Systems
+
+The definition $0! = 1$ is universally adopted in programming languages and software:
+
+- `Python:` `math.factorial(0)` returns `1`
+- `R:` `factorial(0)` returns `1`
+- `Julia:` `gamma(1)` returns `1`
+- `Mathematica:` `Factorial[0]` returns `1`
+
+\vspace{1ex}
+
+All follow the standard mathematical convention:
+
+$$
+\boxed{0! = 1}
+$$
+
+---
+
+## 🧠 Conclusion
+
+Each approach leads us to the same result:
+
+$$
+\boxed{0! = 1}
+$$
+
+This equality is consistent with:
+
+- combinatorial logic,
+- the recursive definition,
+- algebraic binomial formulas,
+- the Gamma function generalization,
+- continuity of the Gamma function,
+- the empty product definition,
+- coherence with permutations $P(n,n)$,
+- validity of the Taylor series of $e^x$,
+- the logarithm definition of the factorial,
+- and computational implementation.
+
+> **A well-chosen definition is a bridge between ideas.**
+
+---
+
+[← Back to the Mathematics Reading Guide 🧭 🧮](/posts/mathematics/math-guide.qmd)
+
+[← Back to the Mathematics Section 🧮](/posts/mathematics/)
+
+---
+
+🔝 [Back to Top](zero-factorial.qmd)
+
+---
+
+*Blog do Marcellini — Exploring Mathematics with Rigor and Beauty.*
+
+:::{.callout-note}
+*Created by Blog do Marcellini with ❤️ and code.*
+:::
+
+# 🔗 Useful Links
+
+- 🧑‍🏫 [About the Blog](../../posts/personal/about-the-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">Project GitHub</a>
+- 📬 [Contact by Email](mailto:prof.marcellini@gmail.com)

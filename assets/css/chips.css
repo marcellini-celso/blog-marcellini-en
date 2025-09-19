@@ -59,182 +59,182 @@ main .quarto-categories > a.quarto-category:focus-visible{
 }
 
 /* 3) PALETA POR CATEGORIA — agora VENCE a base */
-.quarto-category.cat--matematica   { --chip-bg:#eaf2ff; --chip-br:#cfe0ff; --chip-fg:#0b4abf; --chip-bg-hover:#dfeaff; }
-.quarto-category.cat--estatistica  { --chip-bg:#eafaf3; --chip-br:#c9eedb; --chip-fg:#0f6848; --chip-bg-hover:#def7ea; }
-.quarto-category.cat--fisica       { --chip-bg:#f3eaff; --chip-br:#e0d1ff; --chip-fg:#5a31b6; --chip-bg-hover:#ede0ff; }
-.quarto-category.cat--programacao  { --chip-bg:#e8f9fb; --chip-br:#c9eef2; --chip-fg:#0b6b78; --chip-bg-hover:#def4f7; }
-.quarto-category.cat--curso        { --chip-bg:#eef6ff; --chip-br:#d5e8ff; --chip-fg:#0b4a7a; --chip-bg-hover:#e5f1ff; }
-.quarto-category.cat--artigo       { --chip-bg:#f6f7fb; --chip-br:#e5e7eb; --chip-fg:#374151; --chip-bg-hover:#eef0f4; }
-.quarto-category.cat--serie        { --chip-bg:#ffeef2; --chip-br:#ffd4de; --chip-fg:#a62445; --chip-bg-hover:#ffe3ea; }
+.quarto-category.cat--mathematics   { --chip-bg:#eaf2ff; --chip-br:#cfe0ff; --chip-fg:#0b4abf; --chip-bg-hover:#dfeaff; }
+.quarto-category.cat--statistics  { --chip-bg:#eafaf3; --chip-br:#c9eedb; --chip-fg:#0f6848; --chip-bg-hover:#def7ea; }
+.quarto-category.cat--physics       { --chip-bg:#f3eaff; --chip-br:#e0d1ff; --chip-fg:#5a31b6; --chip-bg-hover:#ede0ff; }
+.quarto-category.cat--programming  { --chip-bg:#e8f9fb; --chip-br:#c9eef2; --chip-fg:#0b6b78; --chip-bg-hover:#def4f7; }
+.quarto-category.cat--course        { --chip-bg:#eef6ff; --chip-br:#d5e8ff; --chip-fg:#0b4a7a; --chip-bg-hover:#e5f1ff; }
+.quarto-category.cat--article       { --chip-bg:#f6f7fb; --chip-br:#e5e7eb; --chip-fg:#374151; --chip-bg-hover:#eef0f4; }
+.quarto-category.cat--series        { --chip-bg:#ffeef2; --chip-br:#ffd4de; --chip-fg:#a62445; --chip-bg-hover:#ffe3ea; }
 
 @media (prefers-color-scheme: dark){
-  .quarto-category.cat--matematica  { --chip-bg:#0b1b34; --chip-br:#1a3a6b; --chip-fg:#c3d8ff; --chip-bg-hover:#0e2548; }
-  .quarto-category.cat--estatistica { --chip-bg:#0b1f17; --chip-br:#1e5a46; --chip-fg:#c5f2dd; --chip-bg-hover:#0d2a1d; }
-  .quarto-category.cat--fisica      { --chip-bg:#1a1330; --chip-br:#3a2f6b; --chip-fg:#e0d6ff; --chip-bg-hover:#221a43; }
-  .quarto-category.cat--programacao { --chip-bg:#0a2228; --chip-br:#1b5a63; --chip-fg:#bfeaf0; --chip-bg-hover:#0d2c33; }
-  .quarto-category.cat--curso       { --chip-bg:#0b1726; --chip-br:#1c3c5e; --chip-fg:#c7e0ff; --chip-bg-hover:#0d2133; }
-  .quarto-category.cat--artigo      { --chip-bg:#111827; --chip-br:#374151; --chip-fg:#e5e7eb; --chip-bg-hover:#0f172a; }
-  .quarto-category.cat--serie       { --chip-bg:#2a0f18; --chip-br:#6b1e34; --chip-fg:#ffd6de; --chip-bg-hover:#33121e; }
+  .quarto-category.cat--mathematics  { --chip-bg:#0b1b34; --chip-br:#1a3a6b; --chip-fg:#c3d8ff; --chip-bg-hover:#0e2548; }
+  .quarto-category.cat--statistics { --chip-bg:#0b1f17; --chip-br:#1e5a46; --chip-fg:#c5f2dd; --chip-bg-hover:#0d2a1d; }
+  .quarto-category.cat--physics      { --chip-bg:#1a1330; --chip-br:#3a2f6b; --chip-fg:#e0d6ff; --chip-bg-hover:#221a43; }
+  .quarto-category.cat--programming { --chip-bg:#0a2228; --chip-br:#1b5a63; --chip-fg:#bfeaf0; --chip-bg-hover:#0d2c33; }
+  .quarto-category.cat--course       { --chip-bg:#0b1726; --chip-br:#1c3c5e; --chip-fg:#c7e0ff; --chip-bg-hover:#0d2133; }
+  .quarto-category.cat--article      { --chip-bg:#111827; --chip-br:#374151; --chip-fg:#e5e7eb; --chip-bg-hover:#0f172a; }
+  .quarto-category.cat--series       { --chip-bg:#2a0f18; --chip-br:#6b1e34; --chip-fg:#ffd6de; --chip-bg-hover:#33121e; }
 }
 
 /* ===================== FORÇA A PALETA (LIGHT) ===================== */
 /* match por classe cat--… OU pelo hash do href (fallback) */
-#title-block-header .quarto-categories > .quarto-category.cat--matematica,
-main .quarto-categories > .quarto-category.cat--matematica,
-#title-block-header .quarto-categories > a.quarto-category[href*="#matematica"],
-main .quarto-categories > a.quarto-category[href*="#matematica"]{
+#title-block-header .quarto-categories > .quarto-category.cat--mathematics,
+main .quarto-categories > .quarto-category.cat--mathematics,
+#title-block-header .quarto-categories > a.quarto-category[href*="#mathematics"],
+main .quarto-categories > a.quarto-category[href*="#mathematics"]{
   background:#eaf2ff !important; border-color:#cfe0ff !important; color:#0b4abf !important;
 }
 
-#title-block-header .quarto-categories > .quarto-category.cat--estatistica,
-main .quarto-categories > .quarto-category.cat--estatistica,
-#title-block-header .quarto-categories > a.quarto-category[href*="#estatistica"],
-main .quarto-categories > a.quarto-category[href*="#estatistica"]{
+#title-block-header .quarto-categories > .quarto-category.cat--statistics,
+main .quarto-categories > .quarto-category.cat--statistics,
+#title-block-header .quarto-categories > a.quarto-category[href*="#statistics"],
+main .quarto-categories > a.quarto-category[href*="#statistics"]{
   background:#eafaf3 !important; border-color:#c9eedb !important; color:#0f6848 !important;
 }
 
-#title-block-header .quarto-categories > .quarto-category.cat--fisica,
-main .quarto-categories > .quarto-category.cat--fisica,
-#title-block-header .quarto-categories > a.quarto-category[href*="#fisica"],
-main .quarto-categories > a.quarto-category[href*="#fisica"]{
+#title-block-header .quarto-categories > .quarto-category.cat--physics,
+main .quarto-categories > .quarto-category.cat--physics,
+#title-block-header .quarto-categories > a.quarto-category[href*="#physics"],
+main .quarto-categories > a.quarto-category[href*="#physics"]{
   background:#f3eaff !important; border-color:#e0d1ff !important; color:#5a31b6 !important;
 }
 
-#title-block-header .quarto-categories > .quarto-category.cat--programacao,
-main .quarto-categories > .quarto-category.cat--programacao,
-#title-block-header .quarto-categories > a.quarto-category[href*="#programacao"],
-main .quarto-categories > a.quarto-category[href*="#programacao"]{
+#title-block-header .quarto-categories > .quarto-category.cat--programming,
+main .quarto-categories > .quarto-category.cat--programming,
+#title-block-header .quarto-categories > a.quarto-category[href*="#programming"],
+main .quarto-categories > a.quarto-category[href*="#programming"]{
   background:#e8f9fb !important; border-color:#c9eef2 !important; color:#0b6b78 !important;
 }
 
-#title-block-header .quarto-categories > .quarto-category.cat--curso,
-main .quarto-categories > .quarto-category.cat--curso,
-#title-block-header .quarto-categories > a.quarto-category[href*="#curso"],
-main .quarto-categories > a.quarto-category[href*="#curso"]{
+#title-block-header .quarto-categories > .quarto-category.cat--course,
+main .quarto-categories > .quarto-category.cat--course,
+#title-block-header .quarto-categories > a.quarto-category[href*="#course"],
+main .quarto-categories > a.quarto-category[href*="#course"]{
   background:#eef6ff !important; border-color:#d5e8ff !important; color:#0b4a7a !important;
 }
 
-#title-block-header .quarto-categories > .quarto-category.cat--artigo,
-main .quarto-categories > .quarto-category.cat--artigo,
-#title-block-header .quarto-categories > a.quarto-category[href*="#artigo"],
-main .quarto-categories > a.quarto-category[href*="#artigo"]{
+#title-block-header .quarto-categories > .quarto-category.cat--article,
+main .quarto-categories > .quarto-category.cat--article,
+#title-block-header .quarto-categories > a.quarto-category[href*="#article"],
+main .quarto-categories > a.quarto-category[href*="#article"]{
   background:#f6f7fb !important; border-color:#e5e7eb !important; color:#374151 !important;
 }
 
-#title-block-header .quarto-categories > .quarto-category.cat--serie,
-main .quarto-categories > .quarto-category.cat--serie,
-#title-block-header .quarto-categories > a.quarto-category[href*="#serie"],
-main .quarto-categories > a.quarto-category[href*="#serie"]{
+#title-block-header .quarto-categories > .quarto-category.cat--series,
+main .quarto-categories > .quarto-category.cat--series,
+#title-block-header .quarto-categories > a.quarto-category[href*="#series"],
+main .quarto-categories > a.quarto-category[href*="#series"]{
   background:#ffeef2 !important; border-color:#ffd4de !important; color:#a62445 !important;
 }
 
 /* ===================== DARK MODE ===================== */
 @media (prefers-color-scheme: dark){
-  #title-block-header .quarto-categories > .quarto-category.cat--matematica,
-  main .quarto-categories > .quarto-category.cat--matematica,
-  #title-block-header .quarto-categories > a.quarto-category[href*="#matematica"],
-  main .quarto-categories > a.quarto-category[href*="#matematica"]{
+  #title-block-header .quarto-categories > .quarto-category.cat--mathematics,
+  main .quarto-categories > .quarto-category.cat--mathematics,
+  #title-block-header .quarto-categories > a.quarto-category[href*="#mathematics"],
+  main .quarto-categories > a.quarto-category[href*="#mathematics"]{
     background:#0b1b34 !important; border-color:#1a3a6b !important; color:#c3d8ff !important;
   }
-  #title-block-header .quarto-categories > .quarto-category.cat--estatistica,
-  main .quarto-categories > .quarto-category.cat--estatistica,
-  #title-block-header .quarto-categories > a.quarto-category[href*="#estatistica"],
-  main .quarto-categories > a.quarto-category[href*="#estatistica"]{
+  #title-block-header .quarto-categories > .quarto-category.cat--statistics,
+  main .quarto-categories > .quarto-category.cat--statistics,
+  #title-block-header .quarto-categories > a.quarto-category[href*="#statistics"],
+  main .quarto-categories > a.quarto-category[href*="#statistics"]{
     background:#0b1f17 !important; border-color:#1e5a46 !important; color:#c5f2dd !important;
   }
-  #title-block-header .quarto-categories > .quarto-category.cat--fisica,
-  main .quarto-categories > .quarto-category.cat--fisica,
-  #title-block-header .quarto-categories > a.quarto-category[href*="#fisica"],
-  main .quarto-categories > a.quarto-category[href*="#fisica"]{
+  #title-block-header .quarto-categories > .quarto-category.cat--physics,
+  main .quarto-categories > .quarto-category.cat--physics,
+  #title-block-header .quarto-categories > a.quarto-category[href*="#physics"],
+  main .quarto-categories > a.quarto-category[href*="#physics"]{
     background:#1a1330 !important; border-color:#3a2f6b !important; color:#e0d6ff !important;
   }
-  #title-block-header .quarto-categories > .quarto-category.cat--programacao,
-  main .quarto-categories > .quarto-category.cat--programacao,
-  #title-block-header .quarto-categories > a.quarto-category[href*="#programacao"],
-  main .quarto-categories > a.quarto-category[href*="#programacao"]{
+  #title-block-header .quarto-categories > .quarto-category.cat--programming,
+  main .quarto-categories > .quarto-category.cat--programming,
+  #title-block-header .quarto-categories > a.quarto-category[href*="#programming"],
+  main .quarto-categories > a.quarto-category[href*="#programming"]{
     background:#0a2228 !important; border-color:#1b5a63 !important; color:#bfeaf0 !important;
   }
-  #title-block-header .quarto-categories > .quarto-category.cat--curso,
-  main .quarto-categories > .quarto-category.cat--curso,
-  #title-block-header .quarto-categories > a.quarto-category[href*="#curso"],
-  main .quarto-categories > a.quarto-category[href*="#curso"]{
+  #title-block-header .quarto-categories > .quarto-category.cat--course,
+  main .quarto-categories > .quarto-category.cat--course,
+  #title-block-header .quarto-categories > a.quarto-category[href*="#course"],
+  main .quarto-categories > a.quarto-category[href*="#course"]{
     background:#0b1726 !important; border-color:#1c3c5e !important; color:#c7e0ff !important;
   }
-  #title-block-header .quarto-categories > .quarto-category.cat--artigo,
-  main .quarto-categories > .quarto-category.cat--artigo,
-  #title-block-header .quarto-categories > a.quarto-category[href*="#artigo"],
-  main .quarto-categories > a.quarto-category[href*="#artigo"]{
+  #title-block-header .quarto-categories > .quarto-category.cat--article,
+  main .quarto-categories > .quarto-category.cat--article,
+  #title-block-header .quarto-categories > a.quarto-category[href*="#article"],
+  main .quarto-categories > a.quarto-category[href*="#article"]{
     background:#111827 !important; border-color:#374151 !important; color:#e5e7eb !important;
   }
-  #title-block-header .quarto-categories > .quarto-category.cat--serie,
-  main .quarto-categories > .quarto-category.cat--serie,
-  #title-block-header .quarto-categories > a.quarto-category[href*="#serie"],
-  main .quarto-categories > a.quarto-category[href*="#serie"]{
+  #title-block-header .quarto-categories > .quarto-category.cat--series,
+  main .quarto-categories > .quarto-category.cat--series,
+  #title-block-header .quarto-categories > a.quarto-category[href*="#series"],
+  main .quarto-categories > a.quarto-category[href*="#series"]{
     background:#2a0f18 !important; border-color:#6b1e34 !important; color:#ffd6de !important;
   }
 }
 
 /* ---- FISICA ---- */
-#title-block-header .quarto-categories > a.quarto-category.cat--fisica,
-main .quarto-categories > a.quarto-category.cat--fisica,
-#title-block-header .quarto-categories > a.quarto-category[href*="#fisica"],
-main .quarto-categories > a.quarto-category[href*="#fisica"]{
+#title-block-header .quarto-categories > a.quarto-category.cat--physics,
+main .quarto-categories > a.quarto-category.cat--physics,
+#title-block-header .quarto-categories > a.quarto-category[href*="#physics"],
+main .quarto-categories > a.quarto-category[href*="#physics"]{
   background:#f3eaff !important; border-color:#e0d1ff !important; color:#5a31b6 !important;
 }
 
 /* ---- MATEMATICA ---- */
-#title-block-header .quarto-categories > a.quarto-category.cat--matematica,
-main .quarto-categories > a.quarto-category.cat--matematica,
-#title-block-header .quarto-categories > a.quarto-category[href*="#matematica"],
-main .quarto-categories > a.quarto-category[href*="#matematica"]{
+#title-block-header .quarto-categories > a.quarto-category.cat--mathematics,
+main .quarto-categories > a.quarto-category.cat--mathematics,
+#title-block-header .quarto-categories > a.quarto-category[href*="#mathematics"],
+main .quarto-categories > a.quarto-category[href*="#mathematics"]{
   background:#eaf2ff !important; border-color:#cfe0ff !important; color:#0b4abf !important;
 }
 
 /* ---- ESTATISTICA ---- */
-#title-block-header .quarto-categories > a.quarto-category.cat--estatistica,
-main .quarto-categories > a.quarto-category.cat--estatistica,
-#title-block-header .quarto-categories > a.quarto-category[href*="#estatistica"],
-main .quarto-categories > a.quarto-category[href*="#estatistica"]{
+#title-block-header .quarto-categories > a.quarto-category.cat--statistics,
+main .quarto-categories > a.quarto-category.cat--statistics,
+#title-block-header .quarto-categories > a.quarto-category[href*="#statistics"],
+main .quarto-categories > a.quarto-category[href*="#statistics"]{
   background:#eafaf3 !important; border-color:#c9eedb !important; color:#0f6848 !important;
 }
 
 /* ---- PROGRAMACAO ---- */
-#title-block-header .quarto-categories > a.quarto-category.cat--programacao,
-main .quarto-categories > a.quarto-category.cat--programacao,
-#title-block-header .quarto-categories > a.quarto-category[href*="#programacao"],
-main .quarto-categories > a.quarto-category[href*="#programacao"]{
+#title-block-header .quarto-categories > a.quarto-category.cat--programming,
+main .quarto-categories > a.quarto-category.cat--programming,
+#title-block-header .quarto-categories > a.quarto-category[href*="#programming"],
+main .quarto-categories > a.quarto-category[href*="#programming"]{
   background:#e8f9fb !important; border-color:#c9eef2 !important; color:#0b6b78 !important;
 }
 
 /* ---- CURSO ---- */
-#title-block-header .quarto-categories > a.quarto-category.cat--curso,
-main .quarto-categories > a.quarto-category.cat--curso,
-#title-block-header .quarto-categories > a.quarto-category[href*="#curso"],
-main .quarto-categories > a.quarto-category[href*="#curso"]{
+#title-block-header .quarto-categories > a.quarto-category.cat--course,
+main .quarto-categories > a.quarto-category.cat--course,
+#title-block-header .quarto-categories > a.quarto-category[href*="#course"],
+main .quarto-categories > a.quarto-category[href*="#course"]{
   background:#eef6ff !important; border-color:#d5e8ff !important; color:#0b4a7a !important;
 }
 
 /* ---- ARTIGO ---- */
-#title-block-header .quarto-categories > a.quarto-category.cat--artigo,
-main .quarto-categories > a.quarto-category.cat--artigo,
-#title-block-header .quarto-categories > a.quarto-category[href*="#artigo"],
-main .quarto-categories > a.quarto-category[href*="#artigo"]{
+#title-block-header .quarto-categories > a.quarto-category.cat--article,
+main .quarto-categories > a.quarto-category.cat--article,
+#title-block-header .quarto-categories > a.quarto-category[href*="#article"],
+main .quarto-categories > a.quarto-category[href*="#article"]{
   background:#f6f7fb !important; border-color:#e5e7eb !important; color:#374151 !important;
 }
 
 /* ---- SERIE ---- */
-#title-block-header .quarto-categories > a.quarto-category.cat--serie,
-main .quarto-categories > a.quarto-category.cat--serie,
-#title-block-header .quarto-categories > a.quarto-category[href*="#serie"],
-main .quarto-categories > a.quarto-category[href*="#serie"]{
+#title-block-header .quarto-categories > a.quarto-category.cat--series,
+main .quarto-categories > a.quarto-category.cat--series,
+#title-block-header .quarto-categories > a.quarto-category[href*="#series"],
+main .quarto-categories > a.quarto-category[href*="#series"]{
   background:#ffeef2 !important; border-color:#ffd4de !important; color:#a62445 !important;
 }
 
 /* ---- SUMARIO ---- */
-#title-block-header .quarto-categories > a.quarto-category.cat--sumario,
-main .quarto-categories > a.quarto-category.cat--sumario,
-#title-block-header .quarto-categories > a.quarto-category[href*="#sumario"],
-main .quarto-categories > a.quarto-category[href*="#sumario"]{
+#title-block-header .quarto-categories > a.quarto-category.cat--summary,
+main .quarto-categories > a.quarto-category.cat--summary,
+#title-block-header .quarto-categories > a.quarto-category[href*="#summary"],
+main .quarto-categories > a.quarto-category[href*="#summary"]{
   background:#fff7e6 !important;        /* âmbar bem clarinho */
   border-color:#ffe3b3 !important;
   color:#8a5a00 !important;
@@ -264,59 +264,59 @@ main .quarto-categories > a.quarto-category[href*="#sumario"]{
 }
 
 /* ---- FORTE: use este bloco em vez do “Médio” se quiser ainda mais presença ---- */
-#title-block-header .quarto-categories > a.quarto-category.cat--matematica,
-main .quarto-categories > a.quarto-category.cat--matematica,
-#title-block-header .quarto-categories > a.quarto-category[href*="#matematica"],
-main .quarto-categories > a.quarto-category[href*="#matematica"]{
+#title-block-header .quarto-categories > a.quarto-category.cat--mathematics,
+main .quarto-categories > a.quarto-category.cat--mathematics,
+#title-block-header .quarto-categories > a.quarto-category[href*="#mathematics"],
+main .quarto-categories > a.quarto-category[href*="#mathematics"]{
   background:#c5dcff !important; border-color:#8fbaff !important; color:#08307d !important;
 }
 
-#title-block-header .quarto-categories > a.quarto-category.cat--estatistica,
-main .quarto-categories > a.quarto-category.cat--estatistica,
-#title-block-header .quarto-categories > a.quarto-category[href*="#estatistica"],
-main .quarto-categories > a.quarto-category[href*="#estatistica"]{
+#title-block-header .quarto-categories > a.quarto-category.cat--statistics,
+main .quarto-categories > a.quarto-category.cat--statistics,
+#title-block-header .quarto-categories > a.quarto-category[href*="#statistics"],
+main .quarto-categories > a.quarto-category[href*="#statistics"]{
   background:#c8efd9 !important; border-color:#98e1bf !important; color:#094b35 !important;
 }
 
-#title-block-header .quarto-categories > a.quarto-category.cat--fisica,
-main .quarto-categories > a.quarto-category.cat--fisica,
-#title-block-header .quarto-categories > a.quarto-category[href*="#fisica"],
-main .quarto-categories > a.quarto-category[href*="#fisica"]{
+#title-block-header .quarto-categories > a.quarto-category.cat--physics,
+main .quarto-categories > a.quarto-category.cat--physics,
+#title-block-header .quarto-categories > a.quarto-category[href*="#physics"],
+main .quarto-categories > a.quarto-category[href*="#physics"]{
   background:#dbc8ff !important; border-color:#b59bff !important; color:#3f238b !important;
 }
 
-#title-block-header .quarto-categories > a.quarto-category.cat--programacao,
-main .quarto-categories > a.quarto-category.cat--programacao,
-#title-block-header .quarto-categories > a.quarto-category[href*="#programacao"],
-main .quarto-categories > a.quarto-category[href*="#programacao"]{
+#title-block-header .quarto-categories > a.quarto-category.cat--programming,
+main .quarto-categories > a.quarto-category.cat--programming,
+#title-block-header .quarto-categories > a.quarto-category[href*="#programming"],
+main .quarto-categories > a.quarto-category[href*="#programming"]{
   background:#c7edf2 !important; border-color:#92dbe2 !important; color:#084d57 !important;
 }
 
-#title-block-header .quarto-categories > a.quarto-category.cat--curso,
-main .quarto-categories > a.quarto-category.cat--curso,
-#title-block-header .quarto-categories > a.quarto-category[href*="#curso"],
-main .quarto-categories > a.quarto-category[href*="#curso"]{
+#title-block-header .quarto-categories > a.quarto-category.cat--course,
+main .quarto-categories > a.quarto-category.cat--course,
+#title-block-header .quarto-categories > a.quarto-category[href*="#course"],
+main .quarto-categories > a.quarto-category[href*="#course"]{
   background:#cfe5ff !important; border-color:#9dcbff !important; color:#08365c !important;
 }
 
-#title-block-header .quarto-categories > a.quarto-category.cat--artigo,
-main .quarto-categories > a.quarto-category.cat--artigo,
-#title-block-header .quarto-categories > a.quarto-category[href*="#artigo"],
-main .quarto-categories > a.quarto-category[href*="#artigo"]{
+#title-block-header .quarto-categories > a.quarto-category.cat--article,
+main .quarto-categories > a.quarto-category.cat--article,
+#title-block-header .quarto-categories > a.quarto-category[href*="#article"],
+main .quarto-categories > a.quarto-category[href*="#article"]{
   background:#e3e6ec !important; border-color:#c9ced6 !important; color:#232a32 !important;
 }
 
-#title-block-header .quarto-categories > a.quarto-category.cat--serie,
-main .quarto-categories > a.quarto-category.cat--serie,
-#title-block-header .quarto-categories > a.quarto-category[href*="#serie"],
-main .quarto-categories > a.quarto-category[href*="#serie"]{
+#title-block-header .quarto-categories > a.quarto-category.cat--series,
+main .quarto-categories > a.quarto-category.cat--series,
+#title-block-header .quarto-categories > a.quarto-category[href*="#series"],
+main .quarto-categories > a.quarto-category[href*="#series"]{
   background:#ffc8d6 !important; border-color:#ff9db3 !important; color:#7a1833 !important;
 }
 
-#title-block-header .quarto-categories > a.quarto-category.cat--sumario,
-main .quarto-categories > a.quarto-category.cat--sumario,
-#title-block-header .quarto-categories > a.quarto-category[href*="#sumario"],
-main .quarto-categories > a.quarto-category[href*="#sumario"]{
+#title-block-header .quarto-categories > a.quarto-category.cat--summary,
+main .quarto-categories > a.quarto-category.cat--summary,
+#title-block-header .quarto-categories > a.quarto-category[href*="#summary"],
+main .quarto-categories > a.quarto-category[href*="#summary"]{
   background:#ffdca0 !important; border-color:#ffc56b !important; color:#663a00 !important;
 }
 

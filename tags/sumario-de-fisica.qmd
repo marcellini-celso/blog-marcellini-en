@@ -1,0 +1,10 @@
+---
+title: "sumário de física"
+format: html
+---
+
+[⬅ Return to All Tags](../tags.qmd)
+
+## Posts with the tag **sumário de física**
+
+- [⚛️ Física](/posts/fisica/index.html)

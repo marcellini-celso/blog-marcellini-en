@@ -1,0 +1,118 @@
+---
+title: "📘 ✨ 🧮 ⚛️ Equations that Shaped History"
+description: "A selection of the most beautiful and influential equations in mathematics and physics, with accessible explanations and clear visualization."
+author: "Blog do Marcellini"
+date: 2025-07-12
+lang: en
+categories: [mathematics, physics, history of science, article, equations]
+tags: [mathematics, physics, history of science, article, equations]
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+---
+
+---
+
+[← Back to the Mathematics Reading Guide 🧭 🧮](/posts/mathematics/math-guide.qmd)
+
+[← Back to the Mathematics Section 🧮](/posts/mathematics/)
+
+---
+
+![Srinivasa Ramanujan](../../images/Srinivasa_Ramanujan_-_OPC_-_1.jpg){width=40% style="margin-bottom: 2rem;"}
+
+# 📘 ✨ 🧮 ⚛️ Equations that Shaped History
+
+Over the centuries, certain formulas have stood out for their beauty, depth, and impact. This section celebrates these jewels of mathematics and physics.
+
+---
+
+## 🧠 Euler’s Identity
+
+$$
+e^{i\pi} + 1 = 0
+$$
+
+Connects the five most fundamental numbers in mathematics: $e$, $i$, $\pi$, $1$, and $0$. Considered by many the most beautiful equation of all.
+
+---
+
+## 📡 The Wave Equation
+
+$$
+\frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}
+$$
+
+Models vibrations in strings, sound, light, and other waves. Appears naturally in physics, engineering, and partial differential equations (PDEs).
+
+---
+
+## 🔢 Ramanujan’s Formula for $\frac{1}{\pi}$
+
+$$
+\frac{1}{\pi} = \frac{2\sqrt{2}}{9801} \sum_{k=0}^\infty \frac{(4k)!\,(1103 + 26390k)}{(k!)^4\,396^{4k}}
+$$
+
+This series converges extremely quickly and has been used in modern high-precision algorithms to compute $\pi$. Discovered by Ramanujan through pure mathematical intuition.
+
+---
+
+## 🌌 Newton’s Law of Universal Gravitation
+
+$$
+F = G \frac{m_1 m_2}{r^2}
+$$
+
+Describes the gravitational attraction between two massive bodies. Foundation of classical mechanics and astronomy.
+
+---
+
+## 🌊 Schrödinger’s Equation (Time-Independent Form)
+
+$$
+-\frac{\hbar^2}{2m} \nabla^2 \psi + V \psi = E \psi
+$$
+
+Fundamental equation of quantum mechanics. Determines the behavior of the wave function $\psi$ of a quantum particle.
+
+---
+
+## ⚡ Maxwell’s Equation for the Electric Field (Differential Form)
+
+$$
+\nabla \cdot \vec{E} = \frac{\rho}{\varepsilon_0}
+$$
+
+One of Maxwell’s four equations governing electromagnetism. This one describes how charges generate electric fields.
+
+---
+
+[← Back to the Mathematics Reading Guide 🧭 🧮](/posts/mathematics/math-guide.qmd)
+
+[← Back to the Mathematics Section 🧮](/posts/mathematics/)
+
+---
+
+🔝 [Back to Top](historical-equations.qmd)
+
+---
+
+*Blog do Marcellini — Exploring Mathematics with Rigor and Beauty.*
+
+:::{.callout-note}
+*Created by Blog do Marcellini with ❤️ and code.*
+:::
+
+# 🔗 Useful Links
+
+- 🧑‍🏫 [About the Blog](../../posts/personal/about-the-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">Project GitHub</a>
+- 📬 [Contact by Email](mailto:prof.marcellini@gmail.com)

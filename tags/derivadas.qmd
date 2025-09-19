@@ -1,0 +1,10 @@
+---
+title: "derivadas"
+format: html
+---
+
+[⬅ Return to All Tags](../tags.qmd)
+
+## Posts with the tag **derivadas**
+
+- [🎓 Curso de Cálculo Diferencial e Integral](/posts/cursos/matematica/calculo/index.html)

@@ -1,0 +1,19 @@
+/* === Neutraliza qualquer cor aplicada a headings que comecem com "normal" === */
+/* Cobre tanto id="normal-…" quanto data-anchor-id="normal-…" (Quarto novo)    */
+
+:where(h1,h2,h3,h4,h5,h6)[id^="normal"],
+:where(h1,h2,h3,h4,h5,h6)[data-anchor-id^="normal"]{
+    /* usa cor “padrão” do tema; cai para inherit se a var não existir */
+    color: var(--bs-body-color, var(--body-color, inherit)) !important;
+}
+
+/* Garante que descendentes (incluindo o link-âncora) não repintem de vermelho */
+:where(h1,h2,h3,h4,h5,h6)[id^="normal"] *,
+:where(h1,h2,h3,h4,h5,h6)[data-anchor-id^="normal"] *{
+    color: inherit !important;
+}
+
+/* Se alguma regra mirava diretamente no link de âncora */
+a[href^="#normal"]{
+    color: inherit !important;
+}

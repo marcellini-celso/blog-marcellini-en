@@ -1,0 +1,128 @@
+---
+lang: en
+format:
+  html:
+    toc: true
+    toc-title: "On this page"
+    number-sections: false
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+---
+
+<div style="text-align:right; font-size:0.95em;">
+  🌐 <a href="https://blogdomarcellini.com.br/">Português</a> ·
+  <span aria-current="page">English</span>
+</div>
+
+![](images/banner.png){width=100% style="margin-bottom: 2rem;"}
+
+::: {.columns}
+::: {.column width="65%"}
+
+::: {.callout-note title="👋 Welcome to the Blog do Marcellini"}
+
+In this blog, you will find content on **Mathematics**, **Statistics**, and **Physics**, developed with **rigor**, solid **theoretical foundations**, and a **didactic approach**.  
+The goal is to combine conceptual clarity with a professional visual presentation, using tools such as **LaTeX**, **Quarto**, **Python**, and **R**.
+
+The aim is to explore profound ideas with **simplicity**, **intuition**, and **beauty** — through accessible explanations, **graphical visualizations**, **complete courses with solved exercises**, and **structured reading guides**.
+
+:::
+
+
+### 🌟 What you will find here:
+
+- ✨ LaTeX and Quarto tips for visualizations  
+- 🧠 Step-by-step illustrated mathematical concepts  
+- 📘 Experiments with visual and graphical teaching  
+- 🧮 Mathematics that is both accessible and rigorous  
+- 🔭 Physics explained with context and history  
+- 📊 Statistics with focus on real-world applications  
+- 💻 Programming in R, Python, Julia, and Shell  
+- 📝 Reflections on science, method, and language  
+
+{{< include /_includes/editorial-policy-mini.qmd >}}
+
+:::
+
+::: {.column width="35%"}
+
+> **"Beauty is the first test: there is no permanent place in the world for ugly mathematics."**  
+> — G. H. Hardy  
+
+> **“The universe cannot be read until we have learned the language and become familiar with the characters in which it is written. It is written in the language of mathematics, and its letters are triangles, circles, and other geometrical figures, without which it is humanly impossible to comprehend a single word.”**  
+> — *Galileo Galilei*  
+
+:::
+
+{{< include /_includes/principal-menu.qmd >}}
+
+:::
+
+---
+
+## ✨ Highlights
+
+::: {.callout-note collapse=true title="🧠 Historical Equations (Mathematics + Physics)"}
+A selection of formulas that shaped science, such as **Euler's Identity** \(e^{i\pi}+1=0\) and the **Wave Equation**.  
+[Explore Historical Equations ›](posts/matematica/equacoes-historicas.qmd){.button .button-outline}
+:::
+
+::: {.callout-note collapse=true title="🌍 Normal Distribution — Course (Statistics)"}
+Why does normality appear so often? Probabilities, confidence intervals, and hypothesis tests — with charts and exercises.  
+[See the course ›](posts/cursos/statistics/distribuicao_normal/index.qmd){.button .button-outline}
+:::
+
+::: {.callout-note collapse=true title="📘 Calculus Course — Introduction"}
+A progressive course that combines **mathematical rigor**, **LaTeX typographical quality**, and **practical examples in R and Python**.
+
+📌 Topics already covered:
+
+- Number sets and fundamental properties  
+- Step-by-step solved exercises  
+
+[👉 Follow the Calculus Course ›](posts/cursos/mathematics/calculo/index.qmd){.button .button-outline}
+:::
+
+<div style="margin-top: .25rem"></div>
+
+> 🔧 Programmable examples:  
+> 👉 [Python Models](posts/programming/modelos-python-quarto.qmd) · 👉 [R Models](posts/programming/modelos-r-quarto.qmd)
+
+---
+
+🔝 [Back to Top](index.qmd)
+
+---
+
+## 🆕 Latest Posts
+
+<!-- inicio-ultimos-posts -->
+- [📘 Módulo 1.3: Intervalos e Inequações](posts/cursos/matematica/calculo/modulo-1/1.3-intervalos-inequacoes.html)
+- [🎓 📊 Statistics Course: The Normal Distribution](posts/courses/statistics/normal_distribution/index.html)
+- [🧭 📚 🌠 Guia de Leitura da Série Relatividade Geral](posts/fisica/guia-relatividade-geral.html)
+- [🎓 📊 Curso de Estatística: A Distribuição Normal](posts/cursos/estatistica/distribuicao_normal/index.html)
+- [🎓 Differential and Integral Calculus Course](posts/courses/mathematics/calculus/index.html)
+<!-- fim-ultimos-posts -->
+
+> This section is automatically updated with each new publication.
+
+---
+
+*Blog do Marcellini — Exploring Mathematics, Statistics, and Physics with Rigor and Beauty*
+
+{{< include /_includes/about-project.qmd >}}
+
+:::{.callout-note}
+*Created by Blog do Marcellini with ❤️ and code.*
+:::
+
+## 🔗 Useful Links
+
+- 🧑‍🏫 [About the Blog](posts/personal/about-the-blog.qmd)  
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">Project GitHub</a>  
+- 📬 [Contact via Email](mailto:prof.marcellini@gmail.com)  
+

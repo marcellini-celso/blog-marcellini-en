@@ -1,0 +1,57 @@
+---
+title: "🎓 📊 Statistics Courses"
+description: "Complete Statistics courses with theory, practical applications, visualizations, and solved exercises in R and Excel."
+author: "Blog do Marcellini"
+date: 2025-07-22
+lang: en
+categories: [statistics, courses, summary]
+tags: [statistics, courses, summary]
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+---
+
+[← Back to the Statistics Section 📊](../../statistics/index.qmd)
+
+---
+
+## 🎓 📊 Available Courses
+
+### [🎓 📊 The Normal Distribution](normal_distribution/index.qmd)
+Complete course on the normal distribution: definition, properties, graphs, practical applications, and solved exercises with R and Excel.
+
+## 📖 📊 Reading Guide
+
+1. **[🎓 📊 The Normal Distribution](normal_distribution/index.qmd)** — Recommended as a starting point for the study of statistical distributions. Ideal after initial concepts of variables and plots.
+
+📌 This guide is updated as new content is published.
+
+---
+
+[← Back to the Statistics Section 📊](../../statistics/index.qmd)
+
+---
+
+🔝 [Back to Top](index.qmd)
+
+---
+
+*Blog do Marcellini — Exploring Statistics with Rigor and Beauty.*
+
+:::{.callout-note}
+*Created by Blog do Marcellini with ❤️ and code.*
+:::
+
+## 🔗 Useful Links
+
+- 🧑‍🏫 [About the Blog](../../personal/about-the-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">Project GitHub</a>
+- 📬 [Contact by Email](mailto:prof.marcellini@gmail.com)

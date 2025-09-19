@@ -1,0 +1,11 @@
+---
+title: "sumário de Quarto"
+format: html
+---
+
+[⬅ Return to All Tags](../tags.qmd)
+
+## Posts with the tag **sumário de Quarto**
+
+- [📄 Quarto](/posts/programacao/quarto/index.html)
+- [📄 Quarto](/posts/programming/quarto/index.html)

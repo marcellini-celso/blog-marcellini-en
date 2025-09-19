@@ -1,0 +1,11 @@
+---
+title: "sumário de Python"
+format: html
+---
+
+[⬅ Return to All Tags](../tags.qmd)
+
+## Posts with the tag **sumário de Python**
+
+- [📄 🐍 Python](/posts/programacao/python/index.html)
+- [📄 🐍 Python](/posts/programming/python/index.html)

@@ -1,0 +1,2147 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.24">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta name="author" content="Blog do Marcellini">
+<meta name="dcterms.date" content="2025-07-24">
+<meta name="description" content="This course aims to present, in an accessible and applied way, the fundamentals of the normal distribution, also known as the Gaussian distribution, supported by graphical visualizations and computational tools.">
+<title>🎓 📊 Statistics Course: The Normal Distribution (Part 1): Introduction to the Normal Distribution – Marcellini’s Blog</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+<script src="../../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../../">
+<link href="../../../../../images/banner.jpeg" rel="icon" type="image/jpeg">
+<script src="../../../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../../site_libs/quarto-html/quarto-syntax-highlighting-a6e161b2431e1f94a14e0f5d32135a3c.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../../site_libs/bootstrap/bootstrap-7b2d67d46e8432a2294c9f687e199d91.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../../../site_libs/quarto-contrib/alpine-3.12/buttons.css" rel="stylesheet"><script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-TZTRKLXEB9"></script><script>
+  if (!['localhost','127.0.0.1'].includes(location.hostname)) {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-TZTRKLXEB9', {
+      linker: { domains: ['blogdomarcellini.com.br','en.blogdomarcellini.com.br'] }
+    });
+  }
+</script><link href="../../../../../site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet">
+<script src="../../../../../site_libs/pagedtable-1.1/js/pagedtable.js"></script><link rel="alternate" hreflang="pt-BR" href="https://blogdomarcellini.com.br/">
+<link rel="alternate" hreflang="x-default" href="https://en.blogdomarcellini.com.br/">
+<script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script><script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script><link rel="stylesheet" href="../../../../../styles.css">
+<link rel="stylesheet" href="../../../../../assets/css/custom.css">
+<link rel="stylesheet" href="../../../../../assets/css/cards.css">
+<link rel="stylesheet" href="../../../../../assets/css/chips.css">
+<meta property="og:title" content="🎓 📊 Statistics Course: The Normal Distribution (Part 1): Introduction to the Normal Distribution – Marcellini’s Blog">
+<meta property="og:description" content="This course aims to present, in an accessible and applied way, the fundamentals of the normal distribution, also known as the Gaussian distribution, supported by graphical visualizations and computational tools.">
+<meta property="og:image" content="https://en.blogdomarcellini.com.br/images/placeholder-dark.png">
+<meta property="og:site_name" content="Marcellini's Blog">
+<meta property="og:image:height" content="1380">
+<meta property="og:image:width" content="1830">
+<meta property="og:image:alt" content="Blog do Marcellini">
+<meta name="twitter:title" content="🎓 📊 Statistics Course: The Normal Distribution (Part 1): Introduction to the Normal Distribution – Marcellini’s Blog">
+<meta name="twitter:description" content="This course aims to present, in an accessible and applied way, the fundamentals of the normal distribution, also known as the Gaussian distribution, supported by graphical visualizations and computational tools.">
+<meta name="twitter:image" content="https://en.blogdomarcellini.com.br/images/placeholder-dark.png">
+<meta name="twitter:image-height" content="1380">
+<meta name="twitter:image-width" content="1830">
+<meta name="twitter:image:alt" content="Blog do Marcellini">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../../../../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
+    <a class="navbar-brand" href="../../../../../index.html">
+    <span class="navbar-title">Marcellini’s Blog</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+<li class="nav-item">
+    <a class="nav-link" href="../../../../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-explore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">🧭 Explore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-explore">
+<li>
+    <a class="dropdown-item" href="../../../../../tags.html">
+ <span class="dropdown-text">🏷️ Tags</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../../categories.html">
+ <span class="dropdown-text">📂 Categories</span></a>
+  </li>  
+    </ul>
+</li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-exact-sciences" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">🧠 Exact Sciences</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-exact-sciences">
+<li>
+    <a class="dropdown-item" href="../../../../../posts/mathematics/index.html">
+ <span class="dropdown-text">🧮 Mathematics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../../posts/statistics/index.html">
+ <span class="dropdown-text">📊 Statistics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../../posts/fisica/index.html">
+ <span class="dropdown-text">🔭 Physics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../../posts/programming/index.html">
+ <span class="dropdown-text">💻 Programming</span></a>
+  </li>  
+    </ul>
+</li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-personal-blog" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">📝 Personal Blog</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-personal-blog">
+<li>
+    <a class="dropdown-item" href="../../../../../posts/personal/index.html">
+ <span class="dropdown-text">📝 Personal Blog</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../../posts/personal/about-the-blog.html">
+ <span class="dropdown-text">👤 About Me and the Blog</span></a>
+  </li>  
+    </ul>
+</li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-courses" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">📘 Courses</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-courses">
+<li>
+    <a class="dropdown-item" href="../../../../../posts/courses/mathematics/index.html">
+ <span class="dropdown-text">🧮 Math Courses</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../../posts/courses/statistics/index.html">
+ <span class="dropdown-text">📊 Statistics Courses</span></a>
+  </li>  
+    </ul>
+</li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../../guia.html"> 
+<span class="menu-text">🗺️ Site Map</span></a>
+  </li>  
+</ul>
+<ul class="navbar-nav navbar-nav-scroll ms-auto">
+<li class="nav-item">
+    <a class="nav-link" href="https://blogdomarcellini.com.br/" rel="noopener" target="_blank"> 
+<span class="menu-text">PT 🇧🇷</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="mailto:prof.marcellini@gmail.com"> <i class="bi bi-envelope" role="img">
+</i> 
+<span class="menu-text">Contact</span></a>
+  </li>  
+</ul>
+</div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">On this page</h2>
+   
+  <ul>
+<li>
+<a href="#the-normal-distribution-part-1" id="toc-the-normal-distribution-part-1" class="nav-link active" data-scroll-target="#the-normal-distribution-part-1"><span class="header-section-number">1</span> 🎓 📊 The Normal Distribution — Part 1</a>
+  <ul class="collapse">
+<li>
+<a href="#standard-normal-curve" id="toc-standard-normal-curve" class="nav-link" data-scroll-target="#standard-normal-curve"><span class="header-section-number">1.1</span> 📏 Standard Normal Curve</a>
+  <ul class="collapse">
+<li><a href="#why-is-it-so-important" id="toc-why-is-it-so-important" class="nav-link" data-scroll-target="#why-is-it-so-important"><span class="header-section-number">1.1.1</span> 🧠 Why Is It So Important?</a></li>
+  </ul>
+</li>
+  <li><a href="#measuring-the-invisible" id="toc-measuring-the-invisible" class="nav-link" data-scroll-target="#measuring-the-invisible"><span class="header-section-number">1.2</span> 🎯 Measuring the Invisible</a></li>
+  <li><a href="#the-normal-curve-a-deeper-look" id="toc-the-normal-curve-a-deeper-look" class="nav-link" data-scroll-target="#the-normal-curve-a-deeper-look"><span class="header-section-number">1.3</span> 📐 The Normal Curve: A Deeper Look</a></li>
+  <li><a href="#graphical-representation-of-the-normal-curve" id="toc-graphical-representation-of-the-normal-curve" class="nav-link" data-scroll-target="#graphical-representation-of-the-normal-curve"><span class="header-section-number">1.4</span> 📈 Graphical Representation of the Normal Curve</a></li>
+  <li><a href="#empirical-rule-68---95---99.7" id="toc-empirical-rule-68---95---99.7" class="nav-link" data-scroll-target="#empirical-rule-68---95---99.7"><span class="header-section-number">1.5</span> 📏 Empirical Rule — 68% - 95% - 99.7%</a></li>
+  <li>
+<a href="#parameters-of-the-normal-distribution" id="toc-parameters-of-the-normal-distribution" class="nav-link" data-scroll-target="#parameters-of-the-normal-distribution"><span class="header-section-number">1.6</span> 📌 Parameters of the Normal Distribution</a>
+  <ul class="collapse">
+<li><a href="#why-are-these-parameters-important" id="toc-why-are-these-parameters-important" class="nav-link" data-scroll-target="#why-are-these-parameters-important"><span class="header-section-number">1.6.1</span> 🎯 Why Are These Parameters Important?</a></li>
+  </ul>
+</li>
+  <li>
+<a href="#example-iq-distribution-stanfordbinet" id="toc-example-iq-distribution-stanfordbinet" class="nav-link" data-scroll-target="#example-iq-distribution-stanfordbinet"><span class="header-section-number">1.7</span> 🎓 Example: IQ Distribution (Stanford–Binet)</a>
+  <ul class="collapse">
+<li><a href="#interpretation" id="toc-interpretation" class="nav-link" data-scroll-target="#interpretation"><span class="header-section-number">1.7.1</span> 🧠 Interpretation</a></li>
+  <li><a href="#visualization" id="toc-visualization" class="nav-link" data-scroll-target="#visualization"><span class="header-section-number">1.7.2</span> 📊 Visualization</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><span class="header-section-number">1.7.3</span> 💡 Conclusion</a></li>
+  </ul>
+</li>
+  <li><a href="#empirical-rule-applied-to-iq-distribution" id="toc-empirical-rule-applied-to-iq-distribution" class="nav-link" data-scroll-target="#empirical-rule-applied-to-iq-distribution"><span class="header-section-number">1.8</span> 📐 Empirical Rule Applied to IQ Distribution</a></li>
+  <li><a href="#example-with-python-code-visualizing-the-empirical-rule" id="toc-example-with-python-code-visualizing-the-empirical-rule" class="nav-link" data-scroll-target="#example-with-python-code-visualizing-the-empirical-rule"><span class="header-section-number">1.9</span> 🧪 Example with Python Code: Visualizing the Empirical Rule</a></li>
+  <li>
+<a href="#foundation-of-the-empirical-rule" id="toc-foundation-of-the-empirical-rule" class="nav-link" data-scroll-target="#foundation-of-the-empirical-rule"><span class="header-section-number">1.10</span> 📐 Foundation of the Empirical Rule</a>
+  <ul class="collapse">
+<li><a href="#probability-density-function-of-the-standard-normal" id="toc-probability-density-function-of-the-standard-normal" class="nav-link" data-scroll-target="#probability-density-function-of-the-standard-normal"><span class="header-section-number">1.10.1</span> 🔢 Probability Density Function of the Standard Normal</a></li>
+  </ul>
+</li>
+  <li><a href="#functions-for-the-normal-distribution-excel-and-r" id="toc-functions-for-the-normal-distribution-excel-and-r" class="nav-link" data-scroll-target="#functions-for-the-normal-distribution-excel-and-r"><span class="header-section-number">1.11</span> Functions for the Normal Distribution: Excel and R</a></li>
+  <li><a href="#practical-example-with-r" id="toc-practical-example-with-r" class="nav-link" data-scroll-target="#practical-example-with-r"><span class="header-section-number">1.12</span> Practical Example with R</a></li>
+  <li><a href="#practical-example-probability-of-iq-below-120" id="toc-practical-example-probability-of-iq-below-120" class="nav-link" data-scroll-target="#practical-example-probability-of-iq-below-120"><span class="header-section-number">1.13</span> Practical Example – Probability of IQ Below 120</a></li>
+  <li>
+<a href="#example-solving-without-excel-or-r-using-the-z-score" id="toc-example-solving-without-excel-or-r-using-the-z-score" class="nav-link" data-scroll-target="#example-solving-without-excel-or-r-using-the-z-score"><span class="header-section-number">1.14</span> Example: Solving Without Excel or R — Using the z-Score</a>
+  <ul class="collapse">
+<li><a href="#step-1-standardization-with-the-z-score" id="toc-step-1-standardization-with-the-z-score" class="nav-link" data-scroll-target="#step-1-standardization-with-the-z-score"><span class="header-section-number">1.14.1</span> 🧮 Step 1: Standardization with the z-Score</a></li>
+  <li><a href="#step-2-looking-up-the-z-table" id="toc-step-2-looking-up-the-z-table" class="nav-link" data-scroll-target="#step-2-looking-up-the-z-table"><span class="header-section-number">1.14.2</span> 📖 Step 2: Looking Up the Z Table</a></li>
+  </ul>
+</li>
+  <li>
+<a href="#understanding-the-z-score" id="toc-understanding-the-z-score" class="nav-link" data-scroll-target="#understanding-the-z-score"><span class="header-section-number">1.15</span> 📏 Understanding the z-Score</a>
+  <ul class="collapse">
+<li><a href="#interpretation-1" id="toc-interpretation-1" class="nav-link" data-scroll-target="#interpretation-1"><span class="header-section-number">1.15.1</span> 🔍 Interpretation:</a></li>
+  <li><a href="#why-is-it-useful" id="toc-why-is-it-useful" class="nav-link" data-scroll-target="#why-is-it-useful"><span class="header-section-number">1.15.2</span> 🎯 Why Is It Useful?</a></li>
+  <li><a href="#visual-summary-interpreting-the-z-score" id="toc-visual-summary-interpreting-the-z-score" class="nav-link" data-scroll-target="#visual-summary-interpreting-the-z-score"><span class="header-section-number">1.15.3</span> 📊 Visual Summary: Interpreting the z-Score</a></li>
+  </ul>
+</li>
+  <li>
+<a href="#calculations-with-z-table-r-and-excel" id="toc-calculations-with-z-table-r-and-excel" class="nav-link" data-scroll-target="#calculations-with-z-table-r-and-excel"><span class="header-section-number">1.16</span> 🧮 Calculations with Z Table, R, and Excel</a>
+  <ul class="collapse">
+<li><a href="#example-1-cumulative-area-up-to-z-1.5" id="toc-example-1-cumulative-area-up-to-z-1.5" class="nav-link" data-scroll-target="#example-1-cumulative-area-up-to-z-1.5"><span class="header-section-number">1.16.1</span> 🔹 Example 1 — Cumulative Area up to <span class="math inline">\(z = 1.5\)</span></a></li>
+  <li><a href="#example-2-area-between--1.5-z-1.5" id="toc-example-2-area-between--1.5-z-1.5" class="nav-link" data-scroll-target="#example-2-area-between--1.5-z-1.5"><span class="header-section-number">1.16.2</span> 🔹 Example 2 — Area Between <span class="math inline">\(-1.5 &lt; Z &lt; 1.5\)</span></a></li>
+  <li><a href="#example-3-area-to-the-right-of-z-1.5" id="toc-example-3-area-to-the-right-of-z-1.5" class="nav-link" data-scroll-target="#example-3-area-to-the-right-of-z-1.5"><span class="header-section-number">1.16.3</span> 🔹 Example 3 — Area to the Right of <span class="math inline">\(z = 1.5\)</span></a></li>
+  </ul>
+</li>
+  <li>
+<a href="#summary-table-calculations-with-the-z-score" id="toc-summary-table-calculations-with-the-z-score" class="nav-link" data-scroll-target="#summary-table-calculations-with-the-z-score"><span class="header-section-number">1.17</span> 🧾 Summary Table — Calculations with the z-Score</a>
+  <ul class="collapse">
+<li><a href="#area-up-to-z-1.5" id="toc-area-up-to-z-1.5" class="nav-link" data-scroll-target="#area-up-to-z-1.5"><span class="header-section-number">1.17.1</span> 🔵 Area up to <span class="math inline">\(z = 1.5\)</span></a></li>
+  <li><a href="#area-between--1.5-z-1.5-1" id="toc-area-between--1.5-z-1.5-1" class="nav-link" data-scroll-target="#area-between--1.5-z-1.5-1"><span class="header-section-number">1.17.2</span> 🟢 Area between <span class="math inline">\(-1.5 &lt; Z &lt; 1.5\)</span></a></li>
+  <li><a href="#area-to-the-right-of-z-1.5-1" id="toc-area-to-the-right-of-z-1.5-1" class="nav-link" data-scroll-target="#area-to-the-right-of-z-1.5-1"><span class="header-section-number">1.17.3</span> 🔴 Area to the Right of <span class="math inline">\(z = 1.5\)</span></a></li>
+  </ul>
+</li>
+  <li>
+<a href="#finding-the-original-value-x-from-a-z-score" id="toc-finding-the-original-value-x-from-a-z-score" class="nav-link" data-scroll-target="#finding-the-original-value-x-from-a-z-score"><span class="header-section-number">1.18</span> 🔄 Finding the Original Value <span class="math inline">\(x\)</span> from a z-Score</a>
+  <ul class="collapse">
+<li><a href="#inverse-formula" id="toc-inverse-formula" class="nav-link" data-scroll-target="#inverse-formula"><span class="header-section-number">1.18.1</span> 🧮 Inverse Formula</a></li>
+  <li><a href="#example" id="toc-example" class="nav-link" data-scroll-target="#example"><span class="header-section-number">1.18.2</span> ✏️ Example</a></li>
+  </ul>
+</li>
+  <li>
+<a href="#example-with-a-negative-z-score" id="toc-example-with-a-negative-z-score" class="nav-link" data-scroll-target="#example-with-a-negative-z-score"><span class="header-section-number">1.19</span> 🧠 Example: with a Negative z-Score</a>
+  <ul class="collapse">
+<li><a href="#step-1-standardization" id="toc-step-1-standardization" class="nav-link" data-scroll-target="#step-1-standardization"><span class="header-section-number">1.19.1</span> 🧮 Step 1 — Standardization:</a></li>
+  <li><a href="#step-2-looking-up-the-z-table-1" id="toc-step-2-looking-up-the-z-table-1" class="nav-link" data-scroll-target="#step-2-looking-up-the-z-table-1"><span class="header-section-number">1.19.2</span> 📖 Step 2 — Looking Up the Z Table:</a></li>
+  <li><a href="#using-r" id="toc-using-r" class="nav-link" data-scroll-target="#using-r"><span class="header-section-number">1.19.3</span> 🧪 Using R:</a></li>
+  <li><a href="#using-excel" id="toc-using-excel" class="nav-link" data-scroll-target="#using-excel"><span class="header-section-number">1.19.4</span> 🧮 Using Excel:</a></li>
+  <li><a href="#graphical-visualization" id="toc-graphical-visualization" class="nav-link" data-scroll-target="#graphical-visualization"><span class="header-section-number">1.19.5</span> 📊 Graphical Visualization</a></li>
+  <li><a href="#conclusion-2" id="toc-conclusion-2" class="nav-link" data-scroll-target="#conclusion-2"><span class="header-section-number">1.19.6</span> ✅ Conclusion</a></li>
+  </ul>
+</li>
+  <li><a href="#visualizing-pz--1.25-with-symmetry" id="toc-visualizing-pz--1.25-with-symmetry" class="nav-link" data-scroll-target="#visualizing-pz--1.25-with-symmetry"><span class="header-section-number">1.20</span> 🔄 Visualizing <span class="math inline">\(P(Z &lt; -1.25)\)</span> with Symmetry</a></li>
+  <li>
+<a href="#numerical-example-with-symmetry" id="toc-numerical-example-with-symmetry" class="nav-link" data-scroll-target="#numerical-example-with-symmetry"><span class="header-section-number">1.21</span> 📊 Numerical Example with Symmetry</a>
+  <ul class="collapse">
+<li><a href="#step-1-standardization-1" id="toc-step-1-standardization-1" class="nav-link" data-scroll-target="#step-1-standardization-1"><span class="header-section-number">1.21.1</span> 🧮 Step 1 — Standardization</a></li>
+  <li><a href="#step-2-using-symmetry-and-the-z-table" id="toc-step-2-using-symmetry-and-the-z-table" class="nav-link" data-scroll-target="#step-2-using-symmetry-and-the-z-table"><span class="header-section-number">1.21.2</span> 📈 Step 2 — Using Symmetry and the Z Table</a></li>
+  <li><a href="#calculation-in-r" id="toc-calculation-in-r" class="nav-link" data-scroll-target="#calculation-in-r"><span class="header-section-number">1.21.3</span> 🧪 Calculation in R</a></li>
+  <li><a href="#calculation-in-excel" id="toc-calculation-in-excel" class="nav-link" data-scroll-target="#calculation-in-excel"><span class="header-section-number">1.21.4</span> 📊 Calculation in Excel</a></li>
+  </ul>
+</li>
+  <li><a href="#conclusion-of-part-1-introduction-to-the-normal-distribution" id="toc-conclusion-of-part-1-introduction-to-the-normal-distribution" class="nav-link" data-scroll-target="#conclusion-of-part-1-introduction-to-the-normal-distribution"><span class="header-section-number">1.22</span> 📌 Conclusion of Part 1: Introduction to the Normal Distribution</a></li>
+  </ul>
+</li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">2</span> 📚 References</a></li>
+  <li><a href="#quick-access-to-the-course-parts" id="toc-quick-access-to-the-course-parts" class="nav-link" data-scroll-target="#quick-access-to-the-course-parts"><span class="header-section-number">3</span> 🔗 Quick Access to the Course Parts</a></li>
+  <li><a href="#useful-links" id="toc-useful-links" class="nav-link" data-scroll-target="#useful-links"><span class="header-section-number">4</span> 🔗 Useful Links</a></li>
+  </ul></nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
+<h1 class="title">🎓 📊 Statistics Course: The Normal Distribution (Part 1): Introduction to the Normal Distribution</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">statistics</div>
+    <div class="quarto-category">normal distribution</div>
+    <div class="quarto-category">courses</div>
+    <div class="quarto-category">exercises</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    This course aims to present, in an accessible and applied way, the fundamentals of the normal distribution, also known as the Gaussian distribution, supported by graphical visualizations and computational tools.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta column-page-left">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Blog do Marcellini </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 24, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header><!-- Breadcrumbs --><p><a href="../../../../../posts/courses/statistics/normal_distribution/index.html">← Course Summary</a> · <a href="../../../../../posts/courses/statistics/index.html">← Statistics Courses</a> · <a href="../../../../../posts/statistics/index.html">← Statistics Section</a></p>
+<hr>
+<div class="quarto-figure quarto-figure-center" style="margin-bottom: 2rem;">
+<figure class="figure"><p><img src="../images/curva-normal-fundo-preto.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Normal Distribution</figcaption></figure>
+</div>
+<section id="the-normal-distribution-part-1" class="level1" data-number="1"><h1 data-number="1">
+<span class="header-section-number">1</span> 🎓 📊 The Normal Distribution — Part 1</h1>
+<p>This course aims to present, in an accessible and applied way, the fundamentals of the normal distribution, also known as the Gaussian distribution, supported by graphical visualizations and computational tools.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="📌 Post Objectives">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>📌 Post Objectives
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>The Gaussian curve and the <strong>Empirical Rule</strong>;</li>
+<li>The concept of the <strong><span class="math inline">\(z\)</span>-score</strong> and how to use it to calculate probabilities;</li>
+<li>The interpretation of the area under the curve and its applications in real-world situations;</li>
+<li>Practical calculations using the <strong>Z Table</strong>, <strong>R</strong>, and <strong>Excel</strong>.</li>
+</ul>
+</div>
+</div>
+<hr>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>🌱 Introduction: What Are We Studying?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>Before diving into the normal distribution, it is essential to understand some key concepts in statistics. They provide the foundation for understanding how we can describe and analyze real-world data.</p>
+<ul>
+<li><p>🔢 <strong>Population</strong> The complete set of elements with a characteristic of interest. <em>Examples</em>: all the students in a school, all the light bulbs produced by a factory, or all the inhabitants of a country.</p></li>
+<li><p>🧪 <strong>Sample</strong> A subset of the population, used when it is not feasible to measure all elements. A well-chosen sample allows us to make inferences about the population. <em>Example</em>: measuring the IQ of 200 students to estimate the average IQ of the school.</p></li>
+<li>
+<p>🎲 <strong>Random variable</strong> Represents an uncertain phenomenon, whose possible values are associated with numerical outcomes. It can be:</p>
+<ul>
+<li>
+<strong>Discrete</strong>: takes on specific, countable values (number of children per family, calls answered per day).</li>
+<li>
+<strong>Continuous</strong>: can take any value within an interval (height in inches or centimeters, time, temperature, IQ).</li>
+</ul>
+</li>
+<li><p>📊 <strong>Probability distribution</strong> Shows how the values of a random variable are distributed. <em>Examples</em>: the chance of a baby being born at a certain weight; the probability of a car consuming a given amount of fuel.</p></li>
+<li><p>📈 <strong>Probability density function (PDF)</strong> For continuous variables, we use curves instead of tables. The <strong>height of the curve</strong> indicates the <strong>relative probability</strong> of each value, and the <strong>area under the curve</strong> represents the <strong>total probability</strong> of an interval. <em>Example</em>: the area between 63 inches and 67 inches (≈160–170 cm) on the human height curve indicates the proportion of people in this range.</p></li>
+<li><p>⚖️ <strong>Mean (<span class="math inline">\(\mu\)</span>)</strong> The central value of the distribution. <em>Example</em>: if the average height of adults is 67 inches (≈170 cm), then this is the balance point of the curve.</p></li>
+<li><p>📐 <strong>Standard deviation (<span class="math inline">\(\sigma\)</span>)</strong> Measures the <strong>dispersion</strong> of the data around the mean. The larger <span class="math inline">\(\sigma\)</span>, the more “spread out” the data are. <em>Example</em>: if the average IQ is 100 and <span class="math inline">\(\sigma = 15\)</span>, most people will have an IQ between 85 and 115.</p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>🌍 Importance of the Normal Distribution
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>The normal distribution is an essential statistical model because it accurately describes many real-world phenomena — both natural and social. It especially emerges when <strong>several random and independent causes</strong> influence a final outcome. In such cases, data tend to cluster around a mean, forming the classic bell-shaped curve.</p>
+<p>🔎 <strong>Why does this matter?</strong> Because normality <strong>simplifies statistical analysis</strong> and enables the use of powerful inference tools.</p>
+<p>📌 <strong>Practical examples</strong>:</p>
+<ul>
+<li><p>📚 <strong>Standardized test scores</strong>: results are distributed around the mean, with only a few students scoring very high or very low.</p></li>
+<li><p>🌿 <strong>Plant height</strong> of the same species grown under similar conditions tends to cluster around a central value.</p></li>
+<li><p>📉 <strong>Financial asset returns</strong> (stocks, currencies) approximate a normal curve in short periods — though with caveats regarding extreme events.</p></li>
+</ul>
+<p>📈 <strong>Assuming normality allows us to</strong>:</p>
+<ul>
+<li><p>Calculate probabilities using well-known formulas and tables;</p></li>
+<li><p>Estimate confidence intervals;</p></li>
+<li><p>Apply hypothesis tests;</p></li>
+<li><p>Visualize data in a clear and comparable way.</p></li>
+</ul>
+</div>
+</div>
+</div>
+<section id="standard-normal-curve" class="level2" data-number="1.1"><h2 data-number="1.1" class="anchored" data-anchor-id="standard-normal-curve">
+<span class="header-section-number">1.1</span> 📏 Standard Normal Curve</h2>
+<p>The <strong>normal curve</strong>, also known as the <strong>Gaussian distribution</strong>, is one of the most fundamental tools in statistics. It describes how certain variables are distributed around a mean, with most values concentrated near that mean and fewer values at the extremes.</p>
+<p>When we talk about the <strong>standard normal curve</strong>, we are referring to a specific version of this distribution, with:</p>
+<ul>
+<li>
+<strong>mean</strong> <span class="math inline">\(\mu = 0\)</span>
+</li>
+<li>
+<strong>standard deviation</strong> <span class="math inline">\(\sigma = 1\)</span>
+</li>
+</ul>
+<p>This standardization makes it easier to compare different datasets and forms the basis for many statistical procedures, such as probability calculations, hypothesis testing, and confidence interval construction.</p>
+<hr>
+<section id="why-is-it-so-important" class="level3" data-number="1.1.1"><h3 data-number="1.1.1" class="anchored" data-anchor-id="why-is-it-so-important">
+<span class="header-section-number">1.1.1</span> 🧠 Why Is It So Important?</h3>
+<p>The standard normal curve is used to:</p>
+<ul>
+<li>model natural phenomena (such as height, weight, measurement errors);</li>
+<li>standardize data into <strong>z-scores</strong>;</li>
+<li>build reference tables;</li>
+<li>develop inferential reasoning in statistics.</li>
+</ul>
+<div style="text-align: center;">
+<p><img src="../images/curva-normal.png" width="100%"></p>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p><strong>Normal Curve (or Gaussian Distribution):</strong> Represents a symmetric distribution around the mean. In the <strong>standard</strong> version, the mean is <span class="math inline">\(\mu = 0\)</span> and the standard deviation <span class="math inline">\(\sigma = 1\)</span>. The area under the curve corresponds to the entirety of the observed population.</p>
+</div>
+</div>
+</div>
+</section></section><section id="measuring-the-invisible" class="level2" data-number="1.2"><h2 data-number="1.2" class="anchored" data-anchor-id="measuring-the-invisible">
+<span class="header-section-number">1.2</span> 🎯 Measuring the Invisible</h2>
+<p>We cannot always directly observe the characteristics of a population. In many cases, we deal with <strong>abstract concepts</strong> — such as intelligence, musical ability, productivity, or motivation — that cannot be measured in a direct and objective way.</p>
+<p>However, even though they are “invisible,” these characteristics leave <strong>traces in the data</strong>: exams, tests, evaluations, questionnaires, practical performance. This is where statistics comes in: it helps us <strong>infer</strong> what we cannot see from what we are able to measure.</p>
+<ul>
+<li>It is assumed, for example, that these characteristics:
+<ul>
+<li>tend to <strong>cluster around the mean</strong>;</li>
+<li>are <strong>rare at the extremes</strong> (very high or very low values);</li>
+<li>can be represented by <strong>symmetric curves</strong>, such as the normal curve.</li>
+</ul>
+</li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>To estimate is to measure with uncertainty.</strong> The normal curve provides us with a way to describe this uncertainty with mathematical precision.</p>
+</div>
+</div>
+</section><section id="the-normal-curve-a-deeper-look" class="level2" data-number="1.3"><h2 data-number="1.3" class="anchored" data-anchor-id="the-normal-curve-a-deeper-look">
+<span class="header-section-number">1.3</span> 📐 The Normal Curve: A Deeper Look</h2>
+<p>The normal curve can be understood as the graphical representation of a mathematical function called the <strong>probability density function</strong>.</p>
+<ul>
+<li>The <strong>horizontal axis</strong> represents the measured values of the variable: <span class="math inline">\(x\)</span>.</li>
+<li>The <strong>vertical axis</strong> indicates the height of the curve at each point: <span class="math inline">\(f(x)\)</span>, that is, the probability density.</li>
+<li>The <strong>relationship between <span class="math inline">\(x\)</span> and <span class="math inline">\(f(x)\)</span></strong> is described by the formula:</li>
+</ul>
+<p><span class="math display">\[
+\boxed{f(x) = \frac{1}{\sqrt{2\pi\sigma^2}} \cdot e^{-\frac{(x - \mu)^2}{2\sigma^2}}}
+\]</span></p>
+<p>where:</p>
+<ul>
+<li>
+<span class="math inline">\(\mu\)</span> is the <strong>mean</strong> of the distribution,</li>
+<li>
+<span class="math inline">\(\sigma\)</span> is the <strong>standard deviation</strong>,</li>
+<li>
+<span class="math inline">\(e\)</span> is the base of the natural logarithm (approximately 2.718).</li>
+</ul>
+<p>In the <strong>standard form</strong>, we have <span class="math inline">\(\mu = 0\)</span> and <span class="math inline">\(\sigma = 1\)</span>.</p>
+<ul>
+<li>For each value of <span class="math inline">\(x\)</span>, the function returns the <strong>height of the curve</strong> at that point.</li>
+<li>The <strong>area under the curve</strong> between two values represents the <strong>probability</strong> that the random variable takes a value within that interval.</li>
+</ul>
+<hr></section><section id="graphical-representation-of-the-normal-curve" class="level2" data-number="1.4"><h2 data-number="1.4" class="anchored" data-anchor-id="graphical-representation-of-the-normal-curve">
+<span class="header-section-number">1.4</span> 📈 Graphical Representation of the Normal Curve</h2>
+<div style="text-align: center;">
+<p><img src="../images/curva-normal-tikz.png" width="100%"></p>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Standard Normal Curve:</strong> The curve is centered at <span class="math inline">\(\mu = 0\)</span> and the standard deviation is <span class="math inline">\(\sigma = 1\)</span>. The area under the curve represents the distribution of the population around the mean.</p>
+</div>
+</div>
+</section><section id="empirical-rule-68---95---99.7" class="level2" data-number="1.5"><h2 data-number="1.5" class="anchored" data-anchor-id="empirical-rule-68---95---99.7">
+<span class="header-section-number">1.5</span> 📏 Empirical Rule — 68% - 95% - 99.7%</h2>
+<p>The <strong>Empirical Rule</strong> describes how data are distributed around the mean in a <strong>standard normal distribution</strong>.</p>
+<ul>
+<li>About <strong>68%</strong> of the data lie between <span class="math inline">\(\mu - 1\sigma\)</span> and <span class="math inline">\(\mu + 1\sigma\)</span>
+</li>
+<li>About <strong>95%</strong> of the data lie between <span class="math inline">\(\mu - 2\sigma\)</span> and <span class="math inline">\(\mu + 2\sigma\)</span>
+</li>
+<li>About <strong>99.7%</strong> of the data lie between <span class="math inline">\(\mu - 3\sigma\)</span> and <span class="math inline">\(\mu + 3\sigma\)</span>
+</li>
+</ul>
+<div style="text-align: center;">
+<p><img src="../images/regra-normal.png" width="100%"></p>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>The Empirical Rule is a powerful visual tool.</strong> It allows us to quickly identify what is common and what is rare in a population that follows a normal distribution.</p>
+</div>
+</div>
+</section><section id="parameters-of-the-normal-distribution" class="level2" data-number="1.6"><h2 data-number="1.6" class="anchored" data-anchor-id="parameters-of-the-normal-distribution">
+<span class="header-section-number">1.6</span> 📌 Parameters of the Normal Distribution</h2>
+<p>The <strong>normal distribution</strong> is not a single curve, but rather a <strong>family of curves</strong>. Each member of this family is fully described by <strong>two population parameters</strong>:</p>
+<ul>
+<li><p><strong>Mean <span class="math inline">\(\mu\)</span></strong>: Indicates the <strong>center of the distribution</strong>. The curve is symmetric around this value.</p></li>
+<li><p><strong>Standard deviation <span class="math inline">\(\sigma\)</span></strong>: Measures the <strong>dispersion</strong> of the data. Curves with larger <span class="math inline">\(\sigma\)</span> are more <strong>spread out and flatter</strong>; with smaller <span class="math inline">\(\sigma\)</span>, they are more <strong>narrow and taller</strong>.</p></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>In any normal distribution, the curve is <strong>perfectly symmetric</strong>: the left side is a mirror image of the right side with respect to the mean.</p>
+</div>
+</div>
+<section id="why-are-these-parameters-important" class="level3" data-number="1.6.1"><h3 data-number="1.6.1" class="anchored" data-anchor-id="why-are-these-parameters-important">
+<span class="header-section-number">1.6.1</span> 🎯 Why Are These Parameters Important?</h3>
+<p>By knowing <span class="math inline">\(\mu\)</span> and <span class="math inline">\(\sigma\)</span>, we can:</p>
+<ul>
+<li><p><strong>Locate typical values</strong> of the population;</p></li>
+<li><p><strong>Calculate probabilities</strong> of values occurring within certain intervals;</p></li>
+<li><p><strong>Standardize</strong> data from different distributions using the transformation:</p></li>
+</ul>
+<p><span class="math display">\[
+\boxed{z = \frac{x - \mu}{\sigma}}
+\]</span></p>
+<p>This transformation converts any value <span class="math inline">\(x\)</span> into a <strong>z-score</strong>, making it possible to use the <strong>standard normal distribution</strong> directly.</p>
+<hr>
+<div style="text-align: center;">
+<p><img src="../images/curvas-normais-mesmo-mu.png" width="100%"></p>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Normal Curves with the Same Mean</strong> The mean defines the central position of the curves. The shape (height and width) is controlled exclusively by the standard deviation <span class="math inline">\(\sigma\)</span>.</p>
+</div>
+</div>
+</section></section><section id="example-iq-distribution-stanfordbinet" class="level2" data-number="1.7"><h2 data-number="1.7" class="anchored" data-anchor-id="example-iq-distribution-stanfordbinet">
+<span class="header-section-number">1.7</span> 🎓 Example: IQ Distribution (Stanford–Binet)</h2>
+<p>Let’s apply the normal distribution to a practical case.</p>
+<p>Suppose that <strong>IQ (Intelligence Quotient)</strong> scores follow a <strong>normal distribution</strong> with:</p>
+<ul>
+<li>Mean <span class="math inline">\(\mu = 100\)</span>
+</li>
+<li>Standard deviation <span class="math inline">\(\sigma = 16\)</span>
+</li>
+</ul>
+<hr>
+<section id="interpretation" class="level3" data-number="1.7.1"><h3 data-number="1.7.1" class="anchored" data-anchor-id="interpretation">
+<span class="header-section-number">1.7.1</span> 🧠 Interpretation</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Interval of 1 Standard Deviation Around the Mean</strong></p>
+<p>The general formula to calculate this interval is:</p>
+<p><span class="math display">\[
+\mu \pm k\sigma
+\]</span></p>
+<p>In this example, with <span class="math inline">\(\mu = 100\)</span>, <span class="math inline">\(\sigma = 16\)</span>, and <span class="math inline">\(k = 1\)</span>:</p>
+<p><span class="math display">\[
+\mu - 1\sigma = 100 - 1 \times 16 = 84
+\]</span> <span class="math display">\[
+\quad \text{and} \quad
+\]</span> <span class="math display">\[
+\mu + 1\sigma = 100 + 1 \times 16 = 116
+\]</span></p>
+<p>Therefore, according to the <strong>Empirical Rule</strong>, about <strong>68% of the population</strong> has an IQ between <strong>84 and 116</strong>.</p>
+</div>
+</div>
+</section><section id="visualization" class="level3" data-number="1.7.2"><h3 data-number="1.7.2" class="anchored" data-anchor-id="visualization">
+<span class="header-section-number">1.7.2</span> 📊 Visualization</h3>
+<div style="text-align: center;">
+<p><img src="../images/exemplo-qi.png" width="80%"></p>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>IQ Distribution — Interval of 1 Standard Deviation</strong></p>
+<p>The shaded area represents individuals with IQ between 84 and 116. According to the Empirical Rule, this interval contains about 68% of the population.</p>
+</div>
+</div>
+</section><section id="conclusion" class="level3" data-number="1.7.3"><h3 data-number="1.7.3" class="anchored" data-anchor-id="conclusion">
+<span class="header-section-number">1.7.3</span> 💡 Conclusion</h3>
+<ul>
+<li>The Stanford–Binet test is calibrated to follow this distribution.</li>
+<li>The normal curve makes it possible to <strong>assess how common</strong> or <strong>rare</strong> an IQ score is.</li>
+<li>Scores outside the interval <span class="math inline">\(\mu \pm 2\sigma\)</span> (between 68 and 132) are already considered <strong>atypical</strong>.</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The normal distribution is useful for comparing individuals to the population mean and identifying exceptional performance.</p>
+</div>
+</div>
+</section></section><section id="empirical-rule-applied-to-iq-distribution" class="level2" data-number="1.8"><h2 data-number="1.8" class="anchored" data-anchor-id="empirical-rule-applied-to-iq-distribution">
+<span class="header-section-number">1.8</span> 📐 Empirical Rule Applied to IQ Distribution</h2>
+<div class="text-center">
+<p><img src="../images/regra-empirica-qi-faixas-separadas.png" class="img-fluid" style="width:100.0%"></p>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-13" class="callout-13-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p><strong>Empirical Rule Applied to IQ</strong></p>
+<p>The IQ distribution (with mean <span class="math inline">\(\mu = 100\)</span> and standard deviation <span class="math inline">\(\sigma = 16\)</span>) allows us to clearly visualize the Empirical Rule:</p>
+<ul>
+<li>
+<strong>68%</strong> of individuals have IQ between <strong>84 and 116</strong> <span class="math inline">\((\mu \pm 1\sigma)\)</span>
+</li>
+<li>
+<strong>95%</strong> are between <strong>68 and 132</strong> <span class="math inline">\((\mu \pm 2\sigma)\)</span>
+</li>
+<li>
+<strong>99.7%</strong> are between <strong>52 and 148</strong> <span class="math inline">\((\mu \pm 3\sigma)\)</span>
+</li>
+</ul>
+<p>Each band of the curve represents a portion of the population and was drawn with <strong>non-overlapping colors</strong> to highlight their individual contributions.</p>
+</div>
+</div>
+</div>
+</section><section id="example-with-python-code-visualizing-the-empirical-rule" class="level2" data-number="1.9"><h2 data-number="1.9" class="anchored" data-anchor-id="example-with-python-code-visualizing-the-empirical-rule">
+<span class="header-section-number">1.9</span> 🧪 Example with Python Code: Visualizing the Empirical Rule</h2>
+<p>Let’s graphically represent an IQ distribution using the empirical rule. Suppose IQ scores follow a normal distribution with mean <span class="math inline">\(\mu = 100\)</span> and standard deviation <span class="math inline">\(\sigma = 16\)</span>. The chart below shows the <strong>non-overlapping bands</strong> of the empirical rule:</p>
+<div class="callout callout-style-default callout-note callout-titled" title="👨‍💻 🐍 Python Code — generate the figure">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-14-contents" aria-controls="callout-14" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>👨‍💻 🐍 Python Code — generate the figure
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-14" class="callout-14-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="cell" data-layout-align="center">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Distribution parameters</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>mu <span class="op">=</span> <span class="dv">100</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>sigma <span class="op">=</span> <span class="dv">16</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.linspace(<span class="dv">40</span>, <span class="dv">160</span>, <span class="dv">1000</span>)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> <span class="dv">1</span> <span class="op">/</span> (np.sqrt(<span class="dv">2</span> <span class="op">*</span> np.pi) <span class="op">*</span> sigma) <span class="op">*</span> np.exp(<span class="op">-</span> (x <span class="op">-</span> mu)<span class="op">**</span><span class="dv">2</span> <span class="op">/</span> (<span class="dv">2</span> <span class="op">*</span> sigma<span class="op">**</span><span class="dv">2</span>))</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Separated bands of the empirical rule</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>bands <span class="op">=</span> [</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    {<span class="st">'label'</span>: <span class="st">'3σ: 52 to 68'</span>,   <span class="st">'x1'</span>: mu <span class="op">-</span> <span class="dv">3</span><span class="op">*</span>sigma, <span class="st">'x2'</span>: mu <span class="op">-</span> <span class="dv">2</span><span class="op">*</span>sigma, <span class="st">'color'</span>: <span class="st">'#FFC0CB'</span>},</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    {<span class="st">'label'</span>: <span class="st">'2σ: 68 to 84'</span>,   <span class="st">'x1'</span>: mu <span class="op">-</span> <span class="dv">2</span><span class="op">*</span>sigma, <span class="st">'x2'</span>: mu <span class="op">-</span> <span class="dv">1</span><span class="op">*</span>sigma, <span class="st">'color'</span>: <span class="st">'#ADD8E6'</span>},</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    {<span class="st">'label'</span>: <span class="st">'1σ: 84 to 100'</span>,  <span class="st">'x1'</span>: mu <span class="op">-</span> <span class="dv">1</span><span class="op">*</span>sigma, <span class="st">'x2'</span>: mu,           <span class="st">'color'</span>: <span class="st">'#90EE90'</span>},</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    {<span class="st">'label'</span>: <span class="st">'1σ: 100 to 116'</span>, <span class="st">'x1'</span>: mu,           <span class="st">'x2'</span>: mu <span class="op">+</span> <span class="dv">1</span><span class="op">*</span>sigma, <span class="st">'color'</span>: <span class="st">'#90EE90'</span>},</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    {<span class="st">'label'</span>: <span class="st">'2σ: 116 to 132'</span>, <span class="st">'x1'</span>: mu <span class="op">+</span> <span class="dv">1</span><span class="op">*</span>sigma, <span class="st">'x2'</span>: mu <span class="op">+</span> <span class="dv">2</span><span class="op">*</span>sigma, <span class="st">'color'</span>: <span class="st">'#ADD8E6'</span>},</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    {<span class="st">'label'</span>: <span class="st">'3σ: 132 to 148'</span>, <span class="st">'x1'</span>: mu <span class="op">+</span> <span class="dv">2</span><span class="op">*</span>sigma, <span class="st">'x2'</span>: mu <span class="op">+</span> <span class="dv">3</span><span class="op">*</span>sigma, <span class="st">'color'</span>: <span class="st">'#FFC0CB'</span>}</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Create figure (no figsize to use Quarto's fig-width/fig-height)</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots()</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>ax.plot(x, y, color<span class="op">=</span><span class="st">'black'</span>)</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="co"># Fill bands</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> band <span class="kw">in</span> bands:</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>    x_fill <span class="op">=</span> np.linspace(band[<span class="st">'x1'</span>], band[<span class="st">'x2'</span>], <span class="dv">500</span>)</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>    y_fill <span class="op">=</span> <span class="dv">1</span> <span class="op">/</span> (np.sqrt(<span class="dv">2</span> <span class="op">*</span> np.pi) <span class="op">*</span> sigma) <span class="op">*</span> np.exp(<span class="op">-</span> (x_fill <span class="op">-</span> mu)<span class="op">**</span><span class="dv">2</span> <span class="op">/</span> (<span class="dv">2</span> <span class="op">*</span> sigma<span class="op">**</span><span class="dv">2</span>))</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>    ax.fill_between(x_fill, y_fill, color<span class="op">=</span>band[<span class="st">'color'</span>], label<span class="op">=</span>band[<span class="st">'label'</span>])</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="co"># Mean line</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>ax.axvline(mu, color<span class="op">=</span><span class="st">'blue'</span>, linestyle<span class="op">=</span><span class="st">'--'</span>, linewidth<span class="op">=</span><span class="dv">2</span>, label<span class="op">=</span><span class="st">'Mean (μ = 100)'</span>)</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="co"># Customization</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>ax.set_title(<span class="st">'IQ Distribution — Empirical Rule with Separated Bands'</span>)</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>ax.set_xlabel(<span class="st">'IQ'</span>)</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>ax.set_ylabel(<span class="st">'Probability Density'</span>)</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>ax.grid(<span class="va">True</span>, linestyle<span class="op">=</span><span class="st">"--"</span>, alpha<span class="op">=</span><span class="fl">0.3</span>)</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>ax.legend(loc<span class="op">=</span><span class="st">'upper right'</span>)</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="normal-distribution_files/figure-html/empirical-rule-py-1.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption>IQ Distribution — Empirical Rule with separated bands.</figcaption></figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-15-contents" aria-controls="callout-15" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-15" class="callout-15-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>This chart highlights how IQ values are distributed around the mean, with colored areas representing:</p>
+<ul>
+<li>Light green: 68% of individuals (84 to 116)</li>
+<li>Light blue: 27% of individuals (68 to 84 and 116 to 132)</li>
+<li>Light pink: 4.7% of individuals (52 to 68 and 132 to 148)</li>
+</ul>
+<p>The dashed blue line marks the <strong>population mean</strong>.</p>
+</div>
+</div>
+</div>
+<div class="text-center">
+<p><img src="../images/regra-empirica-qi-faixas-separadas.png" class="img-fluid" style="width:100.0%"></p>
+</div>
+<div class="callout callout-style-default callout-note callout-titled" title="📊 R — generate figure with ggplot2">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-16-contents" aria-controls="callout-16" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>📊 R — generate figure with ggplot2
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-16" class="callout-16-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="cell" data-layout-align="center">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://ggplot2.tidyverse.org">ggplot2</a></span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Parameters</span></span>
+<span><span class="va">mu</span> <span class="op">&lt;-</span> <span class="fl">100</span></span>
+<span><span class="va">sigma</span> <span class="op">&lt;-</span> <span class="fl">16</span></span>
+<span></span>
+<span><span class="co"># Sequence of values</span></span>
+<span><span class="va">x</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/seq.html">seq</a></span><span class="op">(</span><span class="fl">40</span>, <span class="fl">160</span>, length.out <span class="op">=</span> <span class="fl">1000</span><span class="op">)</span></span>
+<span><span class="va">y</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/Normal.html">dnorm</a></span><span class="op">(</span><span class="va">x</span>, mean <span class="op">=</span> <span class="va">mu</span>, sd <span class="op">=</span> <span class="va">sigma</span><span class="op">)</span></span>
+<span><span class="va">df</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html">data.frame</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">x</span>, y <span class="op">=</span> <span class="va">y</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Empirical Rule bands</span></span>
+<span><span class="va">bands</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html">data.frame</a></span><span class="op">(</span></span>
+<span>  xmin <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="va">mu</span> <span class="op">-</span> <span class="fl">3</span><span class="op">*</span><span class="va">sigma</span>, <span class="va">mu</span> <span class="op">-</span> <span class="fl">2</span><span class="op">*</span><span class="va">sigma</span>, <span class="va">mu</span> <span class="op">-</span> <span class="va">sigma</span>, <span class="va">mu</span>, <span class="va">mu</span> <span class="op">+</span> <span class="va">sigma</span>, <span class="va">mu</span> <span class="op">+</span> <span class="fl">2</span><span class="op">*</span><span class="va">sigma</span><span class="op">)</span>,</span>
+<span>  xmax <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="va">mu</span> <span class="op">-</span> <span class="fl">2</span><span class="op">*</span><span class="va">sigma</span>, <span class="va">mu</span> <span class="op">-</span> <span class="va">sigma</span>, <span class="va">mu</span>, <span class="va">mu</span> <span class="op">+</span> <span class="va">sigma</span>, <span class="va">mu</span> <span class="op">+</span> <span class="fl">2</span><span class="op">*</span><span class="va">sigma</span>, <span class="va">mu</span> <span class="op">+</span> <span class="fl">3</span><span class="op">*</span><span class="va">sigma</span><span class="op">)</span>,</span>
+<span>  group <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"3σ"</span>, <span class="st">"2σ"</span>, <span class="st">"1σ"</span>, <span class="st">"1σ"</span>, <span class="st">"2σ"</span>, <span class="st">"3σ"</span><span class="op">)</span>,</span>
+<span>  color <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"#FFC0CB"</span>, <span class="st">"#ADD8E6"</span>, <span class="st">"#90EE90"</span>, <span class="st">"#90EE90"</span>, <span class="st">"#ADD8E6"</span>, <span class="st">"#FFC0CB"</span><span class="op">)</span></span>
+<span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Plot</span></span>
+<span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span><span class="op">(</span><span class="va">df</span>, <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span><span class="va">x</span>, <span class="va">y</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_tile.html">geom_rect</a></span><span class="op">(</span>data <span class="op">=</span> <span class="va">bands</span>,</span>
+<span>            <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span>xmin <span class="op">=</span> <span class="va">xmin</span>, xmax <span class="op">=</span> <span class="va">xmax</span>, ymin <span class="op">=</span> <span class="fl">0</span>, ymax <span class="op">=</span> <span class="cn">Inf</span>, fill <span class="op">=</span> <span class="va">group</span><span class="op">)</span>,</span>
+<span>            inherit.aes <span class="op">=</span> <span class="cn">FALSE</span>, alpha <span class="op">=</span> <span class="fl">0.6</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/scale_manual.html">scale_fill_manual</a></span><span class="op">(</span>values <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/unique.html">unique</a></span><span class="op">(</span><span class="va">bands</span><span class="op">$</span><span class="va">color</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_path.html">geom_line</a></span><span class="op">(</span>color <span class="op">=</span> <span class="st">"black"</span>, linewidth <span class="op">=</span> <span class="fl">1</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_abline.html">geom_vline</a></span><span class="op">(</span>xintercept <span class="op">=</span> <span class="va">mu</span>, color <span class="op">=</span> <span class="st">"blue"</span>, linetype <span class="op">=</span> <span class="st">"dashed"</span>, linewidth <span class="op">=</span> <span class="fl">1</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/labs.html">labs</a></span><span class="op">(</span></span>
+<span>    title <span class="op">=</span> <span class="st">"IQ Distribution — Empirical Rule with ggplot2"</span>,</span>
+<span>    x <span class="op">=</span> <span class="st">"IQ"</span>,</span>
+<span>    y <span class="op">=</span> <span class="st">"Probability Density"</span>,</span>
+<span>    fill <span class="op">=</span> <span class="st">"Interval"</span></span>
+<span>  <span class="op">)</span> <span class="op">+</span></span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggtheme.html">theme_minimal</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="normal-distribution_files/figure-html/empirical-rule-r-3.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption>IQ Distribution — Empirical Rule with ggplot2.</figcaption></figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-17-contents" aria-controls="callout-17" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-17" class="callout-17-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>In this chart, each interval of the normal curve represents a proportion of the population:</p>
+<ul>
+<li>
+<strong>Light pink</strong>: 68.27% of individuals between <span class="math inline">\(\mu \pm 1\sigma\)</span>
+</li>
+<li>
+<strong>Light blue</strong>: from 68.27% up to 95.45% (between <span class="math inline">\(\mu \pm 1\sigma\)</span> and <span class="math inline">\(\mu \pm 2\sigma\)</span>)</li>
+<li>
+<strong>Light pink</strong>: from 95.45% up to 99.73% (between <span class="math inline">\(\mu \pm 2\sigma\)</span> and <span class="math inline">\(\mu \pm 3\sigma\)</span>)</li>
+</ul>
+<p>The dashed blue line indicates the mean <span class="math inline">\(\mu = 100\)</span>.</p>
+</div>
+</div>
+</div>
+</section><section id="foundation-of-the-empirical-rule" class="level2" data-number="1.10"><h2 data-number="1.10" class="anchored" data-anchor-id="foundation-of-the-empirical-rule">
+<span class="header-section-number">1.10</span> 📐 Foundation of the Empirical Rule</h2>
+<p>The <strong>Empirical Rule</strong> is based on the <strong>symmetric shape</strong> of the normal curve and on the <strong>areas under the curve</strong>, which represent <strong>probabilities</strong>.</p>
+<ul>
+<li>The total area under the normal curve equals <strong>1</strong> (or <strong>100%</strong>).</li>
+<li>This area represents the <strong>probability of occurrence</strong> of values within specific intervals.</li>
+<li>To simplify calculations, we use the <strong>standard normal distribution</strong>, with mean <span class="math inline">\(\mu = 0\)</span> and standard deviation <span class="math inline">\(\sigma = 1\)</span>.</li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>In the standard normal distribution, the probability of a value being between two points <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span> is given by the <strong>integral of the density function</strong> between these limits.</p>
+</div>
+</div>
+<section id="probability-density-function-of-the-standard-normal" class="level3" data-number="1.10.1"><h3 data-number="1.10.1" class="anchored" data-anchor-id="probability-density-function-of-the-standard-normal">
+<span class="header-section-number">1.10.1</span> 🔢 Probability Density Function of the Standard Normal</h3>
+<p><span class="math display">\[
+\boxed{f(z) = \frac{1}{\sqrt{2\pi}}\, e^{-z^2/2}}
+\]</span></p>
+<p><span class="math display">\[
+\boxed{P(a &lt; Z &lt; b) = \int_{a}^{b} f(z)\, dz}
+\]</span></p>
+<hr>
+<p>Based on this function, we obtain the following approximations:</p>
+<ul>
+<li><span class="math inline">\(P(-1 &lt; Z &lt; 1) \approx 68.27\%\)</span></li>
+<li><span class="math inline">\(P(-2 &lt; Z &lt; 2) \approx 95.45\%\)</span></li>
+<li><span class="math inline">\(P(-3 &lt; Z &lt; 3) \approx 99.73\%\)</span></li>
+</ul>
+<p>These percentages give rise to the famous <strong>68–95–99.7 Rule</strong>, used in <strong>descriptive statistics</strong> and <strong>inference</strong> to evaluate the dispersion of data around the mean in approximately normal distributions.</p>
+<div class="text-center">
+<p><img src="../images/regra-empirica-normal-padrao.png" class="img-fluid" style="width:100.0%"></p>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-19-contents" aria-controls="callout-19" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-19" class="callout-19-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p><strong>Standard Normal Distribution and the Empirical Rule</strong></p>
+<p>The image illustrates the symmetric bands around the mean <span class="math inline">\(\mu = 0\)</span>:</p>
+<ul>
+<li>
+<strong>68.27%</strong> of the values between <span class="math inline">\(-1\)</span> and <span class="math inline">\(+1\)</span> standard deviation;</li>
+<li>
+<strong>95.45%</strong> between <span class="math inline">\(-2\)</span> and <span class="math inline">\(+2\)</span>;</li>
+<li>
+<strong>99.73%</strong> between <span class="math inline">\(-3\)</span> and <span class="math inline">\(+3\)</span>.</li>
+</ul>
+<p>The area under the curve represents the probability that the value <span class="math inline">\(Z\)</span> lies within this interval.</p>
+</div>
+</div>
+</div>
+</section></section><section id="functions-for-the-normal-distribution-excel-and-r" class="level2" data-number="1.11"><h2 data-number="1.11" class="anchored" data-anchor-id="functions-for-the-normal-distribution-excel-and-r">
+<span class="header-section-number">1.11</span> Functions for the Normal Distribution: Excel and R</h2>
+<p>We can calculate probabilities, cumulative values, and generate plots using specific functions:</p>
+<div class="callout callout-style-default callout-note callout-titled" title="In Excel">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>In Excel
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><p><code>NORM.DIST(x, mean, standard_dev, cumulative)</code> → Returns either the density or the cumulative probability of the normal distribution.</p></li>
+<li><p><code>NORM.S.DIST(z, cumulative)</code> → Specific function for the standard normal distribution.</p></li>
+<li><p><code>NORM.INV(probability, mean, standard_dev)</code> → Returns the value of <span class="math inline">\(x\)</span> associated with a cumulative probability.</p></li>
+<li><p><code>NORM.S.INV(probability)</code> → Returns the value <span class="math inline">\(z\)</span> in the standard normal distribution.</p></li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled" title="In R">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>In R
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><p><code>dnorm(x, mean, sd)</code> → Returns the probability density at <span class="math inline">\(x\)</span>.</p></li>
+<li><p><code>pnorm(x, mean, sd)</code> → Returns the cumulative probability up to <span class="math inline">\(x\)</span>.</p></li>
+<li><p><code>qnorm(p, mean, sd)</code> → Returns the quantile <span class="math inline">\(x\)</span> such that <span class="math inline">\(P(X \leq x) = p\)</span>.</p></li>
+<li><p><code>rnorm(n, mean, sd)</code> → Generates a random sample of size <span class="math inline">\(n\)</span>.</p></li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Note:</strong> in Excel, <code>cumulative = TRUE</code> returns the cumulative probability; <code>FALSE</code> returns the density.</p>
+</div>
+</div>
+</section><section id="practical-example-with-r" class="level2" data-number="1.12"><h2 data-number="1.12" class="anchored" data-anchor-id="practical-example-with-r">
+<span class="header-section-number">1.12</span> Practical Example with R</h2>
+<p>Let’s visualize the curve of the <strong>standard normal distribution</strong> <span class="math inline">\(N(0, 1)\)</span> and highlight the bands of 1, 2, and 3 standard deviations from the mean — known from the <strong>Empirical Rule</strong>.</p>
+<div class="cell" data-layout-align="center">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Sequence of z values</span></span>
+<span><span class="va">x</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/seq.html">seq</a></span><span class="op">(</span><span class="op">-</span><span class="fl">4</span>, <span class="fl">4</span>, length.out <span class="op">=</span> <span class="fl">1000</span><span class="op">)</span></span>
+<span><span class="va">y</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/Normal.html">dnorm</a></span><span class="op">(</span><span class="va">x</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Generate the plot</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html">plot</a></span><span class="op">(</span><span class="va">x</span>, <span class="va">y</span>, type <span class="op">=</span> <span class="st">"l"</span>, lwd <span class="op">=</span> <span class="fl">2</span>, col <span class="op">=</span> <span class="st">"blue"</span>,</span>
+<span>     xlab <span class="op">=</span> <span class="st">"z"</span>, ylab <span class="op">=</span> <span class="st">"Density"</span>,</span>
+<span>     main <span class="op">=</span> <span class="st">"Standard Normal Distribution"</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Mark the Empirical Rule regions</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/graphics/abline.html">abline</a></span><span class="op">(</span>v <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="op">-</span><span class="fl">1</span>, <span class="fl">1</span><span class="op">)</span>, col <span class="op">=</span> <span class="st">"orange"</span>, lty <span class="op">=</span> <span class="fl">2</span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/graphics/abline.html">abline</a></span><span class="op">(</span>v <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="op">-</span><span class="fl">2</span>, <span class="fl">2</span><span class="op">)</span>, col <span class="op">=</span> <span class="st">"green"</span>, lty <span class="op">=</span> <span class="fl">2</span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/graphics/abline.html">abline</a></span><span class="op">(</span>v <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="op">-</span><span class="fl">3</span>, <span class="fl">3</span><span class="op">)</span>, col <span class="op">=</span> <span class="st">"red"</span>, lty <span class="op">=</span> <span class="fl">2</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Legend</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/graphics/legend.html">legend</a></span><span class="op">(</span><span class="st">"topright"</span>,</span>
+<span>       legend <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"±1σ (68%)"</span>, <span class="st">"±2σ (95%)"</span>, <span class="st">"±3σ (99.7%)"</span><span class="op">)</span>,</span>
+<span>       col <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"orange"</span>, <span class="st">"green"</span>, <span class="st">"red"</span><span class="op">)</span>,</span>
+<span>       lty <span class="op">=</span> <span class="fl">2</span>, lwd <span class="op">=</span> <span class="fl">1.5</span>, cex <span class="op">=</span> <span class="fl">0.8</span><span class="op">)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="normal-distribution_files/figure-html/Generate plot in R-1.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Standard Normal Distribution with markings at ±1σ, ±2σ, and ±3σ</figcaption></figure>
+</div>
+</div>
+</div>
+<hr></section><section id="practical-example-probability-of-iq-below-120" class="level2" data-number="1.13"><h2 data-number="1.13" class="anchored" data-anchor-id="practical-example-probability-of-iq-below-120">
+<span class="header-section-number">1.13</span> Practical Example – Probability of IQ Below 120</h2>
+<p><strong>Problem:</strong> What is the probability that a person has an IQ less than 120?</p>
+<p>Suppose IQ scores follow a normal distribution with mean <span class="math inline">\(\mu = 100\)</span> and standard deviation <span class="math inline">\(\sigma = 16\)</span>. We want to calculate:</p>
+<p><span class="math display">\[
+P(X &lt; 120)
+\]</span></p>
+<div class="callout callout-style-default callout-note callout-titled" title="In Excel">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>In Excel
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>=NORM.DIST(120, 100, 16, TRUE) Result: <span class="math inline">\(\approx 0.8944\)</span> or 89.44%</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled" title="In R">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>In R
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>pnorm(120, mean = 100, sd = 16) Result: <span class="math inline">\(\approx 0.8944\)</span> or 89.44%</p>
+</div>
+</div>
+<p><strong>Interpretation:</strong> approximately <strong>89.44%</strong> of the population has an IQ below 120, according to the assumed normal distribution.</p>
+<hr></section><section id="example-solving-without-excel-or-r-using-the-z-score" class="level2" data-number="1.14"><h2 data-number="1.14" class="anchored" data-anchor-id="example-solving-without-excel-or-r-using-the-z-score">
+<span class="header-section-number">1.14</span> Example: Solving Without Excel or R — Using the z-Score</h2>
+<p>We want to calculate the probability that a person has an IQ lower than 120, assuming that IQ scores follow a normal distribution with:</p>
+<ul>
+<li>Mean <span class="math inline">\(\mu = 100\)</span>
+</li>
+<li>Standard deviation <span class="math inline">\(\sigma = 16\)</span>
+</li>
+</ul>
+<p>We want to find:</p>
+<p><span class="math display">\[
+P(X &lt; 120)
+\]</span></p>
+<hr>
+<section id="step-1-standardization-with-the-z-score" class="level3" data-number="1.14.1"><h3 data-number="1.14.1" class="anchored" data-anchor-id="step-1-standardization-with-the-z-score">
+<span class="header-section-number">1.14.1</span> 🧮 Step 1: Standardization with the z-Score</h3>
+<p>To use the <strong>standard normal distribution table</strong>, we must first standardize the observed value (120):</p>
+<p><span class="math display">\[
+z = \frac{x - \mu}{\sigma} = \frac{120 - 100}{16} = 1.25
+\]</span></p>
+<hr></section><section id="step-2-looking-up-the-z-table" class="level3" data-number="1.14.2"><h3 data-number="1.14.2" class="anchored" data-anchor-id="step-2-looking-up-the-z-table">
+<span class="header-section-number">1.14.2</span> 📖 Step 2: Looking Up the Z Table</h3>
+<p>Now we use the standard normal table <span class="math inline">\(Z \sim N(0,1)\)</span> to find <span class="math inline">\(P(Z &lt; 1.25)\)</span>:</p>
+<table class="caption-top table">
+<thead><tr class="header">
+<th>z</th>
+<th>0.00</th>
+<th>0.01</th>
+<th>0.02</th>
+<th>0.03</th>
+<th>0.04</th>
+<th>0.05</th>
+</tr></thead>
+<tbody><tr class="odd">
+<td>1.2</td>
+<td>0.8849</td>
+<td>0.8869</td>
+<td>0.8888</td>
+<td>0.8907</td>
+<td>0.8925</td>
+<td>0.8944</td>
+</tr></tbody>
+</table>
+<p><strong>Z Table:</strong> <span class="math inline">\(P(Z &lt; 1.25) = 0.8944\)</span></p>
+<p>About <strong>89.44%</strong> of the population has an IQ below 120, according to the standard normal distribution table.</p>
+<hr></section></section><section id="understanding-the-z-score" class="level2" data-number="1.15"><h2 data-number="1.15" class="anchored" data-anchor-id="understanding-the-z-score">
+<span class="header-section-number">1.15</span> 📏 Understanding the z-Score</h2>
+<p>The <strong>z-score</strong> is a standardization that transforms any value <span class="math inline">\(x\)</span> from a normal distribution <span class="math inline">\(N(\mu, \sigma^2)\)</span> into a value in the <strong>standard normal distribution</strong> <span class="math inline">\(N(0, 1)\)</span>, with mean 0 and standard deviation 1.</p>
+<p>It tells us <strong>how many standard deviations</strong> the value <span class="math inline">\(x\)</span> is <strong>above or below the mean</strong> <span class="math inline">\(\mu\)</span>.</p>
+<p>The formula is:</p>
+<p><span class="math display">\[
+\boxed{z = \frac{x - \mu}{\sigma}}
+\]</span></p>
+<hr>
+<section id="interpretation-1" class="level3" data-number="1.15.1"><h3 data-number="1.15.1" class="anchored" data-anchor-id="interpretation-1">
+<span class="header-section-number">1.15.1</span> 🔍 Interpretation:</h3>
+<ul>
+<li>If <span class="math inline">\(z = 0\)</span>: the value <span class="math inline">\(x\)</span> is exactly at the mean <span class="math inline">\(\mu\)</span>.</li>
+<li>If <span class="math inline">\(z &gt; 0\)</span>: the value <span class="math inline">\(x\)</span> is <strong>above</strong> the mean.</li>
+<li>If <span class="math inline">\(z &lt; 0\)</span>: the value <span class="math inline">\(x\)</span> is <strong>below</strong> the mean.</li>
+</ul>
+<hr></section><section id="why-is-it-useful" class="level3" data-number="1.15.2"><h3 data-number="1.15.2" class="anchored" data-anchor-id="why-is-it-useful">
+<span class="header-section-number">1.15.2</span> 🎯 Why Is It Useful?</h3>
+<p>The z-score <strong>unifies different distributions</strong> into a standard form, allowing us to:</p>
+<ul>
+<li>Consult the <strong>Z Table</strong> of the standard normal distribution <span class="math inline">\(N(0,1)\)</span>;</li>
+<li>Easily calculate <strong>cumulative probabilities</strong>;</li>
+<li>Compare values across <strong>distributions with different means and standard deviations</strong>.</li>
+</ul>
+<hr></section><section id="visual-summary-interpreting-the-z-score" class="level3" data-number="1.15.3"><h3 data-number="1.15.3" class="anchored" data-anchor-id="visual-summary-interpreting-the-z-score">
+<span class="header-section-number">1.15.3</span> 📊 Visual Summary: Interpreting the z-Score</h3>
+<p>Suppose <span class="math inline">\(x = 124\)</span>, with mean <span class="math inline">\(\mu = 100\)</span> and standard deviation <span class="math inline">\(\sigma = 16\)</span>. The z-score is calculated as:</p>
+<p><span class="math display">\[
+z = \frac{x - \mu}{\sigma} = \frac{124 - 100}{16} = 1.5
+\]</span></p>
+<p>This value represents the relative position of <span class="math inline">\(x\)</span> in a <strong>standard normal distribution</strong>.</p>
+<hr>
+<section id="cumulative-area-up-to-z-1.5" class="level4" data-number="1.15.3.1"><h4 data-number="1.15.3.1" class="anchored" data-anchor-id="cumulative-area-up-to-z-1.5">
+<span class="header-section-number">1.15.3.1</span> 🔹 Cumulative Area up to <span class="math inline">\(z = 1.5\)</span>
+</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="../images/escore_z_destaque.png" class="img-fluid figure-img" style="width:90.0%"></p>
+<figcaption>Area up to z = 1.5</figcaption></figure>
+</div>
+<p>Approximately <strong>93.32%</strong> of the values lie below <span class="math inline">\(x = 124\)</span>.</p>
+<hr></section><section id="area-between--1.5-z-1.5" class="level4" data-number="1.15.3.2"><h4 data-number="1.15.3.2" class="anchored" data-anchor-id="area-between--1.5-z-1.5">
+<span class="header-section-number">1.15.3.2</span> 🔹 Area Between <span class="math inline">\(-1.5 &lt; Z &lt; 1.5\)</span>
+</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="../images/area_entre_-1.5_e_1.5.png" class="img-fluid figure-img" style="width:90.0%"></p>
+<figcaption>Area between -1.5 and 1.5</figcaption></figure>
+</div>
+<p>Approximately <strong>86.64%</strong> of the values are <strong>within 1.5 standard deviations of the mean</strong>, on both sides.</p>
+<hr></section><section id="area-to-the-right-of-z-1.5" class="level4" data-number="1.15.3.3"><h4 data-number="1.15.3.3" class="anchored" data-anchor-id="area-to-the-right-of-z-1.5">
+<span class="header-section-number">1.15.3.3</span> 🔹 Area to the Right of <span class="math inline">\(z = 1.5\)</span>
+</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="../images/area_direita_z_1.5.png" class="img-fluid figure-img" style="width:90.0%"></p>
+<figcaption>Area to the right of z = 1.5</figcaption></figure>
+</div>
+<p>Only <strong>6.68%</strong> of the distribution lies above <span class="math inline">\(x = 124\)</span>.</p>
+<hr></section><section id="conclusion-1" class="level4" data-number="1.15.3.4"><h4 data-number="1.15.3.4" class="anchored" data-anchor-id="conclusion-1">
+<span class="header-section-number">1.15.3.4</span> ✅ Conclusion</h4>
+<p>The z-score allows us to:</p>
+<ul>
+<li>Standardize values from different distributions;</li>
+<li>Calculate probabilities using the <strong>Z Table</strong> or software;</li>
+<li>Visualize the relative position of a value in relation to the mean.</li>
+</ul>
+<blockquote class="blockquote">
+<p>💡 <strong>Essential Summary:</strong></p>
+<p><span class="math display">\[
+\boxed{z = \frac{x - \mu}{\sigma}}
+\]</span></p>
+<p>This formula is the <strong>bridge between any value</strong> <span class="math inline">\(x\)</span> from a normal distribution and its <strong>standardized position</strong> on the <span class="math inline">\(N(0,1)\)</span> curve.</p>
+</blockquote>
+<hr></section></section></section><section id="calculations-with-z-table-r-and-excel" class="level2" data-number="1.16"><h2 data-number="1.16" class="anchored" data-anchor-id="calculations-with-z-table-r-and-excel">
+<span class="header-section-number">1.16</span> 🧮 Calculations with Z Table, R, and Excel</h2>
+<p>Below are the calculations used in the three z-score examples, reinforcing the previous graphs. We show how to solve them with:</p>
+<ul>
+<li>📖 <strong>Z Table</strong>
+</li>
+<li>💻 <strong>R</strong>
+</li>
+<li>📊 <strong>Excel</strong>
+</li>
+</ul>
+<hr>
+<section id="example-1-cumulative-area-up-to-z-1.5" class="level3" data-number="1.16.1"><h3 data-number="1.16.1" class="anchored" data-anchor-id="example-1-cumulative-area-up-to-z-1.5">
+<span class="header-section-number">1.16.1</span> 🔹 Example 1 — Cumulative Area up to <span class="math inline">\(z = 1.5\)</span>
+</h3>
+<p>We want to calculate: <span class="math display">\[
+P(Z &lt; 1.5)
+\]</span></p>
+<p><strong>🔎 Z Table — Row 1.5, column 0.00:</strong></p>
+<table class="caption-top table">
+<thead><tr class="header">
+<th>z</th>
+<th>0.00</th>
+<th>0.01</th>
+<th>0.02</th>
+<th>0.03</th>
+<th>0.04</th>
+<th>0.05</th>
+</tr></thead>
+<tbody><tr class="odd">
+<td>1.5</td>
+<td>0.9332</td>
+<td>0.9336</td>
+<td>0.9340</td>
+<td>0.9345</td>
+<td>0.9349</td>
+<td>0.9353</td>
+</tr></tbody>
+</table>
+<p>Result: <span class="math display">\[
+P(Z &lt; 1.5) = \boxed{0.9332}
+\]</span></p>
+<p><strong>💻 In R:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/stats/Normal.html">pnorm</a></span><span class="op">(</span><span class="fl">1.5</span><span class="op">)</span></span>
+<span><span class="co"># [1] 0.9331928</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>📊 In Excel:</strong></p>
+<pre class="excel"><code>=NORM.S.DIST(1.5, TRUE)</code></pre>
+<p>Result: <code>0.9332</code></p>
+<hr></section><section id="example-2-area-between--1.5-z-1.5" class="level3" data-number="1.16.2"><h3 data-number="1.16.2" class="anchored" data-anchor-id="example-2-area-between--1.5-z-1.5">
+<span class="header-section-number">1.16.2</span> 🔹 Example 2 — Area Between <span class="math inline">\(-1.5 &lt; Z &lt; 1.5\)</span>
+</h3>
+<p>We want to calculate: <span class="math display">\[
+P(-1.5 &lt; Z &lt; 1.5) =
+\]</span> <span class="math display">\[
+= P(Z &lt; 1.5) - P(Z &lt; -1.5)
+\]</span></p>
+<p><strong>🔎 Z Table:</strong></p>
+<ul>
+<li><span class="math inline">\(P(Z &lt; 1.5) = 0.9332\)</span></li>
+<li>By symmetry: <span class="math inline">\(P(Z &lt; -1.5) = 1 - 0.9332 = 0.0668\)</span>
+</li>
+</ul>
+<p>Result: <span class="math display">\[
+P(-1.5 &lt; Z &lt; 1.5) = 0.9332 - 0.0668 = \boxed{0.8664}
+\]</span></p>
+<p><strong>💻 In R:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/stats/Normal.html">pnorm</a></span><span class="op">(</span><span class="fl">1.5</span><span class="op">)</span> <span class="op">-</span> <span class="fu"><a href="https://rdrr.io/r/stats/Normal.html">pnorm</a></span><span class="op">(</span><span class="op">-</span><span class="fl">1.5</span><span class="op">)</span></span>
+<span><span class="co"># [1] 0.8663856</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>📊 In Excel:</strong></p>
+<pre class="excel"><code>=NORM.S.DIST(1.5, TRUE) - NORM.S.DIST(-1.5, TRUE)</code></pre>
+<p>Result: <code>0.8664</code></p>
+<hr></section><section id="example-3-area-to-the-right-of-z-1.5" class="level3" data-number="1.16.3"><h3 data-number="1.16.3" class="anchored" data-anchor-id="example-3-area-to-the-right-of-z-1.5">
+<span class="header-section-number">1.16.3</span> 🔹 Example 3 — Area to the Right of <span class="math inline">\(z = 1.5\)</span>
+</h3>
+<p>We want to calculate: <span class="math display">\[
+P(Z &gt; 1.5) = 1 - P(Z &lt; 1.5)
+\]</span></p>
+<p><strong>🔎 Z Table:</strong></p>
+<p><span class="math display">\[
+P(Z &gt; 1.5) = 1 - 0.9332 = \boxed{0.0668}
+\]</span></p>
+<p><strong>💻 In R:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fl">1</span> <span class="op">-</span> <span class="fu"><a href="https://rdrr.io/r/stats/Normal.html">pnorm</a></span><span class="op">(</span><span class="fl">1.5</span><span class="op">)</span></span>
+<span><span class="co"># [1] 0.0668072</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>📊 In Excel:</strong></p>
+<pre class="excel"><code>=1 - NORM.S.DIST(1.5, TRUE)</code></pre>
+<p>Result: <code>0.0668</code></p>
+<hr>
+<blockquote class="blockquote">
+<p>These calculations show how the z-score connects observed values to probabilities across different tools — whether using the <strong>traditional Z Table</strong> or <strong>automated calculation via R or Excel</strong>.</p>
+</blockquote>
+<hr></section></section><section id="summary-table-calculations-with-the-z-score" class="level2" data-number="1.17"><h2 data-number="1.17" class="anchored" data-anchor-id="summary-table-calculations-with-the-z-score">
+<span class="header-section-number">1.17</span> 🧾 Summary Table — Calculations with the z-Score</h2>
+<section id="area-up-to-z-1.5" class="level3" data-number="1.17.1"><h3 data-number="1.17.1" class="anchored" data-anchor-id="area-up-to-z-1.5">
+<span class="header-section-number">1.17.1</span> 🔵 Area up to <span class="math inline">\(z = 1.5\)</span>
+</h3>
+<ul>
+<li>
+<strong>Calculation:</strong> <span class="math inline">\(P(Z &lt; 1.5)\)</span>
+</li>
+<li>
+<strong>Result:</strong> <strong>0.9332</strong>
+</li>
+<li>
+<strong>R:</strong> <code>pnorm(1.5)</code>
+</li>
+<li>
+<strong>Excel:</strong> <code>=NORM.S.DIST(1.5, TRUE)</code>
+</li>
+</ul>
+<hr></section><section id="area-between--1.5-z-1.5-1" class="level3" data-number="1.17.2"><h3 data-number="1.17.2" class="anchored" data-anchor-id="area-between--1.5-z-1.5-1">
+<span class="header-section-number">1.17.2</span> 🟢 Area between <span class="math inline">\(-1.5 &lt; Z &lt; 1.5\)</span>
+</h3>
+<ul>
+<li>
+<strong>Calculation:</strong> <span class="math inline">\(P(-1.5 &lt; Z &lt; 1.5)\)</span>
+</li>
+<li>
+<strong>Result:</strong> <strong>0.8664</strong>
+</li>
+<li>
+<strong>R:</strong> <code>pnorm(1.5) - pnorm(-1.5)</code>
+</li>
+<li>
+<strong>Excel:</strong> <code>=NORM.S.DIST(1.5, TRUE) - NORM.S.DIST(-1.5, TRUE)</code>
+</li>
+</ul>
+<hr></section><section id="area-to-the-right-of-z-1.5-1" class="level3" data-number="1.17.3"><h3 data-number="1.17.3" class="anchored" data-anchor-id="area-to-the-right-of-z-1.5-1">
+<span class="header-section-number">1.17.3</span> 🔴 Area to the Right of <span class="math inline">\(z = 1.5\)</span>
+</h3>
+<ul>
+<li>
+<strong>Calculation:</strong> <span class="math inline">\(P(Z &gt; 1.5)\)</span>
+</li>
+<li>
+<strong>Result:</strong> <strong>0.0668</strong>
+</li>
+<li>
+<strong>R:</strong> <code>1 - pnorm(1.5)</code>
+</li>
+<li>
+<strong>Excel:</strong> <code>=1 - NORM.S.DIST(1.5, TRUE)</code>
+</li>
+</ul>
+<hr>
+<p>📌 <strong>Note:</strong> The results shown were rounded to 4 decimal places, following the traditional Z Table. Small differences may occur in software outputs due to internal calculation precision.</p>
+<hr></section></section><section id="finding-the-original-value-x-from-a-z-score" class="level2" data-number="1.18"><h2 data-number="1.18" class="anchored" data-anchor-id="finding-the-original-value-x-from-a-z-score">
+<span class="header-section-number">1.18</span> 🔄 Finding the Original Value <span class="math inline">\(x\)</span> from a z-Score</h2>
+<p>We can also perform the <strong>inverse of standardization</strong>:</p>
+<ul>
+<li>If we know:
+<ul>
+<li>the <strong>z-score</strong>
+</li>
+<li>the <strong>mean</strong> <span class="math inline">\(\mu\)</span>
+</li>
+<li>and the <strong>standard deviation</strong> <span class="math inline">\(\sigma\)</span>
+</li>
+</ul>
+</li>
+</ul>
+<p>then we can <strong>recover the original value <span class="math inline">\(x\)</span></strong> of the variable.</p>
+<hr>
+<section id="inverse-formula" class="level3" data-number="1.18.1"><h3 data-number="1.18.1" class="anchored" data-anchor-id="inverse-formula">
+<span class="header-section-number">1.18.1</span> 🧮 Inverse Formula</h3>
+<p><span class="math display">\[
+\boxed{x = \mu + z \cdot \sigma}
+\]</span></p>
+<hr></section><section id="example" class="level3" data-number="1.18.2"><h3 data-number="1.18.2" class="anchored" data-anchor-id="example">
+<span class="header-section-number">1.18.2</span> ✏️ Example</h3>
+<p><strong>What is the value corresponding to</strong> <span class="math inline">\(z = 1.5\)</span>, with <span class="math inline">\(\mu = 100\)</span> and <span class="math inline">\(\sigma = 16\)</span>?</p>
+<p>Applying the formula:</p>
+<p><span class="math display">\[
+x = 100 + 1.5 \times 16 = 124
+\]</span></p>
+<p>✅ Conclusion: A z-score of <strong>1.5</strong> corresponds to the value <strong><span class="math inline">\(x = 124\)</span></strong> in this distribution.</p>
+<hr></section></section><section id="example-with-a-negative-z-score" class="level2" data-number="1.19"><h2 data-number="1.19" class="anchored" data-anchor-id="example-with-a-negative-z-score">
+<span class="header-section-number">1.19</span> 🧠 Example: with a Negative z-Score</h2>
+<p>Suppose IQ scores follow a normal distribution with:</p>
+<ul>
+<li>Mean: <span class="math inline">\(\mu = 100\)</span>
+</li>
+<li>Standard deviation: <span class="math inline">\(\sigma = 16\)</span>
+</li>
+<li>Goal: What is the probability that a person has an IQ below 80?</li>
+</ul>
+<hr>
+<section id="step-1-standardization" class="level3" data-number="1.19.1"><h3 data-number="1.19.1" class="anchored" data-anchor-id="step-1-standardization">
+<span class="header-section-number">1.19.1</span> 🧮 Step 1 — Standardization:</h3>
+<p><span class="math display">\[
+z = \frac{80 - 100}{16} = \frac{-20}{16} = -1.25
+\]</span></p>
+<hr></section><section id="step-2-looking-up-the-z-table-1" class="level3" data-number="1.19.2"><h3 data-number="1.19.2" class="anchored" data-anchor-id="step-2-looking-up-the-z-table-1">
+<span class="header-section-number">1.19.2</span> 📖 Step 2 — Looking Up the Z Table:</h3>
+<p>Since the Z Table provides values for <span class="math inline">\(P(Z &lt; z)\)</span> with positive <span class="math inline">\(z\)</span>, we use symmetry:</p>
+<p><span class="math display">\[
+P(Z &lt; -1.25) = 1 - P(Z &lt; 1.25) =
+\]</span> <span class="math display">\[
+= 1 - 0.8944 = 0.1056
+\]</span></p>
+<p>Z Table row used (row 1.2, column 0.05):</p>
+<table class="caption-top table">
+<thead><tr class="header">
+<th><span class="math inline">\(z\)</span></th>
+<th>0.00</th>
+<th>0.01</th>
+<th>0.02</th>
+<th>0.03</th>
+<th>0.04</th>
+<th>0.05</th>
+</tr></thead>
+<tbody><tr class="odd">
+<td>1.2</td>
+<td>0.8849</td>
+<td>0.8869</td>
+<td>0.8888</td>
+<td>0.8907</td>
+<td>0.8925</td>
+<td><strong>0.8944</strong></td>
+</tr></tbody>
+</table>
+<hr></section><section id="using-r" class="level3" data-number="1.19.3"><h3 data-number="1.19.3" class="anchored" data-anchor-id="using-r">
+<span class="header-section-number">1.19.3</span> 🧪 Using R:</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Probability of IQ &lt; 80</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/stats/Normal.html">pnorm</a></span><span class="op">(</span><span class="fl">80</span>, mean <span class="op">=</span> <span class="fl">100</span>, sd <span class="op">=</span> <span class="fl">16</span><span class="op">)</span></span>
+<span><span class="co"># Result: 0.1056498</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr></section><section id="using-excel" class="level3" data-number="1.19.4"><h3 data-number="1.19.4" class="anchored" data-anchor-id="using-excel">
+<span class="header-section-number">1.19.4</span> 🧮 Using Excel:</h3>
+<pre class="excel"><code>=NORM.DIST(80, 100, 16, TRUE)</code></pre>
+<p>Returns: <code>0.1056498</code> → Approximately <strong>10.56%</strong></p>
+<hr></section><section id="graphical-visualization" class="level3" data-number="1.19.5"><h3 data-number="1.19.5" class="anchored" data-anchor-id="graphical-visualization">
+<span class="header-section-number">1.19.5</span> 📊 Graphical Visualization</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="../images/qi_menor_que_80.png" class="img-fluid figure-img" style="width:75.0%"></p>
+<figcaption>Normal distribution with highlighted area for <span class="math inline">\(P(X &lt; 80)\)</span></figcaption></figure>
+</div>
+<hr></section><section id="conclusion-2" class="level3" data-number="1.19.6"><h3 data-number="1.19.6" class="anchored" data-anchor-id="conclusion-2">
+<span class="header-section-number">1.19.6</span> ✅ Conclusion</h3>
+<p>About <strong><span class="math inline">\(\mathbf{10.56\%}\)</span></strong> of the population has an IQ below 80, which corresponds to being <strong>1.25 standard deviations below the mean</strong>.</p>
+<hr></section></section><section id="visualizing-pz--1.25-with-symmetry" class="level2" data-number="1.20"><h2 data-number="1.20" class="anchored" data-anchor-id="visualizing-pz--1.25-with-symmetry">
+<span class="header-section-number">1.20</span> 🔄 Visualizing <span class="math inline">\(P(Z &lt; -1.25)\)</span> with Symmetry</h2>
+<p>The <strong>standard normal distribution</strong> is symmetric around <span class="math inline">\(z = 0\)</span>. This means that the areas under the curve at the same distance from the mean are equal:</p>
+<ul>
+<li>The area to the left of <span class="math inline">\(z = -1.25\)</span> is <strong>equal</strong> to the area to the right of <span class="math inline">\(z = 1.25\)</span>.</li>
+<li>Thus, we can write:</li>
+</ul>
+<p><span class="math display">\[
+P(Z &lt; -1.25) = P(Z &gt; 1.25)
+\]</span></p>
+<p>And since:</p>
+<p><span class="math display">\[
+P(Z &gt; 1.25) = 1 - P(Z &lt; 1.25)
+\]</span></p>
+<p>We conclude that:</p>
+<p><span class="math display">\[
+P(Z &lt; -1.25) = 1 - P(Z &lt; 1.25)
+\]</span></p>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="../images/normal-simetria.png" class="img-fluid figure-img" style="width:75.0%"></p>
+<figcaption>Standard normal distribution: symmetry between <span class="math inline">\(P(Z &lt; -1.25)\)</span> and <span class="math inline">\(P(Z &gt; 1.25)\)</span></figcaption></figure>
+</div>
+<hr></section><section id="numerical-example-with-symmetry" class="level2" data-number="1.21"><h2 data-number="1.21" class="anchored" data-anchor-id="numerical-example-with-symmetry">
+<span class="header-section-number">1.21</span> 📊 Numerical Example with Symmetry</h2>
+<p>Let’s calculate the probability that a person has an <strong>IQ below 80</strong>, knowing that:</p>
+<ul>
+<li>IQ scores follow a normal distribution with <span class="math inline">\(\mu = 100\)</span> and <span class="math inline">\(\sigma = 16\)</span>
+</li>
+<li>We want: <span class="math inline">\(P(X &lt; 80)\)</span>
+</li>
+</ul>
+<section id="step-1-standardization-1" class="level3" data-number="1.21.1"><h3 data-number="1.21.1" class="anchored" data-anchor-id="step-1-standardization-1">
+<span class="header-section-number">1.21.1</span> 🧮 Step 1 — Standardization</h3>
+<p><span class="math display">\[
+z = \frac{80 - 100}{16} = -1.25
+\]</span></p>
+</section><section id="step-2-using-symmetry-and-the-z-table" class="level3" data-number="1.21.2"><h3 data-number="1.21.2" class="anchored" data-anchor-id="step-2-using-symmetry-and-the-z-table">
+<span class="header-section-number">1.21.2</span> 📈 Step 2 — Using Symmetry and the Z Table</h3>
+<p>We know that:</p>
+<p><span class="math display">\[
+P(Z &lt; -1.25) = 1 - P(Z &lt; 1.25)
+\]</span></p>
+<p>And from the <strong>Z Table</strong>:</p>
+<pre><code>Row z = 1.2 | Column 0.05 →
+→ P(Z &lt; 1.25) = 0.8944</code></pre>
+<p>Thus:</p>
+<p><span class="math display">\[
+P(Z &lt; -1.25) = 1 - 0.8944 = 0.1056
+\]</span></p>
+<p>✅ <strong>Conclusion:</strong> About <strong>10.56% of the population</strong> has an IQ below 80.</p>
+<hr></section><section id="calculation-in-r" class="level3" data-number="1.21.3"><h3 data-number="1.21.3" class="anchored" data-anchor-id="calculation-in-r">
+<span class="header-section-number">1.21.3</span> 🧪 Calculation in R</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Mean and standard deviation</span></span>
+<span><span class="va">mu</span> <span class="op">&lt;-</span> <span class="fl">100</span></span>
+<span><span class="va">sigma</span> <span class="op">&lt;-</span> <span class="fl">16</span></span>
+<span></span>
+<span><span class="co"># Probability of IQ &lt; 80</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/stats/Normal.html">pnorm</a></span><span class="op">(</span><span class="fl">80</span>, mean <span class="op">=</span> <span class="va">mu</span>, sd <span class="op">=</span> <span class="va">sigma</span><span class="op">)</span></span>
+<span><span class="co"># Result: 0.1056498</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr></section><section id="calculation-in-excel" class="level3" data-number="1.21.4"><h3 data-number="1.21.4" class="anchored" data-anchor-id="calculation-in-excel">
+<span class="header-section-number">1.21.4</span> 📊 Calculation in Excel</h3>
+<p>Use the formula:</p>
+<pre class="excel"><code>=NORM.DIST(80, 100, 16, TRUE)</code></pre>
+<p>👉 Result: <code>0.1056498</code> (or approximately <strong>10.56%</strong>)</p>
+<hr>
+<blockquote class="blockquote">
+<p>🧠 <strong>Summary</strong>: This example shows how the <strong>symmetry of the normal distribution</strong> and <strong>standardization via the z-score</strong> allow us to quickly calculate the probability of values below the mean — with the support of tools such as the Z Table, R, and Excel.</p>
+</blockquote>
+<hr></section></section><section id="conclusion-of-part-1-introduction-to-the-normal-distribution" class="level2" data-number="1.22"><h2 data-number="1.22" class="anchored" data-anchor-id="conclusion-of-part-1-introduction-to-the-normal-distribution">
+<span class="header-section-number">1.22</span> 📌 Conclusion of Part 1: Introduction to the Normal Distribution</h2>
+<p>Part 1 of the course explored the key foundations of the <strong>normal distribution</strong>, including:</p>
+<ul>
+<li>The Gaussian curve and the <strong>Empirical Rule</strong>;</li>
+<li>The concept of the <strong>z-score</strong> and how to use it to calculate probabilities;</li>
+<li>The interpretation of the area under the curve and its applications in real-world situations;</li>
+<li>Practical calculations using the <strong>Z Table</strong>, <strong>R</strong>, and <strong>Excel</strong>.</li>
+</ul>
+<p>With this knowledge, you are now ready to understand phenomena that follow (or approximate) a normal distribution.</p>
+<hr></section></section><section id="references" class="level1" data-number="2"><h1 data-number="2">
+<span class="header-section-number">2</span> 📚 References</h1>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-25-contents" aria-controls="callout-25" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-25" class="callout-25-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>Schmuller, Joseph. <em>Statistical Analysis with Excel® For Dummies®</em>, 5th ed.&nbsp;Wiley, 2016.</li>
+<li>Schmuller, Joseph. <em>Statistical Analysis with R For Dummies</em>, 2nd ed.&nbsp;Alta Books, 2021.</li>
+<li>Levine, D. M.; Stephan, D.; Szabat, K. A. <em>Statistics for Managers Using Microsoft Excel</em>, 8th ed.&nbsp;Pearson, 2017.</li>
+<li>Morettin, L. G. <em>Estatística Básica: Probabilidade e Inferência</em>, 7th ed.&nbsp;Pearson, 2017.</li>
+<li>Morettin, P. A.; Bussab, W. O. <em>Estatística Básica</em>, 10th ed.&nbsp;SaraivaUni, 2023.</li>
+</ul>
+</div>
+</div>
+</div>
+<hr></section><section id="quick-access-to-the-course-parts" class="level1" data-number="3"><h1 data-number="3">
+<span class="header-section-number">3</span> 🔗 Quick Access to the Course Parts</h1>
+<p>🎯 <a href="../../../../../posts/courses/statistics/normal_distribution/part-1/normal-distribution.html">Part 1: Introduction to the Normal Distribution</a> <strong>(👉 you are here!)</strong></p>
+<p>🎯 <a href="../../../../../posts/courses/statistics/normal_distribution/part-2/normal-distribution-part2.html">Part 2: z-Score and Z Table</a></p>
+<p>🎯 <a href="../parte-3/distribuicao-normal-parte3.qmd">Part 3: Graphs, CLT, and Approximate Normality</a></p>
+<hr>
+<!-- Breadcrumbs --><p><a href="../../../../../posts/courses/statistics/normal_distribution/index.html">← Course Summary</a> · <a href="../../../../../posts/courses/statistics/index.html">← Statistics Courses</a> · <a href="../../../../../posts/statistics/index.html">← Statistics Section</a></p>
+<hr>
+<p>🔝 <a href="#top">Back to Top</a></p>
+<hr>
+<p><em>Blog do Marcellini — Exploring Statistics with Rigor and Beauty.</em></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>📌 Created by Blog do Marcellini with ❤️ and code.</p>
+</div>
+</div>
+</section><section id="useful-links" class="level1" data-number="4"><h1 data-number="4">
+<span class="header-section-number">4</span> 🔗 Useful Links</h1>
+<ul>
+<li>🧑‍🏫 <a href="../../../../../posts/personal/about-the-blog.html">About the Blog</a>
+</li>
+<li>💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">GitHub Repository</a>
+</li>
+<li>📬 <a href="mailto:prof.marcellini@gmail.com">Contact via Email</a>
+</li>
+</ul>
+
+
+</section></main><!-- /main --><script>
+document.addEventListener("DOMContentLoaded", () => {
+  const offset = document.querySelector('meta[name="quarto:offset"]')?.content || "";
+  const rmDiacritics = (s) => s
+    .replace(/[ÁÀÂÃÄ]/g,'A').replace(/[áàâãä]/g,'a')
+    .replace(/[ÉÈÊË]/g,'E').replace(/[éèêë]/g,'e')
+    .replace(/[ÍÌÎÏ]/g,'I').replace(/[íìîï]/g,'i')
+    .replace(/[ÓÒÔÕÖ]/g,'O').replace(/[óòôõö]/g,'o')
+    .replace(/[ÚÙÛÜ]/g,'U').replace(/[úùûü]/g,'u')
+    .replace(/[Ç]/g,'C').replace(/[ç]/g,'c')
+    .replace(/[Ñ]/g,'N').replace(/[ñ]/g,'n');
+  const toSlug = (s) => rmDiacritics(String(s||"")).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"");
+
+  const classMap = [
+    ["mathematics","cat--mathematics"],
+    ["statistics","cat--statistics"],
+    ["physics","cat--physics"],
+    ["programming","cat--programming"],
+    ["course","cat--course"],
+    ["article","cat--article"],
+    ["series","cat--series"],
+    ["summary","cat--summary"],
+  ];
+
+  const enhanceWrap = (wrap, sortDedup=false) => {
+    if(!wrap) return;
+
+    if (sortDedup) {
+      const items = Array.from(wrap.querySelectorAll(':scope > .quarto-category'));
+      const seen = new Map();
+      for (const el of items) {
+        const key = el.textContent.trim().toLowerCase();
+        if (seen.has(key)) el.remove(); else seen.set(key, el);
+      }
+      const sorted = Array.from(wrap.querySelectorAll(':scope > .quarto-category'))
+        .sort((a,b)=>a.textContent.trim().localeCompare(b.textContent.trim(),'pt-BR'));
+      sorted.forEach(el => wrap.appendChild(el));
+    }
+
+    wrap.querySelectorAll(':scope > .quarto-category').forEach((el) => {
+      if (el.dataset.enhancedChip === "1") return;
+      const label = el.textContent.trim();
+      const slug  = toSlug(label);
+      const plain = rmDiacritics(label.toLowerCase());
+
+      for (const [needle, cls] of classMap) {
+        if (slug===needle || slug.includes(needle) || plain.includes(needle)) { el.classList.add(cls); break; }
+      }
+
+      let chip = el;
+      if (el.tagName !== "A") {
+        const a = document.createElement('a');
+        a.className = el.className;
+        a.textContent = label;
+        a.href = `${offset}categories.html#${slug}`;
+        chip = a;
+        el.replaceWith(a);
+      } else if (!el.getAttribute('href')) {
+        el.setAttribute('href', `${offset}categories.html#${slug}`);
+      }
+
+      chip.setAttribute('aria-label', `Ver posts em ${label}`);
+      chip.setAttribute('title', `Ver posts em ${label}`);
+      chip.dataset.enhancedChip = "1";
+    });
+  };
+
+  enhanceWrap(document.querySelector('#title-block-header .quarto-categories'), true);
+  document.querySelectorAll('main .quarto-categories').forEach(wrap => enhanceWrap(wrap, false));
+});
+</script><script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/en\.blogdomarcellini\.com\.br");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer"><div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2025 - Marcellini’s Blog</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>📬 <a href="mailto:prof.marcellini@gmail.com">Contact via E-mail</a><br> 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">GitHub Repository</a></p>
+</div>
+  </div>
+</footer>
+
+
+<script src="../../../../../site_libs/quarto-contrib/alpine-3.12/alpine@3.12.min.js"></script>
+</body></html>

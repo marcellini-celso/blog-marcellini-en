@@ -3,9 +3,18 @@ title: "personal"
 format: html
 ---
 
+<<<<<<< HEAD
 [⬅ Back to All Tags](../tags.qmd)
 
 ## Posts with the **personal** tag
 
 - [🧑‍🏫 Personal Blog](/posts/personal/index.html)
 - [📘 🧑‍💻 About the Blog and About Me](/posts/personal/about-the-blog.html)
+=======
+[⬅ Return to All Tags](../tags.qmd)
+
+## Posts with the tag **personal**
+
+- [📘 🧑‍💻 About the Blog and About Me](/posts/personal/about-the-blog.html)
+- [🧑‍🏫 Personal Blog](/posts/personal/index.html)
+>>>>>>> 17321b0 (Atualizações no blog)

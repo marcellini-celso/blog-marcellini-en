@@ -1,0 +1,10 @@
+---
+title: "equações diferenciais"
+format: html
+---
+
+[⬅ Return to All Tags](../tags.qmd)
+
+## Posts with the tag **equações diferenciais**
+
+- [🎓 Curso de Cálculo Diferencial e Integral](/posts/cursos/matematica/calculo/index.html)

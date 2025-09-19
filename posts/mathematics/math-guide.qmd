@@ -1,0 +1,59 @@
+---
+title: "🧭 🧮 Mathematics Reading Guide"
+description: "Recommended reading path for the Mathematics Section of Blog do Marcellini. Includes suggested order for courses and articles, based on complexity level and applications."
+author: "Blog do Marcellini"
+date: 2025-07-11
+lang: en
+categories: [mathematics, reading guide]
+tags: [mathematics, reading guide]
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+---
+
+[← Back to the Mathematics Section 🧮](index.qmd)
+
+<img src="../../images/250px-Carl_Friedrich_Gauss_1840_by_Jensen.jpg" alt="Carl Friedrich Gauss" width="40%" style="margin-bottom: 2rem;">
+
+## About this guide
+
+This guide offers a suggested reading order for those who wish to study Mathematics in a structured way. It brings together the main content available in the section, organizing courses, articles, and reflections into a coherent path — from introduction to advanced topics.
+
+## ✅ Suggested order
+
+1. **[📘 🧮 Why is \(0! = 1\)?](zero-factorial.qmd)** — Start with this post to explore the mathematical consistency of the factorial definition.
+2. **[📘 🧮 Beauty is the First Test](mathematical-beauty.qmd)** — An inspiring read to appreciate mathematics as a form of art.
+3. **[📘 ✨ 🧮 ⚛️ Equations that Shaped History](historical-equations.qmd)** — A selection of beautiful and influential equations in mathematics and physics, with accessible explanations and visualizations.
+4. **[🎓 🧮 Differential and Integral Calculus Course](../courses/mathematics/calculus/index.qmd)** — Next, navigate through the course index.
+
+📌 This guide is updated as new content is published.
+
+---
+
+[← Back to the Mathematics Section 🧮](index.qmd)
+
+---
+
+🔝 [Back to Top](math-guide.qmd)
+
+---
+
+*Blog do Marcellini — Exploring Mathematics with Rigor and Beauty.*
+
+:::{.callout-note}
+*Created by Blog do Marcellini with ❤️ and code.*
+:::
+
+## 🔗 Useful Links
+
+- 🧑‍🏫 [About the Blog](../personal/about-the-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">Project GitHub</a>
+- 📬 [Contact by Email](mailto:prof.marcellini@gmail.com)

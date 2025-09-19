@@ -3,8 +3,14 @@ title: "personal blog summary"
 format: html
 ---
 
+<<<<<<< HEAD
 [⬅ Back to All Tags](../tags.qmd)
 
 ## Posts with the **personal blog summary** tag
+=======
+[⬅ Return to All Tags](../tags.qmd)
+
+## Posts with the tag **personal blog summary**
+>>>>>>> 17321b0 (Atualizações no blog)
 
 - [🧑‍🏫 Personal Blog](/posts/personal/index.html)

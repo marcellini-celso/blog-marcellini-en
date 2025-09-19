@@ -2,8 +2,13 @@
 
 ## 🎓 Courses
 
+<<<<<<< HEAD
 - 🧮 [Mathematics](posts/cursos/mathematica/)
 - 📊 [Statistics](posts/cursos/statistics/)
+=======
+- 🧮 [Mathematics](posts/courses/mathematics/)
+- 📊 [Statistics](posts/courses/statistics/)
+>>>>>>> 17321b0 (Atualizações no blog)
 
 ## 📘 Special Projects
 

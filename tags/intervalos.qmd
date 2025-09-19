@@ -1,0 +1,10 @@
+---
+title: "intervalos"
+format: html
+---
+
+[⬅ Return to All Tags](../tags.qmd)
+
+## Posts with the tag **intervalos**
+
+- [📘 Módulo 1.3: Intervalos e Inequações](/posts/cursos/matematica/calculo/modulo-1/1.3-intervalos-inequacoes.html)

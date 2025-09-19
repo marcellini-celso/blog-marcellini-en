@@ -1,0 +1,77 @@
+---
+title: "📄 🐍 Python"
+description: "Conteúdos sobre a linguagem Python aplicados à análise de dados, automação, visualização gráfica e uso científico. Python é uma linguagem versátil usada amplamente na ciência de dados, automação e programação científica."
+author: "Blog do Marcellini"
+date: 2025-07-11
+lang: pt-BR
+categories: [programação, Python, sumário de Python, sumário, Quarto]
+tags: [programação, Python, sumário de Python, sumário, Quarto]
+format:
+  html:
+    toc: true
+    number-sections: false
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+---
+
+[← Voltar para a Seção de Programação 👨‍💻](../index.qmd)
+
+---
+
+## 📚 Séries e Projetos (relacionados)
+
+::: {.columns}
+::: {.column width="50%"}
+::: {.callout-note title="🐍 Modelos em Python (Quarto)"}
+Exemplos prontos com gráficos, animações e integração com Quarto.
+
+[Ver a série ›](../modelos-python-quarto.qmd){.button .button-outline}
+:::
+:::
+::: {.column width="50%"}
+::: {.callout-tip title="🧭 Guia de Programação"}
+Trilha sugerida com ordem progressiva de leitura.
+
+[Ir para o guia ›](../guia-programacao.qmd){.button .button-outline}
+:::
+:::
+:::
+
+## 📘 📄 🐍 Artigos e Reflexões
+
+### [📘 📄 🐍 Modelos Python para uso no Quarto](../modelos-python-quarto.qmd)
+Exemplos de uso do Python com Quarto, integração de código com visualizações e análise de dados.
+
+## 🧭 📘 📄 🐍 Guia de Leitura
+
+1. **[📘 📄 🐍 Modelos Python para uso no Quarto](../modelos-python-quarto.qmd)** — Veja como utilizar Python para gerar visualizações e resultados dinâmicos dentro de documentos Quarto.
+
+📌 Este guia é atualizado à medida que novos conteúdos forem sendo publicados.
+
+---
+
+[← Voltar para a Seção de Programação 👨‍💻](../index.qmd)
+
+---
+
+🔝 [Voltar ao Topo](#top)
+
+---
+
+*Blog do Marcellini — Explorando a Matemática, a Estatística e a Física com Rigor e Beleza.*
+
+:::{.callout-note}
+*Criado por Blog do Marcellini com ❤️ e código.*
+:::
+
+## 🔗 Links Úteis
+
+- 🧑‍🏫 [Sobre o Blog](../../pessoal/sobre-o-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-pt.git" target="_blank">GitHub do Projeto</a>
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
+

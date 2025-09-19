@@ -1,0 +1,169 @@
+---
+title: "📘 🧮 Beauty is the First Test — G. H. Hardy and Mathematics as Art"
+description: "Reflections on G. H. Hardy’s famous phrase in the light of pure mathematics, with classical examples of mathematical elegance and graphic visualizations."
+author: "Blog do Marcellini"
+date: 2025-06-23
+lang: en
+categories: [mathematics, philosophy of mathematics, article]
+tags: [mathematics, philosophy of mathematics, article]
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+execute:
+  echo: false
+  warning: false
+  message: false
+  eval: false
+---
+
+[← Back to the Mathematics Reading Guide 🧭 🧮](/posts/mathematics/math-guide.qmd)
+
+[← Back to the Mathematics Section 🧮](/posts/mathematics/)
+
+---
+
+# 📘 🧮 Beauty is the First Test — G. H. Hardy and Mathematics as Art
+
+> **“Beauty is the first test: there is no permanent place in the world for ugly mathematics.”**
+> — *G. H. Hardy*, in *A Mathematician’s Apology*
+
+::: {.bio}
+
+![G. H. Hardy](../../images/hardy.jpg){width=120px style="float: left; margin-right: 1em;"}
+
+**Godfrey Harold Hardy** (1877–1947) was one of the greatest British mathematicians of the early 20th century. He studied at Trinity College, Cambridge, becoming a fellow in 1900, and contributed significantly to number theory and mathematical analysis.
+
+Hardy is remembered for his historic collaboration with John E. Littlewood and for being the mentor of Srinivasa Ramanujan. His most famous work, *A Mathematician’s Apology* (1940), justifies pure mathematics as a creative act — a passionate defense of “beauty before utility.”
+
+He received important distinctions such as the Royal Medal (1920), the De Morgan Medal (1929), and the Copley Medal (1947).
+
+:::
+
+## Aesthetics in Pure Mathematics
+
+In pure mathematics, **the pursuit is not utilitarian**, but rather **conceptual, structural, abstract**. The mathematician asks: *is this coherent? profound? inevitable? beautiful?*
+
+Beauty, in this context, manifests in several ways:
+- **Unexpected simplicity**
+- **Elegant generality**
+- **Surprising connections**
+- **Inevitable proofs**
+
+## Classical Examples of Mathematical Beauty
+
+### Euclid’s Proof of the Infinitude of Primes
+
+$$
+\text{Suppose there are only } p_1, p_2, \dots, p_n.
+$$
+$$
+\text{Consider } N = p_1 p_2 \dots p_n + 1.
+$$
+
+This number $N$ is not divisible by any of the $p_i$, leading to a new prime.
+**No excess. Just beauty.**
+
+::: {.callout-tip icon="🔢" title="Visualization of Euclid’s Proof"}
+Euclid’s proof can be represented visually:
+finite primes → multiply → add 1 → a new prime emerges.
+
+![Diagram of Euclid’s Prime Proof](../../images/euclides-primos-diagrama.png)
+:::
+
+### Euler’s Identity
+
+$$
+\boxed{e^{i\pi} + 1 = 0}
+$$
+
+Five fundamental constants — $e$, $i$, $\pi$, $1$, $0$ — in one equation.
+
+#### Euler’s Formula
+$$
+e^{ix} = \cos(x) + i \sin(x)
+$$
+
+```{r Euler Identity Graph}
+curve(cos(x), 0, 2*pi, col = "blue", ylim = c(-1.5, 1.5), ylab = "Re/Im", xlab = "x", lwd = 2)
+curve(sin(x), 0, 2*pi, col = "red", add = TRUE, lwd = 2)
+legend("topright", legend = c("Re = cos(x)", "Im = sin(x)"), col = c("blue", "red"), lwd = 2)
+```
+
+---
+
+### 7. Teorema de Fermat (Wiles)
+
+```markdown
+### Wiles’ Proof of Fermat’s Last Theorem
+
+::: {.callout-important icon="📜" title="Fermat’s Last Theorem"}
+No positive integers $x,y,z$ satisfy $x^n+y^n=z^n$ for $n>2$.
+:::
+
+Wiles’ proof is beautiful because it **unifies elliptic curves and modular forms**.
+
+![Diagram of Wiles’ Proof](../../images/wiles-diagrama-novo.png)
+
+::: {.callout-note icon="🧩" title="Comment on the Diagram"}
+The diagram summarizes how Wiles linked **elliptic curves** and **modular forms** to solve Fermat’s problem.
+:::
+
+::: {.callout-note icon="🧭" title="Timeline"}
+- 1637 Fermat states it.
+- 1980s Link to Taniyama–Shimura Conjecture.
+- 1993 Wiles announces proof.
+- 1994 Flaw corrected.
+- 1995 Proof accepted.
+:::
+
+## Beauty as a Filter
+
+Hardy’s phrase critiques mathematics without refinement.
+Over time, only the **essential** survives — and it is almost always **beautiful**.
+
+## Hardy’s Words
+
+::: {.callout-quote icon="🎨"}
+“Pure mathematics is a creative art…”
+:::
+
+## ✍️ Personal Comment
+
+::: {.callout-note icon="✍️"}
+Reflection on relativity, four-velocity, spacetime curvature, and the unifying beauty of mathematics.
+:::
+
+## Conclusion
+
+The mathematics that survives is that which inspires.
+**Beauty is not an ornament — it is the criterion of permanence.**
+
+::: {.rodape}
+# 📚 References and Further Reading
+- [Hardy at MacTutor](https://mathshistory.st-andrews.ac.uk/Biographies/Hardy/)
+- [G. H. Hardy — Wikipedia](https://en.wikipedia.org/wiki/G._H._Hardy)
+:::
+
+[← Back to the Mathematics Reading Guide 🧭 🧮](/posts/mathematics/math-guide.qmd)
+[← Back to the Mathematics Section 🧮](/posts/mathematics/)
+
+🔝 [Back to Top](mathematical-beauty.qmd)
+
+*Blog do Marcellini — Exploring Mathematics with Rigor and Beauty.*
+
+:::{.callout-note}
+Created by Blog do Marcellini with ❤️ and code.
+:::
+
+# 🔗 Useful Links
+- 🧑‍🏫 [About the Blog](../../posts/personal/about-the-blog.qmd)
+- 💻 [Project GitHub](https://github.com/marcellini-celso/blog-marcellini-en.git)
+- 📬 [Contact by Email](mailto:prof.marcellini@gmail.com)

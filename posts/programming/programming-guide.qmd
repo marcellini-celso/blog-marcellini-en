@@ -1,0 +1,68 @@
+---
+title: "🧭 👨‍💻 Reading Guide — Programming"
+description: "Suggested reading path for the Programming Section of Blog do Marcellini. Includes a recommended order for courses and articles, based on complexity and application."
+author: "Blog do Marcellini"
+date: 2025-07-30
+lang: en
+categories: [programming, reading guide]
+tags: [programming, reading guide]
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+---
+
+---
+
+[← Back to Programming Section 👨‍💻](/posts/programming/)
+
+---
+
+# 🧭 🧮 Reading Guide — Programming
+
+This guide provides a suggested reading order for those who wish to study Programming in a structured way.  
+It brings together the main content available in the section, organizing articles and reflections into a coherent path — from introduction to advanced topics.
+
+---
+
+## ✅ Suggested Order
+
+1. **[📘 📐 LaTeX Models for Quarto](modelos-latex-quarto.qmd)** — Start here to explore how LaTeX can be integrated into Quarto for elegant and structured scientific production.  
+2. **[📘 📄 YAML in Quarto](yaml-no-quarto.qmd)** — Begin by understanding the metadata structure of `.qmd` files.  
+3. **[📘 📄 Quarto Markdown Models — Part 1](modelos-markdown.qmd)** — Learn to write clearly using Quarto Markdown.  
+4. **[📘 📄 Quarto Markdown Models — Part 2](outros-modelos-markdown.qmd)** — Continue with advanced Quarto Markdown structures.  
+5. **[📘 📄 index.qmd Models](modelos-index-quarto.qmd)** — Organize your project with best practices for building sections.  
+6. **[📘 📄 🐍 Python Models for Quarto](modelos-python-quarto.qmd)** — See how to use Python to generate visualizations and dynamic results inside Quarto documents.  
+7. **[📘 📄 📊 R Models for Quarto](modelos-r-quarto.qmd)** — Learn how to use R in the Quarto context to create interactive and well-structured documents.  
+
+📌 This guide is updated as new content is published.
+
+---
+
+[← Back to Programming Section 👨‍💻](/posts/programming/)
+
+---
+
+🔝 [Back to Top](programming-guide.qmd)
+
+---
+
+*Blog do Marcellini — Exploring Mathematics, Statistics, and Physics with Rigor and Beauty.*
+
+:::{.callout-note}
+*Created by Blog do Marcellini with ❤️ and code.*
+:::
+
+# 🔗 Useful Links
+
+- 🧑‍🏫 [About the Blog](../../posts/personal/about-the-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">Project GitHub</a>
+- 📬 [Contact by E-mail](mailto:prof.marcellini@gmail.com)
+

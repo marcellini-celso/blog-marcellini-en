@@ -1,0 +1,12 @@
+---
+title: "reading guide"
+format: html
+---
+
+[⬅ Return to All Tags](../tags.qmd)
+
+## Posts with the tag **reading guide**
+
+- [🧭 🧑‍🏫 Reading Guide — Personal Blog](/posts/personal/personal-guide.html)
+- [🧭 🧮 Mathematics Reading Guide](/posts/mathematics/math-guide.html)
+- [🧭 📊 Statistics Reading Guide](/posts/statistics/statistics-guide.html)

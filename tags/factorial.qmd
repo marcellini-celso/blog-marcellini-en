@@ -1,0 +1,10 @@
+---
+title: "factorial"
+format: html
+---
+
+[⬅ Return to All Tags](../tags.qmd)
+
+## Posts with the tag **factorial**
+
+- [📘 🧮 Why is 0! = 1?](/posts/mathematics/zero-factorial.html)

@@ -1,0 +1,10 @@
+---
+title: "aplicações"
+format: html
+---
+
+[⬅ Return to All Tags](../tags.qmd)
+
+## Posts with the tag **aplicações**
+
+- [🧠 Módulo 1.1: O que é Cálculo? História e aplicações](/posts/cursos/matematica/calculo/modulo-1/1.1-introducao.html)

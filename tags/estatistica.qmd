@@ -1,0 +1,11 @@
+---
+title: "estatística"
+format: html
+---
+
+[⬅ Return to All Tags](../tags.qmd)
+
+## Posts with the tag **estatística**
+
+- [📊 Estatística](/posts/estatistica/index.html)
+- [🧭 📊 Guia de Leitura — Estatística](/posts/estatistica/guia-estatistica.html)

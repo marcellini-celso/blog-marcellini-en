@@ -1,0 +1,132 @@
+---
+title: "🎓 📊 Statistics Course: The Normal Distribution"
+description: "Introductory presentation on the normal distribution with practical examples, plots, and theoretical foundations applied to Statistics."
+author: "Blog do Marcellini"
+date: 2025-08-25
+lang: en
+categories: [statistics, normal distribution, courses]
+tags: [statistics, normal distribution, courses]
+format:
+  html:
+    toc: true
+    toc-title: "On this page"
+    number-sections: false
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+---
+
+<!-- Breadcrumbs -->
+[← Statistics Courses](../index.qmd) · [← Statistics Section](../../../statistics/index.qmd)
+
+---
+
+## 🚀 Quick Access to the Parts
+- 🎯 👉 [Part 1 — Introduction to the Normal Distribution](part-1/normal-distribution.qmd)
+- 🎯 👉 [Part 2 — z-Score and the Z Table](part-2/normal-distribution-part2.qmd)
+- 🎯 👉 [Part 3 — Plots, CLT, and Approximate Normality](part-3/normal-distribution-part3.qmd)
+
+---
+
+## 🎯 Course Objectives
+::: {.callout-note}
+By the end of the course, you will be able to:
+
+- ✅ Understand the concepts of **population**, **sample**, and **random variables**;
+- 📊 Grasp the role of the **probability density function (PDF)**;
+- 📐 Identify the features of the **standard normal curve** ($\mu=0$, $\sigma=1$);
+- 📈 Apply the **Empirical Rule (68–95–99.7%)**;
+- 🧮 Compute probabilities with **Excel**, **R**, and **Python**;
+- 🔁 Use the **z-score** for standardization and comparisons;
+- 📉 Generate/interpret normal-distribution plots in real contexts;
+- 🧠 Relate the normal distribution to the **CLT** and **LLN**;
+- 🔍 Recognize approximate normality via **histograms**, **Q–Q plots**, and exploratory checks.
+:::
+
+::: {.callout-tip}
+**Recommended prerequisites:** notions of algebra and functions; mean, standard deviation, and chart reading.
+**Target audience:** students and professionals who need to interpret data based on probabilistic models.
+:::
+
+---
+
+## 📚 Syllabus — Part 1: Introduction to the Normal Distribution
+🎯 👉 [Open Part 1](part-1/normal-distribution.qmd)
+
+- Fundamental concepts: population, sample, and variables
+- **Discrete** vs. **continuous** variables
+- Distributions and **PDF**
+- Definition, importance, and properties of the normal distribution
+- Real-world examples
+- **Standard** curve ($\mu=0$, $\sigma=1$), symmetry, and shape
+- **PDF formula**, area as probability, effect of $\mu$ and $\sigma$
+- **Empirical Rule (68–95–99.7%)** — interpretation and applications
+- Visualizations with **Python** and **R**
+
+---
+
+## 📚 Syllabus — Part 2: z-Score and the Z Table
+🎯 👉 [Open Part 2](part-2/normal-distribution-part2.qmd)
+
+- Definition, formula, and interpretation of the **z-score**
+- Comparing values across different distributions
+- Case study: probability of **IQ > 136**
+- **Reading the Z Table** (cumulative $P(Z<z)$) and shaded areas
+- Calculations in **Excel** (`NORM.S.DIST`, `NORM.S.INV`) and **R** (`pnorm`, `qnorm`, `dnorm`)
+- Guided exercises
+
+---
+
+## 📚 Syllabus — Part 3: Plots, CLT, and Approximate Normality
+🎯 👉 [Open Part 3](part-3/normal-distribution-part3.qmd)
+
+- **Histograms** and interpretation
+- **Q–Q plots**: what they are and how to read them
+- What “**approximately normal**” means
+- Examples of variables with/without normality
+- **LLN** (Law of Large Numbers) — intuition and practical implications
+- **CLT** (Central Limit Theorem) — sample means and computational examples
+
+---
+
+## 📖 References
+::: {.callout-important collapse=true}
+- Schmuller, Joseph. *Statistical Analysis with Excel® For Dummies®*, 5th ed. Wiley, 2016.
+- Schmuller, Joseph. *Análise Estatística com R Para Leigos*, 2nd ed. Alta Books (Portuguese edition), 2021.
+- Levine, D. M.; Stephan, D.; Szabat, K. A. *Statistics for Managers Using Microsoft Excel*, 8th ed. Pearson, 2017.
+- Morettin, L. G. *Estatística Básica: Probabilidade e Inferência*, 7th ed. Pearson, 2017.
+- Morettin, P. A.; Bussab, W. O. *Estatística Básica*, 10th ed. SaraivaUni, 2023.
+:::
+
+---
+
+## 🔗 Quick Access (again)
+- 🎯 👉 [Part 1 — Introduction to the Normal Distribution](part-1/normal-distribution.qmd)
+- 🎯 👉 [Part 2 — z-Score and the Z Table](part-2/normal-distribution-part2.qmd)
+- 🎯 👉 [Part 3 — Plots, CLT, and Approximate Normality](part-3/normal-distribution-part3.qmd)
+
+---
+
+<!-- Breadcrumbs -->
+[← Statistics Courses](../index.qmd) · [← Statistics Section](../../../statistics/index.qmd)
+
+---
+
+🔝 [Back to Top](#top)
+
+---
+
+*Blog do Marcellini — Exploring Statistics with Rigor and Beauty.*
+
+:::{.callout-note}
+📌 Created by Blog do Marcellini with ❤️ and code.
+:::
+
+## 🔗 Useful Links
+- 🧑‍🏫 [About the Blog](/posts/personal/about-the-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank" rel="noopener">Project GitHub</a>
+- 📬 [Contact by Email](mailto:prof.marcellini@gmail.com)

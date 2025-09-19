@@ -1,0 +1,13 @@
+---
+title: "normal"
+format: html
+---
+
+[⬅ Return to All Tags](../tags.qmd)
+
+## Posts with the tag **normal**
+
+- [🎓📊 The Normal Distribution — Part 2: z-Score and z-Table](/posts/courses/statistics/normal_distribution/part-2/normal-distribution-part2.html)
+- [🎓📊 Normal Distribution — Part 2: z-Score and Z Table](/posts/courses/statistics/normal_distribution/part-2/normal-distribution-part2.sync-conflict-20250904-042416-HGFPXGB.html)
+- [🎓📊 Normal Distribution — Part 2: z-Score and Z Table](/posts/courses/statistics/normal_distribution/part-2/normal-distribution-part2.sync-conflict-20250905-071012-HGFPXGB.html)
+- [🎓📊 The Normal Distribution — Part 3: Plots, CLT, and Approximate Normality](/posts/courses/statistics/normal_distribution/part-3/normal-distribution-part3.html)

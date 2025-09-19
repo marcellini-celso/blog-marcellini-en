@@ -3,8 +3,19 @@ title: "reading guide"
 format: html
 ---
 
+<<<<<<< HEAD
 [⬅ Back to All Tags](../tags.qmd)
 
 ## Posts with the **reading guide** tag
 
 - [🧭 🧑‍🏫 Reading Guide — Personal Blog](/posts/personal/personal-guide.html)
+=======
+[⬅ Return to All Tags](../tags.qmd)
+
+## Posts with the tag **reading guide**
+
+- [🧭 📊 Statistics Reading Guide](/posts/statistics/statistics-guide.html)
+- [🧭 🧑‍🏫 Reading Guide — Personal Blog](/posts/personal/personal-guide.html)
+- [🧭 👨‍💻 Reading Guide — Programming](/posts/programming/programming-guide.html)
+- [🧭 🧮 Mathematics Reading Guide](/posts/mathematics/math-guide.html)
+>>>>>>> 17321b0 (Atualizações no blog)

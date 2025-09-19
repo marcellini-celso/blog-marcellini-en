@@ -1,0 +1,18 @@
+---
+title: "sumário"
+format: html
+---
+
+[⬅ Return to All Tags](../tags.qmd)
+
+## Posts with the tag **sumário**
+
+- [🎓 📊 Cursos de Estatística](/posts/cursos/estatistica/index.html)
+- [🎓 🧮 Cursos de Matemática](/posts/cursos/matematica/index.html)
+- [📊 Estatística](/posts/estatistica/index.html)
+- [⚛️ Física](/posts/fisica/index.html)
+- [👨‍💻 Programação](/posts/programacao/index.html)
+- [📄 📐 LaTeX](/posts/programacao/latex/index.html)
+- [📄 🐍 Python](/posts/programacao/python/index.html)
+- [📄 Quarto](/posts/programacao/quarto/index.html)
+- [📄 📊 R](/posts/programacao/r/index.html)
