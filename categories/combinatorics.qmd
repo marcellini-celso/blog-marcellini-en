@@ -1,0 +1,22 @@
+---
+title: "combinatorics"
+format: html
+page-layout: full
+---
+
+[⬅ Back to All Categories](../categories.qmd)
+
+## Posts in **combinatorics**
+
+::: {.cards-grid}
+<div class="card">
+<a class="card-link" href="/posts/mathematics/zero-factorial.html">
+<div class="card-image"><img src="/images/banner.png" alt="📘 🧮 Why is 0! = 1?"></div>
+<div class="card-content">
+<h3 class="card-title">📘 🧮 Why is 0! = 1?</h3>
+<p class="card-desc">We explore **10 distinct justifications** for the value of $0!$.</p>
+<div class="chips"><span class="chip">#mathematics</span> <span class="chip">#combinatorics</span> <span class="chip">#factorial</span> <span class="chip">#article</span></div>
+</div>
+</a>
+</div>
+:::

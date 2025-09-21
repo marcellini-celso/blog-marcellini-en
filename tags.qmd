@@ -11,102 +11,58 @@ page-layout: full
 ## 📚 All Tags
 
 ::: {.tag-grid}
-<<<<<<< HEAD
-<a href="/tags/about.html" class="tag-card">about (2)</a>
-<a href="/tags/about-me.html" class="tag-card">about me (2)</a>
-<a href="/tags/about-the-blog.html" class="tag-card">about the blog (2)</a>
-<a href="/tags/personal.html" class="tag-card">personal (2)</a>
-<a href="/tags/personal-blog.html" class="tag-card">personal blog (1)</a>
-<a href="/tags/personal-blog-summary.html" class="tag-card">personal blog summary (1)</a>
-<a href="/tags/reading-guide.html" class="tag-card">reading guide (1)</a>
-<a href="/tags/summary.html" class="tag-card">summary (1)</a>
-=======
-
-<a href="/tags/quarto.html" class="tag-card">Quarto (18)</a>
-<a href="/tags/programacao.html" class="tag-card">programação (17)</a>
-<a href="/tags/sumario.html" class="tag-card">sumário (11)</a>
-<a href="/tags/fisica.html" class="tag-card">física (10)</a>
-<a href="/tags/artigo.html" class="tag-card">artigo (9)</a>
 <a href="/tags/mathematics.html" class="tag-card">mathematics (8)</a>
-<a href="/tags/yaml.html" class="tag-card">YAML (7)</a>
 <a href="/tags/courses.html" class="tag-card">courses (6)</a>
-<a href="/tags/cursos.html" class="tag-card">cursos (6)</a>
-<a href="/tags/guia-de-leitura.html" class="tag-card">guia de leitura (6)</a>
-<a href="/tags/matematica.html" class="tag-card">matemática (6)</a>
+<a href="/tags/quarto.html" class="tag-card">Quarto (6)</a>
 <a href="/tags/summary.html" class="tag-card">summary (6)</a>
-<a href="/tags/latex.html" class="tag-card">LaTeX (5)</a>
-<a href="/tags/python.html" class="tag-card">Python (5)</a>
-<a href="/tags/r.html" class="tag-card">R (5)</a>
-<a href="/tags/calculo.html" class="tag-card">cálculo (5)</a>
-<a href="/tags/einstein.html" class="tag-card">einstein (5)</a>
-<a href="/tags/relatividade.html" class="tag-card">relatividade (5)</a>
 <a href="/tags/statistics.html" class="tag-card">statistics (5)</a>
-<a href="/tags/serie.html" class="tag-card">série (5)</a>
 <a href="/tags/article.html" class="tag-card">article (4)</a>
 <a href="/tags/exercises.html" class="tag-card">exercises (4)</a>
 <a href="/tags/normal.html" class="tag-card">normal (4)</a>
+<a href="/tags/programacao.html" class="tag-card">programação (4)</a>
 <a href="/tags/reading-guide.html" class="tag-card">reading guide (4)</a>
-<a href="/tags/mecanica-quantica.html" class="tag-card">mecânica quântica (3)</a>
+<a href="/tags/sumario.html" class="tag-card">sumário (4)</a>
 <a href="/tags/probabilities.html" class="tag-card">probabilities (3)</a>
 <a href="/tags/programming.html" class="tag-card">programming (3)</a>
-<a href="/tags/relatividade-especial.html" class="tag-card">relatividade especial (3)</a>
+<a href="/tags/yaml.html" class="tag-card">YAML (3)</a>
 <a href="/tags/z-score.html" class="tag-card">z-score (3)</a>
 <a href="/tags/z-table.html" class="tag-card">z-table (3)</a>
 <a href="/tags/about.html" class="tag-card">about (2)</a>
 <a href="/tags/about-me.html" class="tag-card">about me (2)</a>
 <a href="/tags/about-the-blog.html" class="tag-card">about the blog (2)</a>
 <a href="/tags/calculus.html" class="tag-card">calculus (2)</a>
-<a href="/tags/conjuntos-numericos.html" class="tag-card">conjuntos numéricos (2)</a>
-<a href="/tags/exercicios.html" class="tag-card">exercícios (2)</a>
+<a href="/tags/latex.html" class="tag-card">LaTeX (2)</a>
 <a href="/tags/normal-distribution.html" class="tag-card">normal distribution (2)</a>
 <a href="/tags/personal.html" class="tag-card">personal (2)</a>
-<a href="/tags/relatividade-geral.html" class="tag-card">relatividade geral (2)</a>
-<a href="/tags/sumario-de-latex.html" class="tag-card">sumário de LaTeX (2)</a>
-<a href="/tags/sumario-de-python.html" class="tag-card">sumário de Python (2)</a>
-<a href="/tags/sumario-de-quarto.html" class="tag-card">sumário de Quarto (2)</a>
-<a href="/tags/sumario-de-r.html" class="tag-card">sumário de R (2)</a>
-<a href="/tags/clt.html" class="tag-card">CLT (1)</a>
-<a href="/tags/cantor.html" class="tag-card">Cantor (1)</a>
-<a href="/tags/lln.html" class="tag-card">LLN (1)</a>
-<a href="/tags/taylor-series.html" class="tag-card">Taylor series (1)</a>
-<a href="/tags/aplicacoes.html" class="tag-card">aplicações (1)</a>
+<a href="/tags/python.html" class="tag-card">Python (2)</a>
+<a href="/tags/r.html" class="tag-card">R (2)</a>
 <a href="/tags/applications.html" class="tag-card">applications (1)</a>
+<a href="/tags/clt.html" class="tag-card">CLT (1)</a>
 <a href="/tags/combinatorics.html" class="tag-card">combinatorics (1)</a>
-<a href="/tags/conjuntos.html" class="tag-card">conjuntos (1)</a>
-<a href="/tags/corpo.html" class="tag-card">corpo (1)</a>
-<a href="/tags/derivadas.html" class="tag-card">derivadas (1)</a>
 <a href="/tags/derivatives.html" class="tag-card">derivatives (1)</a>
 <a href="/tags/differential-equations.html" class="tag-card">differential equations (1)</a>
-<a href="/tags/enumerabilidade.html" class="tag-card">enumerabilidade (1)</a>
 <a href="/tags/equations.html" class="tag-card">equations (1)</a>
-<a href="/tags/equacoes-diferenciais.html" class="tag-card">equações diferenciais (1)</a>
 <a href="/tags/factorial.html" class="tag-card">factorial (1)</a>
 <a href="/tags/functions.html" class="tag-card">functions (1)</a>
-<a href="/tags/funcoes.html" class="tag-card">funções (1)</a>
-<a href="/tags/gravidade.html" class="tag-card">gravidade (1)</a>
 <a href="/tags/histograms.html" class="tag-card">histograms (1)</a>
 <a href="/tags/history-of-calculus.html" class="tag-card">history of calculus (1)</a>
 <a href="/tags/history-of-science.html" class="tag-card">history of science (1)</a>
-<a href="/tags/historia-do-calculo.html" class="tag-card">história do cálculo (1)</a>
-<a href="/tags/inequacoes.html" class="tag-card">inequações (1)</a>
 <a href="/tags/inference.html" class="tag-card">inference (1)</a>
-<a href="/tags/integrais.html" class="tag-card">integrais (1)</a>
 <a href="/tags/integrals.html" class="tag-card">integrals (1)</a>
-<a href="/tags/intervalos.html" class="tag-card">intervalos (1)</a>
-<a href="/tags/limites.html" class="tag-card">limites (1)</a>
 <a href="/tags/limits.html" class="tag-card">limits (1)</a>
+<a href="/tags/lln.html" class="tag-card">LLN (1)</a>
 <a href="/tags/mathematics-summary.html" class="tag-card">mathematics summary (1)</a>
 <a href="/tags/personal-blog.html" class="tag-card">personal blog (1)</a>
 <a href="/tags/personal-blog-summary.html" class="tag-card">personal blog summary (1)</a>
 <a href="/tags/philosophy-of-mathematics.html" class="tag-card">philosophy of mathematics (1)</a>
 <a href="/tags/physics.html" class="tag-card">physics (1)</a>
 <a href="/tags/plots.html" class="tag-card">plots (1)</a>
-<a href="/tags/principio-da-equivalencia.html" class="tag-card">princípio da equivalência (1)</a>
 <a href="/tags/programming-summary.html" class="tag-card">programming summary (1)</a>
 <a href="/tags/qqplot.html" class="tag-card">qqplot (1)</a>
 <a href="/tags/statistics-summary.html" class="tag-card">statistics summary (1)</a>
-<a href="/tags/sumario-de-fisica.html" class="tag-card">sumário de física (1)</a>
-<a href="/tags/sumario-de-programacao.html" class="tag-card">sumário de programação (1)</a>
-<a href="/tags/series-de-taylor.html" class="tag-card">séries de Taylor (1)</a>
->>>>>>> 17321b0 (Atualizações no blog)
+<a href="/tags/sumario-de-latex.html" class="tag-card">sumário de LaTeX (1)</a>
+<a href="/tags/sumario-de-python.html" class="tag-card">sumário de Python (1)</a>
+<a href="/tags/sumario-de-quarto.html" class="tag-card">sumário de Quarto (1)</a>
+<a href="/tags/sumario-de-r.html" class="tag-card">sumário de R (1)</a>
+<a href="/tags/taylor-series.html" class="tag-card">Taylor series (1)</a>
 :::

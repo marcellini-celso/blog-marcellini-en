@@ -3,12 +3,9 @@ title: "Python"
 format: html
 ---
 
-[⬅ Return to All Tags](../tags.qmd)
+[⬅ Back to All Tags](../tags.qmd)
 
-## Posts with the tag **Python**
+## Posts with the **Python** tag
 
-- [📘 👨‍💻 📄 🐍 Modelos de Código em Python para Usar com Quarto](/posts/programacao/modelos-python-quarto.html)
-- [👨‍💻 Programação](/posts/programacao/index.html)
-- [📄 🐍 Python](/posts/programacao/python/index.html)
 - [👨‍💻 Programming](/posts/programming/index.html)
 - [📄 🐍 Python](/posts/programming/python/index.html)

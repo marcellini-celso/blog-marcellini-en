@@ -3,8 +3,8 @@ title: "programming summary"
 format: html
 ---
 
-[⬅ Return to All Tags](../tags.qmd)
+[⬅ Back to All Tags](../tags.qmd)
 
-## Posts with the tag **programming summary**
+## Posts with the **programming summary** tag
 
 - [👨‍💻 Programming](/posts/programming/index.html)

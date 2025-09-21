@@ -1,0 +1,22 @@
+---
+title: "sumário de Quarto"
+format: html
+page-layout: full
+---
+
+[⬅ Back to All Categories](../categories.qmd)
+
+## Posts in **sumário de Quarto**
+
+::: {.cards-grid}
+<div class="card">
+<a class="card-link" href="/posts/programming/quarto/index.html">
+<div class="card-image"><img src="/images/banner.png" alt="📄 Quarto"></div>
+<div class="card-content">
+<h3 class="card-title">📄 Quarto</h3>
+<p class="card-desc">Publicações sobre a ferramenta Quarto para gerar relatórios, sites, livros e documentos técnicos dinâmicos e reprodutíveis. Crie relatórios interativos, sites, livros e apresentações com a linguagem Markdown estendida e os recursos do Quarto.</p>
+<div class="chips"><span class="chip">#programação</span> <span class="chip">#Quarto</span> <span class="chip">#sumário de Quarto</span> <span class="chip">#sumário</span> <span class="chip">#YAML</span></div>
+</div>
+</a>
+</div>
+:::

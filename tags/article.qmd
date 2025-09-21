@@ -3,11 +3,11 @@ title: "article"
 format: html
 ---
 
-[⬅ Return to All Tags](../tags.qmd)
+[⬅ Back to All Tags](../tags.qmd)
 
-## Posts with the tag **article**
+## Posts with the **article** tag
 
-- [📘 👨‍💻 📄 index.qmd Models for Quarto Projects](/posts/programming/models-index-quarto.html)
-- [📘 🧮 Why is 0! = 1?](/posts/mathematics/zero-factorial.html)
-- [📘 🧮 Beauty is the First Test — G. H. Hardy and Mathematics as Art](/posts/mathematics/mathematical-beauty.html)
 - [📘 ✨ 🧮 ⚛️ Equations that Shaped History](/posts/mathematics/historical-equations.html)
+- [📘 🧮 Beauty is the First Test — G. H. Hardy and Mathematics as Art](/posts/mathematics/mathematical-beauty.html)
+- [📘 🧮 Why is 0! = 1?](/posts/mathematics/zero-factorial.html)
+- [📘 👨‍💻 📄 index.qmd Models for Quarto Projects](/posts/programming/models-index-quarto.html)

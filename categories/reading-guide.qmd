@@ -19,4 +19,34 @@ page-layout: full
 </div>
 </a>
 </div>
+<div class="card">
+<a class="card-link" href="/posts/programming/programming-guide.html">
+<div class="card-image"><img src="/images/banner.png" alt="🧭 👨‍💻 Reading Guide — Programming"></div>
+<div class="card-content">
+<h3 class="card-title">🧭 👨‍💻 Reading Guide — Programming</h3>
+<p class="card-desc">Suggested reading path for the Programming Section of Blog do Marcellini. Includes a recommended order for courses and articles, based on complexity and application.</p>
+<div class="chips"><span class="chip">#programming</span> <span class="chip">#reading guide</span></div>
+</div>
+</a>
+</div>
+<div class="card">
+<a class="card-link" href="/posts/mathematics/math-guide.html">
+<div class="card-image"><img src="/images/banner.png" alt="🧭 🧮 Mathematics Reading Guide"></div>
+<div class="card-content">
+<h3 class="card-title">🧭 🧮 Mathematics Reading Guide</h3>
+<p class="card-desc">Recommended reading path for the Mathematics Section of Blog do Marcellini. Includes suggested order for courses and articles, based on complexity level and applications.</p>
+<div class="chips"><span class="chip">#mathematics</span> <span class="chip">#reading guide</span></div>
+</div>
+</a>
+</div>
+<div class="card">
+<a class="card-link" href="/posts/statistics/statistics-guide.html">
+<div class="card-image"><img src="/images/banner.png" alt="🧭 📊 Statistics Reading Guide"></div>
+<div class="card-content">
+<h3 class="card-title">🧭 📊 Statistics Reading Guide</h3>
+<p class="card-desc">Recommended reading path for the Statistics Section of Blog do Marcellini. Includes suggested order for courses and articles, based on complexity level and application.</p>
+<div class="chips"><span class="chip">#statistics</span> <span class="chip">#reading guide</span></div>
+</div>
+</a>
+</div>
 :::

@@ -3,9 +3,8 @@ title: "sumário de Python"
 format: html
 ---
 
-[⬅ Return to All Tags](../tags.qmd)
+[⬅ Back to All Tags](../tags.qmd)
 
-## Posts with the tag **sumário de Python**
+## Posts with the **sumário de Python** tag
 
-- [📄 🐍 Python](/posts/programacao/python/index.html)
 - [📄 🐍 Python](/posts/programming/python/index.html)

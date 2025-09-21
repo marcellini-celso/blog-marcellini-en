@@ -101,17 +101,16 @@ A progressive course that combines **mathematical rigor**, **LaTeX typographical
 ## 🆕 Latest Posts
 
 <!-- inicio-ultimos-posts -->
-<<<<<<< HEAD
+- [🎓 📊 Statistics Course: The Normal Distribution](posts/courses/statistics/normal_distribution/index.html.html)
+- [🎓 Differential and Integral Calculus Course](posts/courses/mathematics/calculus/index.html.html)
+- [🧭 👨‍💻 Reading Guide — Programming](posts/programming/programming-guide.html.html)
 - [🧭 🧑‍🏫 Reading Guide — Personal Blog](posts/personal/personal-guide.html.html)
+- [👨‍💻 Programming](posts/programming/index.html.html)
 - [🧑‍🏫 Personal Blog](posts/personal/index.html.html)
-- [📘 🧑‍💻 About the Blog and About Me](posts/personal/about-the-blog.html.html)
-=======
-- [📘 Módulo 1.3: Intervalos e Inequações](posts/cursos/matematica/calculo/modulo-1/1.3-intervalos-inequacoes.html)
-- [🎓 📊 Statistics Course: The Normal Distribution](posts/courses/statistics/normal_distribution/index.html)
-- [🧭 📚 🌠 Guia de Leitura da Série Relatividade Geral](posts/fisica/guia-relatividade-geral.html)
-- [🎓 Differential and Integral Calculus Course](posts/courses/mathematics/calculus/index.html)
-- [🎓 Curso de Cálculo Diferencial e Integral](posts/cursos/matematica/calculo/index.html)
->>>>>>> 17321b0 (Atualizações no blog)
+- [🎓📊 The Normal Distribution — Part 3: Plots, CLT, and Approximate Normality](posts/courses/statistics/normal_distribution/part-3/normal-distribution-part3.html.html)
+- [🎓📊 The Normal Distribution — Part 2: z-Score and z-Table](posts/courses/statistics/normal_distribution/part-2/normal-distribution-part2.html.html)
+- [🎓 📊 Statistics Course: The Normal Distribution (Part 1): Introduction to the Normal Distribution](posts/courses/statistics/normal_distribution/part-1/normal-distribution.html.html)
+- [🎓📊 Normal Distribution — Part 2: z-Score and Z Table](posts/courses/statistics/normal_distribution/part-2/normal-distribution-part2.sync-conflict-20250905-071012-HGFPXGB.html.html)
 <!-- fim-ultimos-posts -->
 
 > This section is automatically updated with each new publication.

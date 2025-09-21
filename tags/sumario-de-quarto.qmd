@@ -3,9 +3,8 @@ title: "sumário de Quarto"
 format: html
 ---
 
-[⬅ Return to All Tags](../tags.qmd)
+[⬅ Back to All Tags](../tags.qmd)
 
-## Posts with the tag **sumário de Quarto**
+## Posts with the **sumário de Quarto** tag
 
-- [📄 Quarto](/posts/programacao/quarto/index.html)
 - [📄 Quarto](/posts/programming/quarto/index.html)

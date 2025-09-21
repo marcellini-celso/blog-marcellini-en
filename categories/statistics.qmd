@@ -1,0 +1,102 @@
+---
+title: "statistics"
+format: html
+page-layout: full
+---
+
+[⬅ Back to All Categories](../categories.qmd)
+
+## Posts in **statistics**
+
+::: {.cards-grid}
+<div class="card">
+<a class="card-link" href="/posts/courses/statistics/normal_distribution/index.html">
+<div class="card-image"><img src="/images/banner.png" alt="🎓 📊 Statistics Course: The Normal Distribution"></div>
+<div class="card-content">
+<h3 class="card-title">🎓 📊 Statistics Course: The Normal Distribution</h3>
+<p class="card-desc">Introductory presentation on the normal distribution with practical examples, plots, and theoretical foundations applied to Statistics.</p>
+<div class="chips"><span class="chip">#statistics</span> <span class="chip">#normal distribution</span> <span class="chip">#courses</span></div>
+</div>
+</a>
+</div>
+<div class="card">
+<a class="card-link" href="/posts/courses/statistics/normal_distribution/part-3/normal-distribution-part3.html">
+<div class="card-image"><img src="/images/banner.png" alt="🎓📊 The Normal Distribution — Part 3: Plots, CLT, and Approximate Normality"></div>
+<div class="card-content">
+<h3 class="card-title">🎓📊 The Normal Distribution — Part 3: Plots, CLT, and Approximate Normality</h3>
+<p class="card-desc">Visual and theoretical foundations: histograms, Q–Q plots, Law of Large Numbers, and Central Limit Theorem as the basis for approximate normality.</p>
+<div class="chips"><span class="chip">#normal</span> <span class="chip">#CLT</span> <span class="chip">#LLN</span> <span class="chip">#plots</span> <span class="chip">#histograms</span> <span class="chip">#qqplot</span></div>
+</div>
+</a>
+</div>
+<div class="card">
+<a class="card-link" href="/posts/courses/statistics/normal_distribution/part-2/normal-distribution-part2.html">
+<div class="card-image"><img src="/images/banner.png" alt="🎓📊 The Normal Distribution — Part 2: z-Score and z-Table"></div>
+<div class="card-content">
+<h3 class="card-title">🎓📊 The Normal Distribution — Part 2: z-Score and z-Table</h3>
+<p class="card-desc">Practical foundations for standardization (z-score), probability lookup in the z-table, and comparative applications.</p>
+<div class="chips"><span class="chip">#normal</span> <span class="chip">#z-score</span> <span class="chip">#z-table</span> <span class="chip">#probabilities</span> <span class="chip">#exercises</span></div>
+</div>
+</a>
+</div>
+<div class="card">
+<a class="card-link" href="/posts/courses/statistics/normal_distribution/part-2/normal-distribution-part2.sync-conflict-20250904-042416-HGFPXGB.html">
+<div class="card-image"><img src="/images/banner.png" alt="🎓📊 Normal Distribution — Part 2: z-Score and Z Table"></div>
+<div class="card-content">
+<h3 class="card-title">🎓📊 Normal Distribution — Part 2: z-Score and Z Table</h3>
+<p class="card-desc">Introdução prática à padronização (escore‑z), leitura da tabela‑z e aplicações: comparação de desempenhos, interpretação de probabilidades, percentis e normal inversa.</p>
+<div class="chips"><span class="chip">#normal</span> <span class="chip">#z-score</span> <span class="chip">#z-table</span> <span class="chip">#probabilities</span> <span class="chip">#exercises</span></div>
+</div>
+</a>
+</div>
+<div class="card">
+<a class="card-link" href="/posts/courses/statistics/normal_distribution/part-2/normal-distribution-part2.sync-conflict-20250905-071012-HGFPXGB.html">
+<div class="card-image"><img src="/images/banner.png" alt="🎓📊 Normal Distribution — Part 2: z-Score and Z Table"></div>
+<div class="card-content">
+<h3 class="card-title">🎓📊 Normal Distribution — Part 2: z-Score and Z Table</h3>
+<p class="card-desc">Introdução prática à padronização (escore‑z), leitura da tabela‑z e aplicações: comparação de desempenhos, interpretação de probabilidades, percentis e normal inversa.</p>
+<div class="chips"><span class="chip">#normal</span> <span class="chip">#z-score</span> <span class="chip">#z-table</span> <span class="chip">#probabilities</span> <span class="chip">#exercises</span></div>
+</div>
+</a>
+</div>
+<div class="card">
+<a class="card-link" href="/posts/courses/statistics/normal_distribution/part-1/normal-distribution.html">
+<div class="card-image"><img src="/images/banner.png" alt="🎓 📊 Statistics Course: The Normal Distribution (Part 1): Introduction to the Normal Distribution"></div>
+<div class="card-content">
+<h3 class="card-title">🎓 📊 Statistics Course: The Normal Distribution (Part 1): Introduction to the Normal Distribution</h3>
+<p class="card-desc">This course aims to present, in an accessible and applied way, the fundamentals of the normal distribution, also known as the Gaussian distribution, supported by graphical visualizations and computational tools.</p>
+<div class="chips"><span class="chip">#statistics</span> <span class="chip">#normal distribution</span> <span class="chip">#courses</span> <span class="chip">#exercises</span></div>
+</div>
+</a>
+</div>
+<div class="card">
+<a class="card-link" href="/posts/courses/statistics/index.html">
+<div class="card-image"><img src="/images/banner.png" alt="🎓 📊 Statistics Courses"></div>
+<div class="card-content">
+<h3 class="card-title">🎓 📊 Statistics Courses</h3>
+<p class="card-desc">Complete Statistics courses with theory, practical applications, visualizations, and solved exercises in R and Excel.</p>
+<div class="chips"><span class="chip">#statistics</span> <span class="chip">#courses</span> <span class="chip">#summary</span></div>
+</div>
+</a>
+</div>
+<div class="card">
+<a class="card-link" href="/posts/statistics/statistics-guide.html">
+<div class="card-image"><img src="/images/banner.png" alt="🧭 📊 Statistics Reading Guide"></div>
+<div class="card-content">
+<h3 class="card-title">🧭 📊 Statistics Reading Guide</h3>
+<p class="card-desc">Recommended reading path for the Statistics Section of Blog do Marcellini. Includes suggested order for courses and articles, based on complexity level and application.</p>
+<div class="chips"><span class="chip">#statistics</span> <span class="chip">#reading guide</span></div>
+</div>
+</a>
+</div>
+<div class="card">
+<a class="card-link" href="/posts/statistics/index.html">
+<div class="card-image"><img src="/images/banner.png" alt="📊 Statistics"></div>
+<div class="card-content">
+<h3 class="card-title">📊 Statistics</h3>
+<p class="card-desc">Explore essential statistical concepts with a focus on applications, data interpretation, visualizations, and theoretical foundations. Includes full courses, solved examples, and reading guides.</p>
+<div class="chips"><span class="chip">#statistics</span> <span class="chip">#statistics summary</span> <span class="chip">#summary</span></div>
+</div>
+</a>
+</div>
+:::

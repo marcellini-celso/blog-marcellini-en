@@ -1,0 +1,22 @@
+---
+title: "sumário de R"
+format: html
+page-layout: full
+---
+
+[⬅ Back to All Categories](../categories.qmd)
+
+## Posts in **sumário de R**
+
+::: {.cards-grid}
+<div class="card">
+<a class="card-link" href="/posts/programming/r/index.html">
+<div class="card-image"><img src="/images/banner.png" alt="📄 📊 R"></div>
+<div class="card-content">
+<h3 class="card-title">📄 📊 R</h3>
+<p class="card-desc">Publicações sobre a linguagem R com foco em estatística, gráficos, análise de dados e produção de relatórios reprodutíveis. R é uma linguagem poderosa para análise estatística e produção de gráficos sofisticados, com suporte a relatórios dinâmicos e reprodutíveis.</p>
+<div class="chips"><span class="chip">#programação</span> <span class="chip">#R</span> <span class="chip">#sumário de R</span> <span class="chip">#sumário</span> <span class="chip">#Quarto</span></div>
+</div>
+</a>
+</div>
+:::

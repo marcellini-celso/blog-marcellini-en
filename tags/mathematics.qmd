@@ -3,15 +3,15 @@ title: "mathematics"
 format: html
 ---
 
-[⬅ Return to All Tags](../tags.qmd)
+[⬅ Back to All Tags](../tags.qmd)
 
-## Posts with the tag **mathematics**
+## Posts with the **mathematics** tag
 
 - [🎓 🧮 Mathematics Courses](/posts/courses/mathematics/index.html)
 - [🎓 Differential and Integral Calculus Course](/posts/courses/mathematics/calculus/index.html)
 - [🧠 Module 1.1: What is Calculus? History and Applications](/posts/courses/mathematics/calculus/module-1/1.1-introduction.html)
-- [📘 🧮 Why is 0! = 1?](/posts/mathematics/zero-factorial.html)
-- [📘 🧮 Beauty is the First Test — G. H. Hardy and Mathematics as Art](/posts/mathematics/mathematical-beauty.html)
-- [🧭 🧮 Mathematics Reading Guide](/posts/mathematics/math-guide.html)
 - [📘 ✨ 🧮 ⚛️ Equations that Shaped History](/posts/mathematics/historical-equations.html)
+- [🧭 🧮 Mathematics Reading Guide](/posts/mathematics/math-guide.html)
 - [🧮 Mathematics](/posts/mathematics/index.html)
+- [📘 🧮 Beauty is the First Test — G. H. Hardy and Mathematics as Art](/posts/mathematics/mathematical-beauty.html)
+- [📘 🧮 Why is 0! = 1?](/posts/mathematics/zero-factorial.html)

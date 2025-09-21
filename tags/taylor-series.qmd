@@ -3,8 +3,8 @@ title: "Taylor series"
 format: html
 ---
 
-[⬅ Return to All Tags](../tags.qmd)
+[⬅ Back to All Tags](../tags.qmd)
 
-## Posts with the tag **Taylor series**
+## Posts with the **Taylor series** tag
 
 - [🎓 Differential and Integral Calculus Course](/posts/courses/mathematics/calculus/index.html)

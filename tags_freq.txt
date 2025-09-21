@@ -1,97 +1,54 @@
-<<<<<<< HEAD
-2 about
-2 about me
-2 about the blog
-2 personal
-1 personal blog
-1 personal blog summary
-1 reading guide
-1 summary
-=======
-18 Quarto
-17 programação
-11 sumário
-10 física
-9 artigo
 8 mathematics
-7 YAML
 6 courses
-6 cursos
-6 guia de leitura
-6 matemática
+6 Quarto
 6 summary
-5 LaTeX
-5 Python
-5 R
-5 cálculo
-5 einstein
-5 relatividade
 5 statistics
-5 série
 4 article
 4 exercises
 4 normal
+4 programação
 4 reading guide
-3 mecânica quântica
+4 sumário
 3 probabilities
 3 programming
-3 relatividade especial
+3 YAML
 3 z-score
 3 z-table
 2 about
 2 about me
 2 about the blog
 2 calculus
-2 conjuntos numéricos
-2 exercícios
+2 LaTeX
 2 normal distribution
 2 personal
-2 relatividade geral
-2 sumário de LaTeX
-2 sumário de Python
-2 sumário de Quarto
-2 sumário de R
-1 CLT
-1 Cantor
-1 LLN
-1 Taylor series
-1 aplicações
+2 Python
+2 R
 1 applications
+1 CLT
 1 combinatorics
-1 conjuntos
-1 corpo
-1 derivadas
 1 derivatives
 1 differential equations
-1 enumerabilidade
 1 equations
-1 equações diferenciais
 1 factorial
 1 functions
-1 funções
-1 gravidade
 1 histograms
 1 history of calculus
 1 history of science
-1 história do cálculo
-1 inequações
 1 inference
-1 integrais
 1 integrals
-1 intervalos
-1 limites
 1 limits
+1 LLN
 1 mathematics summary
 1 personal blog
 1 personal blog summary
 1 philosophy of mathematics
 1 physics
 1 plots
-1 princípio da equivalência
 1 programming summary
 1 qqplot
 1 statistics summary
-1 sumário de física
-1 sumário de programação
-1 séries de Taylor
->>>>>>> 17321b0 (Atualizações no blog)
+1 sumário de LaTeX
+1 sumário de Python
+1 sumário de Quarto
+1 sumário de R
+1 Taylor series

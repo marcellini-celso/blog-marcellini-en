@@ -3,8 +3,8 @@ title: "equations"
 format: html
 ---
 
-[⬅ Return to All Tags](../tags.qmd)
+[⬅ Back to All Tags](../tags.qmd)
 
-## Posts with the tag **equations**
+## Posts with the **equations** tag
 
 - [📘 ✨ 🧮 ⚛️ Equations that Shaped History](/posts/mathematics/historical-equations.html)

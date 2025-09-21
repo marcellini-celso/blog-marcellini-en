@@ -3,14 +3,10 @@ title: "YAML"
 format: html
 ---
 
-[⬅ Return to All Tags](../tags.qmd)
+[⬅ Back to All Tags](../tags.qmd)
 
-## Posts with the tag **YAML**
+## Posts with the **YAML** tag
 
-- [📘 👨‍💻 📄 YAML no Quarto: O Coração Invisível dos Seus Documentos](/posts/programacao/yaml-no-quarto.html)
-- [📘 👨‍💻 📄 Modelos de index.qmd para Projetos Quarto](/posts/programacao/modelos-index-quarto.html)
-- [👨‍💻 Programação](/posts/programacao/index.html)
-- [📄 Quarto](/posts/programacao/quarto/index.html)
-- [📘 👨‍💻 📄 index.qmd Models for Quarto Projects](/posts/programming/models-index-quarto.html)
 - [👨‍💻 Programming](/posts/programming/index.html)
+- [📘 👨‍💻 📄 index.qmd Models for Quarto Projects](/posts/programming/models-index-quarto.html)
 - [📄 Quarto](/posts/programming/quarto/index.html)

@@ -3,8 +3,8 @@ title: "factorial"
 format: html
 ---
 
-[⬅ Return to All Tags](../tags.qmd)
+[⬅ Back to All Tags](../tags.qmd)
 
-## Posts with the tag **factorial**
+## Posts with the **factorial** tag
 
 - [📘 🧮 Why is 0! = 1?](/posts/mathematics/zero-factorial.html)

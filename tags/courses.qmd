@@ -3,9 +3,9 @@ title: "courses"
 format: html
 ---
 
-[⬅ Return to All Tags](../tags.qmd)
+[⬅ Back to All Tags](../tags.qmd)
 
-## Posts with the tag **courses**
+## Posts with the **courses** tag
 
 - [🎓 📊 Statistics Courses](/posts/courses/statistics/index.html)
 - [🎓 📊 Statistics Course: The Normal Distribution](/posts/courses/statistics/normal_distribution/index.html)

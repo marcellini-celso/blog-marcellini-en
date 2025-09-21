@@ -3,21 +3,13 @@ title: "summary"
 format: html
 ---
 
-<<<<<<< HEAD
 [⬅ Back to All Tags](../tags.qmd)
 
 ## Posts with the **summary** tag
 
-- [🧑‍🏫 Personal Blog](/posts/personal/index.html)
-=======
-[⬅ Return to All Tags](../tags.qmd)
-
-## Posts with the tag **summary**
-
 - [🎓 📊 Statistics Courses](/posts/courses/statistics/index.html)
 - [🎓 🧮 Mathematics Courses](/posts/courses/mathematics/index.html)
-- [📊 Statistics](/posts/statistics/index.html)
+- [🧮 Mathematics](/posts/mathematics/index.html)
 - [🧑‍🏫 Personal Blog](/posts/personal/index.html)
 - [👨‍💻 Programming](/posts/programming/index.html)
-- [🧮 Mathematics](/posts/mathematics/index.html)
->>>>>>> 17321b0 (Atualizações no blog)
+- [📊 Statistics](/posts/statistics/index.html)

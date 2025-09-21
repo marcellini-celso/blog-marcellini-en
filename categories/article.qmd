@@ -1,0 +1,52 @@
+---
+title: "article"
+format: html
+page-layout: full
+---
+
+[⬅ Back to All Categories](../categories.qmd)
+
+## Posts in **article**
+
+::: {.cards-grid}
+<div class="card">
+<a class="card-link" href="/posts/mathematics/historical-equations.html">
+<div class="card-image"><img src="/images/banner.png" alt="📘 ✨ 🧮 ⚛️ Equations that Shaped History"></div>
+<div class="card-content">
+<h3 class="card-title">📘 ✨ 🧮 ⚛️ Equations that Shaped History</h3>
+<p class="card-desc">A selection of the most beautiful and influential equations in mathematics and physics, with accessible explanations and clear visualization.</p>
+<div class="chips"><span class="chip">#mathematics</span> <span class="chip">#physics</span> <span class="chip">#history of science</span> <span class="chip">#article</span> <span class="chip">#equations</span></div>
+</div>
+</a>
+</div>
+<div class="card">
+<a class="card-link" href="/posts/programming/models-index-quarto.html">
+<div class="card-image"><img src="/images/banner.png" alt="📘 👨‍💻 📄 index.qmd Models for Quarto Projects"></div>
+<div class="card-content">
+<h3 class="card-title">📘 👨‍💻 📄 index.qmd Models for Quarto Projects</h3>
+<p class="card-desc">The `index.qmd` file is usually the **main entry point** of a Quarto project.</p>
+<div class="chips"><span class="chip">#programming</span> <span class="chip">#Quarto</span> <span class="chip">#YAML</span> <span class="chip">#article</span></div>
+</div>
+</a>
+</div>
+<div class="card">
+<a class="card-link" href="/posts/mathematics/mathematical-beauty.html">
+<div class="card-image"><img src="/images/banner.png" alt="📘 🧮 Beauty is the First Test — G. H. Hardy and Mathematics as Art"></div>
+<div class="card-content">
+<h3 class="card-title">📘 🧮 Beauty is the First Test — G. H. Hardy and Mathematics as Art</h3>
+<p class="card-desc">Reflections on G. H. Hardy’s famous phrase in the light of pure mathematics, with classical examples of mathematical elegance and graphic visualizations.</p>
+<div class="chips"><span class="chip">#mathematics</span> <span class="chip">#philosophy of mathematics</span> <span class="chip">#article</span></div>
+</div>
+</a>
+</div>
+<div class="card">
+<a class="card-link" href="/posts/mathematics/zero-factorial.html">
+<div class="card-image"><img src="/images/banner.png" alt="📘 🧮 Why is 0! = 1?"></div>
+<div class="card-content">
+<h3 class="card-title">📘 🧮 Why is 0! = 1?</h3>
+<p class="card-desc">We explore **10 distinct justifications** for the value of $0!$.</p>
+<div class="chips"><span class="chip">#mathematics</span> <span class="chip">#combinatorics</span> <span class="chip">#factorial</span> <span class="chip">#article</span></div>
+</div>
+</a>
+</div>
+:::

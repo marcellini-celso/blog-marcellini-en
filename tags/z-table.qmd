@@ -3,9 +3,9 @@ title: "z-table"
 format: html
 ---
 
-[⬅ Return to All Tags](../tags.qmd)
+[⬅ Back to All Tags](../tags.qmd)
 
-## Posts with the tag **z-table**
+## Posts with the **z-table** tag
 
 - [🎓📊 The Normal Distribution — Part 2: z-Score and z-Table](/posts/courses/statistics/normal_distribution/part-2/normal-distribution-part2.html)
 - [🎓📊 Normal Distribution — Part 2: z-Score and Z Table](/posts/courses/statistics/normal_distribution/part-2/normal-distribution-part2.sync-conflict-20250904-042416-HGFPXGB.html)

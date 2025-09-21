@@ -1,6 +1,301 @@
 [
   {
-<<<<<<< HEAD
+    "title": "🎓 📊 Statistics Courses",
+    "href": "posts/courses/statistics/index.html",
+    "tags": [
+      "statistics",
+      "courses",
+      "summary"
+    ],
+    "categories": [
+      "statistics",
+      "courses",
+      "summary"
+    ],
+    "date": "2025-07-22",
+    "description": "Complete Statistics courses with theory, practical applications, visualizations, and solved exercises in R and Excel.",
+    "image": null
+  },
+  {
+    "title": "🎓 📊 Statistics Course: The Normal Distribution",
+    "href": "posts/courses/statistics/normal_distribution/index.html",
+    "tags": [
+      "statistics",
+      "normal distribution",
+      "courses"
+    ],
+    "categories": [
+      "statistics",
+      "normal distribution",
+      "courses"
+    ],
+    "date": "2025-08-25",
+    "description": "Introductory presentation on the normal distribution with practical examples, plots, and theoretical foundations applied to Statistics.",
+    "image": null
+  },
+  {
+    "title": "🎓📊 The Normal Distribution — Part 3: Plots, CLT, and Approximate Normality",
+    "href": "posts/courses/statistics/normal_distribution/part-3/normal-distribution-part3.html",
+    "tags": [
+      "normal",
+      "CLT",
+      "LLN",
+      "plots",
+      "histograms",
+      "qqplot",
+      "inference"
+    ],
+    "categories": [
+      "statistics",
+      "normal distribution",
+      "courses",
+      "central limit theorem",
+      "law of large numbers",
+      "approximate normality"
+    ],
+    "date": "2025-07-24",
+    "description": "Visual and theoretical foundations: histograms, Q–Q plots, Law of Large Numbers, and Central Limit Theorem as the basis for approximate normality.",
+    "image": null
+  },
+  {
+    "title": "🎓 📊 Statistics Course: The Normal Distribution (Part 1): Introduction to the Normal Distribution",
+    "href": "posts/courses/statistics/normal_distribution/part-1/normal-distribution.html",
+    "tags": [
+      "statistics",
+      "normal distribution",
+      "courses",
+      "exercises"
+    ],
+    "categories": [
+      "statistics",
+      "normal distribution",
+      "courses",
+      "exercises"
+    ],
+    "date": "2025-07-24",
+    "description": "This course aims to present, in an accessible and applied way, the fundamentals of the normal distribution, also known as the Gaussian distribution, supported by graphical visualizations and computational tools.",
+    "image": null
+  },
+  {
+    "title": "🎓📊 The Normal Distribution — Part 2: z-Score and z-Table",
+    "href": "posts/courses/statistics/normal_distribution/part-2/normal-distribution-part2.html",
+    "tags": [
+      "normal",
+      "z-score",
+      "z-table",
+      "probabilities",
+      "exercises"
+    ],
+    "categories": [
+      "statistics",
+      "normal distribution",
+      "courses",
+      "z-score",
+      "z-table"
+    ],
+    "date": "2025-07-24",
+    "description": "Practical foundations for standardization (z-score), probability lookup in the z-table, and comparative applications.",
+    "image": null
+  },
+  {
+    "title": "🎓📊 Normal Distribution — Part 2: z-Score and Z Table",
+    "href": "posts/courses/statistics/normal_distribution/part-2/normal-distribution-part2.sync-conflict-20250904-042416-HGFPXGB.html",
+    "tags": [
+      "normal",
+      "z-score",
+      "z-table",
+      "probabilities",
+      "exercises"
+    ],
+    "categories": [
+      "statistics",
+      "normal distribution",
+      "courses",
+      "z-score",
+      "z-table"
+    ],
+    "date": "2025-07-24",
+    "description": "Introdução prática à padronização (escore‑z), leitura da tabela‑z e aplicações: comparação de desempenhos, interpretação de probabilidades, percentis e normal inversa.",
+    "image": null
+  },
+  {
+    "title": "🎓📊 Normal Distribution — Part 2: z-Score and Z Table",
+    "href": "posts/courses/statistics/normal_distribution/part-2/normal-distribution-part2.sync-conflict-20250905-071012-HGFPXGB.html",
+    "tags": [
+      "normal",
+      "z-score",
+      "z-table",
+      "probabilities",
+      "exercises"
+    ],
+    "categories": [
+      "statistics",
+      "normal distribution",
+      "courses",
+      "z-score",
+      "z-table"
+    ],
+    "date": "2025-07-24",
+    "description": "Introdução prática à padronização (escore‑z), leitura da tabela‑z e aplicações: comparação de desempenhos, interpretação de probabilidades, percentis e normal inversa.",
+    "image": null
+  },
+  {
+    "title": "🎓 🧮 Mathematics Courses",
+    "href": "posts/courses/mathematics/index.html",
+    "tags": [
+      "mathematics",
+      "courses",
+      "summary"
+    ],
+    "categories": [
+      "mathematics",
+      "courses",
+      "summary"
+    ],
+    "date": "2025-07-11",
+    "description": "Content organized in course format, focusing on fundamental topics in mathematics, step-by-step explanations, solved examples, and applied exercises.",
+    "image": null
+  },
+  {
+    "title": "🎓 Differential and Integral Calculus Course",
+    "href": "posts/courses/mathematics/calculus/index.html",
+    "tags": [
+      "calculus",
+      "mathematics",
+      "derivatives",
+      "integrals",
+      "functions",
+      "limits",
+      "courses",
+      "differential equations",
+      "Taylor series"
+    ],
+    "categories": [
+      "calculus",
+      "mathematics",
+      "derivatives",
+      "integrals",
+      "functions",
+      "limits",
+      "courses",
+      "differential equations",
+      "Taylor series"
+    ],
+    "date": "2025-08-23",
+    "description": "Introduction to Calculus with elegant theory (LaTeX), Quarto visuals, and examples in R/Python — with Advanced Path (AP) tracks.",
+    "image": null
+  },
+  {
+    "title": "🧠 Module 1.1: What is Calculus? History and Applications",
+    "href": "posts/courses/mathematics/calculus/module-1/1.1-introduction.html",
+    "tags": [
+      "calculus",
+      "mathematics",
+      "history of calculus",
+      "applications",
+      "courses"
+    ],
+    "categories": [
+      "calculus",
+      "mathematics",
+      "history of calculus",
+      "applications",
+      "courses"
+    ],
+    "date": "2025-07-23",
+    "description": "Understand what differential and integral calculus is, where it came from, and why it is so important.",
+    "image": null
+  },
+  {
+    "title": "📘 ✨ 🧮 ⚛️ Equations that Shaped History",
+    "href": "posts/mathematics/historical-equations.html",
+    "tags": [
+      "mathematics",
+      "physics",
+      "history of science",
+      "article",
+      "equations"
+    ],
+    "categories": [
+      "mathematics",
+      "physics",
+      "history of science",
+      "article",
+      "equations"
+    ],
+    "date": "2025-07-12",
+    "description": "A selection of the most beautiful and influential equations in mathematics and physics, with accessible explanations and clear visualization.",
+    "image": null
+  },
+  {
+    "title": "🧭 🧮 Mathematics Reading Guide",
+    "href": "posts/mathematics/math-guide.html",
+    "tags": [
+      "mathematics",
+      "reading guide"
+    ],
+    "categories": [
+      "mathematics",
+      "reading guide"
+    ],
+    "date": "2025-07-11",
+    "description": "Recommended reading path for the Mathematics Section of Blog do Marcellini. Includes suggested order for courses and articles, based on complexity level and applications.",
+    "image": null
+  },
+  {
+    "title": "🧮 Mathematics",
+    "href": "posts/mathematics/index.html",
+    "tags": [
+      "mathematics",
+      "mathematics summary",
+      "summary"
+    ],
+    "categories": [
+      "mathematics",
+      "mathematics summary",
+      "summary"
+    ],
+    "date": "2025-07-11",
+    "description": "Reflections and fundamental content in mathematics, focusing on the beauty, logic, and structure of the field’s main concepts.",
+    "image": null
+  },
+  {
+    "title": "📘 🧮 Beauty is the First Test — G. H. Hardy and Mathematics as Art",
+    "href": "posts/mathematics/mathematical-beauty.html",
+    "tags": [
+      "mathematics",
+      "philosophy of mathematics",
+      "article"
+    ],
+    "categories": [
+      "mathematics",
+      "philosophy of mathematics",
+      "article"
+    ],
+    "date": "2025-06-23",
+    "description": "Reflections on G. H. Hardy’s famous phrase in the light of pure mathematics, with classical examples of mathematical elegance and graphic visualizations.",
+    "image": null
+  },
+  {
+    "title": "📘 🧮 Why is 0! = 1?",
+    "href": "posts/mathematics/zero-factorial.html",
+    "tags": [
+      "mathematics",
+      "combinatorics",
+      "factorial",
+      "article"
+    ],
+    "categories": [
+      "mathematics",
+      "combinatorics",
+      "factorial",
+      "article"
+    ],
+    "date": "2025-06-22",
+    "description": "We explore **10 distinct justifications** for the value of $0!$.",
+    "image": null
+  },
+  {
     "title": "🧑‍🏫 Personal Blog",
     "href": "posts/personal/index.html",
     "tags": [
@@ -39,268 +334,6 @@
     "image": null
   },
   {
-=======
-    "title": "🎓 📊 Statistics Courses",
-    "href": "posts/courses/statistics/index.html",
-    "tags": [
-      "statistics",
-      "courses",
-      "summary"
-    ]
-  },
-  {
-    "title": "🎓 📊 Statistics Course: The Normal Distribution",
-    "href": "posts/courses/statistics/normal_distribution/index.html",
-    "tags": [
-      "statistics",
-      "normal distribution",
-      "courses"
-    ]
-  },
-  {
-    "title": "🎓📊 The Normal Distribution — Part 2: z-Score and z-Table",
-    "href": "posts/courses/statistics/normal_distribution/part-2/normal-distribution-part2.html",
-    "tags": [
-      "normal",
-      "z-score",
-      "z-table",
-      "probabilities",
-      "exercises"
-    ]
-  },
-  {
-    "title": "🎓📊 Normal Distribution — Part 2: z-Score and Z Table",
-    "href": "posts/courses/statistics/normal_distribution/part-2/normal-distribution-part2.sync-conflict-20250904-042416-HGFPXGB.html",
-    "tags": [
-      "normal",
-      "z-score",
-      "z-table",
-      "probabilities",
-      "exercises"
-    ]
-  },
-  {
-    "title": "🎓📊 Normal Distribution — Part 2: z-Score and Z Table",
-    "href": "posts/courses/statistics/normal_distribution/part-2/normal-distribution-part2.sync-conflict-20250905-071012-HGFPXGB.html",
-    "tags": [
-      "normal",
-      "z-score",
-      "z-table",
-      "probabilities",
-      "exercises"
-    ]
-  },
-  {
-    "title": "🎓📊 The Normal Distribution — Part 3: Plots, CLT, and Approximate Normality",
-    "href": "posts/courses/statistics/normal_distribution/part-3/normal-distribution-part3.html",
-    "tags": [
-      "normal",
-      "CLT",
-      "LLN",
-      "plots",
-      "histograms",
-      "qqplot",
-      "inference"
-    ]
-  },
-  {
-    "title": "🎓 📊 Statistics Course: The Normal Distribution (Part 1): Introduction to the Normal Distribution",
-    "href": "posts/courses/statistics/normal_distribution/part-1/normal-distribution.html",
-    "tags": [
-      "statistics",
-      "normal distribution",
-      "courses",
-      "exercises"
-    ]
-  },
-  {
-    "title": "🎓 🧮 Mathematics Courses",
-    "href": "posts/courses/mathematics/index.html",
-    "tags": [
-      "mathematics",
-      "courses",
-      "summary"
-    ]
-  },
-  {
-    "title": "🎓 Differential and Integral Calculus Course",
-    "href": "posts/courses/mathematics/calculus/index.html",
-    "tags": [
-      "calculus",
-      "mathematics",
-      "derivatives",
-      "integrals",
-      "functions",
-      "limits",
-      "courses",
-      "differential equations",
-      "Taylor series"
-    ]
-  },
-  {
-    "title": "🧠 Module 1.1: What is Calculus? History and Applications",
-    "href": "posts/courses/mathematics/calculus/module-1/1.1-introduction.html",
-    "tags": [
-      "calculus",
-      "mathematics",
-      "history of calculus",
-      "applications",
-      "courses"
-    ]
-  },
-  {
-    "title": "📘 👨‍💻 📄 Modelo de Markdown com Quarto -- Parte 1",
-    "href": "posts/programacao/modelos-markdown.html",
-    "tags": [
-      "programação",
-      "Quarto",
-      "artigo"
-    ]
-  },
-  {
-    "title": "📘 👨‍💻 📄 YAML no Quarto: O Coração Invisível dos Seus Documentos",
-    "href": "posts/programacao/yaml-no-quarto.html",
-    "tags": [
-      "programação",
-      "YAML",
-      "Quarto",
-      "artigo"
-    ]
-  },
-  {
-    "title": "📘 👨‍💻 📄 Modelo de Markdown com Quarto -- Parte 2",
-    "href": "posts/programacao/outros-modelos-markdown.html",
-    "tags": [
-      "programação",
-      "Quarto",
-      "artigo"
-    ]
-  },
-  {
-    "title": "📘 👨‍💻 📄 🐍 Modelos de Código em Python para Usar com Quarto",
-    "href": "posts/programacao/modelos-python-quarto.html",
-    "tags": [
-      "programação",
-      "Python",
-      "Quarto",
-      "artigo"
-    ]
-  },
-  {
-    "title": "📘 👨‍💻 📄 Modelos de index.qmd para Projetos Quarto",
-    "href": "posts/programacao/modelos-index-quarto.html",
-    "tags": [
-      "programação",
-      "Quarto",
-      "YAML",
-      "artigo"
-    ]
-  },
-  {
-    "title": "📘 👨‍💻 📐 Modelos de LaTeX para Usar com Quarto",
-    "href": "posts/programacao/modelos-latex-quarto.html",
-    "tags": [
-      "programação",
-      "LaTeX",
-      "Quarto",
-      "artigo"
-    ]
-  },
-  {
-    "title": "🧭 👨‍💻 Guia de Leitura — Programação",
-    "href": "posts/programacao/guia-programacao.html",
-    "tags": [
-      "programação",
-      "guia de leitura"
-    ]
-  },
-  {
-    "title": "👨‍💻 Programação",
-    "href": "posts/programacao/index.html",
-    "tags": [
-      "programação",
-      "sumário de programação",
-      "sumário",
-      "Python",
-      "R",
-      "LaTeX",
-      "Quarto",
-      "YAML"
-    ]
-  },
-  {
-    "title": "📘 👨‍💻 📄 📊 Modelos de Código em R para Usar com Quarto",
-    "href": "posts/programacao/modelos-r-quarto.html",
-    "tags": [
-      "programação",
-      "R",
-      "Quarto",
-      "artigo"
-    ]
-  },
-  {
-    "title": "📄 📊 R",
-    "href": "posts/programacao/r/index.html",
-    "tags": [
-      "programação",
-      "R",
-      "sumário de R",
-      "sumário",
-      "Quarto"
-    ]
-  },
-  {
-    "title": "📄 Quarto",
-    "href": "posts/programacao/quarto/index.html",
-    "tags": [
-      "programação",
-      "Quarto",
-      "sumário de Quarto",
-      "sumário",
-      "YAML"
-    ]
-  },
-  {
-    "title": "📄 🐍 Python",
-    "href": "posts/programacao/python/index.html",
-    "tags": [
-      "programação",
-      "Python",
-      "sumário de Python",
-      "sumário",
-      "Quarto"
-    ]
-  },
-  {
-    "title": "📄 📐 LaTeX",
-    "href": "posts/programacao/latex/index.html",
-    "tags": [
-      "programação",
-      "LaTeX",
-      "sumário de LaTeX",
-      "sumário",
-      "Quarto"
-    ]
-  },
-  {
-    "title": "🧭 📊 Statistics Reading Guide",
-    "href": "posts/statistics/statistics-guide.html",
-    "tags": [
-      "statistics",
-      "reading guide"
-    ]
-  },
-  {
-    "title": "📊 Statistics",
-    "href": "posts/statistics/index.html",
-    "tags": [
-      "statistics",
-      "statistics summary",
-      "summary"
-    ]
-  },
-  {
->>>>>>> 17321b0 (Atualizações no blog)
     "title": "📘 🧑‍💻 About the Blog and About Me",
     "href": "posts/personal/about-the-blog.html",
     "tags": [
@@ -308,7 +341,6 @@
       "about",
       "about the blog",
       "about me"
-<<<<<<< HEAD
     ],
     "categories": [
       "personal",
@@ -319,222 +351,6 @@
     "date": "2025-07-05",
     "description": "Learn more about the author, the blog's purpose, how it was built, and the technical behind-the-scenes of the project.",
     "image": null
-=======
-    ]
-  },
-  {
-    "title": "🧭 🧑‍🏫 Reading Guide — Personal Blog",
-    "href": "posts/personal/personal-guide.html",
-    "tags": [
-      "personal blog",
-      "reading guide"
-    ]
-  },
-  {
-    "title": "🧑‍🏫 Personal Blog",
-    "href": "posts/personal/index.html",
-    "tags": [
-      "personal",
-      "personal blog summary",
-      "summary",
-      "about",
-      "about the blog",
-      "about me"
-    ]
-  },
-  {
-    "title": "🧭 📚 🧬 Guia de Leitura da Série 100 Anos da Mecânica Quântica",
-    "href": "posts/fisica/guia-100-anos-mecanica-quantica.html",
-    "tags": [
-      "física",
-      "mecânica quântica",
-      "guia de leitura",
-      "série"
-    ]
-  },
-  {
-    "title": "📚 🧬 Parte 1 — Antes da Revolução Quântica (Aprofundamento)",
-    "href": "posts/fisica/parte-1-mecanica-quantica.html",
-    "tags": [
-      "física",
-      "mecânica quântica",
-      "guia de leitura",
-      "série"
-    ]
-  },
-  {
-    "title": "🧭 🛰️ Guia de Leitura — Série Relatividade Especial",
-    "href": "posts/fisica/guia-relatividade-especial.html",
-    "tags": [
-      "física",
-      "relatividade",
-      "relatividade especial",
-      "guia de leitura",
-      "einstein",
-      "série"
-    ]
-  },
-  {
-    "title": "📘 🧬 100 Anos da Mecânica Quântica (1925–2025)",
-    "href": "posts/fisica/100-anos-mecanica-quantica.html",
-    "tags": [
-      "física",
-      "mecânica quântica",
-      "artigo"
-    ]
-  },
-  {
-    "title": "📘 🛰️ A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
-    "href": "posts/fisica/relatividade-especial-academico.html",
-    "tags": [
-      "física",
-      "relatividade",
-      "relatividade especial",
-      "einstein"
-    ]
-  },
-  {
-    "title": "📚 🌠 Relatividade Geral — Parte 1: O Problema da Gravidade",
-    "href": "posts/fisica/relatividade-geral-parte1.html",
-    "tags": [
-      "física",
-      "relatividade",
-      "relatividade geral",
-      "gravidade",
-      "einstein",
-      "princípio da equivalência",
-      "série"
-    ]
-  },
-  {
-    "title": "🧭 📚 🌠 Guia de Leitura da Série Relatividade Geral",
-    "href": "posts/fisica/guia-relatividade-geral.html",
-    "tags": [
-      "física",
-      "relatividade",
-      "relatividade geral",
-      "guia de leitura",
-      "einstein",
-      "série"
-    ]
-  },
-  {
-    "title": "📘 🛰️ Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz",
-    "href": "posts/fisica/relatividade-especial.html",
-    "tags": [
-      "física",
-      "relatividade",
-      "relatividade especial",
-      "einstein",
-      "artigo"
-    ]
-  },
-  {
-    "title": "🧭 ⚛️ Guia de Leitura — Física",
-    "href": "posts/fisica/guia-fisica.html",
-    "tags": [
-      "física",
-      "guia de leitura"
-    ]
-  },
-  {
-    "title": "⚛️ Física",
-    "href": "posts/fisica/index.html",
-    "tags": [
-      "física",
-      "sumário de física",
-      "sumário"
-    ]
-  },
-  {
-    "title": "🎓 🧮 Cursos de Matemática",
-    "href": "posts/cursos/matematica/index.html",
-    "tags": [
-      "matemática",
-      "cursos",
-      "sumário"
-    ]
-  },
-  {
-    "title": "🎓 Curso de Cálculo Diferencial e Integral",
-    "href": "posts/cursos/matematica/calculo/index.html",
-    "tags": [
-      "cálculo",
-      "matemática",
-      "derivadas",
-      "integrais",
-      "funções",
-      "limites",
-      "cursos",
-      "equações diferenciais",
-      "séries de Taylor"
-    ]
-  },
-  {
-    "title": "🧠 Módulo 1.1: O que é Cálculo? História e aplicações",
-    "href": "posts/cursos/matematica/calculo/modulo-1/1.1-introducao.html",
-    "tags": [
-      "cálculo",
-      "matemática",
-      "história do cálculo",
-      "aplicações",
-      "cursos"
-    ]
-  },
-  {
-    "title": "🔢 Módulo 1.2: Conjuntos Numéricos",
-    "href": "posts/cursos/matematica/calculo/modulo-1/1.2-conjuntos.html",
-    "tags": [
-      "matemática",
-      "cálculo",
-      "conjuntos",
-      "conjuntos numéricos",
-      "exercícios",
-      "cursos"
-    ]
-  },
-  {
-    "title": "📘 Módulo 1.3: Intervalos e Inequações",
-    "href": "posts/cursos/matematica/calculo/modulo-1/1.3-intervalos-inequacoes.html",
-    "tags": [
-      "cálculo",
-      "intervalos",
-      "inequações",
-      "matemática",
-      "cursos"
-    ]
-  },
-  {
-    "title": "🧠 🔢 Módulo 1.2 AP: Conjuntos Numéricos — Aprofundamento",
-    "href": "posts/cursos/matematica/calculo/modulo-1/1.2-conjuntos-ap.html",
-    "tags": [
-      "matemática",
-      "cálculo",
-      "conjuntos numéricos",
-      "enumerabilidade",
-      "Cantor",
-      "corpo",
-      "exercícios",
-      "cursos"
-    ]
-  },
-  {
-    "title": "🧭 👨‍💻 Reading Guide — Programming",
-    "href": "posts/programming/programming-guide.html",
-    "tags": [
-      "programming",
-      "reading guide"
-    ]
-  },
-  {
-    "title": "📘 👨‍💻 📄 index.qmd Models for Quarto Projects",
-    "href": "posts/programming/models-index-quarto.html",
-    "tags": [
-      "programming",
-      "Quarto",
-      "YAML",
-      "article"
-    ]
   },
   {
     "title": "👨‍💻 Programming",
@@ -548,40 +364,54 @@
       "LaTeX",
       "Quarto",
       "YAML"
-    ]
-  },
-  {
-    "title": "📄 📊 R",
-    "href": "posts/programming/r/index.html",
-    "tags": [
-      "programação",
-      "R",
-      "sumário de R",
-      "sumário",
-      "Quarto"
-    ]
-  },
-  {
-    "title": "📄 Quarto",
-    "href": "posts/programming/quarto/index.html",
-    "tags": [
-      "programação",
-      "Quarto",
-      "sumário de Quarto",
-      "sumário",
-      "YAML"
-    ]
-  },
-  {
-    "title": "📄 🐍 Python",
-    "href": "posts/programming/python/index.html",
-    "tags": [
-      "programação",
+    ],
+    "categories": [
+      "programming",
+      "programming summary",
+      "summary",
       "Python",
-      "sumário de Python",
-      "sumário",
-      "Quarto"
-    ]
+      "R",
+      "LaTeX",
+      "Quarto",
+      "YAML"
+    ],
+    "date": "2025-07-30",
+    "description": "Content about languages and tools such as Python, R, LaTeX, and Quarto, focused on technical documentation, data analysis, and computational science.",
+    "image": null
+  },
+  {
+    "title": "📘 👨‍💻 📄 index.qmd Models for Quarto Projects",
+    "href": "posts/programming/models-index-quarto.html",
+    "tags": [
+      "programming",
+      "Quarto",
+      "YAML",
+      "article"
+    ],
+    "categories": [
+      "programming",
+      "Quarto",
+      "YAML",
+      "article"
+    ],
+    "date": "2025-06-29",
+    "description": "The `index.qmd` file is usually the **main entry point** of a Quarto project.",
+    "image": null
+  },
+  {
+    "title": "🧭 👨‍💻 Reading Guide — Programming",
+    "href": "posts/programming/programming-guide.html",
+    "tags": [
+      "programming",
+      "reading guide"
+    ],
+    "categories": [
+      "programming",
+      "reading guide"
+    ],
+    "date": "2025-07-30",
+    "description": "Suggested reading path for the Programming Section of Blog do Marcellini. Includes a recommended order for courses and articles, based on complexity and application.",
+    "image": null
   },
   {
     "title": "📄 📐 LaTeX",
@@ -592,54 +422,111 @@
       "sumário de LaTeX",
       "sumário",
       "Quarto"
-    ]
+    ],
+    "categories": [
+      "programação",
+      "LaTeX",
+      "sumário de LaTeX",
+      "sumário",
+      "Quarto"
+    ],
+    "date": "2025-07-11",
+    "description": "Dicas e exemplos sobre como usar LaTeX para escrever documentos científicos, formatar fórmulas matemáticas e montar apresentações com elegância e precisão. LaTeX é uma ferramenta poderosa para a criação de documentos técnicos e científicos com excelente qualidade tipográfica.",
+    "image": null
   },
   {
-    "title": "📘 🧮 Why is 0! = 1?",
-    "href": "posts/mathematics/zero-factorial.html",
+    "title": "📄 🐍 Python",
+    "href": "posts/programming/python/index.html",
     "tags": [
-      "mathematics",
-      "combinatorics",
-      "factorial",
-      "article"
-    ]
+      "programação",
+      "Python",
+      "sumário de Python",
+      "sumário",
+      "Quarto"
+    ],
+    "categories": [
+      "programação",
+      "Python",
+      "sumário de Python",
+      "sumário",
+      "Quarto"
+    ],
+    "date": "2025-07-11",
+    "description": "Conteúdos sobre a linguagem Python aplicados à análise de dados, automação, visualização gráfica e uso científico. Python é uma linguagem versátil usada amplamente na ciência de dados, automação e programação científica.",
+    "image": null
   },
   {
-    "title": "📘 🧮 Beauty is the First Test — G. H. Hardy and Mathematics as Art",
-    "href": "posts/mathematics/mathematical-beauty.html",
+    "title": "📄 Quarto",
+    "href": "posts/programming/quarto/index.html",
     "tags": [
-      "mathematics",
-      "philosophy of mathematics",
-      "article"
-    ]
+      "programação",
+      "Quarto",
+      "sumário de Quarto",
+      "sumário",
+      "YAML"
+    ],
+    "categories": [
+      "programação",
+      "Quarto",
+      "sumário de Quarto",
+      "sumário",
+      "YAML"
+    ],
+    "date": "2025-07-11",
+    "description": "Publicações sobre a ferramenta Quarto para gerar relatórios, sites, livros e documentos técnicos dinâmicos e reprodutíveis. Crie relatórios interativos, sites, livros e apresentações com a linguagem Markdown estendida e os recursos do Quarto.",
+    "image": null
   },
   {
-    "title": "🧭 🧮 Mathematics Reading Guide",
-    "href": "posts/mathematics/math-guide.html",
+    "title": "📄 📊 R",
+    "href": "posts/programming/r/index.html",
     "tags": [
-      "mathematics",
-      "reading guide"
-    ]
+      "programação",
+      "R",
+      "sumário de R",
+      "sumário",
+      "Quarto"
+    ],
+    "categories": [
+      "programação",
+      "R",
+      "sumário de R",
+      "sumário",
+      "Quarto"
+    ],
+    "date": "2025-07-11",
+    "description": "Publicações sobre a linguagem R com foco em estatística, gráficos, análise de dados e produção de relatórios reprodutíveis. R é uma linguagem poderosa para análise estatística e produção de gráficos sofisticados, com suporte a relatórios dinâmicos e reprodutíveis.",
+    "image": null
   },
   {
-    "title": "📘 ✨ 🧮 ⚛️ Equations that Shaped History",
-    "href": "posts/mathematics/historical-equations.html",
+    "title": "📊 Statistics",
+    "href": "posts/statistics/index.html",
     "tags": [
-      "mathematics",
-      "physics",
-      "history of science",
-      "article",
-      "equations"
-    ]
-  },
-  {
-    "title": "🧮 Mathematics",
-    "href": "posts/mathematics/index.html",
-    "tags": [
-      "mathematics",
-      "mathematics summary",
+      "statistics",
+      "statistics summary",
       "summary"
-    ]
->>>>>>> 17321b0 (Atualizações no blog)
+    ],
+    "categories": [
+      "statistics",
+      "statistics summary",
+      "summary"
+    ],
+    "date": "2025-07-11",
+    "description": "Explore essential statistical concepts with a focus on applications, data interpretation, visualizations, and theoretical foundations. Includes full courses, solved examples, and reading guides.",
+    "image": null
+  },
+  {
+    "title": "🧭 📊 Statistics Reading Guide",
+    "href": "posts/statistics/statistics-guide.html",
+    "tags": [
+      "statistics",
+      "reading guide"
+    ],
+    "categories": [
+      "statistics",
+      "reading guide"
+    ],
+    "date": "2025-07-11",
+    "description": "Recommended reading path for the Statistics Section of Blog do Marcellini. Includes suggested order for courses and articles, based on complexity level and application.",
+    "image": null
   }
 ]

@@ -1,0 +1,32 @@
+---
+title: "LaTeX"
+format: html
+page-layout: full
+---
+
+[⬅ Back to All Categories](../categories.qmd)
+
+## Posts in **LaTeX**
+
+::: {.cards-grid}
+<div class="card">
+<a class="card-link" href="/posts/programming/index.html">
+<div class="card-image"><img src="/images/banner.png" alt="👨‍💻 Programming"></div>
+<div class="card-content">
+<h3 class="card-title">👨‍💻 Programming</h3>
+<p class="card-desc">Content about languages and tools such as Python, R, LaTeX, and Quarto, focused on technical documentation, data analysis, and computational science.</p>
+<div class="chips"><span class="chip">#programming</span> <span class="chip">#programming summary</span> <span class="chip">#summary</span> <span class="chip">#Python</span> <span class="chip">#R</span> <span class="chip">#LaTeX</span></div>
+</div>
+</a>
+</div>
+<div class="card">
+<a class="card-link" href="/posts/programming/latex/index.html">
+<div class="card-image"><img src="/images/banner.png" alt="📄 📐 LaTeX"></div>
+<div class="card-content">
+<h3 class="card-title">📄 📐 LaTeX</h3>
+<p class="card-desc">Dicas e exemplos sobre como usar LaTeX para escrever documentos científicos, formatar fórmulas matemáticas e montar apresentações com elegância e precisão. LaTeX é uma ferramenta poderosa para a criação de documentos técnicos e científicos com excelente qualidade tipográfica.</p>
+<div class="chips"><span class="chip">#programação</span> <span class="chip">#LaTeX</span> <span class="chip">#sumário de LaTeX</span> <span class="chip">#sumário</span> <span class="chip">#Quarto</span></div>
+</div>
+</a>
+</div>
+:::

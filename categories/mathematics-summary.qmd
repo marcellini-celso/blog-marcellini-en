@@ -1,0 +1,22 @@
+---
+title: "mathematics summary"
+format: html
+page-layout: full
+---
+
+[⬅ Back to All Categories](../categories.qmd)
+
+## Posts in **mathematics summary**
+
+::: {.cards-grid}
+<div class="card">
+<a class="card-link" href="/posts/mathematics/index.html">
+<div class="card-image"><img src="/images/banner.png" alt="🧮 Mathematics"></div>
+<div class="card-content">
+<h3 class="card-title">🧮 Mathematics</h3>
+<p class="card-desc">Reflections and fundamental content in mathematics, focusing on the beauty, logic, and structure of the field’s main concepts.</p>
+<div class="chips"><span class="chip">#mathematics</span> <span class="chip">#mathematics summary</span> <span class="chip">#summary</span></div>
+</div>
+</a>
+</div>
+:::

@@ -3,18 +3,11 @@ title: "sumário"
 format: html
 ---
 
-[⬅ Return to All Tags](../tags.qmd)
+[⬅ Back to All Tags](../tags.qmd)
 
-## Posts with the tag **sumário**
+## Posts with the **sumário** tag
 
-- [👨‍💻 Programação](/posts/programacao/index.html)
-- [📄 📊 R](/posts/programacao/r/index.html)
-- [📄 Quarto](/posts/programacao/quarto/index.html)
-- [📄 🐍 Python](/posts/programacao/python/index.html)
-- [📄 📐 LaTeX](/posts/programacao/latex/index.html)
-- [⚛️ Física](/posts/fisica/index.html)
-- [🎓 🧮 Cursos de Matemática](/posts/cursos/matematica/index.html)
-- [📄 📊 R](/posts/programming/r/index.html)
-- [📄 Quarto](/posts/programming/quarto/index.html)
-- [📄 🐍 Python](/posts/programming/python/index.html)
 - [📄 📐 LaTeX](/posts/programming/latex/index.html)
+- [📄 🐍 Python](/posts/programming/python/index.html)
+- [📄 Quarto](/posts/programming/quarto/index.html)
+- [📄 📊 R](/posts/programming/r/index.html)
