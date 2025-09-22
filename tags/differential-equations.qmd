@@ -3,8 +3,8 @@ title: "differential equations"
 format: html
 ---
 
-[⬅ Back to All Tags](../tags.qmd)
+[⬅ Return to All Tags](../tags.qmd)
 
-## Posts with the **differential equations** tag
+## Posts with the tag **differential equations**
 
-- [🎓 Differential and Integral Calculus Course](/posts/courses/mathematics/calculus/index.html)
+- [🎓 Differential and Integral Calculus Course](/posts/courses/math/calculus/index.html)

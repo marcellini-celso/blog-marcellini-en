@@ -3,9 +3,9 @@ title: "calculus"
 format: html
 ---
 
-[⬅ Back to All Tags](../tags.qmd)
+[⬅ Return to All Tags](../tags.qmd)
 
-## Posts with the **calculus** tag
+## Posts with the tag **calculus**
 
-- [🎓 Differential and Integral Calculus Course](/posts/courses/mathematics/calculus/index.html)
-- [🧠 Module 1.1: What is Calculus? History and Applications](/posts/courses/mathematics/calculus/module-1/1.1-introduction.html)
+- [🎓 Differential and Integral Calculus Course](/posts/courses/math/calculus/index.html)
+- [🧠 Module 1.1: What is Calculus? History and Applications](/posts/courses/math/calculus/module-1/1.1-introduction.html)

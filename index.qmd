@@ -101,16 +101,11 @@ A progressive course that combines **mathematical rigor**, **LaTeX typographical
 ## 🆕 Latest Posts
 
 <!-- inicio-ultimos-posts -->
-- [🎓 📊 Statistics Course: The Normal Distribution](posts/courses/statistics/normal_distribution/index.html.html)
-- [🎓 Differential and Integral Calculus Course](posts/courses/mathematics/calculus/index.html.html)
-- [🧭 👨‍💻 Reading Guide — Programming](posts/programming/programming-guide.html.html)
-- [🧭 🧑‍🏫 Reading Guide — Personal Blog](posts/personal/personal-guide.html.html)
-- [👨‍💻 Programming](posts/programming/index.html.html)
-- [🧑‍🏫 Personal Blog](posts/personal/index.html.html)
-- [🎓📊 The Normal Distribution — Part 3: Plots, CLT, and Approximate Normality](posts/courses/statistics/normal_distribution/part-3/normal-distribution-part3.html.html)
-- [🎓📊 The Normal Distribution — Part 2: z-Score and z-Table](posts/courses/statistics/normal_distribution/part-2/normal-distribution-part2.html.html)
-- [🎓 📊 Statistics Course: The Normal Distribution (Part 1): Introduction to the Normal Distribution](posts/courses/statistics/normal_distribution/part-1/normal-distribution.html.html)
-- [🎓📊 Normal Distribution — Part 2: z-Score and Z Table](posts/courses/statistics/normal_distribution/part-2/normal-distribution-part2.sync-conflict-20250905-071012-HGFPXGB.html.html)
+- [🎓 📊 Statistics Course: The Normal Distribution](posts/courses/statistics/normal_distribution/index.html)
+- [🎓 Differential and Integral Calculus Course](posts/courses/math/calculus/index.html)
+- [🧭 👨‍💻 Reading Guide — Programming](posts/programming/programming-guide.html)
+- [🧭 🧑‍🏫 Reading Guide — Personal Blog](posts/personal/personal-guide.html)
+- [👨‍💻 Programming](posts/programming/index.html)
 <!-- fim-ultimos-posts -->
 
 > This section is automatically updated with each new publication.
@@ -127,11 +122,7 @@ A progressive course that combines **mathematical rigor**, **LaTeX typographical
 
 ## 🔗 Useful Links
 
-<<<<<<< HEAD
-- 🧑‍🏫 [About the Blog](posts/pessoal/sobre-o-blog.qmd)  
-=======
 - 🧑‍🏫 [About the Blog](posts/personal/about-the-blog.qmd)  
->>>>>>> 17321b0 (Atualizações no blog)
 - 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">Project GitHub</a>  
 - 📬 [Contact via Email](mailto:prof.marcellini@gmail.com)  
 

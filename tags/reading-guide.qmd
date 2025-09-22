@@ -3,11 +3,11 @@ title: "reading guide"
 format: html
 ---
 
-[⬅ Back to All Tags](../tags.qmd)
+[⬅ Return to All Tags](../tags.qmd)
 
-## Posts with the **reading guide** tag
+## Posts with the tag **reading guide**
 
-- [🧭 🧮 Mathematics Reading Guide](/posts/mathematics/math-guide.html)
-- [🧭 🧑‍🏫 Reading Guide — Personal Blog](/posts/personal/personal-guide.html)
-- [🧭 👨‍💻 Reading Guide — Programming](/posts/programming/programming-guide.html)
 - [🧭 📊 Statistics Reading Guide](/posts/statistics/statistics-guide.html)
+- [🧭 🧑‍🏫 Reading Guide — Personal Blog](/posts/personal/personal-guide.html)
+- [🧭 🧮 Mathematics Reading Guide](/posts/mathematics/math-guide.html)
+- [🧭 👨‍💻 Reading Guide — Programming](/posts/programming/programming-guide.html)

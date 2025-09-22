@@ -3,8 +3,8 @@ title: "physics"
 format: html
 ---
 
-[⬅ Back to All Tags](../tags.qmd)
+[⬅ Return to All Tags](../tags.qmd)
 
-## Posts with the **physics** tag
+## Posts with the tag **physics**
 
 - [📘 ✨ 🧮 ⚛️ Equations that Shaped History](/posts/mathematics/historical-equations.html)

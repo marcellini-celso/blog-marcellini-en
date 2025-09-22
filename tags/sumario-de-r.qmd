@@ -3,8 +3,8 @@ title: "sumário de R"
 format: html
 ---
 
-[⬅ Back to All Tags](../tags.qmd)
+[⬅ Return to All Tags](../tags.qmd)
 
-## Posts with the **sumário de R** tag
+## Posts with the tag **sumário de R**
 
 - [📄 📊 R](/posts/programming/r/index.html)

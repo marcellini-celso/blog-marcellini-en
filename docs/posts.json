@@ -1,5 +1,183 @@
 [
   {
+    "title": "🧭 📊 Statistics Reading Guide",
+    "href": "posts/statistics/statistics-guide.html",
+    "tags": [
+      "statistics",
+      "reading guide"
+    ],
+    "categories": [
+      "statistics",
+      "reading guide"
+    ],
+    "date": "2025-07-11",
+    "description": "Recommended reading path for the Statistics Section of Blog do Marcellini. Includes suggested order for courses and articles, based on complexity level and application.",
+    "image": null
+  },
+  {
+    "title": "📊 Statistics",
+    "href": "posts/statistics/index.html",
+    "tags": [
+      "statistics",
+      "statistics summary",
+      "summary"
+    ],
+    "categories": [
+      "statistics",
+      "statistics summary",
+      "summary"
+    ],
+    "date": "2025-07-11",
+    "description": "Explore essential statistical concepts with a focus on applications, data interpretation, visualizations, and theoretical foundations. Includes full courses, solved examples, and reading guides.",
+    "image": null
+  },
+  {
+    "title": "🧑‍🏫 Personal Blog",
+    "href": "posts/personal/index.html",
+    "tags": [
+      "personal",
+      "personal blog summary",
+      "summary",
+      "about",
+      "about the blog",
+      "about me"
+    ],
+    "categories": [
+      "personal",
+      "personal blog summary",
+      "summary",
+      "about",
+      "about the blog",
+      "about me"
+    ],
+    "date": "2025-07-30",
+    "description": "A space for more personal texts, free reflections, experience reports, behind-the-scenes of the blog, and author’s notes.",
+    "image": null
+  },
+  {
+    "title": "📘 🧑‍💻 About the Blog and About Me",
+    "href": "posts/personal/about-the-blog.html",
+    "tags": [
+      "personal",
+      "about",
+      "about the blog",
+      "about me"
+    ],
+    "categories": [
+      "personal",
+      "about",
+      "about the blog",
+      "about me"
+    ],
+    "date": "2025-07-05",
+    "description": "Learn more about the author, the blog's purpose, how it was built, and the technical behind-the-scenes of the project.",
+    "image": null
+  },
+  {
+    "title": "🧭 🧑‍🏫 Reading Guide — Personal Blog",
+    "href": "posts/personal/personal-guide.html",
+    "tags": [
+      "personal blog",
+      "reading guide"
+    ],
+    "categories": [
+      "personal blog",
+      "reading guide"
+    ],
+    "date": "2025-07-30",
+    "description": "Recommended reading track for the Personal Blog Section of Blog do Marcellini. Includes a suggested order for articles and reflections, based on complexity level and application.",
+    "image": null
+  },
+  {
+    "title": "📘 🧮 Beauty is the First Test — G. H. Hardy and Mathematics as Art",
+    "href": "posts/mathematics/mathematical-beauty.html",
+    "tags": [
+      "mathematics",
+      "philosophy of mathematics",
+      "article"
+    ],
+    "categories": [
+      "mathematics",
+      "philosophy of mathematics",
+      "article"
+    ],
+    "date": "2025-06-23",
+    "description": "Reflections on G. H. Hardy’s famous phrase in the light of pure mathematics, with classical examples of mathematical elegance and graphic visualizations.",
+    "image": null
+  },
+  {
+    "title": "🧮 Mathematics",
+    "href": "posts/mathematics/index.html",
+    "tags": [
+      "mathematics",
+      "mathematics summary",
+      "summary"
+    ],
+    "categories": [
+      "mathematics",
+      "mathematics summary",
+      "summary"
+    ],
+    "date": "2025-07-11",
+    "description": "Reflections and fundamental content in mathematics, focusing on the beauty, logic, and structure of the field’s main concepts.",
+    "image": null
+  },
+  {
+    "title": "🧭 🧮 Mathematics Reading Guide",
+    "href": "posts/mathematics/math-guide.html",
+    "tags": [
+      "mathematics",
+      "reading guide"
+    ],
+    "categories": [
+      "mathematics",
+      "reading guide"
+    ],
+    "date": "2025-07-11",
+    "description": "Recommended reading path for the Mathematics Section of Blog do Marcellini. Includes suggested order for courses and articles, based on complexity level and applications.",
+    "image": null
+  },
+  {
+    "title": "📘 ✨ 🧮 ⚛️ Equations that Shaped History",
+    "href": "posts/mathematics/historical-equations.html",
+    "tags": [
+      "mathematics",
+      "physics",
+      "history of science",
+      "article",
+      "equations"
+    ],
+    "categories": [
+      "mathematics",
+      "physics",
+      "history of science",
+      "article",
+      "equations"
+    ],
+    "date": "2025-07-12",
+    "description": "A selection of the most beautiful and influential equations in mathematics and physics, with accessible explanations and clear visualization.",
+    "image": null
+  },
+  {
+    "title": "📘 🧮 Why is 0! = 1?",
+    "href": "posts/mathematics/zero-factorial.html",
+    "tags": [
+      "mathematics",
+      "combinatorics",
+      "factorial",
+      "article"
+    ],
+    "categories": [
+      "mathematics",
+      "combinatorics",
+      "factorial",
+      "article"
+    ],
+    "date": "2025-06-22",
+    "description": "We explore **10 distinct justifications** for the value of $0!$.",
+    "image": null
+  },
+  {
     "title": "🎓 📊 Statistics Courses",
     "href": "posts/courses/statistics/index.html",
     "tags": [
@@ -141,7 +319,7 @@
   },
   {
     "title": "🎓 🧮 Mathematics Courses",
-    "href": "posts/courses/mathematics/index.html",
+    "href": "posts/courses/math/index.html",
     "tags": [
       "mathematics",
       "courses",
@@ -158,7 +336,7 @@
   },
   {
     "title": "🎓 Differential and Integral Calculus Course",
-    "href": "posts/courses/mathematics/calculus/index.html",
+    "href": "posts/courses/math/calculus/index.html",
     "tags": [
       "calculus",
       "mathematics",
@@ -187,7 +365,7 @@
   },
   {
     "title": "🧠 Module 1.1: What is Calculus? History and Applications",
-    "href": "posts/courses/mathematics/calculus/module-1/1.1-introduction.html",
+    "href": "posts/courses/math/calculus/module-1/1.1-introduction.html",
     "tags": [
       "calculus",
       "mathematics",
@@ -207,149 +385,18 @@
     "image": null
   },
   {
-    "title": "📘 ✨ 🧮 ⚛️ Equations that Shaped History",
-    "href": "posts/mathematics/historical-equations.html",
+    "title": "🧭 👨‍💻 Reading Guide — Programming",
+    "href": "posts/programming/programming-guide.html",
     "tags": [
-      "mathematics",
-      "physics",
-      "history of science",
-      "article",
-      "equations"
-    ],
-    "categories": [
-      "mathematics",
-      "physics",
-      "history of science",
-      "article",
-      "equations"
-    ],
-    "date": "2025-07-12",
-    "description": "A selection of the most beautiful and influential equations in mathematics and physics, with accessible explanations and clear visualization.",
-    "image": null
-  },
-  {
-    "title": "🧭 🧮 Mathematics Reading Guide",
-    "href": "posts/mathematics/math-guide.html",
-    "tags": [
-      "mathematics",
+      "programming",
       "reading guide"
     ],
     "categories": [
-      "mathematics",
-      "reading guide"
-    ],
-    "date": "2025-07-11",
-    "description": "Recommended reading path for the Mathematics Section of Blog do Marcellini. Includes suggested order for courses and articles, based on complexity level and applications.",
-    "image": null
-  },
-  {
-    "title": "🧮 Mathematics",
-    "href": "posts/mathematics/index.html",
-    "tags": [
-      "mathematics",
-      "mathematics summary",
-      "summary"
-    ],
-    "categories": [
-      "mathematics",
-      "mathematics summary",
-      "summary"
-    ],
-    "date": "2025-07-11",
-    "description": "Reflections and fundamental content in mathematics, focusing on the beauty, logic, and structure of the field’s main concepts.",
-    "image": null
-  },
-  {
-    "title": "📘 🧮 Beauty is the First Test — G. H. Hardy and Mathematics as Art",
-    "href": "posts/mathematics/mathematical-beauty.html",
-    "tags": [
-      "mathematics",
-      "philosophy of mathematics",
-      "article"
-    ],
-    "categories": [
-      "mathematics",
-      "philosophy of mathematics",
-      "article"
-    ],
-    "date": "2025-06-23",
-    "description": "Reflections on G. H. Hardy’s famous phrase in the light of pure mathematics, with classical examples of mathematical elegance and graphic visualizations.",
-    "image": null
-  },
-  {
-    "title": "📘 🧮 Why is 0! = 1?",
-    "href": "posts/mathematics/zero-factorial.html",
-    "tags": [
-      "mathematics",
-      "combinatorics",
-      "factorial",
-      "article"
-    ],
-    "categories": [
-      "mathematics",
-      "combinatorics",
-      "factorial",
-      "article"
-    ],
-    "date": "2025-06-22",
-    "description": "We explore **10 distinct justifications** for the value of $0!$.",
-    "image": null
-  },
-  {
-    "title": "🧑‍🏫 Personal Blog",
-    "href": "posts/personal/index.html",
-    "tags": [
-      "personal",
-      "personal blog summary",
-      "summary",
-      "about",
-      "about the blog",
-      "about me"
-    ],
-    "categories": [
-      "personal",
-      "personal blog summary",
-      "summary",
-      "about",
-      "about the blog",
-      "about me"
-    ],
-    "date": "2025-07-30",
-    "description": "A space for more personal texts, free reflections, experience reports, behind-the-scenes of the blog, and author’s notes.",
-    "image": null
-  },
-  {
-    "title": "🧭 🧑‍🏫 Reading Guide — Personal Blog",
-    "href": "posts/personal/personal-guide.html",
-    "tags": [
-      "personal blog",
-      "reading guide"
-    ],
-    "categories": [
-      "personal blog",
+      "programming",
       "reading guide"
     ],
     "date": "2025-07-30",
-    "description": "Recommended reading track for the Personal Blog Section of Blog do Marcellini. Includes a suggested order for articles and reflections, based on complexity level and application.",
-    "image": null
-  },
-  {
-    "title": "📘 🧑‍💻 About the Blog and About Me",
-    "href": "posts/personal/about-the-blog.html",
-    "tags": [
-      "personal",
-      "about",
-      "about the blog",
-      "about me"
-    ],
-    "categories": [
-      "personal",
-      "about",
-      "about the blog",
-      "about me"
-    ],
-    "date": "2025-07-05",
-    "description": "Learn more about the author, the blog's purpose, how it was built, and the technical behind-the-scenes of the project.",
+    "description": "Suggested reading path for the Programming Section of Blog do Marcellini. Includes a recommended order for courses and articles, based on complexity and application.",
     "image": null
   },
   {
@@ -399,42 +446,6 @@
     "image": null
   },
   {
-    "title": "🧭 👨‍💻 Reading Guide — Programming",
-    "href": "posts/programming/programming-guide.html",
-    "tags": [
-      "programming",
-      "reading guide"
-    ],
-    "categories": [
-      "programming",
-      "reading guide"
-    ],
-    "date": "2025-07-30",
-    "description": "Suggested reading path for the Programming Section of Blog do Marcellini. Includes a recommended order for courses and articles, based on complexity and application.",
-    "image": null
-  },
-  {
-    "title": "📄 📐 LaTeX",
-    "href": "posts/programming/latex/index.html",
-    "tags": [
-      "programação",
-      "LaTeX",
-      "sumário de LaTeX",
-      "sumário",
-      "Quarto"
-    ],
-    "categories": [
-      "programação",
-      "LaTeX",
-      "sumário de LaTeX",
-      "sumário",
-      "Quarto"
-    ],
-    "date": "2025-07-11",
-    "description": "Dicas e exemplos sobre como usar LaTeX para escrever documentos científicos, formatar fórmulas matemáticas e montar apresentações com elegância e precisão. LaTeX é uma ferramenta poderosa para a criação de documentos técnicos e científicos com excelente qualidade tipográfica.",
-    "image": null
-  },
-  {
     "title": "📄 🐍 Python",
     "href": "posts/programming/python/index.html",
     "tags": [
@@ -453,27 +464,6 @@
     ],
     "date": "2025-07-11",
     "description": "Conteúdos sobre a linguagem Python aplicados à análise de dados, automação, visualização gráfica e uso científico. Python é uma linguagem versátil usada amplamente na ciência de dados, automação e programação científica.",
-    "image": null
-  },
-  {
-    "title": "📄 Quarto",
-    "href": "posts/programming/quarto/index.html",
-    "tags": [
-      "programação",
-      "Quarto",
-      "sumário de Quarto",
-      "sumário",
-      "YAML"
-    ],
-    "categories": [
-      "programação",
-      "Quarto",
-      "sumário de Quarto",
-      "sumário",
-      "YAML"
-    ],
-    "date": "2025-07-11",
-    "description": "Publicações sobre a ferramenta Quarto para gerar relatórios, sites, livros e documentos técnicos dinâmicos e reprodutíveis. Crie relatórios interativos, sites, livros e apresentações com a linguagem Markdown estendida e os recursos do Quarto.",
     "image": null
   },
   {
@@ -498,35 +488,45 @@
     "image": null
   },
   {
-    "title": "📊 Statistics",
-    "href": "posts/statistics/index.html",
+    "title": "📄 📐 LaTeX",
+    "href": "posts/programming/latex/index.html",
     "tags": [
-      "statistics",
-      "statistics summary",
-      "summary"
+      "programação",
+      "LaTeX",
+      "sumário de LaTeX",
+      "sumário",
+      "Quarto"
     ],
     "categories": [
-      "statistics",
-      "statistics summary",
-      "summary"
+      "programação",
+      "LaTeX",
+      "sumário de LaTeX",
+      "sumário",
+      "Quarto"
     ],
     "date": "2025-07-11",
-    "description": "Explore essential statistical concepts with a focus on applications, data interpretation, visualizations, and theoretical foundations. Includes full courses, solved examples, and reading guides.",
+    "description": "Dicas e exemplos sobre como usar LaTeX para escrever documentos científicos, formatar fórmulas matemáticas e montar apresentações com elegância e precisão. LaTeX é uma ferramenta poderosa para a criação de documentos técnicos e científicos com excelente qualidade tipográfica.",
     "image": null
   },
   {
-    "title": "🧭 📊 Statistics Reading Guide",
-    "href": "posts/statistics/statistics-guide.html",
+    "title": "📄 Quarto",
+    "href": "posts/programming/quarto/index.html",
     "tags": [
-      "statistics",
-      "reading guide"
+      "programação",
+      "Quarto",
+      "sumário de Quarto",
+      "sumário",
+      "YAML"
     ],
     "categories": [
-      "statistics",
-      "reading guide"
+      "programação",
+      "Quarto",
+      "sumário de Quarto",
+      "sumário",
+      "YAML"
     ],
     "date": "2025-07-11",
-    "description": "Recommended reading path for the Statistics Section of Blog do Marcellini. Includes suggested order for courses and articles, based on complexity level and application.",
+    "description": "Publicações sobre a ferramenta Quarto para gerar relatórios, sites, livros e documentos técnicos dinâmicos e reprodutíveis. Crie relatórios interativos, sites, livros e apresentações com a linguagem Markdown estendida e os recursos do Quarto.",
     "image": null
   }
 ]

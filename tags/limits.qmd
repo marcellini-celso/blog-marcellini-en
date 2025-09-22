@@ -3,8 +3,8 @@ title: "limits"
 format: html
 ---
 
-[⬅ Back to All Tags](../tags.qmd)
+[⬅ Return to All Tags](../tags.qmd)
 
-## Posts with the **limits** tag
+## Posts with the tag **limits**
 
-- [🎓 Differential and Integral Calculus Course](/posts/courses/mathematics/calculus/index.html)
+- [🎓 Differential and Integral Calculus Course](/posts/courses/math/calculus/index.html)

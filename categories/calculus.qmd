@@ -10,7 +10,7 @@ page-layout: full
 
 ::: {.cards-grid}
 <div class="card">
-<a class="card-link" href="/posts/courses/mathematics/calculus/index.html">
+<a class="card-link" href="/posts/courses/math/calculus/index.html">
 <div class="card-image"><img src="/images/banner.png" alt="🎓 Differential and Integral Calculus Course"></div>
 <div class="card-content">
 <h3 class="card-title">🎓 Differential and Integral Calculus Course</h3>
@@ -20,7 +20,7 @@ page-layout: full
 </a>
 </div>
 <div class="card">
-<a class="card-link" href="/posts/courses/mathematics/calculus/module-1/1.1-introduction.html">
+<a class="card-link" href="/posts/courses/math/calculus/module-1/1.1-introduction.html">
 <div class="card-image"><img src="/images/banner.png" alt="🧠 Module 1.1: What is Calculus? History and Applications"></div>
 <div class="card-content">
 <h3 class="card-title">🧠 Module 1.1: What is Calculus? History and Applications</h3>

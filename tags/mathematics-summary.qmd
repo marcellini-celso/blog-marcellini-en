@@ -3,8 +3,8 @@ title: "mathematics summary"
 format: html
 ---
 
-[⬅ Back to All Tags](../tags.qmd)
+[⬅ Return to All Tags](../tags.qmd)
 
-## Posts with the **mathematics summary** tag
+## Posts with the tag **mathematics summary**
 
 - [🧮 Mathematics](/posts/mathematics/index.html)

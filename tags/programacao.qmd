@@ -3,11 +3,11 @@ title: "programação"
 format: html
 ---
 
-[⬅ Back to All Tags](../tags.qmd)
+[⬅ Return to All Tags](../tags.qmd)
 
-## Posts with the **programação** tag
+## Posts with the tag **programação**
 
-- [📄 📐 LaTeX](/posts/programming/latex/index.html)
 - [📄 🐍 Python](/posts/programming/python/index.html)
-- [📄 Quarto](/posts/programming/quarto/index.html)
 - [📄 📊 R](/posts/programming/r/index.html)
+- [📄 📐 LaTeX](/posts/programming/latex/index.html)
+- [📄 Quarto](/posts/programming/quarto/index.html)

@@ -32,7 +32,6 @@ website:
             href: posts/programming/index.qmd
       - text: "📝 Personal Blog"
         menu:
-          - text: "📝 Personal Posts"
           - text: "📝 Personal Blog"
             href: posts/personal/index.qmd
           - text: "👤 About Me and the Blog"

@@ -3,8 +3,8 @@ title: "statistics summary"
 format: html
 ---
 
-[⬅ Back to All Tags](../tags.qmd)
+[⬅ Return to All Tags](../tags.qmd)
 
-## Posts with the **statistics summary** tag
+## Posts with the tag **statistics summary**
 
 - [📊 Statistics](/posts/statistics/index.html)

@@ -3,9 +3,9 @@ title: "YAML"
 format: html
 ---
 
-[⬅ Back to All Tags](../tags.qmd)
+[⬅ Return to All Tags](../tags.qmd)
 
-## Posts with the **YAML** tag
+## Posts with the tag **YAML**
 
 - [👨‍💻 Programming](/posts/programming/index.html)
 - [📘 👨‍💻 📄 index.qmd Models for Quarto Projects](/posts/programming/models-index-quarto.html)

@@ -3,9 +3,9 @@ title: "R"
 format: html
 ---
 
-[⬅ Back to All Tags](../tags.qmd)
+[⬅ Return to All Tags](../tags.qmd)
 
-## Posts with the **R** tag
+## Posts with the tag **R**
 
 - [👨‍💻 Programming](/posts/programming/index.html)
 - [📄 📊 R](/posts/programming/r/index.html)

@@ -3,9 +3,9 @@ title: "exercises"
 format: html
 ---
 
-[⬅ Back to All Tags](../tags.qmd)
+[⬅ Return to All Tags](../tags.qmd)
 
-## Posts with the **exercises** tag
+## Posts with the tag **exercises**
 
 - [🎓 📊 Statistics Course: The Normal Distribution (Part 1): Introduction to the Normal Distribution](/posts/courses/statistics/normal_distribution/part-1/normal-distribution.html)
 - [🎓📊 The Normal Distribution — Part 2: z-Score and z-Table](/posts/courses/statistics/normal_distribution/part-2/normal-distribution-part2.html)

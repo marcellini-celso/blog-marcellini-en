@@ -3,9 +3,9 @@ title: "LaTeX"
 format: html
 ---
 
-[⬅ Back to All Tags](../tags.qmd)
+[⬅ Return to All Tags](../tags.qmd)
 
-## Posts with the **LaTeX** tag
+## Posts with the tag **LaTeX**
 
 - [👨‍💻 Programming](/posts/programming/index.html)
 - [📄 📐 LaTeX](/posts/programming/latex/index.html)

@@ -3,8 +3,8 @@ title: "philosophy of mathematics"
 format: html
 ---
 
-[⬅ Back to All Tags](../tags.qmd)
+[⬅ Return to All Tags](../tags.qmd)
 
-## Posts with the **philosophy of mathematics** tag
+## Posts with the tag **philosophy of mathematics**
 
 - [📘 🧮 Beauty is the First Test — G. H. Hardy and Mathematics as Art](/posts/mathematics/mathematical-beauty.html)

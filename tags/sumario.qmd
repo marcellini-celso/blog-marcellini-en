@@ -3,11 +3,11 @@ title: "sumário"
 format: html
 ---
 
-[⬅ Back to All Tags](../tags.qmd)
+[⬅ Return to All Tags](../tags.qmd)
 
-## Posts with the **sumário** tag
+## Posts with the tag **sumário**
 
-- [📄 📐 LaTeX](/posts/programming/latex/index.html)
 - [📄 🐍 Python](/posts/programming/python/index.html)
-- [📄 Quarto](/posts/programming/quarto/index.html)
 - [📄 📊 R](/posts/programming/r/index.html)
+- [📄 📐 LaTeX](/posts/programming/latex/index.html)
+- [📄 Quarto](/posts/programming/quarto/index.html)

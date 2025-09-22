@@ -3,8 +3,8 @@ title: "sumário de LaTeX"
 format: html
 ---
 
-[⬅ Back to All Tags](../tags.qmd)
+[⬅ Return to All Tags](../tags.qmd)
 
-## Posts with the **sumário de LaTeX** tag
+## Posts with the tag **sumário de LaTeX**
 
 - [📄 📐 LaTeX](/posts/programming/latex/index.html)

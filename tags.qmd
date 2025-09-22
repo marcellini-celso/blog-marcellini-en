@@ -5,15 +5,16 @@ page-layout: full
 ---
 
 ::: {.tag-nuvem}
-![](tag_cloud.png){width=100%}
+![](nuvem_tags.png){width=100%}
 :::
 
 ## 📚 All Tags
 
 ::: {.tag-grid}
+
 <a href="/tags/mathematics.html" class="tag-card">mathematics (8)</a>
-<a href="/tags/courses.html" class="tag-card">courses (6)</a>
 <a href="/tags/quarto.html" class="tag-card">Quarto (6)</a>
+<a href="/tags/courses.html" class="tag-card">courses (6)</a>
 <a href="/tags/summary.html" class="tag-card">summary (6)</a>
 <a href="/tags/statistics.html" class="tag-card">statistics (5)</a>
 <a href="/tags/article.html" class="tag-card">article (4)</a>
@@ -22,22 +23,24 @@ page-layout: full
 <a href="/tags/programacao.html" class="tag-card">programação (4)</a>
 <a href="/tags/reading-guide.html" class="tag-card">reading guide (4)</a>
 <a href="/tags/sumario.html" class="tag-card">sumário (4)</a>
+<a href="/tags/yaml.html" class="tag-card">YAML (3)</a>
 <a href="/tags/probabilities.html" class="tag-card">probabilities (3)</a>
 <a href="/tags/programming.html" class="tag-card">programming (3)</a>
-<a href="/tags/yaml.html" class="tag-card">YAML (3)</a>
 <a href="/tags/z-score.html" class="tag-card">z-score (3)</a>
 <a href="/tags/z-table.html" class="tag-card">z-table (3)</a>
+<a href="/tags/latex.html" class="tag-card">LaTeX (2)</a>
+<a href="/tags/python.html" class="tag-card">Python (2)</a>
+<a href="/tags/r.html" class="tag-card">R (2)</a>
 <a href="/tags/about.html" class="tag-card">about (2)</a>
 <a href="/tags/about-me.html" class="tag-card">about me (2)</a>
 <a href="/tags/about-the-blog.html" class="tag-card">about the blog (2)</a>
 <a href="/tags/calculus.html" class="tag-card">calculus (2)</a>
-<a href="/tags/latex.html" class="tag-card">LaTeX (2)</a>
 <a href="/tags/normal-distribution.html" class="tag-card">normal distribution (2)</a>
 <a href="/tags/personal.html" class="tag-card">personal (2)</a>
-<a href="/tags/python.html" class="tag-card">Python (2)</a>
-<a href="/tags/r.html" class="tag-card">R (2)</a>
-<a href="/tags/applications.html" class="tag-card">applications (1)</a>
 <a href="/tags/clt.html" class="tag-card">CLT (1)</a>
+<a href="/tags/lln.html" class="tag-card">LLN (1)</a>
+<a href="/tags/taylor-series.html" class="tag-card">Taylor series (1)</a>
+<a href="/tags/applications.html" class="tag-card">applications (1)</a>
 <a href="/tags/combinatorics.html" class="tag-card">combinatorics (1)</a>
 <a href="/tags/derivatives.html" class="tag-card">derivatives (1)</a>
 <a href="/tags/differential-equations.html" class="tag-card">differential equations (1)</a>
@@ -50,7 +53,6 @@ page-layout: full
 <a href="/tags/inference.html" class="tag-card">inference (1)</a>
 <a href="/tags/integrals.html" class="tag-card">integrals (1)</a>
 <a href="/tags/limits.html" class="tag-card">limits (1)</a>
-<a href="/tags/lln.html" class="tag-card">LLN (1)</a>
 <a href="/tags/mathematics-summary.html" class="tag-card">mathematics summary (1)</a>
 <a href="/tags/personal-blog.html" class="tag-card">personal blog (1)</a>
 <a href="/tags/personal-blog-summary.html" class="tag-card">personal blog summary (1)</a>
@@ -64,5 +66,4 @@ page-layout: full
 <a href="/tags/sumario-de-python.html" class="tag-card">sumário de Python (1)</a>
 <a href="/tags/sumario-de-quarto.html" class="tag-card">sumário de Quarto (1)</a>
 <a href="/tags/sumario-de-r.html" class="tag-card">sumário de R (1)</a>
-<a href="/tags/taylor-series.html" class="tag-card">Taylor series (1)</a>
 :::

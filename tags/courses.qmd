@@ -3,13 +3,13 @@ title: "courses"
 format: html
 ---
 
-[⬅ Back to All Tags](../tags.qmd)
+[⬅ Return to All Tags](../tags.qmd)
 
-## Posts with the **courses** tag
+## Posts with the tag **courses**
 
 - [🎓 📊 Statistics Courses](/posts/courses/statistics/index.html)
 - [🎓 📊 Statistics Course: The Normal Distribution](/posts/courses/statistics/normal_distribution/index.html)
 - [🎓 📊 Statistics Course: The Normal Distribution (Part 1): Introduction to the Normal Distribution](/posts/courses/statistics/normal_distribution/part-1/normal-distribution.html)
-- [🎓 🧮 Mathematics Courses](/posts/courses/mathematics/index.html)
-- [🎓 Differential and Integral Calculus Course](/posts/courses/mathematics/calculus/index.html)
-- [🧠 Module 1.1: What is Calculus? History and Applications](/posts/courses/mathematics/calculus/module-1/1.1-introduction.html)
+- [🎓 🧮 Mathematics Courses](/posts/courses/math/index.html)
+- [🎓 Differential and Integral Calculus Course](/posts/courses/math/calculus/index.html)
+- [🧠 Module 1.1: What is Calculus? History and Applications](/posts/courses/math/calculus/module-1/1.1-introduction.html)
