@@ -1,0 +1,88 @@
+---
+title: "⚛️ Physics"
+description: "Reflections and content on Quantum Mechanics and Special Relativity, with didactic and academic approaches, organized into parts and thematic guides."
+author: "Blog do Marcellini"
+date: 2025-07-11
+lang: en
+categories: [physics, physics summary, summary]
+tags: [physics, physics summary, summary]
+format:
+  html:
+    toc: true
+    number-sections: false
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+---
+
+## 📚 Special Series
+
+::: {.columns}
+::: {.column width="33%"}
+::: {.callout-note title="🧬 100 Years of Quantum Mechanics"}
+Historical and conceptual overview.
+
+[View the series ›](guide-100-years-quantum-mechanics.qmd){.button .button-outline}
+:::
+:::
+
+::: {.column width="33%"}
+::: {.callout-note title="🛰️ Special Relativity"}
+Foundations, effects, and paradoxes.
+
+[View the series ›](guide-special-relativity.qmd){.button .button-outline}
+:::
+:::
+
+::: {.column width="33%"}
+::: {.callout-note title="🌠 General Relativity"}
+Spacetime geometry and gravitation.
+
+[View the series ›](guide-general-relativity.qmd){.button .button-outline}
+:::
+:::
+:::
+
+{{< include /_includes/editorial-policy.qmd >}}
+
+## 📘 ⚛️ Articles and Reflections
+
+### [📘 🛰️ Special Relativity — An Overview](special-relativity.qmd)
+Didactic introduction to the concepts of spacetime, Lorentz transformations, and the twin paradox.
+
+### [📘 🛰️ Special Relativity — An Academic View](special-relativity-academics.qmd)
+A more formal and in-depth version of the theory of special relativity, based on classical sources (e.g., Resnick).
+
+### [📘 🧬 100 Years of Quantum Mechanics](100-years-quantum-mechanics.qmd)
+Historical and conceptual introduction to the centennial of quantum theory.
+
+## 🧭 ⚛️ Reading Guide
+
+1. **[🧭 ⚛️ Reading Guide to the Physics Section](guide-physics.qmd)** — Suggested reading path with progressive order, interconnecting the main content of the section.
+
+📌 This guide is updated as new content is published.
+
+---
+
+🔝 [Back to Top](#top)
+
+---
+
+*Blog do Marcellini — Exploring Physics with Rigor and Beauty.*
+
+{{< include /_includes/about-project.qmd >}}
+
+:::{.callout-note}
+*Created by Blog do Marcellini with ❤️ and code.*
+:::
+
+## 🔗 Useful Links
+
+- 🧑‍🏫 [About the Blog](../personal/about-the-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">Project GitHub</a>
+- 📬 [Contact by Email](mailto:prof.marcellini@gmail.com)
+

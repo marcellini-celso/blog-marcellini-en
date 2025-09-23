@@ -68,12 +68,12 @@ The aim is to explore profound ideas with **simplicity**, **intuition**, and **b
 
 ::: {.callout-note collapse=true title="🧠 Historical Equations (Mathematics + Physics)"}
 A selection of formulas that shaped science, such as **Euler's Identity** \(e^{i\pi}+1=0\) and the **Wave Equation**.  
-[Explore Historical Equations ›](posts/matematica/equacoes-historicas.qmd){.button .button-outline}
+[Explore Historical Equations ›](posts/mathematics/historical-equations.qmd){.button .button-outline}
 :::
 
 ::: {.callout-note collapse=true title="🌍 Normal Distribution — Course (Statistics)"}
 Why does normality appear so often? Probabilities, confidence intervals, and hypothesis tests — with charts and exercises.  
-[See the course ›](posts/cursos/statistics/distribuicao_normal/index.qmd){.button .button-outline}
+[See the course ›](posts/courses/statistics/normal_distribution/index.qmd){.button .button-outline}
 :::
 
 ::: {.callout-note collapse=true title="📘 Calculus Course — Introduction"}
@@ -84,13 +84,13 @@ A progressive course that combines **mathematical rigor**, **LaTeX typographical
 - Number sets and fundamental properties  
 - Step-by-step solved exercises  
 
-[👉 Follow the Calculus Course ›](posts/cursos/mathematics/calculo/index.qmd){.button .button-outline}
+[👉 Follow the Calculus Course ›](posts/courses/mathematics/calculus/index.qmd){.button .button-outline}
 :::
 
 <div style="margin-top: .25rem"></div>
 
 > 🔧 Programmable examples:  
-> 👉 [Python Models](posts/programming/modelos-python-quarto.qmd) · 👉 [R Models](posts/programming/modelos-r-quarto.qmd)
+> 👉 [Python Models](posts/programming/python/modelos-python-quarto.qmd) · 👉 [R Models](posts/programming/r/modelos-r-quarto.qmd)
 
 ---
 
@@ -101,11 +101,11 @@ A progressive course that combines **mathematical rigor**, **LaTeX typographical
 ## 🆕 Latest Posts
 
 <!-- inicio-ultimos-posts -->
+- [📘 Module 1.3 AP: Absolute Value and Modular Inequalities](posts/courses/mathematics/calculus/module-1/1.3-absolute-value-AP.html)
+- [📘 Module 1.3: Intervals and Inequalities](posts/courses/mathematics/calculus/module-1/1.3-intervals-inequalities.html)
 - [🎓 📊 Statistics Course: The Normal Distribution](posts/courses/statistics/normal_distribution/index.html)
-- [🎓 Differential and Integral Calculus Course](posts/courses/math/calculus/index.html)
-- [🧭 👨‍💻 Reading Guide — Programming](posts/programming/programming-guide.html)
-- [🧭 🧑‍🏫 Reading Guide — Personal Blog](posts/personal/personal-guide.html)
-- [👨‍💻 Programming](posts/programming/index.html)
+- [🧭 📚 🌠 Reading Guide — General Relativity Series](posts/physics/guide-general-relativity.html)
+- [🎓 Differential and Integral Calculus Course](posts/courses/mathematics/calculus/index.html)
 <!-- fim-ultimos-posts -->
 
 > This section is automatically updated with each new publication.

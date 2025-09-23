@@ -24,7 +24,7 @@ execute:
   eval: false
 ---
 
-[← Back to the Mathematics Reading Guide 🧭 🧮](/posts/mathematics/math-guide.qmd)
+[← Back to the Mathematics Reading Guide 🧭 🧮](/posts/mathematics/guide-mathematics.qmd)
 
 [← Back to the Mathematics Section 🧮](/posts/mathematics/)
 
@@ -152,7 +152,7 @@ The mathematics that survives is that which inspires.
 - [G. H. Hardy — Wikipedia](https://en.wikipedia.org/wiki/G._H._Hardy)
 :::
 
-[← Back to the Mathematics Reading Guide 🧭 🧮](/posts/mathematics/math-guide.qmd)
+[← Back to the Mathematics Reading Guide 🧭 🧮](/posts/mathematics/guide-mathematics.qmd)
 [← Back to the Mathematics Section 🧮](/posts/mathematics/)
 
 🔝 [Back to Top](mathematical-beauty.qmd)
@@ -167,3 +167,4 @@ Created by Blog do Marcellini with ❤️ and code.
 - 🧑‍🏫 [About the Blog](../../posts/personal/about-the-blog.qmd)
 - 💻 [Project GitHub](https://github.com/marcellini-celso/blog-marcellini-en.git)
 - 📬 [Contact by Email](mailto:prof.marcellini@gmail.com)
+

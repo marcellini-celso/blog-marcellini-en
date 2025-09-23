@@ -1,0 +1,332 @@
+---
+title: "🔢 Module 1.2: Number Sets"
+description: "In this module, we explore the fundamental number sets used throughout the course, highlighting key properties and typical examples."
+author: "Blog do Marcellini"
+date: "2025-07-30"
+lang: en
+categories: [mathematics, calculus, sets, number sets, exercises, courses]
+tags: [mathematics, calculus, sets, number sets, exercises, courses]
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+---
+
+[← Back to Course Summary 🎓🧮](../index.qmd) · [← Mathematics Courses](../../index.qmd) · [← Mathematics Section](/posts/mathematics/index.qmd)
+
+---
+
+🎯 **Previous Post:** 👉 [1.1: What is Calculus? History and Applications](1.1-introduction.qmd)
+
+---
+
+# 🔢 Module 1.2: Number Sets
+
+::: {.callout-note title="📌 Post Objectives"}
+- Explore the fundamental number sets for calculus;  
+- Learn their main properties;  
+- Present characteristic examples and exercises.  
+:::
+
+## ✨ What Are Number Sets?
+
+Number sets are groups of numbers that share common characteristics. The main ones we will use are:
+
+- **Natural Numbers \((\mathbb{N})\)**: \(\{0, 1, 2, 3, \ldots\}\)  
+  Used to count objects; they are the non-negative integers.
+
+- **Integers \((\mathbb{Z})\)**: \(\{\ldots, -3, -2, -1, 0, 1, 2, 3, \ldots\}\)  
+  Include all naturals, their negatives, and zero.
+
+- **Rational Numbers \((\mathbb{Q})\)**: numbers that can be written as a fraction  
+  \[
+  \mathbb{Q}=\left\{\frac{a}{b}\;\middle|\;a,b\in\mathbb{Z},\; b\neq 0\right\}.
+  \]  
+  Examples: \(\tfrac{1}{2}\), \(-\tfrac{3}{4}\), \(5=\tfrac{5}{1}\).
+
+- **Irrational Numbers \((\mathbb{R}\setminus\mathbb{Q})\)**: **cannot** be expressed as a fraction of integers; have **infinite non-repeating decimals** (e.g., \(\sqrt{2}\), \(\pi\), \(e\)).
+
+- **Real Numbers \((\mathbb{R})\)**: all points on the **real line**; include rationals and irrationals.
+
+<div style="text-align: center;">
+  <img src="../images/Real_number_line.svg" alt="Real Number Line" width="70%">
+  <figcaption><strong>Real Number Line</strong></figcaption>
+  <p style="font-size: 0.8em; margin-top: 0.5em;">
+    Credit: Phrood (Public domain).
+  </p>
+</div>
+
+---
+
+## 🧠 Organization of Number Sets
+
+The sets are organized in a **chain of inclusions**:
+\[
+\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}.
+\]
+
+<div style="text-align: center;">
+  <img src="../images/Number-systems.svg" alt="Hierarchy of Number Sets" width="70%">
+  <figcaption><strong>Hierarchy of Number Sets</strong></figcaption>
+  <p style="font-size: 0.8em; margin-top: 0.5em;">
+    Credit: Mortalmoth (Public domain).
+  </p>
+</div>
+
+This means, for example, that **every natural number is an integer, rational, and real** — but the reverse is **not always** true.
+
+---
+
+## 🔍 🧠 Learn More: What is an irrational number?
+
+::: {.callout-tip collapse=false title="🧠 Learn More: What is an irrational number?"}
+🔢 An irrational is a real number **that cannot be written** as \(\dfrac{a}{b}\) with \(a,b\in\mathbb{Z}\) and \(b\neq 0\).  
+Its decimal expansion is **infinite and non-repeating** (e.g., \(\pi\), \(e\), \(\sqrt{2}\)).
+
+They naturally appear in: the diagonal of a square (\(\sqrt{2}\)), circumference (\(\pi\)), exponential growth/logarithms (\(e\)).  
+Historically, the irrationality of \(\sqrt{2}\) shook the Pythagorean school.
+:::
+
+## 📐 The Pythagorean School and the “scandal” of irrationals
+
+::: {.callout-note collapse=false title="📐 The Pythagorean School and Irrationals"}
+**Who were they?** A philosopher–mathematician community (6th century BC) who claimed that “**everything is number**” (rational).  
+
+**The crisis.** The hypotenuse of an isosceles right triangle with legs of length 1 has length \(\sqrt{2}\), which is **not** rational.  
+The proof of the irrationality of \(\sqrt{2}\) is attributed to **Hippasus**.  
+
+**Impact.** The first blow to this worldview; it marked the beginning of the formal acceptance of irrationals, essential for the **completeness** of \(\mathbb{R}\).
+:::
+
+
+## 📘 🧠 Exercises — Identifying Irrationals
+
+::: {.callout-note collapse=false title="📘 🧠 Exercises — Identifying Irrational Numbers"}
+1. Classify as **rational** or **irrational**:  
+   a) \(\sqrt{9}\) · b) \(\sqrt{5}\) · c) \(\tfrac{4}{7}\) · d) \(\pi\) · e) \(0.101001000100001\ldots\)
+
+2. Which one is **irrational**?  
+   A) \(\tfrac{7}{3}\) · B) \(1.333\ldots\) · C) \(\sqrt{2}\) · D) \(0.5\)
+
+3. True/False:  
+   a) Every infinite decimal is irrational.  
+   b) \(\sqrt{25}\) is irrational.  
+   c) There are more irrationals than rationals.
+:::
+
+## 📘 Answer Key (identification)
+
+::: {.callout-important collapse=true title="📘 Answer Key"}
+1. a) Rational (\(=3\)) · b) Irrational · c) Rational · d) Irrational · e) Irrational (infinite non-repeating)  
+2. **C** (\(\sqrt{2}\))  
+3. a) **F** (only **non-repeating infinite** decimals are irrational) · b) **F** (\(\sqrt{25}=5\) is rational) · c) **T** (reals/irrationals are **uncountable**, rationals are **countable** — Cantor).
+:::
+
+
+---
+
+## 📜 Historical Note: Georg Cantor (1845–1918)
+
+::: {.callout-tip collapse=false title="📜 Historical Note: Georg Cantor"}
+Founder of **set theory** and the modern treatment of **infinity**.  
+He proved that \(\mathbb{R}\) (and therefore the irrationals) is **uncountable**, while \(\mathbb{Q}\) is **countable** — there are “more” irrationals than rationals.
+:::
+
+---
+
+## ✨ Decimal Representation of Real Numbers
+
+- **Rationals**: decimal **finite** or **infinite repeating**.  
+- **Irrationals**: decimal **infinite non-repeating**.
+
+**Quick examples:**
+- \(\frac{3}{4}=0.75\) (finite)  
+- \(\frac{1}{3}=0.\overline{3}\) (infinite repeating)  
+- \(\sqrt{2}\approx 1.4142135\ldots\) (infinite non-repeating)
+
+---
+
+## ✨ Repeating Decimals and Generating Fraction
+
+**Ex. 1 —** \(\tfrac{1}{3}\):  
+    \(1\div 3 = 0.333\ldots = 0.\overline{3}\) → **rational**.
+
+**Ex. 2 —** \(\tfrac{4}{11}\):  
+    \(4\div 11 = 0.363636\ldots = 0.\overline{36}\).
+
+**Ex. 3 —** \(\tfrac{7}{8}\):  
+    \(7\div 8 = 0.875\) (finite).
+
+**Ex. 4 —** \(\tfrac{12}{90}\):  
+    \(12\div 90 = 0.1\overline{3}\) → **period** “3”.
+
+::: {.callout-note collapse=false title="🧠 Important Remark"}
+A fraction **in irreducible form** has a **finite** decimal expansion **if and only if** its denominator contains **only** factors 2 and/or 5.  
+Otherwise, the expansion is a **repeating decimal**.
+:::
+
+
+---
+
+## 📘 🧠 Solved Exercises — Generating Fractions
+
+::: {.callout-note collapse=false title="📘 Solved Exercises: Repeating Decimals → Fraction"}
+**1.** \(0.\overline{3}\).  
+Let \(x=0.\overline{3}\). \(10x=3.\overline{3}\) ⇒ \(9x=3\) ⇒ \(x=\tfrac{1}{3}\).
+
+**2.** \(0.\overline{72}\).  
+Let \(x=0.\overline{72}\). \(100x=72.\overline{72}\) ⇒ \(99x=72\) ⇒ \(x=\tfrac{72}{99}=\tfrac{8}{11}\).
+
+**3.** \(2.\overline{1}\).  
+\(x=2.\overline{1}\). \(10x=21.\overline{1}\) ⇒ \(9x=19\) ⇒ \(x=\tfrac{19}{9}\).
+
+**4.** \(0.4\overline{7}\).  
+\(x=0.4\overline{7}\). \(10x=4.\overline{7}\), \(100x=47.\overline{7}\) ⇒ \(90x=43\) ⇒ \(x=\tfrac{43}{90}\).
+
+**5.** \(3.12\overline{5}\).  
+\(x=3.12555\ldots\). \(1000x=3125.555\ldots\), \(100x=312.555\ldots\) ⇒ \(900x=2813\) ⇒ \(x=\tfrac{2813}{900}\).
+:::
+
+## 🧩 Exercises — Generating Fractions
+
+::: {.callout-note collapse=false title="🧩 Exercises: Repeating Decimals → Fraction"}
+1) \(0.\overline{3}\), \(0.\overline{7}\), \(0.\overline{2}\)  
+2) \(0.1\overline{3}\), \(0.72\overline{1}\), \(1.2\overline{45}\)  
+3) \(0.\overline{81}\), \(2.\overline{6}\), \(3.4\overline{3}\)  
+4) \(0.4\overline{5}\) (simplify)
+:::
+
+## ✅ Answer Key — Generating Fractions
+
+::: {.callout-important collapse=true title="✅ Answer Key — Generating Fractions"}
+1) \(\tfrac{1}{3}\), \(\tfrac{7}{9}\), \(\tfrac{2}{9}\)
+
+2) \(\tfrac{2}{15}\), **\(\tfrac{649}{900}\)**, \(\tfrac{1233}{990}=\tfrac{137}{110}\)
+
+3) \(\tfrac{9}{11}\), \(\tfrac{8}{3}\), **\(\tfrac{103}{30}\)**
+
+4) \(\tfrac{41}{90}\)
+:::
+
+
+---
+
+## 📚 Properties of Number Sets
+
+🔸 **Useful definitions**
+
+- **Closure**: a set is **closed** under an operation when the result **remains in the set**.  
+  Ex.: \(\mathbb{N}\) is closed under addition; \(\mathbb{Z}\) is closed under subtraction.
+
+- **Density**: a set is **dense** if between any two distinct elements there is **another** element of the same set.  
+  Ex.: \(\mathbb{Q}\) is dense; also \(\mathbb{R}\setminus\mathbb{Q}\) is dense in \(\mathbb{R}\).
+
+---
+
+🔹 **Natural numbers \((\mathbb{N}=\{0,1,2,\ldots\})\)**  
+Counting; closed under \(+\) and \(\cdot\); not closed under \(-\) or \(/\).
+
+🔹 **Integers \((\mathbb{Z}=\{\ldots,-2,-1,0,1,2,\ldots\})\)**  
+Include \(\mathbb{N}\); closed under \(+\), \(-\), \(\cdot\); not closed under \(/\).
+
+🔹 **Rationals \((\mathbb{Q})\)**  
+Fractions and finite/repeating decimals; closed under the four operations (with \(b\neq 0\)); **dense**.
+
+🔹 **Irrationals \((\mathbb{R}\setminus\mathbb{Q})\)**  
+Non-repeating infinite decimals; **dense**; not closed under \(+\) or \(\cdot\) (e.g., \(\sqrt{2}+(-\sqrt{2})=0\notin\) irrationals).
+
+🔹 **Reals \((\mathbb{R})\)**  
+\(\mathbb{Q}\cup(\mathbb{R}\setminus\mathbb{Q})\); represent the real line.  
+For \(a,b\in\mathbb{R}\), **if \(b\neq 0\)** then \(\tfrac{a}{b}\in\mathbb{R}\).
+
+## 📌 Summary — Properties
+
+::: {.callout-tip collapse=false title="📌 Summary: Properties of Number Sets"}
+| Set            | Symbol  | Main Properties |
+|----------------|---------|-----------------|
+| Natural numbers| \(\mathbb{N}\) | Closed under \(+\) and \(\cdot\); basis for counting. |
+| Integers       | \(\mathbb{Z}\) | Closed under \(+\), \(-\), \(\cdot\); include negatives. |
+| Rationals      | \(\mathbb{Q}\) | Fractions; finite or repeating decimals; **dense**. |
+| Irrationals    | \(\mathbb{R}\setminus\mathbb{Q}\) | Non-repeating decimals; **dense**. |
+| Reals          | \(\mathbb{R}\) | Union of rationals and irrationals; division defined for \(b\neq 0\). |
+:::
+
+
+## 📚 Basic Algebraic Properties in \(\mathbb{R}\)
+
+::: {.callout-note collapse=false title="📚 Basic Algebraic Properties in \(\mathbb{R}\)"}
+- \(0\cdot x=0\);\quad \((-x)\cdot y=-(x\cdot y)\);\quad \((-x)(-y)=x\cdot y\)  
+- \(x+y=x\Rightarrow y=0\);\quad \(x\cdot y=x\Rightarrow y=1\)  
+- \(x+y=0\Rightarrow y=-x\);\quad \(x\cdot y=1\Rightarrow y=x^{-1}\,(x\neq 0)\)  
+- \(x+z=y+z\Rightarrow x=y\) (**cancellation law for addition**)  
+- \(z\neq 0\) and \(x\cdot z=y\cdot z\Rightarrow x=y\) (**cancellation law for multiplication**)  
+- \(x\neq 0,\ y\neq 0\Rightarrow x\cdot y\neq 0\) (**there are no zero divisors in \(\mathbb{R}\)**)
+:::
+
+## ✏️ Auxiliary Operations
+
+::: {.callout-note collapse=false title="Auxiliary Operations"}
+**Subtraction**: \(a-b=a+(-b)\).  
+**Division** (\(b\neq 0\)): \(\tfrac{a}{b}=a\cdot b^{-1}\).
+
+**Examples**  
+- Additive inverse of \(5\): \(-5\) (since \(5+(-5)=0\)).  
+- Multiplicative inverse of \(3\): \(\tfrac{1}{3}\) (since \(3\cdot\tfrac{1}{3}=1\)).  
+- \(7-2=7+(-2)=5\); \(\ 5\div2=5\cdot\tfrac{1}{2}=\tfrac{5}{2}=2.5\).
+:::
+
+---
+
+## 🧠 Review Exercises
+
+::: {.callout-note collapse=false title="🧠 Review Exercises — Module 1.2"}
+1) Classify: \(\sqrt{2}\), \(0.333\ldots\), \(\pi\), \(7/2\), \(\sqrt{25}\).  
+2) Write the subsets of \(\mathbb{R}\) in order of inclusion.  
+3) Give **three** examples of irrationals and justify.  
+4) Differentiate between **finite** and **infinite** decimals with examples.  
+5) Is \(3.727272\ldots\) rational? Find its generating fraction.  
+6) Convert \(0.1666\ldots\) into a fraction.  
+7) \(1.4142135\ldots\) (approx. \(\sqrt{2}\)) is it a repeating decimal? Why?  
+8) If \(a+7=b+7\), what can you conclude about \(a\) and \(b\)?  
+9) Simplify: \((-3)\cdot(-x)+(-2x)\).  
+10) If \(x\cdot a=x\) and \(x\neq 0\), what can you conclude about \(a\)?
+:::
+
+## 📝 Solutions
+
+::: {.callout-important collapse=true title="📝 Solutions"}
+1) I, R, I, R, R.  
+2) \(\mathbb{N}\subset\mathbb{Z}\subset\mathbb{Q}\subset\mathbb{R}\).  
+3) Ex.: \(\sqrt{3}\), \(\pi\), \(e\) (not fractions of integers; non-repeating decimal).  
+4) \(1/4=0.25\) (finite) vs. \(1/3=0.\overline{3}\) (infinite repeating).  
+5) \(x=3.7272\ldots\). \(100x=372.72\ldots\); \(100x-x=369\) ⇒ \(x=\tfrac{369}{99}=\tfrac{41}{11}\).  
+6) \(x=0.1666\ldots\). \(10x=1.666\ldots\) ⇒ \(9x=1.5\) ⇒ \(x=\tfrac{1.5}{9}=\tfrac{3}{18}=\tfrac{1}{6}\).  
+7) No. It is infinite **non-repeating** ⇒ irrational.  
+8) **Addition cancellation**: \(a=b\).  
+9) \((-3)(-x)=3x\) ⇒ \(3x+(-2x)=x\).  
+10) **Multiplicative identity**: \(a=1\).
+:::
+
+---
+
+# 🔗 Navigation
+
+🎯 **Next Post:** 👉 [1.2 AP: Number Sets — Advanced](1.2-sets-AP.qmd)
+
+[← Course Summary](../index.qmd) · [← Mathematics Courses](../../index.qmd) · 🔝 [Top](1.2-sets.qmd)
+
+---
+
+*Blog do Marcellini — Exploring Mathematics with Rigor and Beauty.*
+
+:::{.callout-note}
+Created by Blog do Marcellini with ❤️ and code.
+:::
+

@@ -33,7 +33,7 @@ Clear theory, practical examples, and applications — with **Advanced Path (AP)
 ::: {.callout-tip title="🧭 🧮 Mathematics Reading Guide"}
 A reading path with progressive order and connections between topics.
 
-[View the guide ›](math-guide.qmd){.button .button-outline}
+[View the guide ›](guide-mathematics.qmd){.button .button-outline}
 :::
 :::
 :::
@@ -62,7 +62,7 @@ All modules include an **Advanced Path (AP)** with more advanced topics that may
 
 ## 🧭 🧮 Reading Guide
 
-1. **[🧭 🧮 Mathematics Reading Guide](math-guide.qmd)** — Suggested path with progressive order, connecting the main topics.
+1. **[🧭 🧮 Mathematics Reading Guide](guide-mathematics.qmd)** — Suggested path with progressive order, connecting the main topics.
 
 📌 This guide is updated as new content is published.
 
@@ -85,3 +85,4 @@ All modules include an **Advanced Path (AP)** with more advanced topics that may
 - 🧑‍🏫 [About the Blog](../personal/about-the-blog.qmd)
 - 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">Project GitHub</a>
 - 📬 [Contact by Email](mailto:prof.marcellini@gmail.com)
+

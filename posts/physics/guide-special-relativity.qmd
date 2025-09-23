@@ -1,0 +1,81 @@
+---
+title: "🧭 🛰️ Reading Guide — Special Relativity Series"
+description: "Organization of posts on Special Relativity: a didactic introduction and an academic deep dive."
+author: "Blog do Marcellini"
+date: 2025-07-06
+lang: en
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+categories: [physics, relativity, special relativity, reading guide, einstein, series]
+tags: [physics, relativity, special relativity, reading guide, einstein, series]
+---
+
+---
+
+[← Back to the Physics Reading Guide 🧭 ⚛️](/posts/physics/guide-physics.qmd)
+
+[← Back to the Physics Section ⚛️](/posts/physics/)
+
+---
+
+![Albert Einstein](../../images/500px-Einstein_patentoffice.jpeg){width=40% style="margin-bottom: 2rem;"}
+
+# 🧭 🛰️ Reading Guide — Special Relativity Series
+
+Organization of posts on Special Relativity: a didactic introduction and an academic deep dive.
+
+## 🌟 Overview
+
+If you are just starting or want a lighter, more contextual read, begin with the introductory post:
+
+👉 **[📘 🛰️ Special Relativity: Einstein, Time, and the Speed of Light](relatividade-especial.qmd)**  
+A visual, historical, and accessible introduction.
+
+---
+
+## 📚 Academic Deep Dive
+
+Ready for a more technical read, with formulas, postulates, and conceptual analyses?
+
+👉 **[📘 🛰️ The Theory of Special Relativity — A More Academic View](relatividade-especial-academico.qmd)**
+
+Ideal for students and teachers who want a solid and structured foundation.
+
+---
+
+*This guide is part of the thematic organization series of Blog do Marcellini.*  
+*Additional posts may be added as new content is published.*
+
+---
+
+[← Back to the Physics Reading Guide 🧭 ⚛️](/posts/physics/guide-physics.qmd)
+
+[← Back to the Physics Section ⚛️](/posts/physics/)
+
+---
+
+🔝 [Back to Top](guide-special-relativity.qmd)
+
+---
+
+*Blog do Marcellini — Exploring Physics with Rigor and Beauty.*
+
+:::{.callout-note}
+*Created by Blog do Marcellini with ❤️ and code.*
+:::
+
+# 🔗 Useful Links
+
+- 🧑‍🏫 [About the Blog](../../posts/personal/about-the-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">Project GitHub</a>
+- 📬 [Contact by Email](mailto:prof.marcellini@gmail.com)
+

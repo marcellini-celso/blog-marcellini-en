@@ -7,4 +7,4 @@ format: html
 
 ## Posts with the tag **differential equations**
 
-- [🎓 Differential and Integral Calculus Course](/posts/courses/math/calculus/index.html)
+- [🎓 Differential and Integral Calculus Course](/posts/courses/mathematics/calculus/index.html)

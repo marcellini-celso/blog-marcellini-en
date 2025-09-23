@@ -21,7 +21,7 @@ page-layout: full
 
 ---
 
-[← Back to the Mathematics Reading Guide 🧭 🧮](/posts/mathematics/math-guide.qmd)
+[← Back to the Mathematics Reading Guide 🧭 🧮](/posts/mathematics/guide-mathematics.qmd)
 
 [← Back to the Mathematics Section 🧮](/posts/mathematics/)
 
@@ -95,7 +95,7 @@ One of Maxwell’s four equations governing electromagnetism. This one describes
 
 ---
 
-[← Back to the Mathematics Reading Guide 🧭 🧮](/posts/mathematics/math-guide.qmd)
+[← Back to the Mathematics Reading Guide 🧭 🧮](/posts/mathematics/guide-mathematics.qmd)
 
 [← Back to the Mathematics Section 🧮](/posts/mathematics/)
 
@@ -116,3 +116,4 @@ One of Maxwell’s four equations governing electromagnetism. This one describes
 - 🧑‍🏫 [About the Blog](../../posts/personal/about-the-blog.qmd)
 - 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">Project GitHub</a>
 - 📬 [Contact by Email](mailto:prof.marcellini@gmail.com)
+

@@ -33,7 +33,7 @@ Purpose, editorial structure, and project behind-the-scenes.
 ::: {.callout-tip title="🧭 Personal Blog Guide"}
 Suggested reading track in progressive order.
 
-[See the guide ›](personal-guide.qmd){.button .button-outline}
+[See the guide ›](guide-personal.qmd){.button .button-outline}
 :::
 :::
 :::
@@ -45,7 +45,7 @@ Presentation of the blog’s purpose, structure, and editorial line, as well as 
 
 ## 🧭 🧑‍🏫 Reading Guide
 
-1. **[🧭 🧑‍🏫 Reading Guide — Personal Blog](personal-guide.qmd)** — Suggested reading order, combining authorial texts and behind-the-scenes with a focus on clarity and rigor.
+1. **[🧭 🧑‍🏫 Reading Guide — Personal Blog](guide-personal.qmd)** — Suggested reading order, combining authorial texts and behind-the-scenes with a focus on clarity and rigor.
 
 📌 This guide is updated as new content is published.
 

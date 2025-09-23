@@ -1,0 +1,71 @@
+---
+title: "🧭 ⚛️ Reading Guide — Physics"
+description: "Recommended reading path for the Physics Section of Blog do Marcellini. Includes suggested order for special series and articles, based on level of complexity and application."
+author: "Blog do Marcellini"
+date: 2025-07-30
+lang: en
+categories: [physics, reading guide]
+tags: [physics, reading guide]
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+---
+
+[← Back to the Physics Section ⚛️](index.qmd)
+
+---
+
+## About this guide
+
+This guide provides a suggested reading order for those who want to study Physics in a structured way. It gathers the main content available in the section, organizing special series, articles, and reflections into a coherent path — from introduction to deepening.
+
+---
+
+## ✅ Suggested order
+
+1. **[📘 🛰️ Special Relativity — An Overview](special-relativity.qmd)** — Didactic introduction to the concepts of spacetime, Lorentz transformations, and the twin paradox.
+
+2. **[📘 🛰️ Special Relativity — An Academic View](special-relativity-academics.qmd)** — More formal and in-depth version of the theory of special relativity, based on classical sources (e.g., Resnick).
+
+3. **[📘 🧬 100 Years of Quantum Mechanics](100-years-quantum-mechanics.qmd)** — Historical and conceptual introduction to the centennial of quantum theory.
+
+4. **[🧭 🛰️ Reading Guide — Special Relativity](guide-special-relativity.qmd)** — Progressive reading path between the introductory and the academic versions.
+
+5. **[🧭 🧬 Reading Guide — 100 Years of Quantum Mechanics](guide-100-years-quantum-mechanics.qmd)** — Deepening.  
+   🔸 *Series in progress — Part 1 published.*
+
+6. **[🧭 🌠 Reading Guide — General Relativity](guide-general-relativity.qmd)** — Overview.  
+   🔸 *Series in progress — Part 1 published.*
+
+📌 This guide is updated as new content is published.
+
+---
+
+[← Back to the Physics Section ⚛️](index.qmd)
+
+---
+
+🔝 [Back to Top](guide-physics.qmd)
+
+---
+
+*Blog do Marcellini — Exploring Physics with Rigor and Beauty.*
+
+:::{.callout-note}
+*Created by Blog do Marcellini with ❤️ and code.*
+:::
+
+## 🔗 Useful Links
+
+- 🧑‍🏫 [About the Blog](../personal/about-the-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">Project GitHub</a>
+- 📬 [Contact by Email](mailto:prof.marcellini@gmail.com)
+

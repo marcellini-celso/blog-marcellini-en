@@ -1,0 +1,98 @@
+---
+title: "🧭 📚 🌠 Reading Guide — General Relativity Series"
+description: "Map of the introductory series on General Relativity, with links to each part and suggestions for complementary reading."
+author: "Blog do Marcellini"
+date: 2025-08-25
+lang: en
+categories: [physics, relativity, general relativity, reading guide, einstein, series]
+tags: [physics, relativity, general relativity, reading guide, einstein, series]
+toc: false
+number-sections: true
+fig-align: center
+code-overflow: wrap
+highlight-style: github
+---
+
+---
+
+[← Back to the Physics Reading Guide 🧭 ⚛️](/posts/physics/guide-physics.qmd)
+
+[← Back to the Physics Section ⚛️](/posts/physics/)
+
+---
+
+# 🧭 📚 🌠 Reading Guide — General Relativity Series
+
+> _Explore step by step one of the most revolutionary theories of Physics._
+
+---
+
+## 📘 Introduction
+
+The Theory of General Relativity, formulated by **Albert Einstein in 1915**, replaced the classical notion of gravity as a force with a profound view: **gravity is the curvature of spacetime** caused by the presence of mass and energy.
+
+This series of posts presents the essential concepts of this theory in a progressive way, with a didactic focus and accessible language.
+
+Currently, only **Part 1** is available. The next parts will be published soon.
+
+---
+
+## [📚 🌠 Part 1 — The Problem of Gravity](general-relativity-part1.qmd)
+
+---
+
+# ⏳ 📚 🌠 Coming Soon
+
+- **📚 🌠 Part 2 — Gravity as Curvature of Spacetime**
+- **📚 🌠 Part 3 — Einstein’s Equations**
+- **📚 🌠 Part 4 — Experimental and Observational Tests**
+- **📚 🌠 Part 5 — Limits and Boundaries of the Theory**
+- **📚 🌠 Part 6 — Legacy, Applications, and the Future**
+
+---
+
+# 📚 Complementary Reading
+
+- *General Relativity Theory Explained* — R. Resnick  
+- *Gravitation* — Misner, Thorne, and Wheeler (advanced)  
+- *The Universe in a Nutshell* — Stephen Hawking  
+- Publications from LIGO and the Event Horizon Telescope  
+
+---
+
+# ✨ To continue exploring
+
+You can now move on to:
+
+- [🧭 🛰️ Reading Guide — Special Relativity](guide-special-relativity.qmd)
+
+- [🧭 📚 🧬 Reading Guide — 100 Years of Quantum Mechanics Series](guide-100-years-quantum-mechanics.qmd)
+
+---
+
+🔔 Stay tuned for updates. Each new part will be added to this guide as soon as it is published.
+
+---
+
+[← Back to the Physics Reading Guide 🧭 ⚛️](/posts/physics/guide-physics.qmd)
+
+[← Back to the Physics Section ⚛️](/posts/physics/)
+
+---
+
+🔝 [Back to Top](guide-general-relativity.qmd)
+
+---
+
+*Blog do Marcellini — Exploring Physics with Rigor and Beauty.*
+
+:::{.callout-note}
+*Created by Blog do Marcellini with ❤️ and code.*
+:::
+
+# 🔗 Useful Links
+
+- 🧑‍🏫 [About the Blog](../../posts/personal/about-the-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">Project GitHub</a>
+- 📬 [Contact by Email](mailto:prof.marcellini@gmail.com)
+

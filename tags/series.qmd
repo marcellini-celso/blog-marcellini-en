@@ -1,0 +1,12 @@
+---
+title: "series"
+format: html
+---
+
+[⬅ Return to All Tags](../tags.qmd)
+
+## Posts with the tag **series**
+
+- [🧭 🛰️ Reading Guide — Special Relativity Series](/posts/physics/guide-special-relativity.html)
+- [🧭 📚 🌠 Reading Guide — General Relativity Series](/posts/physics/guide-general-relativity.html)
+- [🧭 📚 🧬 Reading Guide — 100 Years of Quantum Mechanics Series](/posts/physics/guide-100-years-quantum-mechanics.html)

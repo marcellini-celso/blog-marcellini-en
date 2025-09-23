@@ -7,5 +7,5 @@ format: html
 
 ## Posts with the tag **about the blog**
 
-- [🧑‍🏫 Personal Blog](/posts/personal/index.html)
 - [📘 🧑‍💻 About the Blog and About Me](/posts/personal/about-the-blog.html)
+- [🧑‍🏫 Personal Blog](/posts/personal/index.html)

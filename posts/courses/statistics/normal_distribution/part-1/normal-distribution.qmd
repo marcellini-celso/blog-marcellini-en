@@ -1105,7 +1105,7 @@ With this knowledge, you are now ready to understand phenomena that follow (or a
 
 🎯 [Part 2: z-Score and Z Table](../part-2/normal-distribution-part2.qmd)
 
-🎯 [Part 3: Graphs, CLT, and Approximate Normality](../parte-3/distribuicao-normal-parte3.qmd)
+🎯 [Part 3: Graphs, CLT, and Approximate Normality](../part-3/normal-distribution-part3.qmd)
 
 ---
 
@@ -1129,3 +1129,4 @@ With this knowledge, you are now ready to understand phenomena that follow (or a
 - 🧑‍🏫 [About the Blog](../../../../personal/about-the-blog.qmd)
 - 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">GitHub Repository</a>
 - 📬 [Contact via Email](mailto:prof.marcellini@gmail.com)
+

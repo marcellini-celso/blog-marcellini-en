@@ -7,7 +7,8 @@ format: html
 
 ## Posts with the tag **article**
 
+- [📘 🧬 100 Years of Quantum Mechanics (1925–2025)](/posts/physics/100-years-quantum-mechanics.html)
+- [📘 👨‍💻 📄 index.qmd Models for Quarto Projects](/posts/programming/models-index-quarto.html)
+- [📘 🧮 Why is 0! = 1?](/posts/mathematics/zero-factorial.html)
 - [📘 🧮 Beauty is the First Test — G. H. Hardy and Mathematics as Art](/posts/mathematics/mathematical-beauty.html)
 - [📘 ✨ 🧮 ⚛️ Equations that Shaped History](/posts/mathematics/historical-equations.html)
-- [📘 🧮 Why is 0! = 1?](/posts/mathematics/zero-factorial.html)
-- [📘 👨‍💻 📄 index.qmd Models for Quarto Projects](/posts/programming/models-index-quarto.html)

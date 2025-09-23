@@ -1,0 +1,10 @@
+---
+title: "guia de leitura"
+format: html
+---
+
+[⬅ Return to All Tags](../tags.qmd)
+
+## Posts with the tag **guia de leitura**
+
+- [📚 🧬 Parte 1 — Antes da Revolução Quântica (Aprofundamento)](/posts/physics/parte-1-mecanica-quantica.html)

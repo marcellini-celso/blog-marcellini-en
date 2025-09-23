@@ -1,0 +1,82 @@
+---
+title: "🧭 📚 🧬 Reading Guide — 100 Years of Quantum Mechanics Series"
+description: "Organization of the commemorative series on 100 years of Quantum Mechanics, with indication of the part already available and the upcoming publications."
+author: "Blog do Marcellini"
+date: 2025-08-21
+lang: en
+categories: [physics, quantum mechanics, reading guide, series]
+tags: [physics, quantum mechanics, reading guide, series]
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+---
+
+---
+
+[← Back to the Physics Reading Guide 🧭 ⚛️](/posts/physics/guide-physics.qmd)
+
+[← Back to the Physics Section ⚛️](/posts/physics/)
+
+---
+
+![](../../images/quantum500.jpg)
+
+# 🧭 📚 🧬 Reading Guide — 100 Years of Quantum Mechanics Series
+
+Organization of the commemorative series on 100 years of Quantum Mechanics, with indication of the part already available and the upcoming publications.
+
+> _This guide organizes the special series celebrating 100 years of Quantum Mechanics. The series is being published in parts, and each stage brings reflections on the historical, conceptual, and technological milestones of this fundamental theory of modern physics._
+
+> _Currently, only **Part 1** is available. The next parts will be published soon._
+
+---
+
+## [📚 🧬 Part 1 — Quantum Mechanics: A Century of Transformation](parte-1-mecanica-quantica.qmd)
+Introduction to the series and to the impact of quantum theory on scientific thought.
+
+---
+
+# ⏳ 📚 🧬 Coming Soon
+
+- **📚 🧬 Part 2 — Light, the Quantum, and the Beginning of the Revolution**
+- **📚 🧬 Part 3 — The Probabilistic World of Schrödinger and Heisenberg**
+- **📚 🧬 Part 4 — Quantum Interpretations and Paradoxes**
+- **📚 🧬 Part 5 — Applications of Quantum Mechanics**
+- **📚 🧬 Part 6 — The Quantum Future: Computing, Information, and Philosophy**
+
+---
+
+🔔 Stay tuned for updates. Each new part will be added to this guide as soon as it is published.
+
+---
+
+[← Back to the Physics Reading Guide 🧭 ⚛️](/posts/physics/guide-physics.qmd)
+
+[← Back to the Physics Section ⚛️](/posts/physics/)
+
+---
+
+🔝 [Back to Top](guide-100-years-quantum-mechanics.qmd)
+
+---
+
+*Blog do Marcellini — Exploring Physics with Rigor and Beauty.*
+
+:::{.callout-note}
+*Created by Blog do Marcellini with ❤️ and code.*
+:::
+
+# 🔗 Useful Links
+
+- 🧑‍🏫 [About the Blog](../../posts/personal/about-the-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">Project GitHub</a>
+- 📬 [Contact by Email](mailto:prof.marcellini@gmail.com)
+

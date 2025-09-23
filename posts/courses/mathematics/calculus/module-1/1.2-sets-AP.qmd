@@ -1,0 +1,227 @@
+---
+title: "🧠 🔢 Module 1.2 AP: Number Sets — Advanced"
+description: "We explore structural concepts (irrationality of √2, countability, Cantor’s diagonal, finite decimals) and the properties that make ℝ a complete ordered field."
+author: "Blog do Marcellini"
+date: "2025-07-27"
+lang: en
+categories: [mathematics, calculus, sets, number sets, countability, Cantor, field, exercises, courses]
+tags: [mathematics, calculus, number sets, countability, Cantor, field, exercises, courses]
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+---
+
+[← Course Summary 🎓🧮](../index.qmd) · [← Mathematics Courses](../../index.qmd) · [← Mathematics Section](/posts/mathematics/index.qmd)
+
+🎯 **Previous Post:** 👉 [1.2 Number Sets](1.2-sets.qmd)
+
+---
+
+# 🔢 Module 1.2 AP: Number Sets — Advanced
+
+::: {.callout-note title="📌 Post Objectives"}
+- Prove that \(\sqrt{2}\) is irrational (proof by contradiction);  
+- Discuss **countable** vs. **uncountable** sets;  
+- Present **Cantor’s diagonal argument** (reals uncountable; rationals countable with gcd filtering);  
+- Prove when a rational has a **finite decimal** (denominator with only factors 2 and/or 5);  
+- Summarize why \(\mathbb{R}\) is a **complete ordered field** (supremum axiom);  
+- Visualize \(\{x\in\mathbb{Q}\mid x^2<2\}\) using Python;  
+- Consolidate with guided exercises.  
+:::
+
+## 🧠 Deep Dive: Proof that \(\sqrt{2}\) is not rational
+
+::: {.callout-note collapse=false title="🧠 Proof by contradiction: $\sqrt{2}\notin\mathbb{Q}$"}
+**Proposition.** \(\sqrt{2}\) is irrational.
+
+**Proof.** Suppose, for contradiction, that \(\sqrt{2}=\frac{a}{b}\) with \(a,b\in\mathbb{Z}\), \(b\neq 0\), and \(\gcd(a,b)=1\).  
+Squaring: \(2=\frac{a^2}{b^2}\Rightarrow a^2=2b^2\). Thus, \(a^2\) is even, so \(a=2k\). Substituting:  
+\(4k^2=2b^2\Rightarrow b^2=2k^2\), hence \(b\) is even. Contradiction, since both \(a\) and \(b\) would be even \(\Rightarrow \gcd(a,b)\ge2\).  
+Therefore, \(\sqrt{2}\notin\mathbb{Q}\). \(\square\)
+:::
+
+## 🧠 Deep Dive: Comment on proof by contradiction
+
+::: {.callout-important collapse=false title="🧠 About the proof technique"}
+The technique assumes the **negation** of what is to be proven and extracts a **logical contradiction**. In the case of \(\sqrt{2}\), the rationality hypothesis forces both \(a\) and \(b\) to be **even**, contradicting irreducibility. Hence, the hypothesis is false.
+:::
+
+## 🧠 Deep Dive: Countable and uncountable sets
+
+::: {.callout-note collapse=false title="🧠 Countable vs. uncountable"}
+- **Countable**: admits a bijection with \(\mathbb{N}\) → one can **list** the elements (possibly in a non-obvious order). Examples: \(\mathbb{N}\), \(\mathbb{Z}\), \(\mathbb{Q}\).  
+- **Uncountable**: **does not** admit such a listing; it has “more” elements than \(\mathbb{N}\). Example: \(\mathbb{R}\) (and therefore \(\mathbb{R}\setminus\mathbb{Q}\)).  
+:::
+
+## 🧠 Deep Dive: The diagonal method and uncountable reals
+
+::: {.callout-important collapse=false title="🧠 Cantor’s diagonal argument: $[0,1]$ is uncountable"}
+Suppose all reals in \([0,1]\) are listed: \(x_1,x_2,\dots\), with decimal expansions \(x_i=0.a_{i1}a_{i2}\ldots\).  
+Construct \(y=0.b_1b_2\ldots\) by choosing \(b_n\neq a_{nn}\). Thus, \(y\) differs from **every** \(x_n\) at digit \(n\), so it is not on the list. Contradiction.  
+Therefore, \(\mathbb{R}\) (already within \([0,1]\)) is **uncountable**.
+
+<div style="text-align: center;">
+  <img src="../images/Diagonal_argument_01_svg.svg" alt="Cantor’s diagonal method (uncountable reals)" width="60%">
+  <figcaption><strong>Cantor’s diagonal method — reals</strong></figcaption>
+  <p style="font-size: 0.8em; margin-top: 0.5em;">
+    Credit: Jochen Burghardt — CC BY-SA 3.0.
+  </p>
+</div>
+:::
+
+## 🧠 Deep Dive: Countability of \(\mathbb{Q}\)
+
+::: {.callout-note collapse=false title="Enumerating rationals without duplicates (diagonals + gcd)"}
+- Write all pairs \((p,q)\in\mathbb{N}\times\mathbb{N}\) in a **table**;  
+- Traverse by **diagonals** with sum \(p+q=k\) (for \(k=2,3,4,\ldots\));  
+- List \(\tfrac{p}{q}\) **only** when \(\gcd(p,q)=1\) (irreducible) → avoids repetitions.
+
+Initial sequence (positives):  
+\[
+\frac{1}{1},\ \frac{1}{2},\ \frac{2}{1},\ \frac{1}{3},\ \frac{3}{1},\ \frac{1}{4},\ \frac{2}{3},\ \frac{3}{2},\ \frac{4}{1},\ \ldots
+\]
+
+For **negatives** and \(0\), interleave signs and include \(0=\frac{0}{1}\).
+
+> Classical idea (see, for example, Courant & John).
+:::
+
+<div style="text-align: center;">
+  <img src="../images/Diagonal_argument.svg" alt="Diagonal method for enumerating rationals" width="60%">
+  <figcaption><strong>Diagonal method — rationals</strong></figcaption>
+  <p style="font-size: 0.8em; margin-top: 0.5em;">
+    Credit: Cronholm144 — CC BY-SA 3.0.
+  </p>
+</div>
+
+## 🧠 Deep Dive: Finiteness of decimal representation
+
+::: {.callout-important collapse=false title="🧠 Theorem: finite decimal ⇔ denominator (in lowest terms) has only factors 2 and/or 5"}
+If \(\tfrac{a}{b}\) is in **lowest terms**, then its decimal expansion is **finite** **if and only if** \(b\) has only prime factors \(2\) and \(5\).  
+**Idea of the proof:** write \(\tfrac{a}{b}\) with denominator \(10^n=2^n\cdot5^n\); this is only possible if \(b\) (already simplified) contains no primes other than \(2\) and \(5\).
+
+**Examples:**  
+\(\tfrac{3}{8}=0.375\) (ok: \(8=2^3\)) · \(\tfrac{7}{20}=0.35\) (ok: \(20=2^2\cdot5\)) ·  
+\(\tfrac{4}{15}=0.\overline{26}\) (has factor \(3\)) · \(\tfrac{5}{6}=0.\overline{83}\) (has factor \(3\)).
+:::
+
+## 🧠 Deep Dive: \(\mathbb{R}\) as a complete ordered field
+
+::: {.callout-note collapse=false title="🧠 Structure of $\mathbb{R}$"}
+**Field \((\mathbb{R},+,\cdot)\)**: usual additive and multiplicative laws, distributivity, and inverses (except for \(0\) in multiplication).  
+**Compatible total order \(\le\)**: trichotomy; \(a\le b\Rightarrow a+c\le b+c\); \(0\le a,0\le b\Rightarrow 0\le ab\).  
+**Completeness (supremum axiom)**: every **non-empty** subset that is **bounded above** has a **supremum** in \(\mathbb{R}\).  
+This **fails** in \(\mathbb{Q}\).
+:::
+
+## 🧠 The completeness property: central example
+
+::: {.callout-important collapse=false title="🧠 Example: $\sup$ {$x\in\mathbb{Q}\mid x^2<2$}"}
+Consider \(A=\{x\in\mathbb{Q}\mid x^2<2\}\). \(A\) is bounded above (for instance, by \(2\), or even by \(1.5\), \(1.42\), **9.9**, etc.).  
+In \(\mathbb{Q}\), the supremum does **not** exist: the natural candidate would be \(\sqrt{2}\), but \(\sqrt{2}\notin\mathbb{Q}\).  
+In \(\mathbb{R}\), \(\sup A=\sqrt{2}\).
+
+![](../images/supremo.png){fig-align="center" width="100%" fig-cap="Supremum axiom: existence of the least upper bound in ℝ"}
+:::
+
+::: {.callout-note collapse=true title="👨‍💻 🐍 Python — Visualization of {$x\in\mathbb{Q}\mid x^2<2$}"}
+```{python}
+#| label: completeness
+#| echo: true
+#| fig-cap: "Set {x ∈ ℚ | x² < 2} against y=x², marking √2 as supremum in ℝ."
+#| fig-align: center
+
+import matplotlib.pyplot as plt
+import numpy as np
+from pathlib import Path
+import os
+
+# Domain and curve
+x = np.linspace(0, 2, 400)
+y = x**2
+
+# Some rationals with x^2 < 2
+rational_x = np.array([1.0, 1.2, 1.3, 1.4])
+rational_y = rational_x**2
+
+sqrt2 = np.sqrt(2)
+
+plt.figure(figsize=(6, 4))
+plt.plot(x, y, label=r'$y = x^2$')
+plt.axhline(2, linestyle='--', label=r'$y = 2$')
+plt.scatter(rational_x, rational_y, label=r'Some rationals with $x^2 < 2$')
+
+# Mark supremum in ℝ
+plt.axvline(sqrt2, linestyle='--', label=r'$\sup = \sqrt{2}$')
+plt.text(sqrt2 + 0.02, 1, r'$\sqrt{2}$ (irrational)')
+
+plt.title(r'Example: $\{x \in \mathbb{Q} \mid x^2 < 2\}$')
+plt.xlabel('x'); plt.ylabel('y')
+plt.grid(True); plt.legend(); plt.tight_layout()
+
+# Save figure (for reuse in the site)
+try:
+    base = Path(__file__).parent.resolve()
+except NameError:
+    base = Path(os.getcwd()).resolve()
+out = (base / ".." / "images" / "grafico_completude.png").resolve()
+plt.savefig(out, dpi=150, bbox_inches="tight")
+
+plt.show()
+```
+
+:::
+
+## 🧠 Review Exercises
+
+::: {.callout-note collapse=false title="🧠 Review Exercises — Advanced"}
+1. Classify as **countable** or **uncountable**: \(\mathbb{N}\), \(\mathbb{Z}\), \(\mathbb{Q}\), \(\mathbb{R}\), positive irrationals.  
+2. Describe Cantor’s diagonal argument to prove that \([0,1]\) is uncountable.  
+3. Explain “complete ordered field” in your own words.  
+4. Prove by contradiction that \(\sqrt{2}\notin\mathbb{Q}\).  
+5. Show that the decimal expansion of a rational number is **finite or repeating**.  
+6. Why does there **not** exist a rational number with an **infinite non-repeating** decimal expansion?  
+7. Define a **countable set** and justify why \(\mathbb{Q}\) is countable (outline via diagonals).  
+8. Show that \(\mathbb{N}\times\mathbb{N}\) is countable.  
+9. Give an example showing that completeness **fails** in \(\mathbb{Q}\).  
+10. Find the generating fraction of \(x=0.142857\,142857\ldots\).
+:::
+
+## 📝 Worked Solutions
+
+::: {.callout-important collapse=true title="📝 Worked Solutions"}
+1. \(\mathbb{N}\), \(\mathbb{Z}\), \(\mathbb{Q}\): **countable**. \(\mathbb{R}\) and the positive irrationals: **uncountable**.  
+2. Construct a number that differs from the **diagonal** of a supposedly complete decimal list; the constructed number is not in the list.  
+3. Structure with the usual \(+,\times,\le\) and **supremum axiom**: every non-empty set bounded above has a **least upper bound** in \(\mathbb{R}\).  
+4. Assume \(\sqrt{2}=\tfrac{p}{q}\) in lowest terms \(\Rightarrow p,q\) both even \(\Rightarrow\) contradiction.  
+5. In the division \(p\div q\), there are at most \(q\) remainders; some remainder repeats \(\Rightarrow\) decimal **finite** or **repeating**.  
+6. An infinite **non-repeating** decimal means no remainder repeats \(\Rightarrow\) **irrational**.  
+7. **Countable**: there is a bijection with \(\mathbb{N}\). For \(\mathbb{Q}\): arrange via **diagonals** with gcd filter \(=1\).  
+8. \(\mathbb{N}\times\mathbb{N}\) is listed by diagonals \((1,1),(1,2),(2,1),(1,3),\ldots\); thus bijection with \(\mathbb{N}\).  
+9. \(A=\{x\in\mathbb{Q}\mid x^2<2\}\) is bounded above, but has **no** supremum in \(\mathbb{Q}\) (it would be \(\sqrt{2}\)).  
+10. Period 6. \(10^6x=142857.142857\ldots\); \(10^6x-x=142857\Rightarrow 999999x=142857\Rightarrow x=\tfrac{142857}{999999}=\tfrac{1}{7}\).
+:::
+
+---
+# 🔗 Navigation
+
+🎯 **Next Post:** 👉 [1.3 — Intervals and Inequalities](1.3-intervals-inequalities.qmd)
+
+[← Course Summary](../index.qmd) · [← Math Courses](../../index.qmd) · 🔝 [Top](1.2-sets-AP.qmd)
+
+---
+
+*Blog do Marcellini — Exploring Mathematics with Rigor and Beauty.*
+
+:::{.callout-note}
+Created by Blog do Marcellini with ❤️ and code.
+:::
+

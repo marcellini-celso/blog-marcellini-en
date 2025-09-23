@@ -1,0 +1,161 @@
+---
+title: "📘 Module 1.3 AP: Absolute Value and Modular Inequalities"
+description: "Definitions of absolute value, properties, the triangle inequality, and solving inequalities with absolute value."
+author: "Blog do Marcellini"
+date: "2025-09-09"
+lang: en
+categories: [calculus, mathematics, course]
+tags: [calculus, inequalities, absolute value, modulus]
+format:
+  html:
+    toc: true
+    toc-title: "In this Module"
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    highlight-style: github
+page-layout: full
+---
+
+[← Back to Course Summary 🎓🧮](../index.qmd) · [← Math Courses](../../index.qmd) · [← Math Section](/posts/mathematics/index.qmd)
+
+🎯 **Previous Post:** 👉 [1.3 Intervals and Inequalities](1.3-intervals-inequalities.qmd)
+
+---
+
+::: {.callout-note title="🎯 Learning Objectives"}
+- Define absolute value (modulus) and interpret it geometrically.  
+- Present fundamental properties of the modulus.  
+- Introduce and apply the triangle inequality.  
+- Solve inequalities involving absolute value.  
+- Reinforce learning with examples and exercises.
+:::
+
+---
+
+# Definition of Absolute Value
+
+::: {.callout-note title="📖 Definition"}
+The **absolute value** (or modulus) of a real number \(x\) is defined as:
+
+\[
+|x| =
+\begin{cases}
+ x, & \text{if } x \ge 0, \\
+ -x, & \text{if } x < 0.
+\end{cases}
+\]
+:::
+
+---
+
+# Geometric Interpretation
+- The absolute value represents the **distance from \(x\) to the origin** on the real line.  
+- Therefore, \(|x|\ge 0\) for every \(x \in \mathbb{R}\).
+
+![](../images/imagem1-modulo1_3.svg){fig-align="center" width="100%" fig-cap="Absolute Value"}
+
+---
+
+# Properties of Absolute Value
+
+::: {.callout-important title="📐 Main Properties"}
+1. \(|x|\ge 0\) and \(|x|=0 \iff x=0\).  
+2. \(|xy|=|x|\cdot|y|\).  
+3. \(|\dfrac{x}{y}|=\dfrac{|x|}{|y|}\), if \(y\ne0\).  
+4. \(|x+y|\le |x|+|y|\) (**triangle inequality**).  
+:::
+
+::: {.callout-note collapse=true title="🧾 Proof of the Properties"}
+- **(1)** By definition, \(|x|\) is the distance to the origin. Distance is never negative, and it is zero only when the point itself is the origin (\(x=0\)).  
+
+- **(2)** Let \(x,y\in\mathbb{R}\). Since the sign of a product is the product of the signs,  
+  \[
+  |xy| = (\pm x)\cdot(\pm y) = |x|\cdot |y|.
+  \]
+
+- **(3)** For \(y\ne0\), simply divide the equality from the previous property:  
+  \[
+  |x/y| = \frac{|x|}{|y|}.
+  \]
+
+- **(4) Triangle Inequality:** from the geometric interpretation, \(|x+y|\) represents the distance between \(0\) and \(x+y\). This distance can never exceed the sum of the distances from \(x\) and \(y\) to \(0\). Formally:  
+  \[
+  |x+y|^2 = (x+y)^2 = x^2 + 2xy + y^2 \le (|x|+|y|)^2,
+  \]
+  which implies \(|x+y|\le |x|+|y|\).
+:::
+
+---
+
+# Worked Examples
+
+::: {.callout-note title="🧮 Example 1"}
+Solve:
+\[
+|x| = 3
+\]
+
+::: {.callout-note collapse=true title="Solution"}
+By definition:  
+- If \(x\ge0\), then \(|x|=x=3 \Rightarrow x=3\).  
+- If \(x<0\), then \(|x|=-x=3 \Rightarrow x=-3\).  
+
+✅ **Solution:** \(\{-3,3\}\).
+:::
+:::
+
+---
+
+::: {.callout-note title="🧮 Example 2"}
+Solve:
+\[
+|x-2| < 5
+\]
+
+::: {.callout-note collapse=true title="Solution"}
+\(|x-2|<5 \iff -5 < x-2 < 5 \iff -3 < x < 7\).  
+
+✅ **Solution:** \((-3,7)\).
+:::
+:::
+
+---
+
+# Absolute Value Inequalities
+
+::: {.callout-note title="📖 Definition"}
+An **absolute value inequality** is an inequality involving absolute value, such as:
+\[
+|f(x)| \{<, \le, >, \ge\} a
+\]
+with \(a\ge0\).  
+The solution depends on the piecewise definition of the modulus.
+:::
+
+---
+
+# Practice Exercises
+
+::: {.callout-note title="📝 Exercises"}
+1. Solve: \(|x+1|\le4\).  
+2. Solve: \(|2x-3|>5\).  
+3. Solve: \(|x^2-1|<3\).  
+4. Verify whether \(|x+y|\le |x|+|y|\) for \(x=2, y=-5\).  
+:::
+
+::: {.callout-important collapse=true title="✅ Answer Key"}
+1. \(-5\le x+1\le4 \Rightarrow -6\le x\le3\).  
+2. \(|2x-3|>5 \Rightarrow 2x-3>5\) or \(2x-3<-5\) ⇒ \(x>4\) or \(x<-1\).  
+3. \(|x^2-1|<3 \Rightarrow -3<x^2-1<3 \Rightarrow -2<x^2<4\). Since \(x^2\ge0\), we get \(0\le x^2<4 \Rightarrow -2<x<2\).  
+4. \(|2+(-5)|=|-3|=3\) and \(|2|+|{-5}|=2+5=7\). Indeed, \(3\le7\).  
+:::
+
+---
+
+# 🔗 Navigation
+🎯 **Next Post:** 👉 [1.4 Functions] *(in production)*
+
+[← Course Index](../index.qmd) · [← Mathematics Courses](../../index.qmd) · 🔝 [Top](1.3-absolute-value-AP.qmd)
+

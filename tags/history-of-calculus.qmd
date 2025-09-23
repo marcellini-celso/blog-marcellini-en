@@ -7,4 +7,4 @@ format: html
 
 ## Posts with the tag **history of calculus**
 
-- [🧠 Module 1.1: What is Calculus? History and Applications](/posts/courses/math/calculus/module-1/1.1-introduction.html)
+- [🧠 Module 1.1: What is Calculus? History and Applications](/posts/courses/mathematics/calculus/module-1/1.1-introduction.html)

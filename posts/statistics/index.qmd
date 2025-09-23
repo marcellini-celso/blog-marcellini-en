@@ -33,7 +33,7 @@ Definition, properties, graphs, applications, and solved exercises (R and Excel)
 ::: {.callout-tip title="🧭 Statistics Guide"}
 Suggested reading path with progressive order.
 
-[View the guide ›](statistics-guide.qmd){.button .button-outline}
+[View the guide ›](guide-statistics.qmd){.button .button-outline}
 :::
 :::
 :::
@@ -51,7 +51,7 @@ Complete course on the normal distribution: definition, properties, graphs, prac
 
 ## 🧭 📊 Reading Guide
 
-1. **[🧭 📊 Reading Guide — Statistics Section](statistics-guide.qmd)** — Suggested progressive path connecting the main content of the section.
+1. **[🧭 📊 Reading Guide — Statistics Section](guide-statistics.qmd)** — Suggested progressive path connecting the main content of the section.
 
 📌 This guide is updated as new content is published.
 
@@ -74,3 +74,4 @@ Complete course on the normal distribution: definition, properties, graphs, prac
 - 🧑‍🏫 [About the Blog](../personal/about-the-blog.qmd)
 - 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">Project GitHub</a>
 - 📬 [Contact by Email](mailto:prof.marcellini@gmail.com)
+

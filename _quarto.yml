@@ -39,7 +39,7 @@ website:
       - text: "📘 Courses"
         menu:
           - text: "🧮 Math Courses"
-            href: posts/courses/math/index.qmd
+            href: posts/courses/mathematics/index.qmd
           - text: "📊 Statistics Courses"
             href: posts/courses/statistics/index.qmd
       - href: guide.qmd

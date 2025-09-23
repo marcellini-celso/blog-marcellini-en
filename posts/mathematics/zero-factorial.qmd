@@ -26,7 +26,7 @@ execute:
 
 ---
 
-[← Back to the Mathematics Reading Guide 🧭 🧮](/posts/mathematics/math-guide.qmd)
+[← Back to the Mathematics Reading Guide 🧭 🧮](/posts/mathematics/guide-mathematics.qmd)
 
 [← Back to the Mathematics Section 🧮](/posts/mathematics/)
 
@@ -487,7 +487,7 @@ This equality is consistent with:
 
 ---
 
-[← Back to the Mathematics Reading Guide 🧭 🧮](/posts/mathematics/math-guide.qmd)
+[← Back to the Mathematics Reading Guide 🧭 🧮](/posts/mathematics/guide-mathematics.qmd)
 
 [← Back to the Mathematics Section 🧮](/posts/mathematics/)
 
@@ -508,3 +508,4 @@ This equality is consistent with:
 - 🧑‍🏫 [About the Blog](../../posts/personal/about-the-blog.qmd)
 - 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">Project GitHub</a>
 - 📬 [Contact by Email](mailto:prof.marcellini@gmail.com)
+

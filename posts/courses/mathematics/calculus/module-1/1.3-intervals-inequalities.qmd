@@ -1,0 +1,1042 @@
+---
+title: "📘 Module 1.3: Intervals and Inequalities"
+description: "Definition of order in ℝ, intervals, and linear and quadratic inequalities, with examples, theorems, and diagrams."
+author: "Blog do Marcellini"
+date: "2025-09-07"
+lang: en
+categories: [calculus, mathematics, intervals, inequalities, functions, courses]
+tags: [calculus, intervals, inequalities, mathematics, courses]
+format:
+  html:
+    toc: true
+    toc-title: "In This Module"
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    highlight-style: github
+page-layout: full
+---
+
+[← Back to Course Summary 🎓🧮](../index.qmd) · [← Math Courses](../../index.qmd) · [← Mathematics Section](/posts/mathematics/index.qmd)
+
+🎯 **Previous Post:** 👉 [1.2 Number Sets (Advanced)](1.2-sets-AP.qmd)
+
+---
+
+# Order in $\mathbb{R}$
+
+::: {.callout-note title="📖 Definition — Strict Order"}
+Let $a,b \in \mathbb{R}$:
+1. $a < b \iff b-a > 0$;
+2. $a > b \iff a-b > 0$.
+:::
+
+## Examples
+- $3<7$, since $7-3=4>0$.
+
+![](../images/diagrama-A1.svg){fig-align="center" width="80%" fig-cap="Example"}
+
+- $-5<-2$, since $-2-(-5)=3>0$.
+
+![](../images/diagrama-A2.svg){fig-align="center" width="80%" fig-cap="Example"}
+
+**Generic diagram:**
+
+![](../images/diagrama1.svg){fig-align="center" width="100%" fig-cap="Generic diagram"}
+
+---
+
+# Non-Strict Inequalities
+
+::: {.callout-note title="📖 Definition — Non-Strict Order"}
+Let $a,b \in \mathbb{R}$:
+
+1. $a \leqslant b \iff (a<b) \text{ or } (a=b)$;
+2. $a \geqslant b \iff (a>b) \text{ or } (a=b)$.
+:::
+
+- $a<b$ and $a>b$: **strict inequalities**.  
+- $a\leqslant b$ and $a\geqslant b$: **non-strict inequalities**.
+
+---
+
+# Fundamental Theorems of Order
+
+::: {.callout-important title="📐 Theorem 1 — Signs"}
+1. $a>0 \iff a$ is positive.  
+2. $a<0 \iff a$ is negative.
+:::
+
+::: {.callout-important title="📐 Theorem 2 — Transitivity"}
+If $a<b$ and $b<c$, then $a<c$.
+:::
+
+::: {.callout-important title="📐 Theorem 3 — Addition and Multiplication"}
+1. If $a<b$, then $a+c<b+c$.  
+2. If $a<b$ and $c>0$, then $ac<bc$.  
+3. If $a<b$ and $c<0$, then $ac>bc$.
+:::
+
+::: {.callout-important title="📐 Theorem 4 — Sum of Inequalities"}
+If $a<b$ and $c<d$, then $a+c<b+d$.
+:::
+
+# Chains of Inequalities
+
+A number $x$ is **between** $a$ and $b$ if $a<x<b$.  
+Example: $2<x<5$.  
+
+Other forms:  
+- $a \leqslant x \leqslant b$ → closed interval;  
+- $a \leqslant x < b$, $a < x \leqslant b$ → half-open intervals.
+
+---
+
+# Intervals
+
+## Open interval
+\[(a,b) = \{x\in\mathbb{R}\mid a<x<b\}\]
+
+![](../images/figura2.svg){fig-align="center" width="100%" fig-cap="Open interval"}
+
+## Closed interval
+\[[a,b] = \{x\in\mathbb{R}\mid a\leqslant x\leqslant b\}\]
+
+![](../images/figura3.svg){fig-align="center" width="100%" fig-cap="Closed interval"}
+
+## Half-open intervals
+- $(a,b] = \{x \mid a<x\leqslant b\}$  
+![](../images/diagrama-B1.svg){fig-align="center" width="100%" fig-cap="Left half-open interval"}
+
+- $[a,b) = \{x \mid a\leqslant x<b\}$
+![](../images/diagrama-B2.svg){fig-align="center" width="100%" fig-cap="Right half-open interval"}
+
+## Infinite intervals
+- $(a,+\infty) = \{x \mid x>a\}$  
+![](../images/diagrama-B3.svg){fig-align="center" width="100%" fig-cap="Unbounded interval to the right"}
+
+- $(-\infty,b) = \{x \mid x<b\}$  
+![](../images/diagrama-B5.svg){fig-align="center" width="100%" fig-cap="Unbounded interval to the left"}
+
+- $[a,+\infty) = \{x \mid x\geqslant a\}$
+![](../images/diagrama-B4.svg){fig-align="center" width="100%" fig-cap="Unbounded interval to the right"}
+
+- $(-\infty,b] = \{x \mid x\leqslant b\}$
+![](../images/diagrama-B6.svg){fig-align="center" width="100%" fig-cap="Unbounded interval to the left"}
+
+- $(-\infty,+\infty)=\mathbb{R}$
+![](../images/diagrama-B8.svg){fig-align="center" width="100%" fig-cap="Real line"}
+
+---
+
+# Linear Inequalities
+
+General form (with $a \neq 0$):
+
+\[
+\boxed{\, ax+b < c \,}
+\]
+
+\[
+\boxed{\, ax+b \leqslant c \,}
+\]
+
+\[
+\boxed{\, ax+b > c \,}
+\]
+
+\[
+\boxed{\, ax+b \geqslant c \,}
+\]
+
+---
+
+📌 **Important note:**  
+- If $a=0$, the inequality reduces to a **constant statement** ($b<c$, $b\leqslant c$, etc.), with no variable.  
+- If $a\neq 0$, we can isolate $x$:
+
+  - For $a>0$, the order is preserved.  
+  - For $a<0$, the inequality reverses its direction.
+
+::: {.callout-note title="🧮 Examples — Linear Inequalities"}
+
+## Cases with \(a>0\)
+
+1. \(2x-3<5 \;\;\Rightarrow\;\; x<4\)  
+   Solution: \((-\infty,4)\).
+
+2. \(3x+1\leqslant 7 \;\;\Rightarrow\;\; x\leqslant 2\)  
+   Solution: \((-\infty,2]\).
+
+3. \(5x-4>11 \;\;\Rightarrow\;\; x>3\)  
+   Solution: \((3,+\infty)\).
+
+4. \(4x+2\geqslant 10 \;\;\Rightarrow\;\; x\geqslant 2\)  
+   Solution: \([2,+\infty)\).
+
+---
+
+## Cases with \(a<0\)
+
+5. \(-2x+3<7 \;\;\Rightarrow\;\; x>-2\)  
+   Solution: \((-2,+\infty)\).
+
+6. \(-3x+1\leqslant -8 \;\;\Rightarrow\;\; x\geqslant 3\)  
+   Solution: \([3,+\infty)\).
+
+7. \(-4x+5>1 \;\;\Rightarrow\;\; x<1\)  
+   Solution: \((-\infty,1)\).
+
+8. \(-x-2\geqslant 5 \;\;\Rightarrow\;\; x\leqslant -7\)  
+   Solution: \((-\infty,-7]\).
+
+---
+
+📌 **Key summary:**  
+- If \(a>0\), the inequality **keeps** its direction.  
+- If \(a<0\), the inequality **reverses** its direction.  
+
+:::
+
+::: {.callout-note title="🧮 Worked Examples in Detail"}
+
+- **Example 1:** \(2x-3<5\)  (coefficient \(a>0\))
+
+\[
+\begin{aligned}
+2x-3 &< 5 && \text{(given)}\\
+2x &< 5+3 = 8 && \text{(add 3 to both sides)}\\
+x &< \frac{8}{2} = 4 && \text{(divide by 2>0, inequality preserved)}
+\end{aligned}
+\]
+
+✅ **Solution (interval):** \((-\infty,4)\).  
+📌 **Check:** \(x=3 \Rightarrow 3<5\) (true); \(x=4 \Rightarrow 5\not<5\) (false).
+
+---
+
+- **Example 5:** \(-2x+3<7\)  (coefficient \(a<0\))
+
+\[
+\begin{aligned}
+-2x+3 &< 7 && \text{(given)}\\
+-2x &< 7-3 = 4 && \text{(subtract 3 from both sides)}\\
+x &> \frac{4}{-2} = -2 && \text{(divide by -2<0, \textbf{reverse} the inequality)}
+\end{aligned}
+\]
+
+✅ **Solution (interval):** \((-2,+\infty)\).  
+📌 **Check:** \(x=0 \Rightarrow 3<7\) (true); \(x=-2 \Rightarrow 7\not<7\) (false).
+
+---
+
+**Teaching summary:**  
+- Adding/subtracting: inequality preserved.  
+- Multiplying/dividing by a positive number: inequality preserved.  
+- Multiplying/dividing by a negative number: **inequality reversed**.
+
+:::
+
+---
+
+# Quadratic Inequalities
+
+General form (with $a \neq 0$):
+
+$$
+\boxed{ax^2 +bx + c < 0}
+$$
+
+$$
+\boxed{ax^2 +bx + c > 0}
+$$
+
+$$
+\boxed{ax^2 +bx + c \leqslant 0}
+$$
+
+$$
+\boxed{ax^2 +bx + c \geqslant 0}
+$$
+
+---
+
+Solve by analyzing the parabola $y=ax^2+bx+c$.
+
+📌 **Example 1:** $x^2-5x+6>0$  
+- Roots: $x=2,3$  
+- Parabola opens upwards.  
+- Positive sign outside of $(2,3)$.  
+- Solution: $(-\infty,2)\cup(3,+\infty)$.
+
+**Diagram on the real line:**
+
+![](../images/diagrama-C1.svg){fig-align="center" width="100%" fig-cap="Example"}
+
+**Parabola graph:**
+![](../images/diagrama-C2.svg){fig-align="center" width="100%" fig-cap="Sign analysis"}
+
+---
+
+📌 **Example 1:** $x^2-5x+6>0$
+
+::: {.callout-note title="🧮 Detailed Solution"}
+
+1. **Identification:** quadratic inequality with $a=1>0$, $b=-5$, $c=6$.
+
+2. **Associated equation:**  
+   \[
+   x^2 - 5x + 6 = 0
+   \]
+
+3. **Discriminant (Δ):**  
+   \[
+   \Delta = b^2 - 4ac = (-5)^2 - 4\cdot 1 \cdot 6 = 25 - 24 = 1
+   \]
+
+4. **Real roots:**  
+   \[
+   x = \frac{-b \pm \sqrt{\Delta}}{2a} = \frac{5 \pm 1}{2}
+   \]
+   Thus, $x_1=2$ and $x_2=3$.
+
+5. **Sketch of the parabola:** since $a=1>0$, the parabola is **concave upward**.
+
+6. **Sign of the parabola:**  
+   - For $x<2$, the parabola is above the axis ($f(x)>0$).  
+   - For $2<x<3$, the parabola is below the axis ($f(x)<0$).  
+   - For $x>3$, the parabola is again above the axis ($f(x)>0$).
+
+7. **Conclusion (solution of the inequality $f(x)>0$):**  
+   \[
+   x \in (-\infty,2)\cup(3,+\infty)
+   \]
+
+**Diagram on the real line:**
+
+![](../images/diagrama-C1.svg){fig-align="center" width="100%" fig-cap="Example"}
+
+**Parabola graph and sign analysis:**
+
+![](../images/diagrama-C2.svg){fig-align="center" width="100%" fig-cap="Sign analysis"}
+
+:::
+
+---
+
+📌 **Example 2:** $-x^2+4x-3 \geqslant 0$
+
+::: {.callout-note title="🧮 Detailed Solution"}
+
+1. **Identification:** quadratic inequality with $a=-1<0$, $b=4$, $c=-3$.  
+
+2. **Associated equation:**  
+   \[
+   -x^2+4x-3=0
+   \]
+
+3. **Discriminant (Δ):**  
+   \[
+   \Delta = b^2-4ac = (4)^2 - 4\cdot(-1)\cdot(-3) = 16 - 12 = 4
+   \]
+
+4. **Real roots:**  
+   \[
+   x=\frac{-b\pm\sqrt{\Delta}}{2a} = \frac{-4\pm 2}{-2}
+   \]
+   Thus, $x_1=1$ and $x_2=3$.
+
+5. **Sketch of the parabola:** since $a=-1<0$, the parabola is **concave downward**.  
+   This means the parabola is **above the $x$-axis between the roots** and **below it outside**.
+
+6. **Sign of the parabola:**  
+   - For $x<1$, $f(x)<0$.  
+   - For $1\leqslant x\leqslant 3$, $f(x)\geqslant 0$.  
+   - For $x>3$, $f(x)<0$ again.
+
+7. **Conclusion (solution of the inequality $f(x)\geqslant 0$):**  
+   \[
+   x \in [1,3]
+   \]
+
+**Diagram on the real line:**
+
+![](../images/diagrama-C3.svg){fig-align="center" width="100%" fig-cap="Example with $a<0$"}
+
+**Parabola graph and sign analysis:**
+
+![](../images/diagrama-C4.svg){fig-align="center" width="100%" fig-cap="Downward parabola and sign regions"}
+
+:::
+
+---
+
+# Product Inequalities
+
+General form: 
+
+\[
+\boxed{(x-a)(x-b) < 0}
+\]  
+
+\[
+\boxed{(x-a)(x-b) > 0}
+\]  
+
+\[
+\boxed{(x-a)(x-b) \leqslant 0}
+\]  
+
+\[
+\boxed{(x-a)(x-b) \geqslant 0}
+\]  
+
+The solution is determined by the **sign of the factors** in each interval defined by the roots.
+
+---
+
+📌 **Example 1:** Positive product  
+Solve:
+\[
+x(x-1) > 0
+\]
+
+::: {.callout-note collapse=true title="Detailed solution"}
+- Roots: \(x=0\) and \(x=1\).  
+- Intervals: \((-\infty,0),\ (0,1),\ (1,+\infty)\).  
+- Sign test:  
+  - For \(x<0\): both factors negative ⇒ product positive.  
+  - For \(0<x<1\): one positive, one negative ⇒ product negative.  
+  - For \(x>1\): both positive ⇒ product positive.  
+  
+![](../images/produto-1.svg){fig-align="center" width="100%" fig-cap="Example $x(x-1) > 0$"}
+
+✅ **Solution:** \((-\infty,0)\cup(1,+\infty)\).
+:::
+
+---
+
+📌 **Example 2:** Negative product  
+Solve:
+\[
+(x-1)(x+2) < 0
+\]
+
+::: {.callout-note collapse=true title="Detailed solution"}
+- Roots: \(x=-2\) and \(x=1\).  
+- Intervals: \((-\infty,-2),\ (-2,1),\ (1,+\infty)\).  
+- Sign test:  
+  - For \(x<-2\): both negative ⇒ product positive.  
+  - For \(-2<x<1\): different signs ⇒ product negative.  
+  - For \(x>1\): both positive ⇒ product positive. 
+  
+![](../images/produto-2.svg){fig-align="center" width="100%" fig-cap="Example $(x-1)(x+2) < 0$"} 
+
+✅ **Solution:** \((-2,1)\).
+:::
+
+---
+
+# Quotient Inequalities
+
+General form:
+
+\[
+\boxed{\dfrac{f(x)}{g(x)} < 0,\quad g(x)\neq 0}
+\]  
+
+\[
+\boxed{\dfrac{f(x)}{g(x)} > 0,\quad g(x)\neq 0}
+\]  
+
+\[
+\boxed{\dfrac{f(x)}{g(x)} \leqslant 0,\quad g(x)\neq 0}
+\]  
+
+\[
+\boxed{\dfrac{f(x)}{g(x)} \geqslant 0,\quad g(x)\neq 0}
+\]  
+
+The solution is determined by the **sign chart** of numerator and denominator.
+
+---
+
+## 📌 What are Asymptotes?
+
+::: {.callout-note title="📖 Definitions"}
+Let a rational function \(f(x)=\dfrac{p(x)}{q(x)}\).
+
+- **Vertical asymptote:**  
+  We say that \(x=a\) is a vertical asymptote if:
+  - \(q(a)=0\) (the denominator vanishes at \(a\)); and
+  - \(p(a)\ne0\) (the numerator does not vanish at \(a\)).  
+  In this case, \(f(x)\) is **not defined at \(x=a\)** and the graph of the function
+  approaches a vertical line at \(x=a\).
+
+- **Horizontal asymptote:**  
+  We say that \(y=L\) is a horizontal asymptote if
+  \[
+  \lim_{x\to\pm\infty} f(x) = L.
+  \]
+  This means that, for very large positive or negative values of \(x\), the graph of \(f(x)\) approaches the horizontal line \(y=L\).
+
+📌 These concepts will be explored in detail in the **Module on Rational Functions** and, more rigorously, in the **Module on Limits**.
+:::
+
+::: {.callout-tip title="🔎 Remark"}
+- In problems involving rational inequalities, the values that **annihilate the denominator** never belong to the solution, since the expression becomes undefined.  
+- Therefore, we treat these points as **boundaries in the sign analysis**, and call them **vertical asymptotes**.  
+- Horizontal asymptotes help describe the **behavior at infinity** of a rational function.
+:::
+
+---
+
+📌 **Example 1:** Positive quotient  
+Solve:
+\[
+\frac{x+1}{x-3} > 0
+\]
+
+::: {.callout-note collapse=true title="Detailed solution"}
+- Zeros: numerator \(x=-1\).  
+- Asymptote: denominator \(x=3\).  
+- Intervals: \((-\infty,-1),\ (-1,3),\ (3,+\infty)\).  
+- Signs:  
+  - \((-\infty,-1)\): both negative ⇒ quotient positive.  
+  - \((-1,3)\): numerator positive, denominator negative ⇒ quotient negative.  
+  - \((3,+\infty)\): both positive ⇒ quotient positive.
+  
+![](../images/quociente-1.svg){fig-align="center" width="100%" fig-cap="Example $\frac{x+1}{x-3} > 0$"}
+
+![](../images/assintotas.png){fig-align="center" width="100%" fig-cap="Asymptotes"}
+
+✅ **Solution:** \((-\infty,-1)\cup(3,+\infty)\).
+:::
+
+---
+
+📌 **Example 2:** Quotient with more factors  
+Solve:
+\[
+\frac{x^2-1}{x^2-3x} > 0
+\]
+
+::: {.callout-note collapse=true title="Detailed solution"}
+\[
+\frac{(x-1)(x+1)}{x(x-3)} > 0, \quad x\neq 0,3.
+\]
+
+- Zeros/asymptotes: \(-1,\,0,\,1,\,3\).  
+- Intervals: \((-\infty,-1),\ (-1,0),\ (0,1),\ (1,3),\ (3,\infty)\).  
+- Sign test:  
+  - \((-\infty,-1)\): positive.  
+  - \((-1,0)\): negative.  
+  - \((0,1)\): positive.  
+  - \((1,3)\): negative.  
+  - \((3,\infty)\): positive.
+  
+![](../images/quociente-2.svg){fig-align="center" width="100%" fig-cap="Example $\frac{x^2-1}{x^2-3x} > 0$"}
+
+![](../images/assintotas-2.png){fig-align="center" width="100%" fig-cap="Asymptotes"}
+
+✅ **Solution:** \((-\infty,-1)\cup(0,1)\cup(3,\infty)\).
+:::
+
+---
+
+::: {.callout-note title="📝 Proposed Exercises"}
+
+1. Represent on the real line:  
+   a) $(1,5]$  
+   b) $(-\infty,-2)$  
+   c) $[-3,3]$  
+
+2. Solve:  
+   a) $3x+1\geqslant 7$  
+   b) $x^2-4\leqslant 0$  
+   c) $(x-1)(x-4)<0$  
+
+:::
+
+::: {.callout-important collapse=true title="✅ Answer Key"}
+
+1. a) open dot at 1, closed dot at 5  
+   b) up to $-2$ (open)  
+   c) closed from $-3$ to $3$  
+
+2. a) $[2,+\infty)$  
+   b) $[-2,2]$  
+   c) $(1,4)$  
+
+:::
+
+---
+
+## 🧠 Review Exercises
+
+---
+
+::: {.callout-note title="Exercise 1 — Compound inequality and interval"}
+Solve and write the solution in interval notation:
+\[
+1<2x+3\le 9
+\]
+
+::: {.callout-note collapse=true title="Step-by-step solution"}
+\[
+\begin{aligned}
+1<2x+3\le 9 
+&\iff 1-3<2x\le 9-3 \\
+&\iff -2<2x\le 6 \\
+&\iff -1<x\le 3 \quad (\text{divide by }2>0)
+\end{aligned}
+\]
+**Solution:** \((-1,3]\).
+:::
+:::
+
+---
+
+::: {.callout-note title="Exercise 2 — Negative coefficient (sign inversion)"}
+Solve:
+\[
+-3x+5\ge 2
+\]
+
+::: {.callout-note collapse=true title="Step-by-step solution"}
+\[
+\begin{aligned}
+-3x+5\ge 2 
+&\iff -3x\ge -3 \\
+&\iff x\le 1 \quad (\text{divide by }-3<0 \Rightarrow \text{flip inequality})
+\end{aligned}
+\]
+**Solution:** \((-\infty,1]\).
+:::
+:::
+
+---
+
+::: {.callout-note title="Exercise 3 — Factorable quadratic inequality (< 0)"}
+Solve:
+\[
+x^2-x-6<0
+\]
+
+::: {.callout-note collapse=true title="Step-by-step solution"}
+Factoring: \(x^2-x-6=(x-3)(x+2)\).  
+Roots: \(x=-2\) and \(x=3\). Since \(a=1>0\), the parabola is **concave upwards**.  
+Thus, \(f(x)<0\) **between** the roots:
+\[
+x\in(-2,3).
+\]
+**Solution:** \((-2,3)\).
+:::
+:::
+
+---
+
+::: {.callout-note title="Exercise 4 — Quadratic inequality (non-integer roots) (≥ 0)"}
+Solve:
+\[
+2x^2+3x-2\ge 0
+\]
+
+::: {.callout-note collapse=true title="Step-by-step solution"}
+Discriminant: \(\Delta=b^2-4ac=3^2-4\cdot2\cdot(-2)=9+16=25\).  
+Roots:
+\[
+x=\frac{-3\pm\sqrt{25}}{2\cdot2}=\frac{-3\pm5}{4}\;\Rightarrow\;x_1=-2,\;x_2=\tfrac12.
+\]
+With \(a=2>0\), the parabola is **concave upwards**; so \(f(x)\ge 0\) **outside** the interval between the roots (and includes the roots because it is \(\geqslant\)):
+\[
+x\in(-\infty,-2]\cup\left[\tfrac12,\infty\right).
+\]
+**Solution:** \((-\infty,-2]\cup[0.5,\infty)\).
+:::
+:::
+
+---
+
+::: {.callout-note title="Exercise 5 — Operations with intervals"}
+Let \(A=(-\infty,4)\) and \(B=[1,7)\).  
+(a) \(A\cap B\) \qquad (b) \(A\cup B\)
+
+::: {.callout-note collapse=true title="Step-by-step solution"}
+- \(A\cap B\): points that are **in both**.  
+  \(A\) goes up to \(4\) (open), \(B\) starts at \(1\) (closed) and goes up to \(7\) (open).  
+  Intersection: from \(1\) to \(4\), including \(1\) and **excluding** \(4\): \([1,4)\).
+
+- \(A\cup B\): points that are **in at least one**.  
+  The union covers from \(-\infty\) up to \(7\) open (since \(B\) already covers \([1,7)\) and \(A\) covers \((-\infty,4)\)): \((-\infty,7)\).
+
+**Answers:** (a) \([1,4)\) \qquad (b) \((-\infty,7)\).
+:::
+:::
+
+---
+
+::: {.callout-note title="Exercise 6 — Solve the inequalities below."}
+
+(a) Product: \(x(x-1)>0\)
+
+::: {.callout-note collapse=true title="Step-by-step solution"}
+Roots at \(x=0\) and \(x=1\). Since the leading coefficient is \(+1\), the product is **positive outside** the interval between the roots.  
+✅ **Solution:** \((-\infty,0)\cup(1,\infty)\).
+:::
+
+---
+
+(b) Product: \((x-1)(x+2)<0\)
+
+::: {.callout-note collapse=true title="Step-by-step solution"}
+Roots at \(x=-2\) and \(x=1\). Leading coefficient \(+1\) ⇒ negative **between** the roots.  
+✅ **Solution:** \((-2,1)\).
+:::
+
+---
+
+(c) Quadratic: \(x^2+4x-21>0\)
+
+::: {.callout-note collapse=true title="Step-by-step solution"}
+\(\Delta=4^2-4\cdot1\cdot(-21)=100\).  
+Roots: \(x=\tfrac{-4\pm10}{2}\Rightarrow x=-7,\,3\).  
+Parabola opens upwards ⇒ \(>0\) **outside**.  
+✅ **Solution:** \((-\infty,-7)\cup(3,\infty)\).
+:::
+
+---
+
+(d) Quadratic: \(2x^2+x<3\)
+
+::: {.callout-note collapse=true title="Step-by-step solution"}
+\(2x^2+x-3<0\).  
+\(\Delta=1+24=25\).  
+Roots: \(x=\tfrac{-1\pm5}{4}\Rightarrow x=-\tfrac32,\,1\).  
+\(<0\) **between** the roots.  
+✅ **Solution:** \(\left(-\tfrac32,\,1\right)\).
+:::
+
+---
+
+(e) Quadratic: \(4x^2+10x-6<0\)
+
+::: {.callout-note collapse=true title="Step-by-step solution"}
+\(\Delta=10^2-4\cdot4\cdot(-6)=196\).  
+Roots: \(x=\tfrac{-10\pm14}{8}\Rightarrow x=-3,\,\tfrac12\).  
+\(<0\) **between** the roots.  
+✅ **Solution:** \((-3,\,\tfrac12)\).
+:::
+
+---
+
+(f) Quadratic: \(x^2+2x+4>0\)
+
+::: {.callout-note collapse=true title="Step-by-step solution"}
+\(\Delta=2^2-4\cdot1\cdot4=-12<0\) and \(a=1>0\) ⇒ the expression is **always positive**.  
+✅ **Solution:** \(\mathbb{R}\).
+:::
+
+:::
+
+---
+
+::: {.callout-note title="Exercise 7 — Real radicals (radicand ≥ 0)"}
+
+(a) \(\sqrt{4-x^2}\)
+
+::: {.callout-note collapse=true title="Step-by-step solution"}
+We require \(4-x^2\ge0 \Rightarrow -2\le x\le 2\).  
+✅ **Solution:** \([-2,2]\).
+:::
+
+---
+
+(b) \(\dfrac{1}{\sqrt{4-3x}}\)
+
+::: {.callout-note collapse=true title="Step-by-step solution"}
+The radicand must be **positive** (and the denominator \(\ne0\)): \(4-3x>0 \Rightarrow x<\tfrac43\).  
+✅ **Solution:** \((-\infty,\tfrac43)\).
+:::
+
+---
+
+(c) \(\dfrac{1}{\sqrt{x^2-x-12}}\)
+
+::: {.callout-note collapse=true title="Step-by-step solution"}
+We require \(x^2-x-12>0\Rightarrow(x-4)(x+3)>0\) ⇒ outside the roots.  
+✅ **Solution:** \((-\infty,-3)\cup(4,\infty)\).
+:::
+
+:::
+
+
+---
+
+::: {.callout-note title="Exercise 8 — Positivity of rational functions"}
+
+(a) \(\dfrac{x}{x^2+4}>0\)
+
+::: {.callout-note collapse=true title="Step-by-step solution"}
+Denominator \(x^2+4>0\) for all \(x\). Sign of the fraction = sign of \(x\).  
+✅ **Solution:** \((0,\infty)\).
+:::
+
+---
+
+(b) \(\dfrac{x}{x^2-4}>0\)
+
+::: {.callout-note collapse=true title="Step-by-step solution"}
+Critical points: \(x=0,\pm2\) (undefined at \(\pm2\)). Sign chart ⇒ positive on \((-2,0)\) and \((2,\infty)\).  
+✅ **Solution:** \((-2,0)\cup(2,\infty)\).
+:::
+
+---
+
+(c) \(\dfrac{x+1}{x-3}>0\)
+
+::: {.callout-note collapse=true title="Step-by-step solution"}
+Zero: \(-1\). Asymptote: \(3\). Sign by intervals ⇒ \((-\infty,-1)\) and \((3,\infty)\).  
+✅ **Solution:** \((-\infty,-1)\cup(3,\infty)\).
+:::
+
+---
+
+(d) \(\dfrac{x^2-1}{x^2-3x}>0\)
+
+::: {.callout-note collapse=true title="Step-by-step solution"}
+\(\dfrac{(x-1)(x+1)}{x(x-3)}>0\), with \(x\ne0,3\). Critical points: \(-1,0,1,3\).  
+Signs ⇒ \((-\infty,-1)\cup(0,1)\cup(3,\infty)\).  
+✅ **Solution:** \((-\infty,-1)\cup(0,1)\cup(3,\infty)\).
+:::
+
+:::
+
+
+---
+
+::: {.callout-note title="Exercise 9 — Describe and diagram the set (in $\mathbb{R}$)"}
+
+(a) \(x^2<4\)
+
+::: {.callout-note collapse=true title="Step-by-step solution"}
+\(-2<x<2\).  
+✅ **Solution:** \((-2,2)\).
+:::
+
+---
+
+(b) \(x^2+3x-4>0\)
+
+::: {.callout-note collapse=true title="Step-by-step solution"}
+\((x+4)(x-1)>0\) ⇒ outside the roots.  
+✅ **Solution:** \((-\infty,-4)\cup(1,\infty)\).
+:::
+
+---
+
+(c) \(x^2+6x+8\le0\)
+
+::: {.callout-note collapse=true title="Step-by-step solution"}
+\((x+2)(x+4)\le0\) ⇒ between the roots, including them.  
+✅ **Solution:** \([-4,-2]\).
+:::
+
+---
+
+(d) \(x^2<5x+14\)
+
+::: {.callout-note collapse=true title="Step-by-step solution"}
+\(x^2-5x-14<0\Rightarrow(x-7)(x+2)<0\) ⇒ between the roots.  
+✅ **Solution:** \((-2,7)\).
+:::
+
+---
+
+(e) \(2x^2>x+6\)
+
+::: {.callout-note collapse=true title="Step-by-step solution"}
+\(2x^2-x-6>0\). \(\Delta=49\). Roots: \(-\tfrac32\) and \(2\).  
+\(>0\) **outside**.  
+✅ **Solution:** \((-\infty,-\tfrac32)\cup(2,\infty)\).
+:::
+
+---
+
+(f) \(6x^2+13x<5\)
+
+::: {.callout-note collapse=true title="Step-by-step solution"}
+\(6x^2+13x-5<0\). \(\Delta=289\). Roots: \(-\tfrac52\) and \(\tfrac13\).  
+\(<0\) **between**.  
+✅ **Solution:** \((-\tfrac52,\,\tfrac13)\).
+:::
+
+---
+
+(g) \(x^3+3x^2>10x\)
+
+::: {.callout-note collapse=true title="Step-by-step solution"}
+\(x(x^2+3x-10)=x(x+5)(x-2)>0\).  
+Sign chart with critical points \(-5,0,2\) ⇒  
+✅ **Solution:** \((-5,0)\cup(2,\infty)\).
+:::
+
+:::
+
+---
+
+::: {.callout-note title="Exercise 10 — Solve"}
+
+(a) \(-4<2-x<7\)
+
+::: {.callout-note collapse=true title="Step-by-step solution"}
+Adding \(-2\): \(-6<-x<5\). Multiplying by \(-1\) (inequality flips): \(6>x>-5\).  
+✅ **Solution:** \((-5,6)\).
+:::
+
+---
+
+(b) \(\dfrac{2x-1}{x}<3\)
+
+::: {.callout-note collapse=true title="Step-by-step solution"}
+\[
+\frac{2x-1}{x}-3=\frac{-x-1}{x}<0 \ \Longleftrightarrow\ \frac{x+1}{x}>0.
+\]
+Critical points: \(-1,0\). Signs ⇒ positive on \((-\infty,-1)\) and \((0,\infty)\).  
+✅ **Solution:** \((-\infty,-1)\cup(0,\infty)\).
+:::
+
+---
+
+(c) \(\dfrac{x}{x+2}<1\)
+
+::: {.callout-note collapse=true title="Step-by-step solution"}
+\[
+\frac{x}{x+2}-1=\frac{-2}{x+2}<0 \ \Longleftrightarrow\ \frac{2}{x+2}>0
+\]
+(numerator \(>0\)) ⇒ \(x+2>0 \Rightarrow x>-2\), with \(x\ne-2\).  
+✅ **Solution:** \((-2,\infty)\).
+:::
+
+:::
+
+# 🔎 Summary Sheet — Module 1.3 (Order, Intervals, and Inequalities)
+
+---
+
+::: {.callout-important title="📖 Order Definitions in $\mathbb{R}$"}
+- \(a<b \iff b-a>0\); \quad \(a>b \iff a-b>0\).
+- \(a\le b \iff (a<b \text{ or } a=b)\); \quad \(a\ge b \iff (a>b \text{ or } a=b)\).
+- **Strict inequalities:** \(<,>\). **Non-strict:** \(\le,\ge\).
+:::
+
+---
+
+::: {.callout-note title="📏 Order Properties — Quick use"}
+- **Addition:** \(a<b \Rightarrow a+c<b+c\).
+- **Product with \(c>0\):** inequality preserved.
+- **Product with \(c<0\):** inequality reversed.
+- **Transitivity:** if \(a<b\) and \(b<c\), then \(a<c\).
+:::
+
+---
+
+::: {.callout-note title="📦 Intervals and Notation"}
+- Open: \((a,b)=\{x\mid a<x<b\}\).
+- Closed: \([a,b]=\{x\mid a\le x\le b\}\).
+- Half-open: \((a,b],\ [a,b)\).
+- Infinite: \((a,\infty),\ (-\infty,b),\ [a,\infty),\ (-\infty,b]\).
+:::
+
+---
+
+::: {.callout-important title="🧮 Linear Inequalities (with \(a\ne0\))"}
+General form: \(\boxed{\,ax+b\ \{<,\le,>,\ge\}\ c\,}\)
+
+::: {.callout-note collapse=true title="Step-by-step"}
+1) Isolate the term \(ax\) (add/subtract on both sides).  
+2) Divide by \(a\). **If \(a<0\)**, **flip** the inequality.  
+3) Write the solution in interval notation and test a value if useful.  
+:::
+:::
+
+---
+
+::: {.callout-important title="🟦 Quadratic Inequalities"}
+- Study the sign of \(f(x)=ax^2+bx+c\) using **roots** and **concavity**.
+- \(\Delta=b^2-4ac\).  
+- If \(a>0\): \(f(x)\) is \(>0\) **outside** the roots and \(<0\) **between**.  
+- If \(a<0\): behavior reversed.
+
+::: {.callout-note collapse=true title="Step-by-step"}
+1) Solve \(ax^2+bx+c=0\) (factor/Quadratic Formula).  
+2) Mark the roots on the number line and note concavity (sign of \(a\)).  
+3) Select the intervals satisfying \(>,\ge,<,\le\).  
+4) **Include** the roots if the inequality is non-strict (\(\ge,\le\)).  
+:::
+:::
+
+---
+
+::: {.callout-note title="✖️ Product Inequalities"}
+- Type: \((x-a)(x-b)\ \{<,>,\le,\ge\}\ 0\).  
+- **Rule:** build a **sign chart** of factors; the product is \(+\) if an even number of negatives, \(−\) if odd.
+
+::: {.callout-note collapse=true title="Quick example"}
+\(x(x-1)>0 \Rightarrow (-\infty,0)\cup(1,\infty)\).  
+(Roots \(0,1\); signs: \(+,-,+\); we want \(+\) → outside the interval.)  
+:::
+:::
+
+---
+
+::: {.callout-note title="➗ Quotient Inequalities"}
+- Type: \(\dfrac{f(x)}{g(x)}\ \{<,>,\le,\ge\}\ 0\), with \(g(x)\ne0\).  
+- **Rule:** signs are split by zeros of \(f\) (numerator) and **asymptotes** \(g=0\) (excluded!).  
+- Quotient is \(+\) if numerator and denominator share the **same** sign; \(−\) if signs are **opposite**.
+
+::: {.callout-note collapse=true title="Quick example"}
+\(\dfrac{x+1}{x-3}>0 \Rightarrow (-\infty,-1)\cup(3,\infty)\).  
+(Criticals \(-1\) [zero] and \(3\) [asymptote]; signs: \(+,-,+\); we want \(+\).)  
+:::
+:::
+
+---
+
+::: {.callout-tip title="🧰 Quick Checklist to Solve"}
+- [ ] Identify **type**: linear / quadratic / product / quotient.  
+- [ ] Find **critical points** (roots, asymptotes).  
+- [ ] Build a **sign chart** by intervals.  
+- [ ] Apply the **sign rule** requested (\(>,\ge,<,\le\)).  
+- [ ] Decide **inclusion/exclusion** of boundaries.  
+- [ ] Write in **interval notation** and **test** a value.
+:::
+
+---
+
+::: {.callout-note title="⚠️ Common Mistakes to Avoid"}
+- Forgetting to **flip** the inequality when dividing by a **negative** number.  
+- **Including** asymptotes (\(g(x)=0\)) in quotients.  
+- Not checking if the root is included when the relation is \(\ge\) or \(\le\).  
+- Losing critical points when simplifying common factors (note restrictions first!).  
+:::
+
+
+---
+
+# 🔗 Navigation
+
+🎯 **Next Post:** 👉 [1.3 Absolute Value and Modular Inequalities (Advanced)](1.3-absolute-value-AP.qmd)
+
+[← Course Summary](../index.qmd) · [← Math Courses](../../index.qmd) · 🔝 [Top](1.3-intervals-inequalities.qmd)
+
+---
+
+*Blog do Marcellini — Exploring Mathematics with Rigor and Beauty.*
+
+:::{.callout-note}
+Created by Blog do Marcellini with ❤️ and code.
+:::
+
+

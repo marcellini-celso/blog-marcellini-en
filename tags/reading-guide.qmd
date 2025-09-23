@@ -7,7 +7,11 @@ format: html
 
 ## Posts with the tag **reading guide**
 
-- [🧭 📊 Statistics Reading Guide](/posts/statistics/statistics-guide.html)
-- [🧭 🧑‍🏫 Reading Guide — Personal Blog](/posts/personal/personal-guide.html)
-- [🧭 🧮 Mathematics Reading Guide](/posts/mathematics/math-guide.html)
+- [🧭 🛰️ Reading Guide — Special Relativity Series](/posts/physics/guide-special-relativity.html)
+- [🧭 ⚛️ Reading Guide — Physics](/posts/physics/guide-physics.html)
+- [🧭 📚 🌠 Reading Guide — General Relativity Series](/posts/physics/guide-general-relativity.html)
+- [🧭 📚 🧬 Reading Guide — 100 Years of Quantum Mechanics Series](/posts/physics/guide-100-years-quantum-mechanics.html)
+- [🧭 📊 Statistics Reading Guide](/posts/statistics/guide-statistics.html)
+- [🧭 🧑‍🏫 Reading Guide — Personal Blog](/posts/personal/guide-personal.html)
 - [🧭 👨‍💻 Reading Guide — Programming](/posts/programming/programming-guide.html)
+- [🧭 🧮 Mathematics Reading Guide](/posts/mathematics/guide-mathematics.html)

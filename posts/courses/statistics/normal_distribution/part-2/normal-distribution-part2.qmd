@@ -377,3 +377,4 @@ Part 2 of the course explored the practical use of the normal distribution and t
 - 🧑‍🏫 [About the Blog](/posts/personal/about-the-blog.qmd)
 - 💻 [Project GitHub](https://github.com/marcellini-celso/blog-marcellini-en.git){target="_blank"}
 - 📬 [Contact via Email](mailto:prof.marcellini@gmail.com)
+
