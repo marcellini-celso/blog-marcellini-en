@@ -7,6 +7,6 @@ format: html
 
 ## Posts with the tag **programming**
 
-- [🧭 👨‍💻 Reading Guide — Programming](/posts/programming/programming-guide.html)
-- [📘 👨‍💻 📄 index.qmd Models for Quarto Projects](/posts/programming/models-index-quarto.html)
 - [👨‍💻 Programming](/posts/programming/index.html)
+- [📘 👨‍💻 📄 index.qmd Models for Quarto Projects](/posts/programming/models-index-quarto.html)
+- [🧭 👨‍💻 Reading Guide — Programming](/posts/programming/programming-guide.html)

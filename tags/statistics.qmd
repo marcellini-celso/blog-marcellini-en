@@ -10,5 +10,5 @@ format: html
 - [🎓 📊 Statistics Courses](/posts/courses/statistics/index.html)
 - [🎓 📊 Statistics Course: The Normal Distribution](/posts/courses/statistics/normal_distribution/index.html)
 - [🎓 📊 Statistics Course: The Normal Distribution (Part 1): Introduction to the Normal Distribution](/posts/courses/statistics/normal_distribution/part-1/normal-distribution.html)
-- [🧭 📊 Statistics Reading Guide](/posts/statistics/guide-statistics.html)
 - [📊 Statistics](/posts/statistics/index.html)
+- [🧭 📊 Statistics Reading Guide](/posts/statistics/guide-statistics.html)

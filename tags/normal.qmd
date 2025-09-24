@@ -7,5 +7,5 @@ format: html
 
 ## Posts with the tag **normal**
 
-- [🎓📊 The Normal Distribution — Part 2: z-Score and z-Table](/posts/courses/statistics/normal_distribution/part-2/normal-distribution-part2.html)
 - [🎓📊 The Normal Distribution — Part 3: Plots, CLT, and Approximate Normality](/posts/courses/statistics/normal_distribution/part-3/normal-distribution-part3.html)
+- [🎓📊 The Normal Distribution — Part 2: z-Score and z-Table](/posts/courses/statistics/normal_distribution/part-2/normal-distribution-part2.html)

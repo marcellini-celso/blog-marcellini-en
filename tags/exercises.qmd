@@ -7,7 +7,7 @@ format: html
 
 ## Posts with the tag **exercises**
 
-- [🎓📊 The Normal Distribution — Part 2: z-Score and z-Table](/posts/courses/statistics/normal_distribution/part-2/normal-distribution-part2.html)
 - [🎓 📊 Statistics Course: The Normal Distribution (Part 1): Introduction to the Normal Distribution](/posts/courses/statistics/normal_distribution/part-1/normal-distribution.html)
+- [🎓📊 The Normal Distribution — Part 2: z-Score and z-Table](/posts/courses/statistics/normal_distribution/part-2/normal-distribution-part2.html)
 - [🧠 🔢 Module 1.2 AP: Number Sets — Advanced](/posts/courses/mathematics/calculus/module-1/1.2-sets-AP.html)
 - [🔢 Module 1.2: Number Sets](/posts/courses/mathematics/calculus/module-1/1.2-sets.html)

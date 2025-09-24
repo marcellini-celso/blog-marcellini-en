@@ -9,7 +9,7 @@ format: html
 
 - [🎓 Differential and Integral Calculus Course](/posts/courses/mathematics/calculus/index.html)
 - [🧠 🔢 Module 1.2 AP: Number Sets — Advanced](/posts/courses/mathematics/calculus/module-1/1.2-sets-AP.html)
-- [📘 Module 1.3 AP: Absolute Value and Modular Inequalities](/posts/courses/mathematics/calculus/module-1/1.3-absolute-value-AP.html)
+- [📘 Module 1.3: Intervals and Inequalities](/posts/courses/mathematics/calculus/module-1/1.3-intervals-inequalities.html)
 - [🔢 Module 1.2: Number Sets](/posts/courses/mathematics/calculus/module-1/1.2-sets.html)
 - [🧠 Module 1.1: What is Calculus? History and Applications](/posts/courses/mathematics/calculus/module-1/1.1-introduction.html)
-- [📘 Module 1.3: Intervals and Inequalities](/posts/courses/mathematics/calculus/module-1/1.3-intervals-inequalities.html)
+- [📘 Module 1.3 AP: Absolute Value and Modular Inequalities](/posts/courses/mathematics/calculus/module-1/1.3-absolute-value-AP.html)

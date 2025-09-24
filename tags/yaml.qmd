@@ -7,6 +7,6 @@ format: html
 
 ## Posts with the tag **YAML**
 
-- [📘 👨‍💻 📄 index.qmd Models for Quarto Projects](/posts/programming/models-index-quarto.html)
 - [👨‍💻 Programming](/posts/programming/index.html)
+- [📘 👨‍💻 📄 index.qmd Models for Quarto Projects](/posts/programming/models-index-quarto.html)
 - [📄 Quarto](/posts/programming/quarto/index.html)

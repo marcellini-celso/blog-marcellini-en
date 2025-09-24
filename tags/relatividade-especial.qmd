@@ -7,5 +7,5 @@ format: html
 
 ## Posts with the tag **relatividade especial**
 
-- [📘 🛰️ A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica](/posts/physics/relatividade-especial-academico.html)
 - [📘 🛰️ Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz](/posts/physics/relatividade-especial.html)
+- [📘 🛰️ A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica](/posts/physics/relatividade-especial-academico.html)

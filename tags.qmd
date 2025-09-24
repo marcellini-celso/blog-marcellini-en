@@ -12,7 +12,7 @@ page-layout: full
 
 ::: {.tag-grid}
 
-<a href="/tags/mathematics.html" class="tag-card">mathematics (11)</a>
+<a href="/tags/mathematics.html" class="tag-card">mathematics (12)</a>
 <a href="/tags/courses.html" class="tag-card">courses (9)</a>
 <a href="/tags/quarto.html" class="tag-card">Quarto (8)</a>
 <a href="/tags/reading-guide.html" class="tag-card">reading guide (8)</a>
@@ -54,6 +54,7 @@ page-layout: full
 <a href="/tags/applications.html" class="tag-card">applications (1)</a>
 <a href="/tags/combinatorics.html" class="tag-card">combinatorics (1)</a>
 <a href="/tags/countability.html" class="tag-card">countability (1)</a>
+<a href="/tags/course.html" class="tag-card">course (1)</a>
 <a href="/tags/derivatives.html" class="tag-card">derivatives (1)</a>
 <a href="/tags/differential-equations.html" class="tag-card">differential equations (1)</a>
 <a href="/tags/equations.html" class="tag-card">equations (1)</a>

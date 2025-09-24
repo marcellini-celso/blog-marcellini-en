@@ -7,5 +7,5 @@ format: html
 
 ## Posts with the tag **quantum mechanics**
 
-- [📘 🧬 100 Years of Quantum Mechanics (1925–2025)](/posts/physics/100-years-quantum-mechanics.html)
 - [🧭 📚 🧬 Reading Guide — 100 Years of Quantum Mechanics Series](/posts/physics/guide-100-years-quantum-mechanics.html)
+- [📘 🧬 100 Years of Quantum Mechanics (1925–2025)](/posts/physics/100-years-quantum-mechanics.html)

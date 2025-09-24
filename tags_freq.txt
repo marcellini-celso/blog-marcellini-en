@@ -1,4 +1,4 @@
-11 mathematics
+12 mathematics
 9 courses
 8 Quarto
 8 reading guide
@@ -40,6 +40,7 @@
 1 applications
 1 combinatorics
 1 countability
+1 course
 1 derivatives
 1 differential equations
 1 equations
