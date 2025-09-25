@@ -7,5 +7,8 @@ format: html
 
 ## Posts with the tag **relativity**
 
-- [🧭 🛰️ Reading Guide — Special Relativity Series](/posts/physics/guide-special-relativity.html)
 - [🧭 📚 🌠 Reading Guide — General Relativity Series](/posts/physics/guide-general-relativity.html)
+- [📘 🛰️ Special Relativity: Einstein, Time, and the Speed of Light](/posts/physics/special-relativity.html)
+- [🧭 🛰️ Reading Guide — Special Relativity Series](/posts/physics/guide-special-relativity.html)
+- [📘 🛰️ Special Theory of Relativity — An Academic View](/posts/physics/special-relativity-academics.html)
+- [📚 🌠 General Relativity — Part 1: The Problem of Gravity](/posts/physics/general-relativity-part1.html)

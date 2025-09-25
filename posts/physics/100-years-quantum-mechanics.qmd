@@ -2,7 +2,7 @@
 title: "📘 🧬 100 Years of Quantum Mechanics (1925–2025)"
 description: "Historical and conceptual introduction to the hundred years of quantum theory."
 author: "Blog do Marcellini"
-date: 2025-08-20
+date: 2025-09-24
 lang: en
 format:
   html:

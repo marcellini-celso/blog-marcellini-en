@@ -1,0 +1,453 @@
+---
+title: "📚 🌠 General Relativity — Part 1: The Problem of Gravity"
+description: "Understand why gravity had to be reinvented. In this post, we explore the limits of Newton’s theory, the role of Special Relativity, and the equivalence principle that led Einstein to the formulation of General Relativity."
+author: "Blog do Marcellini"
+date: 2025-09-25
+lang: en
+categories: [physics, relativity, general relativity, gravity, einstein, equivalence principle, series]
+tags: [physics, relativity, general relativity, gravity, einstein, equivalence principle, series]
+toc: true
+number-sections: true
+fig-align: center
+code-overflow: wrap
+highlight-style: github
+---
+
+---
+
+[← Back to the Series Reading Guide 🧭 📚 🌠](guide-general-relativity.qmd)
+
+[← Back to the Physics Reading Guide 🧭 ⚛️](/posts/physics/guide-physics.qmd)
+
+[← Back to the Physics Section ⚛️](/posts/physics/)
+
+---
+
+# 📚 🌠 General Relativity — Part 1: The Problem of Gravity
+
+> _When Newton’s theory was no longer enough to explain the universe._
+
+## 🌌 Why reinvent gravity?
+
+**Isaac Newton’s** theory of gravitation reigned supreme in science for more than two centuries. With it, we could explain everything from falling bodies to planetary orbits and predict eclipses with remarkable precision. Its mathematical elegance and predictive power made it a landmark of classical physics.
+
+However, there was an important conceptual gap: **gravity acted as an instantaneous force at a distance**, with no mediation or propagation time, as if masses communicated directly with one another even when separated by millions of kilometers.
+
+This assumption posed no major conflicts until 1905, when Albert Einstein presented the **Special Theory of Relativity**. One of the pillars of this new theory is that **nothing can propagate faster than light in a vacuum** — not particles, not information, not physical interactions.
+
+> According to Special Relativity, the speed of light is the maximum limit for the propagation of any physical influence.
+
+This puts Newtonian gravity under suspicion. An inevitable question arises:
+
+> **How would gravity “know” instantly that Earth had moved and should adjust its attraction on the Moon?**
+
+In Newton’s model, if Earth were slightly displaced in its orbit, the gravitational force on the Moon would change immediately. But such instantaneous action is in direct conflict with relativistic principles.
+
+Newton’s theory **does not provide a medium or mechanism for transmitting gravitational force**. It is as if information about Earth’s new position “jumped” to the Moon without consuming time, violating the **principle of causality** established by Einstein. Accepting this would be the same as allowing faster-than-light communication — something inadmissible to modern physics.
+
+### An analogy with light
+
+Consider the case of light emitted by the Sun:
+
+- Sunlight takes about **8 minutes** to reach Earth.  
+- If the Sun were to suddenly vanish (a thought experiment), **we would still see it for 8 minutes**, until the last photon arrived.  
+
+If gravity also obeys this speed limit — as Einstein would later propose — then Earth would **continue orbiting the Sun for 8 minutes** even after its sudden disappearance. This makes no sense under Newton’s framework, but it **fits perfectly within the structure of General Relativity**.
+
+## 🧠 Einstein’s Principle of Causality
+
+Einstein’s **principle of causality** is one of the central ideas of modern physics and plays a fundamental role especially in the **Special Theory of Relativity**, formulated by Einstein in 1905.
+
+The **principle of causality**, in general terms, states that:
+
+> **A cause must precede its effect in all possible physical reference frames.**
+
+That is, **no information, signal, or influence can travel faster than light in a vacuum** (whose speed is $c \approx 3 \times 10^8$ m/s). This prevents an effect from occurring **before** its cause in any inertial reference frame.
+
+## Einstein on causality
+
+Einstein emphasized the importance of causality as a foundation of physics:
+
+> “The distinction between past, present and future is only a stubbornly persistent illusion.”  
+> — *Albert Einstein*, in a letter after the death of a friend.
+
+Although this phrase seems to suggest a kind of **temporal determinism**, the principle of causality still imposes **fundamental limits on the flow of information** in the universe.
+
+---
+
+::: {.callout-important collapse=false title="🚫 Why can nothing travel faster than light?"}
+
+In other words, **no information, signal, or physical influence can travel faster than light in a vacuum**, whose speed is:
+
+$$
+c = 299\,792\,458 \ \text{m/s}
+$$
+
+This speed is not just **a practical limit**: it is a **fundamental limit of the structure of spacetime**, as described by **Einstein’s Special Theory of Relativity**. This means that **no information-carrying particle** (such as photons, electrons, protons, or gravitational waves) can surpass this barrier.
+
+🧭 **1. How does this preserve causality?**
+
+If it were possible to send a signal faster than light, then there would be **inertial reference frames** (i.e., observers in uniform rectilinear motion) in which **the effect of an event could be observed before its cause**.
+
+This would violate the logical order of events — and therefore **break the principle of causality**.
+
+🧪 **2. Physical example**
+
+Imagine two events:
+
+- **Event A (cause):** Pressing a button that emits a laser beam.  
+- **Event B (effect):** A sensor detects the laser beam.  
+
+If the laser beam traveled faster than $c$, then there would be reference frames in which the sensor would detect the laser **before the button was pressed**.
+
+This kind of temporal inversion can be demonstrated using the **Lorentz Transformations**, showing that:
+
+> A superluminal signal in one frame may appear to travel **backward in time** in another frame.
+
+:::
+
+## 📉 Light Cones and Causality
+
+The **light cone** is a geometric representation in spacetime that **defines the set of events that can be affected by or influence a given event**, respecting the speed of light limit.
+
+In a **Minkowski spacetime diagram**, the **"light cones"** define the regions where the effects of an event can be felt.
+
+Given an event $E$, spacetime is divided into:
+
+- **Future Cone**: events that can **be affected** by $E$.  
+- **Past Cone**: events that could have **influenced** $E$.  
+- **Outside the cone**: events that **cannot exchange information** with $E$, not even at the speed of light → **no causal relation**.  
+
+![Light cone representing causality in spacetime](../../images/World_line.svg)
+
+Source: Wikimedia Commons (public domain)
+
+### 📊 Spacetime Diagram
+
+We use a diagram with:
+
+- Vertical axis: **time** (usually $ct$);  
+- Horizontal axis: **space** (one dimension, such as $x$).  
+
+```
+
+         |     /
+         |    /  
+ Future  |   /
+         |  /    
+         | /     
+         |/      
+---------●---------→ Space (x)
+         |\
+         | \
+  Past   |  \
+         |   \
+         |    \
+         ↓
+        Time (ct)
+```
+The central point **●** represents an event (e.g., “you switch on a flashlight”). The diagonal lines are light trajectories ($v = c$).
+
+### 🧠 Physical Meaning
+
+- Only events **inside the cone** can have a cause-and-effect relationship.  
+- Events outside the cone are **spacelike separated** and cannot influence each other.  
+- The cone structure is **the same for all inertial reference frames**, since $c$ is constant.  
+
+### 🧪 Applications
+
+- **Black holes**: the event horizon is a boundary from which not even light can escape.  
+- **Time paradoxes**: would require trajectories outside the cone → forbidden by relativity.  
+- **Quantum entanglement**: occurs outside the light cone, but **does not transmit information** → causality preserved.  
+
+### ✅ Conclusion
+
+> The prohibition of speeds greater than that of light **protects the causal order between events in all inertial frames**.
+
+Without this limit, time paradoxes would be inevitable — and physics would cease to be logically consistent.  
+
+::: {.callout-note title="📌 The Einsteinian Revolution"}
+
+The incompatibility between Newton’s instantaneous gravity and the relativistic limitation imposed by the speed of light indicated something profound:  
+
+> **It was necessary to reformulate the very nature of gravity.**
+
+This reformulation came with the Theory of General Relativity (1915), which abandons the notion of force at a distance and replaces it with a revolutionary idea: **gravity is the curvature of spacetime caused by the presence of mass and energy**.
+
+:::
+
+## 🧠 The Riddle of Free Fall
+
+One of the great puzzles of physics, which intrigued scientists since the time of **Galileo Galilei**, was the following: **why do all bodies fall with the same acceleration, regardless of their mass?**
+
+If we drop a feather and a lead ball in a vacuum, both reach the ground at the same time. This contrasts with Newtonian physics, in which forces produce accelerations proportional to the object’s mass: if the gravitational force depends on mass, then why doesn’t the acceleration?
+
+::: {.callout-important title="🎓 Demonstration: A feather and a lead ball fall with the same acceleration and reach the ground simultaneously in a vacuum"}
+
+1. Start with the **equation of gravitational force**:
+
+$$
+\boxed{F = G \frac{m_g M}{r^2}}
+$$
+
+Where:
+
+- $F$ is the gravitational attraction force,  
+- $G$ is the gravitational constant,  
+- $m_g$ is the **gravitational mass** of the falling body,  
+- $M$ is the mass of the attracting body (e.g., Earth),  
+- $r$ is the distance between the centers of mass of the bodies.  
+
+According to **Newton’s Second Law**, we have:
+
+$$
+\boxed{F = m_i a}
+$$
+
+Where:
+
+- $m_i$ is the **inertial mass** of the body,  
+- $a$ is the acceleration produced by the force.  
+
+Equating the two expressions for $F$:
+
+$$
+m_i a = G \frac{m_g M}{r^2}
+$$
+
+Isolating $a$:
+
+$$
+a = G \frac{m_g}{m_i} \cdot \frac{M}{r^2}
+$$
+
+2. Now, **we assume as an experimental postulate** the equality between gravitational and inertial mass:
+
+$$
+\boxed{m_g = m_i}
+$$
+
+Substituting:
+
+$$
+\boxed{a = G \frac{M}{r^2}}
+$$
+
+**Important:** This acceleration **does not depend on the mass of the falling body**.  
+
+> This explains why **a feather and a lead ball fall with the same acceleration in a vacuum**, as demonstrated in the experiment on the Moon by the Apollo 15 mission.  
+
+This equality $m_g = m_i$ was known since Newton, but was **verified with high precision** in the experiments of **Eötvös** and others. Later, **Einstein elevated this equivalence to a fundamental principle of modern physics**: the **principle of equivalence**, cornerstone of General Relativity.  
+
+3. **Equations of motion**
+
+Suppose we drop two bodies (the feather and the lead ball) from the same height $h$, with initial velocity zero.  
+
+In vacuum, a freely falling body is subject only to the gravitational force, which makes its acceleration constant and equal to gravitational acceleration $g$. In this context, the motion is **uniformly accelerated**, with constant acceleration $a = g$ directed downward.  
+
+4. **Equation of uniformly accelerated rectilinear motion**
+
+According to classical kinematics, the position $y(t)$ of a body in uniformly accelerated rectilinear motion is given by:
+
+$$
+\boxed{y(t) = y_0 + v_0 t + \frac{1}{2} a t^2}
+$$
+
+where:
+
+- $y_0$ is the initial position,  
+- $v_0$ is the initial velocity,  
+- $a$ is the constant acceleration,  
+- $t$ is the time elapsed since the beginning of motion.  
+
+5. **Application to free fall**
+
+For a body dropped from rest:
+
+- Initial position $y_0 = h$,  
+- Initial velocity $v_0 = 0$,  
+- Acceleration $a = -g$, since the vertical axis is oriented upward and gravity acts downward.  
+
+Substituting into the position formula:
+
+$$
+y(t) = h + 0 \cdot t + \frac{1}{2} (-g) t^2 = h - \frac{1}{2} g t^2
+$$
+
+Thus, the equation describing the **vertical position** of the falling body at time $t$ is:
+
+$$
+\boxed{
+y(t) = h - \frac{1}{2} g t^2
+}
+$$
+
+6. **Physical interpretation**
+
+- The term $h$ represents the initial height from which the body was released.  
+- The term $\frac{1}{2} g t^2$ represents how much the body has “descended” due to gravitational acceleration after time $t$.  
+- The position $y(t)$ decreases over time, until it reaches the ground ($y = 0$).  
+
+This equation clearly shows that displacement is proportional to the **square of time**, a typical feature of motion with constant acceleration.  
+
+7. Considering $y=0$ as the ground, the fall ends when $y(t) = 0$:
+
+$$
+0 = h - \frac{1}{2} g t^2 \implies \frac{1}{2} g t^2 = h \implies t^2 = \frac{2h}{g}
+$$
+$$
+\implies t = \sqrt{\frac{2h}{g}}
+$$
+
+That is, the time for the object to reach the ground is:
+
+$$
+\boxed{t = \sqrt{\frac{2h}{g}}}
+$$
+
+**Important:** this time **does not depend on the object’s mass**.  
+
+> Since the feather and the lead ball are subject to the same acceleration $g$ and are released from the same height with zero initial velocity, the time to reach the ground is the same, given by:
+
+$$
+\boxed{
+t_{\text{feather}} = t_{\text{ball}} = \sqrt{\frac{2h}{g}}
+}
+$$
+
+> Therefore, in vacuum, **feather and lead ball reach the ground at the same time**.  
+
+> In media with atmosphere, such as on Earth, the feather falls more slowly due to air drag, which depends on the shape and density of the object. In vacuum, however, this effect disappears — and then the only factor that matters is the gravitational acceleration $g$, which is the same for all bodies.  
+
+:::
+
+![Free Fall in Vacuum with $h = 20$ m and $g=9.8$ m/s²](../../images/queda-livre.png)
+
+::: {.callout-note collapse=true title="Free Fall in Vacuum: Python Code"}
+
+```{python free_fall}
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Parameters of the fall
+g = 9.8  # gravitational acceleration (m/s²)
+h = 20   # initial height (m)
+
+# Total time until hitting the ground
+t_total = np.sqrt(2 * h / g)
+
+# Time vector
+t = np.linspace(0, t_total, 200)
+
+# Height as a function of time
+y = h - 0.5 * g * t**2
+
+# Create the plot
+plt.figure(figsize=(5.5, 3.5))
+plt.plot(t, y, label=r'$y(t) = h - \frac{1}{2}gt^2$', color='blue')
+
+# Auxiliary lines
+plt.axhline(0, color='gray', linestyle='--', linewidth=0.8)   # Ground
+plt.axhline(h, color='gray', linestyle='--', linewidth=0.8)   # Initial height
+plt.axvline(t_total, color='red', linestyle=':', linewidth=1,
+            label=fr'Total time: $t = \sqrt{{2h/g}} \approx {t_total:.2f}$ s')
+
+# Labels and style
+plt.title('Free Fall in Vacuum: Height $y(t)$ as a function of time $t$', fontsize=13)
+plt.xlabel('Time $t$ (seconds)')
+plt.ylabel('Height $y(t)$ (meters)')
+plt.grid(True, linestyle='--', alpha=0.5)
+plt.legend(loc='upper center')
+plt.tight_layout()
+
+# Show
+plt.show()
+
+```
+:::
+
+::: {.callout-note}
+This coincidence between **inertial mass** (resistance to acceleration) and **gravitational mass** (sensitivity to the gravitational field) seemed like a mere accident — but not for **Einstein**. He saw in this fact a fundamental clue about the nature of gravity. And it was from this observation that he formulated one of the pillars of his new theory: **The Principle of Equivalence**.
+:::
+
+## ⚖️ The Principle of Equivalence
+
+> **"There is no way to distinguish, by local experiment, between being in free fall in a gravitational field and floating in zero gravity."**  
+> — *Einstein’s Principle of Equivalence*
+
+Imagine a person locked inside a **closed elevator**, without windows. If the elevator is in **free fall**, perfectly following Earth’s gravitational acceleration, this person will not feel their own weight: objects will float around them, and they themselves will feel suspended in the air.
+
+On the other hand, if they are in the **vacuum of space**, far from any planet, but the elevator is accelerated upward with $a = 9{.}8 \ \text{m/s}^2$, they will feel the floor “pressing” against them as if they were on Earth’s surface.
+
+That is: **gravity and acceleration produce indistinguishable effects inside a closed system**. This is the essence of the **Principle of Equivalence**.
+
+::: {.callout-note icon="💡" title="The thought experiment that led Einstein to the Principle of Equivalence"}
+
+Einstein had one of the deepest ideas in Physics through a simple yet powerful thought experiment.  
+
+He imagined a man in free fall, for example, jumping off a roof with a measuring device. During the fall, he would notice that objects around him float — as if gravity had disappeared. In that short interval, the man would not feel his own weight: he and the objects would be in a state of **free fall**, experiencing the same acceleration. This moment made him think:
+
+> “If a person falls freely, they do not feel their own weight. I was sitting in a chair at the patent office in Bern when this thought occurred to me. I was seized by a sense of happiness. This simple idea made me realize that a gravitational field and an acceleration are physically equivalent.”
+
+From this, Einstein formulated the **Principle of Equivalence**, which states:  
+**“It is impossible to distinguish, by any local experiment, between being at rest in a uniform gravitational field and being in an accelerated frame in the absence of gravity.”**
+
+:::
+
+![Einstein’s thought experiment illustrating the Principle of Equivalence](../../images/principio-equivalencia.png)
+
+::: {.callout-note title="Caption"}
+**Left**: A man inside a cabin in **free fall** does not feel his own weight; he and the objects around him float, as if gravity did not exist.  
+**Right**: The same man inside a **rocket cabin** accelerated in space feels a force “downward,” as if he were in a gravitational field.  
+
+**Conclusion**: There is no observable difference, from the internal point of view, between being in free fall in a gravitational field and being in an accelerated system in space — this local equivalence led Einstein to the formulation of **General Relativity**.
+:::
+
+## 🚀 The Road to a New Theory
+
+Einstein realized that this equivalence was not a coincidence, but rather a **deep sign that gravity is not a conventional force**.  
+
+It can be interpreted as a **manifestation of the geometry of spacetime**: freely falling bodies are not “being pulled,” but rather **following natural trajectories** (geodesics) in curved geometry.  
+
+This transformative insight paved the way for the formulation of the **Theory of General Relativity**, in which gravity emerges from the curvature of spacetime caused by the presence of mass and energy.  
+
+Special Relativity had already unified space and time into a single four-dimensional fabric. Now, gravity had to be understood as a **curvature of that fabric**, caused by the presence of mass and energy.  
+
+But how to express this mathematically?  
+That answer will come in Part 2.  
+
+# Next Reading
+
+## 🧭 Next Part
+
+👉 [📚 🌠 General Relativity — Part 2: Gravity as Spacetime Curvature]  
+<!-- (real link will be added after Part 2 is published) -->
+
+⏳ **Coming Soon!**
+
+---
+
+[← Back to the Series Reading Guide 🧭 📚 🌠](guide-general-relativity.qmd)
+
+[← Back to the Physics Reading Guide 🧭 ⚛️](/posts/physics/guide-physics.qmd)
+
+[← Back to the Physics Section ⚛️](/posts/physics/)
+
+---
+
+🔝 [Back to Top](general-relativity-part1.qmd)
+
+---
+
+*Blog do Marcellini — Exploring Physics with Rigor and Beauty.*
+
+:::{.callout-note}
+*Created by Blog do Marcellini with ❤️ and code.*
+:::
+
+# 🔗 Useful Links
+
+- 🧑‍🏫 [About the Blog](../../posts/personal/about-the-blog.qmd)  
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">Project GitHub</a>  
+- 📬 [Contact via Email](mailto:prof.marcellini@gmail.com)  
+

@@ -37,7 +37,7 @@ Organization of posts on Special Relativity: a didactic introduction and an acad
 
 If you are just starting or want a lighter, more contextual read, begin with the introductory post:
 
-👉 **[📘 🛰️ Special Relativity: Einstein, Time, and the Speed of Light](relatividade-especial.qmd)**  
+👉 **[📘 🛰️ Special Relativity: Einstein, Time, and the Speed of Light](special-relativity.qmd)**  
 A visual, historical, and accessible introduction.
 
 ---
@@ -46,7 +46,7 @@ A visual, historical, and accessible introduction.
 
 Ready for a more technical read, with formulas, postulates, and conceptual analyses?
 
-👉 **[📘 🛰️ The Theory of Special Relativity — A More Academic View](relatividade-especial-academico.qmd)**
+👉 **[📘 🛰️ The Theory of Special Relativity — A More Academic View](special-relativity-academics.qmd)**
 
 Ideal for students and teachers who want a solid and structured foundation.
 

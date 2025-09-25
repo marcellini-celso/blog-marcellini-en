@@ -8,3 +8,4 @@ format: html
 ## Posts with the tag **general relativity**
 
 - [🧭 📚 🌠 Reading Guide — General Relativity Series](/posts/physics/guide-general-relativity.html)
+- [📚 🌠 General Relativity — Part 1: The Problem of Gravity](/posts/physics/general-relativity-part1.html)

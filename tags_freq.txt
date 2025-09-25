@@ -1,37 +1,35 @@
 12 mathematics
+11 physics
 9 courses
+9 reading guide
 8 Quarto
-8 reading guide
-7 physics
 7 summary
+6 article
 6 calculus
 6 programação
-5 article
 5 einstein
+5 relativity
+5 series
 5 statistics
 4 exercises
-4 física
 4 sumário
 3 Python
 3 R
 3 YAML
-3 artigo
 3 programming
-3 relatividade
-3 series
+3 quantum mechanics
+3 special relativity
 2 LaTeX
 2 about
 2 about me
 2 about the blog
+2 artigo
+2 general relativity
 2 inequalities
 2 normal
 2 normal distribution
 2 number sets
 2 personal
-2 quantum mechanics
-2 relatividade especial
-2 relativity
-2 série
 1 CLT
 1 Cantor
 1 LLN
@@ -44,12 +42,11 @@
 1 derivatives
 1 differential equations
 1 equations
+1 equivalence principle
 1 factorial
 1 field
 1 functions
-1 general relativity
-1 gravidade
-1 guia de leitura
+1 gravity
 1 histograms
 1 history of calculus
 1 history of science
@@ -58,20 +55,16 @@
 1 intervals
 1 limits
 1 mathematics summary
-1 mecânica quântica
 1 modulus
 1 personal blog
 1 personal blog summary
 1 philosophy of mathematics
 1 physics summary
 1 plots
-1 princípio da equivalência
 1 probabilities
 1 programming summary
 1 qqplot
-1 relatividade geral
 1 sets
-1 special relativity
 1 statistics summary
 1 sumário de LaTeX
 1 sumário de Python

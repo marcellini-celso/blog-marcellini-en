@@ -101,11 +101,11 @@ A progressive course that combines **mathematical rigor**, **LaTeX typographical
 ## 🆕 Latest Posts
 
 <!-- inicio-ultimos-posts -->
+- [📘 🛰️ Special Theory of Relativity — An Academic View](posts/physics/special-relativity-academics.html)
+- [📚 🌠 General Relativity — Part 1: The Problem of Gravity](posts/physics/general-relativity-part1.html)
+- [📘 🛰️ Special Relativity: Einstein, Time, and the Speed of Light](posts/physics/special-relativity.html)
+- [📘 🧬 100 Years of Quantum Mechanics (1925–2025)](posts/physics/100-years-quantum-mechanics.html)
 - [📘 Module 1.3 AP: Absolute Value and Modular Inequalities](posts/courses/mathematics/calculus/module-1/1.3-absolute-value-AP.html)
-- [📘 Module 1.3: Intervals and Inequalities](posts/courses/mathematics/calculus/module-1/1.3-intervals-inequalities.html)
-- [🎓 📊 Statistics Course: The Normal Distribution](posts/courses/statistics/normal_distribution/index.html)
-- [🧭 📚 🌠 Reading Guide — General Relativity Series](posts/physics/guide-general-relativity.html)
-- [🎓 Differential and Integral Calculus Course](posts/courses/mathematics/calculus/index.html)
 <!-- fim-ultimos-posts -->
 
 > This section is automatically updated with each new publication.

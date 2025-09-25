@@ -9,4 +9,3 @@ format: html
 
 - [📘 👨‍💻 📄 🐍 Modelos de Código em Python para Usar com Quarto](/posts/programming/python/modelos-python-quarto.html)
 - [📘 👨‍💻 📄 📊 Modelos de Código em R para Usar com Quarto](/posts/programming/r/modelos-r-quarto.html)
-- [📘 🛰️ Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz](/posts/physics/relatividade-especial.html)

@@ -39,7 +39,7 @@ Organization of the commemorative series on 100 years of Quantum Mechanics, with
 
 ---
 
-## [📚 🧬 Part 1 — Quantum Mechanics: A Century of Transformation](parte-1-mecanica-quantica.qmd)
+## [📚 🧬 Part 1 — Quantum Mechanics: A Century of Transformation](quantum-mechanics-part-1.qmd)
 Introduction to the series and to the impact of quantum theory on scientific thought.
 
 ---
