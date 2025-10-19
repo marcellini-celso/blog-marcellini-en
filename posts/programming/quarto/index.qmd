@@ -1,9 +1,9 @@
 ---
 title: "📄 Quarto"
-description: "Publicações sobre a ferramenta Quarto para gerar relatórios, sites, livros e documentos técnicos dinâmicos e reprodutíveis. Crie relatórios interativos, sites, livros e apresentações com a linguagem Markdown estendida e os recursos do Quarto."
+description: "Posts about the Quarto tool to generate reports, websites, books, and dynamic, reproducible technical documents. Create interactive reports, websites, books, and presentations with extended Markdown and Quarto features."
 author: "Blog do Marcellini"
 date: 2025-07-11
-lang: pt-BR
+lang: en
 format:
   html:
     toc: true
@@ -13,75 +13,79 @@ format:
     highlight-style: github
     code-link: true
 page-layout: full
-categories: [programação, Quarto, sumário de Quarto, sumário, YAML]
-tags: [programação, Quarto, sumário de Quarto, sumário, YAML]
+categories: [programming, Quarto, Quarto summary, summary, YAML]
+tags: [programming, Quarto, Quarto summary, summary, YAML]
 ---
 
-[← Voltar para a Seção de Programação 👨‍💻](../index.qmd)
+[← Back to the Programming Section 👨‍💻](../index.qmd)
 
 ---
 
-## 📚 Séries e Projetos (relacionados)
+## 📚 Series and Projects (related)
 
 ::: {.columns}
 ::: {.column width="50%"}
-::: {.callout-note title="📄 Quarto Markdown: Modelos & Templates"}
-Coleção de modelos e boas práticas para páginas e seções.
+::: {.callout-note title="📄 Quarto Markdown: Models & Templates"}
+Collection of templates and best practices for pages and sections.
 
-[Ver os modelos ›](../modelos-index-quarto.qmd){.button .button-outline}
+[View the templates ›](models-hub.qmd){.button .button-outline}
 :::
 :::
 ::: {.column width="50%"}
-::: {.callout-tip title="🧭 Guia de Programação"}
-Trilha sugerida com ordem progressiva de leitura.
+::: {.callout-tip title="🧭 Programming Guide"}
+Suggested path with progressive reading order.
 
-[Ir para o guia ›](../guia-programacao.qmd){.button .button-outline}
+[Go to the guide ›](../guide-programming.qmd){.button .button-outline}
 :::
 :::
 :::
 
-## 📘 📄 Artigos e Reflexões
+## 📘 📄 Articles and Reflections
 
-### [📘 📄 Modelos de index.qmd no Quarto](../modelos-index-quarto.qmd)
-Modelos organizados de arquivos `index.qmd` para seções temáticas em projetos Quarto.
+### [📘 📄 index.qmd Models in Quarto](models-index-quarto.qmd)
+Organized models of `index.qmd` files for thematic sections in Quarto projects.
 
-### [📘 📄 YAML no Quarto](../yaml-no-quarto.qmd)
-Explicação dos campos do cabeçalho YAML em arquivos `.qmd`, com boas práticas e exemplos prontos para reutilização.
+### [📘 📄 YAML in Quarto](yaml-in-quarto.qmd)
+Explanation of YAML header fields in `.qmd` files, with best practices and ready-to-use examples.
 
-### [📘 📄 Modelos em Quarto Markdown — Parte 1](../modelos-markdown.qmd)
-Demonstração de estilos, sintaxe e boas práticas para escrever textos em Markdown dentro do Quarto.
+### [📘 📄 Quarto Markdown Models — Part 1](models-markdown.qmd)
+Demonstration of styles, syntax, and best practices for writing text in Markdown inside Quarto.
 
-### [📘 📄 Modelos em Quarto Markdown — Parte 2](../outros-modelos-markdown.qmd)
-Continuação com recursos práticos para produção de documentos reprodutíveis e bem formatados.
+### [📘 📄 Quarto Markdown Models — Part 2](others-models-markdown.qmd)
+Continuation with practical resources for producing reproducible, well-formatted documents.
 
-## 🧭 📘 📄 Guia de Leitura
+### [📘 📄 Quarto Markdown Models — Complete Guide](models-quarto-markdown.qmd)
+This post consolidates in one place the content of **“Quarto Markdown Model — Part 1”** and **“Part 2”**.
 
-1. **[📘 📄 YAML no Quarto](../yaml-no-quarto.qmd)** — Comece entendendo a estrutura de metadados dos arquivos `.qmd`.  
-2. **[📘 📄 Modelos em Quarto Markdown — Parte 1](../modelos-markdown.qmd)** — Escreva com clareza usando Quarto Markdown.  
-3. **[📘 📄 Modelos em Quarto Markdown — Parte 2](../outros-modelos-markdown.qmd)** — Aprofunde recursos e padrões.  
-4. **[📘 📄 Modelos de index.qmd](../modelos-index-quarto.qmd)** — Organize o projeto com seções consistentes.
+## 🧭 📘 📄 Reading Guide
 
-📌 Este guia é atualizado à medida que novos conteúdos forem sendo publicados.
+1. **[📘 📄 YAML in Quarto](yaml-in-quarto.qmd)** — Start by understanding the metadata structure of `.qmd` files.  
+2. **[📘 📄 Quarto Markdown Models — Complete Guide](models-quarto-markdown.qmd)** — Consolidates in one place the content of **“Part 1”** and **“Part 2”**.  
+3. **[📘 📄 Quarto Markdown Models — Part 1](models-markdown.qmd)** — Write clearly using Quarto Markdown.  
+4. **[📘 📄 Quarto Markdown Models — Part 2](others-models-markdown.qmd)** — Deepen your use of resources and patterns.  
+5. **[📘 📄 index.qmd Models](models-index-quarto.qmd)** — Organize the project with consistent sections.  
 
----
-
-[← Voltar para a Seção de Programação 👨‍💻](../index.qmd)
-
----
-
-🔝 [Voltar ao Topo](#top)
+📌 This guide is updated as new content is published.
 
 ---
 
-*Blog do Marcellini — Explorando a Matemática, a Estatística e a Física com Rigor e Beleza.*
+[← Back to the Programming Section 👨‍💻](../index.qmd)
+
+---
+
+🔝 [Back to Top](#top)
+
+---
+
+*Blog do Marcellini — Exploring Mathematics, Statistics, and Physics with Rigor and Beauty.*
 
 :::{.callout-note}
-*Criado por Blog do Marcellini com ❤️ e código.*
+*Created by Blog do Marcellini with ❤️ and code.*
 :::
 
-## 🔗 Links Úteis
+## 🔗 Useful Links
 
-- 🧑‍🏫 [Sobre o Blog](../../pessoal/sobre-o-blog.qmd)
-- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-pt.git" target="_blank">GitHub do Projeto</a>
-- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
+- 🧑‍🏫 [About the Blog](/posts/personal/about-the-blog.qmd)  
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">Project GitHub</a>  
+- 📬 [Contact via Email](mailto:prof.marcellini@gmail.com)  
 

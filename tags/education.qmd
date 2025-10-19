@@ -1,0 +1,10 @@
+---
+title: "education"
+format: html
+---
+
+[⬅ Back to All Tags](../tags.qmd)
+
+## Posts with the tag **education**
+
+- [✨ Living as if Everything Were a Miracle](/posts/personal/einstein.html)

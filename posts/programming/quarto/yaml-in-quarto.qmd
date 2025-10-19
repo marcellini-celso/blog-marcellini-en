@@ -1,0 +1,156 @@
+---
+title: "📘 👨‍💻 📄 YAML in Quarto: The Invisible Heart of Your Documents"
+description: "YAML is the first thing that appears in a `.qmd` document — but for many, it’s also the most mysterious."
+author: "Blog do Marcellini"
+date: 2025-06-29
+lang: en-US
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+editor: visual
+categories: [programming, YAML, Quarto, article]
+tags: [programming, YAML, Quarto, article]
+---
+
+---
+
+[← Back to the Programming Reading Guide 👨‍💻](/posts/programming/guide-programming.qmd)
+
+[← Back to the Quarto Section 📄](/posts/programming/quarto/)
+
+[← Back to the Programming Section 👨‍💻](/posts/programming/)
+
+---
+
+![YAML](../../../images/Yaml_logo.png){width=30% style="margin-bottom: 2rem;"}
+
+# 📘 👨‍💻 📄 YAML in Quarto: The Invisible Heart of Your Documents
+
+## Introduction
+
+YAML is the first thing that appears in a `.qmd` document — but for many, it’s also the most mysterious.
+
+> In this post, we will understand:
+
+> - What YAML is
+> - How it works in `.qmd` files
+> - Main fields used in Quarto projects
+> - Practical examples of YAML headers
+
+---
+
+## What is YAML?
+
+YAML stands for **“YAML Ain’t Markup Language”** — even though it looks like one.
+
+It is a **human-readable** format used to declare configurations.  
+It is simple, indented with **spaces** (not tabs), and uses **key:value pairs**.
+
+---
+
+## Minimal example
+
+
+```yaml
+---
+title: "My Document"
+author: "Blog do Marcellini"
+format: html
+---
+```
+
+---
+
+## Where is YAML Used in Quarto?
+
+At the **top of any `.qmd` file**, between `---` and `---`.
+
+> YAML defines **how the document will be processed and rendered**: title, author, output format, code execution options, cover image, table of contents, and much more.
+
+---
+
+## Common YAML Fields in Quarto
+
+| Field          | Description                                         |
+|----------------|-----------------------------------------------------|
+| `title`        | Document title                                      |
+| `author`       | Name of the author(s)                               |
+| `date`         | Creation or publication date                        |
+| `format`       | Output format: `html`, `pdf`, `epub`, `docx`        |
+| `editor`       | Type of editor used (e.g., `visual`)                |
+| `lang`         | Document language (e.g., `en-US`)                   |
+| `cover-image`  | Cover used for EPUB or PDF                          |
+| `toc`          | Shows the table of contents (`true` or `false`)     |
+| `execute`      | Rules for code execution                            |
+
+---
+
+## Complete Example
+
+
+```yaml
+---
+title: "Data Analysis with R"
+author: "Blog do Marcellini"
+date: 2025-06-23
+format: html
+lang: en-US
+toc: true
+execute:
+  engine: knitr
+  echo: true
+  warning: false
+  message: false
+---
+```
+
+---
+
+## Cautions When Using YAML
+
+- ✅ **Use spaces, never TABs**.  
+- ✅ Indentation must be **consistent**.  
+- ✅ Lists are created with `- item`.  
+- ✅ Long text blocks can use `|` (to keep line breaks) or `>` (to join lines).
+
+---
+
+## Conclusion
+
+YAML may seem like just a technical block at the beginning of a `.qmd`, but it is the **soul of configuration** in Quarto.  
+Mastering YAML is essential for customizing your documents, projects, websites, and books.
+
+---
+
+[← Back to the Programming Reading Guide 👨‍💻](/posts/programming/guide-programming.qmd)
+
+[← Back to the Quarto Section 📄](/posts/programming/quarto/)
+
+[← Back to the Programming Section 👨‍💻](/posts/programming/)
+
+---
+
+🔝 [Back to Top](yaml-in-quarto.qmd)
+
+---
+
+*Blog do Marcellini — Exploring Mathematics, Statistics, and Physics with Rigor and Beauty.*
+
+:::{.callout-note}
+*Created by Blog do Marcellini with ❤️ and code.*
+:::
+
+# 🔗 Useful Links
+
+- 🧑‍🏫 [About the Blog](/posts/personal/about-the-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">Project GitHub</a>
+- 📬 [Contact via Email](mailto:prof.marcellini@gmail.com)
+

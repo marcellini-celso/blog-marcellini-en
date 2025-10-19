@@ -1,0 +1,503 @@
+---
+title: "📘 👨‍💻 📄 Quarto Markdown Template -- Part 2"
+description: "**Quarto Markdown** is a powerful extension of the Markdown language, developed to create high-quality scientific and technical documents."
+author: "Blog do Marcellini"
+date: 2025-07-28
+lang: en
+format:
+  html:
+    toc: true
+    number-sections: false
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+editor: visual
+categories: [programming, Quarto, article]
+tags: [programming, Quarto, article]
+---
+
+---
+
+[← Back to the Programming Reading Guide 👨‍💻](/posts/programming/guide-programming.qmd)
+
+[← Back to the Quarto Section 📄](/posts/programming/quarto/)
+
+[← Back to the Programming Section 👨‍💻](/posts/programming/)
+
+---
+
+![Quarto](../../../images/thumbnail-2.jpg){width=50% style="margin-bottom: 2rem;"}
+
+# 📘 👨‍💻 📄 Quarto Markdown Template -- Part 2
+
+**Quarto Markdown** is a powerful extension of the Markdown language, developed to create high-quality scientific and technical documents.
+
+## 🔷 📄 What is Quarto Markdown?
+
+**Quarto Markdown** is a powerful evolution of traditional Markdown, designed especially for **scientific and technical communication**. It allows you to integrate:
+
+- Formatted text (with Markdown),
+- Executable code in Python, R, Julia, Observable,
+- Charts, tables, and equations with LaTeX,
+- And the generation of documents in multiple formats.
+
+With Quarto, you can generate:
+
+- Interactive HTML pages
+- Editorial-quality PDF documents
+- EPUB eBooks
+- Presentations in Reveal.js or Beamer
+- Websites, blogs, and much more
+
+---
+
+## 🔷 🔍 Comparing: Traditional Markdown vs Quarto Markdown
+
+| Feature                     | Markdown (.md)                       | Quarto (.qmd)                                  |
+|-----------------------------|--------------------------------------|------------------------------------------------|
+| Basic formatting            | ✅                                    | ✅                                              |
+| HTML support                | ✅                                    | ✅                                              |
+| LaTeX equations             | ❌ (limited)                         | ✅ (full)                                       |
+| Executable code blocks      | ❌                                    | ✅ (Python, R, Julia, etc.)                     |
+| PDF/EPUB/Slides generation  | ❌                                    | ✅                                              |
+| YAML support                | Limited                              | ✅ (for metadata and project configuration)     |
+| Target audience             | General                              | Scientists, educators, engineers, etc.         |
+
+> ✅ **Summary:** Traditional Markdown is great for simple blogs and notes.  
+> **Quarto Markdown**, however, is ideal for **technical and scientific projects** with code, math, and visualizations.
+
+---
+
+## 🔷 🧪 Markdown Syntax with Quarto
+
+### 🔷 📌 Headings
+
+```markdown
+# Level 1 Heading
+## Level 2 Heading
+### Level 3 Heading
+```
+
+- Preview:
+
+# Level 1 Heading
+
+## Level 2 Heading
+
+### Level 3 Heading
+
+### 🔷 ✍️ Emphasis
+
+```markdown
+**bold**, *italic*, ***bold and italic***
+```
+
+- Preview:
+
+**bold**, *italic*, ***bold and italic***
+
+### 🔷 🧾 Blockquote
+
+```markdown
+> Mathematics is the language in which God has written the universe. — Galileo
+```
+
+- Preview:
+
+> Mathematics is the language in which God has written the universe. — Galileo
+
+---
+
+### 🔷 📋 Lists
+
+#### 🔷 Bulleted list
+
+```markdown
+- Item A
+- Item B
+  - Subitem B.1
+```
+
+- Preview:
+
+- Item A  
+- Item B  
+  - Subitem B.1
+
+#### 🔷 Numbered list
+
+```markdown
+1. First
+2. Second
+```
+
+- Preview:
+
+1. First  
+2. Second
+
+---
+
+### 🔷 🔗 Links and 📷 Images
+
+```markdown
+[Quarto](https://quarto.org)
+
+![Example](../images/exemplo.png){width=80%}
+```
+
+- Preview:
+
+[Quarto](https://quarto.org)
+
+![Example](../images/exemplo.png){width=80%}
+
+---
+
+### 🔷 📊 Tables
+
+```markdown
+| Name     | Age | City    |
+|----------|-----|---------|
+| Ana      | 25  | Recife  |
+| Bruno    | 30  | Natal   |
+```
+
+- Preview:
+
+| Name     | Age | City    |
+|----------|-----|---------|
+| Ana      | 25  | Recife  |
+| Bruno    | 30  | Natal   |
+
+---
+
+### 🔷 🧮 Equations with LaTeX
+
+#### 🔷 Inline
+
+```markdown
+The famous Euler’s identity: $e^{i\pi} + 1 = 0$
+```
+
+- Preview:
+
+The famous Euler’s identity: $e^{i\pi} + 1 = 0$
+
+#### 🔷 Block
+
+```markdown
+$$
+\int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
+$$
+```
+
+- Preview:
+
+$$
+\int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
+$$
+
+---
+
+### 🔷 Emojis
+
+Use them to make your posts more visual and organized!
+
+#### 🏷️ Emojis for Tags and Categories
+🏷️ `Tags` in general  
+📚 `Category: Education`  
+🧠 `Category: Science / Knowledge`  
+🧮 `Category: Mathematics`  
+📈 `Category: Statistics`  
+🔬 `Category: Physics`  
+🧪 `Category: Chemistry`  
+💻 `Category: Computing`  
+📊 `Category: Data Analysis`  
+📦 `Category: Packages / Libraries`  
+🧰 `Category: Tools`  
+🌐 `Category: Web / Internet`  
+📝 `Category: Tutorials`  
+🔧 `Category: Technical Tips`  
+🎓 `Category: Courses`  
+🚀 `Category: Projects`  
+📰 `Category: News`
+
+#### 🎓 Education & Learning
+📚 Book  
+🧠 Brain  
+✏️ Pencil  
+📖 Reading  
+🏫 School  
+📝 Notes  
+📊 Presentation  
+🎯 Goal
+
+#### 💻 Computing & Technology
+💻 Computer  
+🖥️ Monitor  
+📱 Cell phone  
+⌨️ Keyboard  
+🖱️ Mouse  
+⚙️ Gear  
+🔧 Tool  
+🔒 Lock  
+🧮 Abacus
+
+#### 📊 Statistics & Data
+📊 Bar chart  
+📈 Increasing chart  
+📉 Decreasing chart  
+📋 Table  
+🔢 Numbers  
+🧮 Calculation  
+🗃️ Data file
+
+#### 🧮 Mathematics
+➕ Addition  
+➖ Subtraction  
+✖️ Multiplication  
+➗ Division  
+√ Square root  
+∑ Summation (LaTeX: `$\sum$`)  
+∫ Integral (LaTeX: `$\int$`)  
+∞ Infinity (LaTeX: `$\infty$`)  
+📐 Ruler and set square  
+📏 Ruler  
+🎲 Probability
+
+#### 🧪 Science & Experiments
+🧪 Test tube  
+🔬 Microscope  
+⚗️ Lab flask  
+🧫 Petri dish  
+🌡️ Thermometer  
+🧬 DNA  
+🚀 Rocket  
+🧲 Magnet  
+🌌 Universe  
+
+#### 📆 Time & Organization
+🕒 Clock  
+📅 Calendar  
+⏳ Hourglass  
+📌 Pin  
+🗓️ Planner  
+🗂️ Folders  
+📦 File
+
+#### 🌍 Location & Navigation
+🌍 Globe  
+🧭 Compass  
+📍 Location marker  
+🗺️ Map  
+
+#### 🔥 Emojis for Highlighting
+💡 Tip  
+❗ Important  
+✅ Completed  
+❓ Question  
+⚠️ Attention  
+🛠️ Under construction  
+⏱️ Stopwatch  
+📢 Announcement  
+🔍 Observation  
+🔎 Details  
+
+#### 🎉 Engagement Emojis
+🚀 Let’s get started!  
+🎉 Congratulations!  
+👏 Well done!  
+🤝 Teamwork  
+🤔 Reflect on this  
+🙌 Success!  
+🔁 Repeat  
+🔄 Refresh  
+💬 Comment
+
+---
+
+### 🔷 🧑‍💻 Code Blocks
+
+#### 🔷 Python
+
+```{python plot of sine function in Python}
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.linspace(0, 2*np.pi, 100)
+plt.plot(x, np.sin(x))
+plt.title("Sine Function")
+plt.show()
+```
+---
+
+#### 🔷 R
+
+```{r plot of the sine function in R}
+x <- seq(0, 2*pi, length.out = 100)
+plot(x, sin(x), type = "l", col = "blue", lwd = 2)
+```
+---
+
+### 🔷 💻 Displaying Code without Execution in Quarto
+
+In this example, we show a way to display Python code **statically**, that is, **without executing it**.
+
+---
+
+
+#### 🔷 ✅ Static Code in `python`
+
+````markdown
+::: {.callout-note collapse=true title="💡 Title: Static code with syntax highlighting (collapsed content)"}
+
+```python
+# Example of circle area calculation
+import math
+
+raio = 5
+area = math.pi * raio**2
+print(f"The circle area is {area:.2f}")
+```
+
+:::
+````
+
+Visualization:
+
+::: {.callout-note collapse=true title="💡 Title: Static code with syntax highlighting (collapsed content)"}
+
+```python
+# Example of circle area calculation
+import math
+
+raio = 5
+area = math.pi * raio**2
+print(f"The circle area is {area:.2f}")
+```
+
+:::
+
+---
+
+### 🔷 💡 Callouts (Highlight Boxes)
+
+Quarto provides callouts to highlight important information:
+
+#### 🔷 🔔 Note
+
+```markdown
+::: {.callout-note}
+This is an informational note.
+:::
+```
+
+- Visualization:
+
+::: {.callout-note}
+This is an informational note.
+:::
+
+---
+
+#### 🔷 💡 Tip
+
+```markdown
+::: {.callout-tip}
+Tip: use `{.callout-tip}` for best practices.
+:::
+```
+
+- Visualization:
+
+::: {.callout-tip}
+Tip: use `{.callout-tip}` for best practices.
+:::
+
+---
+
+#### 🔷 ⚠️ Warning
+
+```markdown
+::: {.callout-warning}
+Warning: make sure the code is properly indented.
+:::
+```
+
+- Visualization:
+
+::: {.callout-warning}
+Warning: make sure the code is properly indented.
+:::
+
+---
+
+#### 🔷 🚫 Caution
+
+```markdown
+::: {.callout-caution}
+Caution: changes in `.qmd` files may overwrite generated `.md` files.
+:::
+```
+
+- Visualization:
+
+::: {.callout-caution}
+Caution: changes in `.qmd` files may overwrite generated `.md` files.
+:::
+
+---
+
+#### 🔷 📣 Important
+
+```markdown
+::: {.callout-important}
+Important: Quarto replaces RMarkdown with more modern features!
+:::
+```
+
+- Visualization:
+
+::: {.callout-important}
+Important: Quarto replaces RMarkdown with more modern features!
+:::
+
+---
+
+## 🔷 ✅ Conclusion
+
+**Quarto Markdown** is the ideal solution for producing **reproducible**, **beautiful**, and **interactive** documents, combining code, mathematics, and explanations.
+
+Explore more!
+
+---
+
+[← Back to the Programming Reading Guide 👨‍💻](/posts/programming/guide-programming.qmd)
+
+[← Back to the Quarto Section 📄](/posts/programming/quarto/)
+
+[← Back to the Programming Section 👨‍💻](/posts/programming/)
+
+---
+
+🔝 [Back to Top](models-markdown.qmd)
+
+---
+
+*Blog do Marcellini — Exploring Mathematics, Statistics, and Physics with Rigor and Beauty.*
+
+:::{.callout-note}
+*Created by Blog do Marcellini with ❤️ and code.*
+:::
+
+# 🔗 Useful Links
+
+- 🧑‍🏫 [About the Blog](/posts/personal/about-the-blog.qmd)  
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">Project GitHub</a>  
+- 📬 [Contact via E-mail](mailto:prof.marcellini@gmail.com)  
+

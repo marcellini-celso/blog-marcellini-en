@@ -46,7 +46,7 @@ def gerar_relatorios(tags):
     # Gerar lista_tags_gerada.html
     with open(ARQUIVO_HTML, "w", encoding="utf-8") as f:
         f.write("<html><head><meta charset='utf-8'><title>Tags</title></head><body>\n")
-        f.write("<h1>Tags List</h1>\n<ul>\n")
+        f.write("<h1>Tag List</h1>\n<ul>\n")
         for tag, freq in ordenadas:
             f.write(f"<li><b>{tag}</b> ({freq})</li>\n")
         f.write("</ul></body></html>\n")

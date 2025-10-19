@@ -1,0 +1,113 @@
+---
+title: "📌 Git Cheatsheet for Blog do Marcellini"
+description: "A quick and practical guide to the most used Git commands in the blog workflow."
+author: "Celso Marcellini"
+date: "2025-09-19"
+lang: en
+categories: [git, programming, tutorials]
+tags: [git, programming, tutorials]
+format:
+  html:
+    toc: true
+    toc-title: "In This Module"
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    highlight-style: github
+page-layout: full
+---
+
+---
+
+[← Back to the Programming Section 👨‍💻](/posts/programming/)
+
+---
+
+# 🚀 Basic update workflow
+
+1. Check file status  
+   `git status`
+
+2. Add all modified files  
+   `git add .`
+
+3. Commit with a message  
+   `git commit -m "Blog updates"`
+
+4. Make sure it’s up to date with remote (rebase helps avoid conflicts)  
+   `git pull --rebase`
+
+5. Push changes to GitHub  
+   `git push`
+
+---
+
+# 🔍 Quick lookups
+
+- Show summarized history  
+  `git log --oneline --graph --decorate -n 10`
+
+- See differences before commit  
+  `git diff`
+
+---
+
+# 🛑 If a rebase goes wrong
+
+- Abort ongoing rebase  
+  `git rebase --abort`
+
+- Continue after resolving conflicts  
+  `git rebase --continue`
+
+---
+
+# 🌐 Check remote (always use SSH)
+
+- Show current remote URL  
+  `git remote -v`
+
+- If it shows HTTPS, switch to SSH  
+  `git remote set-url origin git@github.com:marcellini-celso/REPO_NAME.git`
+
+---
+
+# ⚡ Useful configurations (one-time)
+
+- Always rebase when pulling  
+  `git config --global pull.rebase true`
+
+- Automatically stash local changes during rebase  
+  `git config --global rebase.autoStash true`
+
+- Show current branch sorted by last commit  
+  `git config --global branch.sort -committerdate`
+
+---
+
+📌 **Tip:** keep this cheatsheet nearby for quick reference.  
+It covers 99% of what you’ll use in the update workflow of the **PT** and **EN** blogs.
+
+---
+
+[← Back to the Programming Section 👨‍💻](/posts/programming/)
+
+---
+
+🔝 [Back to Top](git.qmd)
+
+---
+
+*Blog do Marcellini — Exploring Mathematics, Statistics, and Physics with Rigor and Beauty.*
+
+:::{.callout-note}
+*Created by Blog do Marcellini with ❤️ and code.*
+:::
+
+# 🔗 Useful Links
+
+- 🧑‍🏫 [About the Blog](/posts/personal/about-the-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">Project GitHub</a>
+- 📬 [Contact via Email](mailto:prof.marcellini@gmail.com)
+

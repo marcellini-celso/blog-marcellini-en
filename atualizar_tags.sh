@@ -66,11 +66,11 @@ def gerar_paginas(tags_dict):
         caminho = PASTA_TAGS / f"{slug}.qmd"
         with open(caminho, "w", encoding="utf-8") as f:
             f.write(f"---\ntitle: \"{tag}\"\nformat: html\n---\n\n")
-            f.write("[⬅ Return to All Tags](../tags.qmd)\n\n")
+            f.write("[⬅ Back to All Tags](../tags.qmd)\n\n")
             f.write(f"## Posts with the tag **{tag}**\n\n")
             for post in posts:
                 f.write(f"- [{post['title']}](/{post['href']})\n")
-        print(f"✅ Página gerada: {caminho}")
+        print(f"✅ Generated page: {caminho}")
 
 if __name__ == "__main__":
     posts = carregar_posts()

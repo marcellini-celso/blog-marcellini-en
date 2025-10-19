@@ -1,0 +1,174 @@
+---
+title: "📘 👨‍💻 📄 index.qmd Templates for Quarto Projects"
+description: "The `index.qmd` file is usually the **main entry point** of a Quarto project."
+author: "Blog do Marcellini"
+date: 2025-06-29
+lang: en
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+editor: visual
+categories: [programming, Quarto, YAML, article]
+tags: [programming, Quarto, YAML, article]
+---
+
+---
+
+[← Back to the Programming Reading Guide 👨‍💻](/posts/programming/guide-programming.qmd)
+
+[← Back to the Quarto Section 📄](/posts/programming/quarto/)
+
+[← Back to the Programming Section 👨‍💻](/posts/programming/)
+
+---
+
+![Quarto](../../../images/thumbnail-2.jpg){width=50% style="margin-bottom: 2rem;"}
+
+# 📘 👨‍💻 📄 index.qmd Templates for Quarto Projects
+
+## Introduction
+
+The `index.qmd` file is usually the **main entry point** of a Quarto project.  
+It can be used as the **home page of a website or a book**, and its YAML header defines the global title, formatting, and other project settings.
+
+Below are usage templates of `index.qmd` in different types of projects.
+
+---
+
+## Basic `index.qmd` template for a website
+
+```yaml
+---
+title: "My Website with Quarto"
+format: html
+site:
+  title: "Math Blog"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Articles"
+        href: articles.qmd
+    right:
+      - icon: github
+        href: https://github.com/user
+---
+```
+
+Body content:
+
+```markdown
+# Welcome!
+
+This is the official website of my personal blog with posts about mathematics, statistics, and data science.
+```
+
+---
+
+## `index.qmd` template for a Quarto book
+
+```yaml
+---
+title: "Introduction to Statistics"
+author: "Blog do Marcellini"
+format: html
+book:
+  chapters:
+    - index.qmd
+    - chapter-1.qmd
+    - chapter-2.qmd
+    - references.qmd
+---
+```
+
+Body content:
+
+```markdown
+# Introduction
+
+This book was developed to help students understand the fundamental concepts of statistics with practical examples in R and Python.
+```
+
+---
+
+## `index.qmd` for a technical project or report
+
+```yaml
+---
+title: "Technical Analysis Report"
+author: "Blog do Marcellini"
+format: html
+toc: true
+number-sections: true
+execute:
+  echo: false
+---
+```
+
+Content:
+
+```markdown
+# Overview
+
+This report presents the results of the exploratory analysis and statistical inference applied to dataset X.
+```
+
+---
+
+## Adding a cover image and description (for EPUB or book)
+
+```yaml
+---
+title: "Aesthetics and Mathematics"
+author: "Blog do Marcellini"
+date: 2025-06-23
+format: epub
+cover-image: cover-ebook.jpg
+description: "A brief essay on beauty in pure mathematics."
+toc: true
+number-sections: true
+lang: en
+---
+```
+
+---
+
+## Conclusion
+
+The `index.qmd` file serves as the entry point of a Quarto project — whether it’s a website, a book, a report, or an eBook.  
+These templates serve as starting points for structuring reusable and well-organized projects.
+
+---
+
+[← Back to the Programming Reading Guide 👨‍💻](/posts/programming/guide-programming.qmd)
+
+[← Back to the Quarto Section 📄](/posts/programming/quarto/)
+
+[← Back to the Programming Section 👨‍💻](/posts/programming/)
+
+---
+
+🔝 [Back to Top](models-index-quarto.qmd)
+
+---
+
+*Blog do Marcellini — Exploring Mathematics, Statistics, and Physics with Rigor and Beauty.*
+
+:::{.callout-note}
+*Created by Blog do Marcellini with ❤️ and code.*
+:::
+
+# 🔗 Useful Links
+
+- 🧑‍🏫 [About the Blog](/posts/personal/about-the-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">Project GitHub</a>
+- 📬 [Contact via Email](mailto:prof.marcellini@gmail.com)
+

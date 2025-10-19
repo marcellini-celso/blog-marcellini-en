@@ -43,6 +43,9 @@ Suggested reading track in progressive order.
 ### [📘 🧑‍🏫 About Me & About the Blog](about-the-blog.qmd)
 Presentation of the blog’s purpose, structure, and editorial line, as well as a brief introduction of the author (background, interests, and motivations).
 
+### [📘 ✨ Living as if Everything Were a Miracle](einstein.qmd)  
+A reflection inspired by Einstein’s quotes and writings on wonder, education, justice, solitude, and ideals — revealing his human side beyond the brilliant physicist.  
+
 ## 🧭 🧑‍🏫 Reading Guide
 
 1. **[🧭 🧑‍🏫 Reading Guide — Personal Blog](guide-personal.qmd)** — Suggested reading order, combining authorial texts and behind-the-scenes with a focus on clarity and rigor.

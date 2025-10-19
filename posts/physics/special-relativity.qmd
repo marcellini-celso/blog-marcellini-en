@@ -60,6 +60,8 @@ A didactic dive into the theory of Special Relativity, with graphs, examples, an
 When an object moves very fast (close to the speed of light), time **passes more slowly** for it relative to a stationary observer.
 
 ```{r time-dilation}
+# R Code:
+
 library(plotly)
 velocity <- seq(0, 0.99, by = 0.01)
 time <- 1 / sqrt(1 - velocity^2)
@@ -83,6 +85,8 @@ L = L_0 \sqrt{1 - \frac{v^2}{c^2}}
 $$
 
 ```{r length-contraction}
+# R Code:
+
 velocity <- seq(0, 0.99, by = 0.01)
 L <- sqrt(1 - velocity^2)
 plot_ly(x = ~velocity, y = ~L, type = "scatter", mode = "lines") %>%

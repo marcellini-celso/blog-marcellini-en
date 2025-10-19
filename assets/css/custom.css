@@ -66,10 +66,3 @@
   background: #f1f5ff; color: #2b5fd3; border: 1px solid #dbe6ff;
 }
 
-:where(h1, h2, h3, h4, h5, h6)[id^="normal"] {
-  color: inherit !important;   /* herdando do tema */
-}
-
-:where(h1, h2, h3, h4, h5, h6)[id^="normal"] > a.anchorjs-link {
-  color: inherit !important;
-}

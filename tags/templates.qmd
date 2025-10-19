@@ -1,0 +1,11 @@
+---
+title: "templates"
+format: html
+---
+
+[⬅ Back to All Tags](../tags.qmd)
+
+## Posts with the tag **templates**
+
+- [📘 👨‍💻 📄 Quarto Markdown Templates — Complete Guide](/posts/programming/quarto/models-quarto-markdown.html)
+- [📚 📄 Hub of Models & Templates (Quarto)](/posts/programming/quarto/models-hub.html)

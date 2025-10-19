@@ -84,6 +84,8 @@ $$
 Let’s visualize how time dilates with relative velocity. Assume $\Delta t_0 = 1$ second.
 
 ```{r time-dilation}
+# R Code:
+
 library(plotly)
 
 velocity <- seq(0, 0.99, by = 0.01)
@@ -115,6 +117,8 @@ $$
 Let’s visualize this effect graphically with $L_0 = 1$ unit:
 
 ```{r length-contraction}
+# R Code:
+
 library(plotly)
 
 v <- seq(0, 0.99, by = 0.01)

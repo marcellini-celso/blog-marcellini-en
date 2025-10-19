@@ -19,6 +19,8 @@ format:
 page-layout: full
 ---
 
+---
+
 [← Back to the Personal Blog Section 🧑‍🏫](index.qmd)
 
 ---
@@ -33,6 +35,8 @@ The proposal is to share a **suggested reading order**, combining authorial text
 ## ✅ Suggested Order
 
 1. **[📘 🧑‍🏫 About Me & About the Blog](about-the-blog.qmd)** — Ideal for new visitors to understand the project. It presents the purpose, structure, and a brief introduction of the author.
+
+2. **[📘 ✨ Living as if Everything Were a Miracle](einstein.qmd)** — A reflection inspired by Einstein’s quotes and writings on wonder, education, justice, solitude, and ideals — revealing his human side beyond the brilliant physicist.  
 
 📌 This guide is updated as new content is published.
 

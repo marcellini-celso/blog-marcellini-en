@@ -1,0 +1,190 @@
+---
+title: "📘 👨‍💻 📄 📊 R Code Templates for Use with Quarto"
+description: "Quarto allows the direct execution of R code blocks in `.qmd` files.  
+This makes it possible to generate dynamic reports, plots, statistical analyses, and interactive visualizations, all integrated with text."
+author: "Blog do Marcellini"
+date: 2025-06-29
+lang: en
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+editor: visual
+categories: [programming, R, Quarto, article]
+tags: [programming, R, Quarto, article]
+
+execute:
+  engine: knitr
+  echo: true
+  warning: false
+  message: false
+---
+
+---
+
+[← Back to the Programming Reading Guide 👨‍💻](/posts/programming/guide-programming.qmd)
+
+[← Back to the R Section 📊](/posts/programming/r/)
+
+[← Back to the Programming Section 👨‍💻](/posts/programming/)
+
+---
+
+![R Language](../../../images/R_logo.svg.png){width=30% style="margin-bottom: 2rem;"}
+
+# 📘 👨‍💻 📄 📊 R Code Templates for Use with Quarto
+
+## Introduction
+
+Quarto allows the direct execution of R code blocks in `.qmd` files.  
+This makes it possible to generate dynamic reports, plots, statistical analyses, and interactive visualizations, all integrated with text.
+
+The snippet below is the **YAML header** of the `.qmd` document, which defines the title, author, date, output format, and execution options for R code:
+
+```yaml
+---
+title: "R Code Templates for Use with Quarto"
+author: "Blog do Marcellini"
+date: 2025-06-23
+format: html
+editor: visual
+lang: en
+execute:
+  engine: knitr
+  echo: true
+  warning: false
+  message: false
+---
+```
+
+
+---
+
+## Simple R code block
+
+```{r simple}
+x <- 1:10
+y <- x^2
+y
+```
+
+---
+
+## Creating a base plot
+
+```{r plot}
+plot(x, y, type = "b", col = "blue", main = "Plot of x²", xlab = "x", ylab = "y = x²")
+```
+
+---
+
+## Using ggplot2
+
+```{r ggplot2}
+library(ggplot2)
+
+df <- data.frame(x = x, y = y)
+
+ggplot(df, aes(x, y)) +
+  geom_line(color = "red", size = 1.2) +
+  geom_point(color = "blue") +
+  labs(title = "Plot with ggplot2", x = "x", y = "x²")
+```
+
+---
+
+## Descriptive statistics
+
+```{r summary}
+summary(mtcars)
+```
+
+---
+
+## Histogram
+
+```{r hist}
+hist(mtcars$mpg, col = "lightblue", main = "MPG Distribution", xlab = "Miles per gallon")
+```
+
+---
+
+## Linear simple regression
+
+```{r lm}
+model <- lm(mpg ~ hp, data = mtcars)
+summary(model)
+```
+
+---
+
+## Plot with regression line
+
+```{r abline}
+plot(mtcars$hp, mtcars$mpg, pch = 19, col = "gray", main = "MPG vs HP")
+abline(model, col = "red", lwd = 2)
+```
+
+---
+
+## Formated table with knitr::kable
+
+```{r kable}
+library(knitr)
+kable(head(mtcars), caption = "First rows of the mtcars dataset")
+```
+
+---
+
+## Conditional results with `if`
+
+```{r if}
+valor <- mean(mtcars$mpg)
+
+if (valor > 20) {
+  print("The average MPG is high.")
+} else {
+  print("The average MPG is low.")
+}
+```
+
+---
+
+## Conclusion
+
+With Quarto and R, it is possible to integrate text, code, and results into a single dynamic and reproducible document.  
+These templates are a starting point for creating statistical and scientific reports with a high professional standard.
+
+---
+
+[← Back to the Programming Reading Guide 👨‍💻](/posts/programming/guide-programming.qmd)
+
+[← Back to the R Section 📊](/posts/programming/r/)
+
+[← Back to the Programming Section 👨‍💻](/posts/programming/)
+
+---
+
+🔝 [Back to Top](models-r-quarto.qmd)
+
+---
+
+*Blog do Marcellini — Exploring Mathematics, Statistics, and Physics with Rigor and Beauty.*
+
+:::{.callout-note}
+*Created by Blog do Marcellini with ❤️ and code.*
+:::
+
+# 🔗 Useful Links
+
+- 🧑‍🏫 [About the Blog](/posts/personal/about-the-blog.qmd)  
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">Project GitHub</a>  
+- 📬 [Contact via Email](mailto:prof.marcellini@gmail.com)  
+

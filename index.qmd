@@ -90,7 +90,7 @@ A progressive course that combines **mathematical rigor**, **LaTeX typographical
 <div style="margin-top: .25rem"></div>
 
 > 🔧 Programmable examples:  
-> 👉 [Python Models](posts/programming/python/modelos-python-quarto.qmd) · 👉 [R Models](posts/programming/r/modelos-r-quarto.qmd)
+> 👉 [Python Models](posts/programming/python/models-python-quarto.qmd) · 👉 [R Models](posts/programming/r/models-r-quarto.qmd)
 
 ---
 
@@ -101,11 +101,16 @@ A progressive course that combines **mathematical rigor**, **LaTeX typographical
 ## 🆕 Latest Posts
 
 <!-- inicio-ultimos-posts -->
+- [✨ Living as if Everything Were a Miracle](posts/personal/einstein.html)
 - [📘 🛰️ Special Theory of Relativity — An Academic View](posts/physics/special-relativity-academics.html)
 - [📚 🌠 General Relativity — Part 1: The Problem of Gravity](posts/physics/general-relativity-part1.html)
 - [📘 🛰️ Special Relativity: Einstein, Time, and the Speed of Light](posts/physics/special-relativity.html)
 - [📘 🧬 100 Years of Quantum Mechanics (1925–2025)](posts/physics/100-years-quantum-mechanics.html)
+- [📌 Git Cheatsheet for Blog do Marcellini](posts/programming/tutorials/git.html)
 - [📘 Module 1.3 AP: Absolute Value and Modular Inequalities](posts/courses/mathematics/calculus/module-1/1.3-absolute-value-AP.html)
+- [📘 Module 1.3: Intervals and Inequalities](posts/courses/mathematics/calculus/module-1/1.3-intervals-inequalities.html)
+- [📚 📄 Hub of Models & Templates (Quarto)](posts/programming/quarto/models-hub.html)
+- [🎓 📊 Statistics Course: The Normal Distribution](posts/courses/statistics/normal_distribution/index.html)
 <!-- fim-ultimos-posts -->
 
 > This section is automatically updated with each new publication.

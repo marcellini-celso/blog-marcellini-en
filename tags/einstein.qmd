@@ -3,12 +3,13 @@ title: "einstein"
 format: html
 ---
 
-[⬅ Return to All Tags](../tags.qmd)
+[⬅ Back to All Tags](../tags.qmd)
 
 ## Posts with the tag **einstein**
 
-- [🧭 📚 🌠 Reading Guide — General Relativity Series](/posts/physics/guide-general-relativity.html)
-- [📘 🛰️ Special Relativity: Einstein, Time, and the Speed of Light](/posts/physics/special-relativity.html)
+- [✨ Living as if Everything Were a Miracle](/posts/personal/einstein.html)
 - [🧭 🛰️ Reading Guide — Special Relativity Series](/posts/physics/guide-special-relativity.html)
-- [📘 🛰️ Special Theory of Relativity — An Academic View](/posts/physics/special-relativity-academics.html)
+- [🧭 📚 🌠 Reading Guide — General Relativity Series](/posts/physics/guide-general-relativity.html)
 - [📚 🌠 General Relativity — Part 1: The Problem of Gravity](/posts/physics/general-relativity-part1.html)
+- [📘 🛰️ Special Theory of Relativity — An Academic View](/posts/physics/special-relativity-academics.html)
+- [📘 🛰️ Special Relativity: Einstein, Time, and the Speed of Light](/posts/physics/special-relativity.html)

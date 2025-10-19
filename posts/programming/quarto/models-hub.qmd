@@ -1,0 +1,111 @@
+---
+title: "📚 📄 Hub of Models & Templates (Quarto)"
+description: "Index page with organized links to posts on models and best practices in Quarto."
+author: "Blog do Marcellini"
+date: "2025-09-06"
+lang: en
+categories: [programming, Quarto, models, templates]
+tags: [programming, Quarto, models, templates]
+format:
+  html:
+    toc: true
+    toc-title: "On this page"
+    number-sections: false
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+editor: visual
+---
+
+<!-- Breadcrumbs -->
+
+[← Programming Guide](../guide-programming.qmd)  · [← Programming Section](../index.qmd)  · 🔝 [Top](#top)
+
+---
+
+# 📚 Hub of Models & Templates
+
+Welcome to the **official hub** of *Models & Templates* from Blog do Marcellini.  
+Here you will find, in one place, posts with **ready-to-use models**, **best practices**, and **reusable examples** to speed up your Quarto workflow.
+
+> 💡 **Tip:** This hub is the recommended target for your callout button:  
+> `[See the models ›](quarto/models-hub.qmd){.button .button-outline}`
+
+---
+
+## 📦 Main Collections
+
+::: {.columns}
+::: {.column width="50%"}
+
+### 📘 📄 `index.qmd` Models
+
+Organized templates of `index.qmd` files for thematic sections in Quarto projects.
+
+[Open ▶](models-index-quarto.qmd){.button}
+:::
+
+::: {.column width="50%"}
+
+### 🧭 YAML in Quarto
+
+Explanation of **YAML header** fields in `.qmd` files, with best practices and ready-to-use examples.
+
+[Open ▶](yaml-in-quarto.qmd){.button}
+:::
+:::
+
+::: {.columns}
+::: {.column width="50%"}
+
+### ✍️ Quarto Markdown Templates — Part 1
+
+Showcase of styles, **syntax**, and **best practices** for writing Markdown text inside Quarto.
+
+[Open ▶](models-markdown.qmd){.button}
+:::
+
+::: {.column width="50%"}
+
+### ✍️ Quarto Markdown Templates — Part 2
+
+Continuation with **practical features** for producing **reproducible** and **well-formatted** documents.
+
+[Open ▶](others-models-markdown.qmd){.button}
+:::
+:::
+
+---
+
+## ✅ Consolidated Guide (Recommended)
+
+> **New/Consolidated:** If you prefer **a single post** that gathers Parts 1 and 2 (without repetition), use the following guide:
+
+* **📘 📄 Quarto Markdown Templates — Complete Guide**  
+  *Consolidates the content of “Quarto Markdown Template — Part 1” and “Part 2”, with streamlined and reorganized examples.*  
+  [Open ▶](models-quarto-markdown.qmd){.button .button-outline}
+
+---
+
+<!-- Breadcrumbs -->
+
+[← Programming Guide](../guide-programming.qmd)  · [← Programming Section](../index.qmd)  · 🔝 [Top](#top)
+
+---
+
+*Blog do Marcellini — Exploring Mathematics, Statistics, and Physics with Rigor and Beauty.*
+
+:::{.callout-note}
+*Created by Blog do Marcellini with ❤️ and code.*
+:::
+
+## 🔗 Useful Links
+
+- 🧑‍🏫 [About the Blog](/posts/personal/about-the-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">Project GitHub</a>
+- 📬 [Contact via Email](mailto:prof.marcellini@gmail.com)
+

@@ -1,9 +1,9 @@
 ---
 title: "📄 📐 LaTeX"
-description: "Dicas e exemplos sobre como usar LaTeX para escrever documentos científicos, formatar fórmulas matemáticas e montar apresentações com elegância e precisão. LaTeX é uma ferramenta poderosa para a criação de documentos técnicos e científicos com excelente qualidade tipográfica."
+description: "Tips and examples on how to use LaTeX to write scientific documents, format mathematical formulas, and create elegant and precise presentations. LaTeX is a powerful tool for producing technical and scientific documents with outstanding typographic quality."
 author: "Blog do Marcellini"
 date: 2025-07-11
-lang: pt-BR
+lang: en-US
 format:
   html:
     toc: true
@@ -15,63 +15,63 @@ format:
     highlight-style: github
     code-link: true
 page-layout: full
-categories: [programação, LaTeX, sumário de LaTeX, sumário, Quarto]
-tags: [programação, LaTeX, sumário de LaTeX, sumário, Quarto]
+categories: [programming, LaTeX, LaTeX summary, summary, Quarto]
+tags: [programming, LaTeX, LaTeX summary, summary, Quarto]
 ---
 
-[← Voltar para a Seção de Programação 👨‍💻](../index.qmd)
+[← Back to the Programming Section 👨‍💻](../index.qmd)
 
 ---
 
-## 📚 Séries e Projetos (relacionados)
+## 📚 Series and Related Projects
 
 ::: {.columns}
 ::: {.column width="50%"}
 ::: {.callout-note title="📐 LaTeX + Quarto: Templates"}
-Padrões para artigos, slides e posts técnicos.
+Standard templates for articles, slides, and technical posts.
   
-[Ver os templates ›](../outros-modelos-markdown.html){.button .button-outline}
+[View templates ›](../others-models-markdown.html){.button .button-outline}
 :::
 :::
 ::: {.column width="50%"}
-::: {.callout-tip title="🧭 Guia de Programação"}
-Trilha sugerida com ordem progressiva de leitura.
+::: {.callout-tip title="🧭 Programming Guide"}
+A suggested path with a progressive reading order.
   
-[Ir para o guia ›](../guia-programacao.qmd){.button .button-outline}
+[Go to the guide ›](../guide-programming.qmd){.button .button-outline}
 :::
 :::
 :::
 
-## 📘 📄 📐 Artigos e Reflexões
+## 📘 📄 📐 Articles and Reflections
 
-### [📘 📄 📐 Modelos LaTeX para Quarto](../modelos-latex-quarto.qmd)
-Exemplos e explicações sobre como usar LaTeX no Quarto, com foco em formatação matemática, ambientes e personalização.
+### [📘 📄 📐 LaTeX Templates for Quarto](models-latex-quarto.qmd)
+Examples and explanations on how to use LaTeX within Quarto, focusing on mathematical formatting, environments, and customization.
 
-## 🧭 📄 📐 Guia de Leitura
+## 🧭 📄 📐 Reading Guide
 
-1. **[📘 📐 Modelos LaTeX para Quarto](../modelos-latex-quarto.qmd)** — Comece por aqui para explorar como LaTeX se integra ao Quarto para produção científica elegante e estruturada.
+1. **[📘 📐 LaTeX Templates for Quarto](models-latex-quarto.qmd)** — Start here to explore how LaTeX integrates with Quarto for elegant and structured scientific production.
 
-📌 Este guia é atualizado à medida que novos conteúdos forem sendo publicados.
-
----
-
-[← Voltar para a Seção de Programação 👨‍💻](../index.qmd)
+📌 This guide is updated as new content is published.
 
 ---
 
-🔝 [Voltar ao Topo](#top)
+[← Back to the Programming Section 👨‍💻](../index.qmd)
 
 ---
 
-*Blog do Marcellini — Explorando a Matemática, a Estatística e a Física com Clareza e Paixão.*
+🔝 [Back to Top](#top)
+
+---
+
+*Blog do Marcellini — Exploring Mathematics, Statistics, and Physics with Clarity and Passion.*
 
 :::{.callout-note}
-*Criado por Blog do Marcellini com ❤️ e código.*
+*Created by Blog do Marcellini with ❤️ and code.*
 :::
 
-## 🔗 Links Úteis
+## 🔗 Useful Links
 
-- 🧑‍🏫 [Sobre o Blog](../../pessoal/sobre-o-blog.qmd)
-- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-pt.git" target="_blank">GitHub do Projeto</a>
-- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
+- 🧑‍🏫 [About the Blog](../../personal/about-the-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">Project GitHub</a>
+- 📬 [Contact via Email](mailto:prof.marcellini@gmail.com)
 

@@ -1,0 +1,230 @@
+---
+title: "📘 👨‍💻 📐 LaTeX Templates for Use with Quarto"
+description: "Quarto allows the use of **mathematical formulas with LaTeX** inside `.qmd` files, both inline and in block form."
+author: "Blog do Marcellini"
+date: 2025-06-27
+lang: en-US
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+editor: visual
+categories: [programming, LaTeX, Quarto, article]
+tags: [programming, LaTeX, Quarto, article]
+---
+
+---
+
+[← Back to the Programming Reading Guide 👨‍💻](/posts/programming/guide-programming.qmd)
+
+[← Back to the LaTeX Section 📐](/posts/programming/latex/)
+
+[← Back to the Programming Section 👨‍💻](/posts/programming/)
+
+---
+
+![LaTeX](../../../images/LaTeX_logo.svg.png){width=50% style="margin-bottom: 2rem;"}
+
+# 📘 👨‍💻 📐 LaTeX Templates for Use with Quarto
+
+## Introduction
+
+Quarto allows the use of **mathematical formulas with LaTeX** inside `.qmd` files, both inline and in blocks.  
+This makes it possible to create scientific, technical, and educational documents with precise and elegant mathematical notation.
+
+---
+
+## Inline Equations
+
+Inline equations are written between `$` and `$`:
+
+Example:
+
+
+```markdown
+Euler's identity is: $e^{i\pi} + 1 = 0$
+```
+
+Result:
+
+Euler's identity is: $e^{i\pi} + 1 = 0$
+
+---
+
+## Block Equations
+
+Block equations use `$$` as delimiters and are centered:
+
+
+```markdown
+$$
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+$$
+```
+
+Result:
+
+$$
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+$$
+
+---
+
+## Systems of Equations
+
+You can use `\begin{align}` or `\begin{cases}`:
+
+
+```markdown
+$$
+\begin{cases}
+x + y = 2 \\
+2x - y = 3
+\end{cases}
+$$
+```
+
+Result:
+
+$$
+\begin{cases}
+x + y = 2 \\
+2x - y = 3
+\end{cases}
+$$
+
+---
+
+## Matrices
+
+```markdown
+$$
+A = \begin{bmatrix}
+1 & 2 \\
+3 & 4
+\end{bmatrix}
+$$
+```
+
+Result:
+
+$$
+A = \begin{bmatrix}
+1 & 2 \\
+3 & 4
+\end{bmatrix}
+$$
+
+---
+
+## Summations, Products, Integrals
+
+```markdown
+$$
+\sum_{i=1}^{n} i = \frac{n(n+1)}{2}
+$$
+
+$$
+\prod_{k=1}^{n} k = n!
+$$
+
+$$
+\int_0^\infty e^{-x} dx = 1
+$$
+```
+
+Result:
+
+$$
+\sum_{i=1}^{n} i = \frac{n(n+1)}{2}
+$$
+
+$$
+\prod_{k=1}^{n} k = n!
+$$
+
+$$
+\int_0^\infty e^{-x} dx = 1
+$$
+
+---
+
+## Fractions, Powers, and Roots
+
+```markdown
+$$
+\frac{a + b}{c}, \quad x^2, \quad \sqrt{x}, \quad \sqrt[3]{x}
+$$
+```
+
+Result:
+
+$$
+\frac{a + b}{c}, \quad x^2, \quad \sqrt{x}, \quad \sqrt[3]{x}
+$$
+
+---
+
+## Logic and Sets
+
+```markdown
+$$
+A \cap B, \quad A \cup B, \quad A \subseteq B, \quad A \in B
+$$
+
+$$
+\forall x \in \mathbb{R}, \quad \exists y > 0
+$$
+```
+
+Result:
+
+$$
+A \cap B, \quad A \cup B, \quad A \subseteq B, \quad A \in B
+$$
+
+$$
+\forall x \in \mathbb{R}, \quad \exists y > 0
+$$
+
+---
+
+## Conclusion
+
+LaTeX support in Quarto allows you to write mathematical expressions with the same power and precision as a scientific paper.  
+These templates serve as a foundation for producing technical and educational content with a high visual standard.
+
+---
+
+[← Back to the Programming Reading Guide 👨‍💻](/posts/programming/guide-programming.qmd)
+
+[← Back to the LaTeX Section 📐](/posts/programming/latex/)
+
+[← Back to the Programming Section 👨‍💻](/posts/programming/)
+
+---
+
+🔝 [Back to Top](models-latex-quarto.qmd)
+
+---
+
+*Blog do Marcellini — Exploring Mathematics, Statistics, and Physics with Rigor and Beauty.*
+
+:::{.callout-note}
+*Created by Blog do Marcellini with ❤️ and code.*
+:::
+
+# 🔗 Useful Links
+
+- 🧑‍🏫 [About the Blog](/posts/personal/about-the-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">Project GitHub</a>
+- 📬 [Contact via Email](mailto:prof.marcellini@gmail.com)
+
+

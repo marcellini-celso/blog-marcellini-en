@@ -22,7 +22,7 @@
 .quarto-listing .thumbnail:has(img) { background-image: none; }
 .quarto-listing .thumbnail:not(:has(img)),
 .listing .thumbnail:not(:has(img)) {
-  background-image: url("../..images/placeholder-dark.png");
+  background-image: url("../..images/placeholder-dark-en.png");
   background-size: cover;
   background-position: center;
 }

@@ -1,0 +1,197 @@
+---
+title: "📘 👨‍💻 📄 🐍 Python Code Templates for Use with Quarto"
+description: "Quarto allows the direct execution of Python code blocks."
+author: "Blog do Marcellini"
+date: 2025-06-29
+lang: en
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+editor: visual
+categories: [programming, Python, Quarto, article]
+tags: [programming, Python, Quarto, article]
+
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+---
+
+[← Back to the Programming Reading Guide 👨‍💻](/posts/programming/guide-programming.qmd)
+
+[← Back to the Python Section 🐍](/posts/programming/python/)
+
+[← Back to the Programming Section 👨‍💻](/posts/programming/)
+
+---
+
+![Python](../../../images/Python.svg.png){width=30% style="margin-bottom: 2rem;"}
+
+# 📘 👨‍💻 📄 🐍 Python Code Templates for Use with Quarto
+
+## Introduction
+
+Quarto allows the direct execution of Python code blocks in `.qmd` files, making it possible to create interactive and reproducible reports with analyses, plots, and visualizations in Python.
+
+The snippet below is the **YAML header** of the `.qmd` document, which defines the title, author, date, output format, and code execution options:
+
+```yaml
+---
+title: "Python Code Templates for Use with Quarto"
+author: "Blog do Marcellini"
+date: 2025-06-23
+format: html
+editor: visual
+lang: en
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+```
+
+---
+
+## Simple Python code block
+
+```{python}
+x = list(range(1, 11))
+y = [i**2 for i in x]
+y
+```
+
+---
+
+## Plot with matplotlib
+
+```{python}
+import matplotlib.pyplot as plt
+
+plt.plot(x, y, marker='o', color='blue')
+plt.title("Plot of x²")
+plt.xlabel("x")
+plt.ylabel("y = x²")
+plt.grid(True)
+plt.show()
+```
+
+---
+
+## Using numpy and seaborn
+
+```{python}
+import numpy as np
+import seaborn as sns
+
+data = np.random.normal(size=1000)
+sns.histplot(data, kde=True)
+```
+---
+
+## Analysis with pandas
+
+```{python}
+import pandas as pd
+
+df = pd.read_csv("data/iris.csv")
+df.head()
+```
+---
+
+## Descriptive statistics with pandas
+
+```{python}
+df.describe()
+```
+
+---
+
+## Scatter plot
+
+```{python}
+sns.scatterplot(data=df, x="sepal_length", y="petal_length", hue="species")
+```
+
+---
+
+## Linear regression with scikit-learn
+
+```{python}
+from sklearn.linear_model import LinearRegression
+
+X = df[["sepal_length"]]
+y = df["petal_length"]
+
+model = LinearRegression()
+model.fit(X, y)
+
+print(f"Slope: {model.coef_[0]:.2f}")
+print(f"Intercept: {model.intercept_:.2f}")
+```
+
+---
+
+## Plot with regression line
+
+```{python}
+plt.scatter(X, y, color='gray')
+plt.plot(X, model.predict(X), color='red')
+plt.xlabel("Sepal Length")
+plt.ylabel("Petal Length")
+plt.title("Simple Linear Regression")
+plt.show()
+```
+
+---
+
+## Formatted table with tabulate
+
+```{python}
+from tabulate import tabulate
+
+table = df.head(5)
+print(tabulate(table, headers='keys', tablefmt='github'))
+```
+
+---
+
+## Conclusion
+
+With Quarto and Python, it is possible to generate reports and documents rich in visual and analytical content, integrating text, code, plots, and results in an automated and elegant way.
+
+---
+
+[← Back to the Programming Reading Guide 👨‍💻](/posts/programming/guide-programming.qmd)
+
+[← Back to the Python Section 🐍](/posts/programming/python/)
+
+[← Back to the Programming Section 👨‍💻](/posts/programming/)
+
+---
+
+🔝 [Back to Top](models-python-quarto.qmd)
+
+---
+
+*Blog do Marcellini — Exploring Mathematics, Statistics, and Physics with Rigor and Beauty.*
+
+:::{.callout-note}
+*Created by Blog do Marcellini with ❤️ and code.*
+:::
+
+# 🔗 Useful Links
+
+- 🧑‍🏫 [About the Blog](/posts/personal/about-the-blog.qmd)  
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">Project GitHub</a>  
+- 📬 [Contact via Email](mailto:prof.marcellini@gmail.com)  
+

@@ -1,9 +1,9 @@
 ---
 title: "📄 📊 R"
-description: "Publicações sobre a linguagem R com foco em estatística, gráficos, análise de dados e produção de relatórios reprodutíveis. R é uma linguagem poderosa para análise estatística e produção de gráficos sofisticados, com suporte a relatórios dinâmicos e reprodutíveis."
+description: "Posts about the R language focusing on statistics, plots, data analysis, and the production of reproducible reports. R is a powerful language for statistical analysis and for creating sophisticated graphics, with support for dynamic and reproducible reports."
 author: "Blog do Marcellini"
 date: 2025-07-11
-lang: pt-BR
+lang: en
 format:
   html:
     toc: true
@@ -13,63 +13,63 @@ format:
     highlight-style: github
     code-link: true
 page-layout: full
-categories: [programação, R, sumário de R, sumário, Quarto]
-tags: [programação, R, sumário de R, sumário, Quarto]
+categories: [programming, R, R summary, summary, Quarto]
+tags: [programming, R, R summary, summary, Quarto]
 ---
 
-[← Voltar para a Seção de Programação 👨‍💻](../index.qmd)
+[← Back to the Programming Section 👨‍💻](../index.qmd)
 
 ---
 
-## 📚 Séries e Projetos (relacionados)
+## 📚 Series and Projects (related)
 
 ::: {.columns}
 ::: {.column width="50%"}
-::: {.callout-note title="📊 Modelos em R (Quarto)"}
-Snippets e exemplos para estatística, visualizações e relatórios reprodutíveis.
+::: {.callout-note title="📊 R Templates (Quarto)"}
+Snippets and examples for statistics, visualizations, and reproducible reports.
 
-[Ver a série ›](../modelos-r-quarto.qmd){.button .button-outline}
+[View the series ›](models-r-quarto.qmd){.button .button-outline}
 :::
 :::
 ::: {.column width="50%"}
-::: {.callout-tip title="🧭 Guia de Programação"}
-Trilha sugerida com ordem progressiva de leitura.
+::: {.callout-tip title="🧭 Programming Guide"}
+Suggested path with progressive reading order.
 
-[Ir para o guia ›](../guia-programacao.qmd){.button .button-outline}
+[Go to the guide ›](../guide-programming.qmd){.button .button-outline}
 :::
 :::
 :::
 
-## 📘 📄 📊 Artigos e Reflexões
+## 📘 📄 📊 Articles and Reflections
 
-### [📘 📄 📊 Modelos R para Quarto](../modelos-r-quarto.qmd)
-Uso da linguagem R em documentos Quarto, com foco em análise de dados, gráficos e reprodutibilidade.
+### [📘 📄 📊 R Templates for Quarto](models-r-quarto.qmd)
+Using the R language in Quarto documents, focusing on data analysis, graphics, and reproducibility.
 
-## 🧭 📘 📄 📊 Guia de Leitura
+## 🧭 📘 📄 📊 Reading Guide
 
-1. **[📘 📄 📊 Modelos R para Quarto](../modelos-r-quarto.qmd)** — Inicie por aqui para aprender a usar R no Quarto e criar documentos interativos e bem estruturados.
+1. **[📘 📄 📊 R Templates for Quarto](models-r-quarto.qmd)** — Start here to learn how to use R in Quarto and create interactive, well-structured documents.
 
-📌 Este guia é atualizado à medida que novos conteúdos forem sendo publicados.
-
----
-
-[← Voltar para a Seção de Programação 👨‍💻](../index.qmd)
+📌 This guide is updated as new content is published.
 
 ---
 
-🔝 [Voltar ao Topo](#top)
+[← Back to the Programming Section 👨‍💻](../index.qmd)
 
 ---
 
-*Blog do Marcellini — Explorando a Matemática, a Estatística e a Física com Rigor e Beleza.*
+🔝 [Back to Top](#top)
+
+---
+
+*Blog do Marcellini — Exploring Mathematics, Statistics, and Physics with Rigor and Beauty.*
 
 :::{.callout-note}
-*Criado por Blog do Marcellini com ❤️ e código.*
+*Created by Blog do Marcellini with ❤️ and code.*
 :::
 
-## 🔗 Links Úteis
+## 🔗 Useful Links
 
-- 🧑‍🏫 [Sobre o Blog](../../pessoal/sobre-o-blog.qmd)
-- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-pt.git" target="_blank">GitHub do Projeto</a>
-- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
+- 🧑‍🏫 [About the Blog](../../personal/about-the-blog.qmd)  
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">Project GitHub</a>  
+- 📬 [Contact via E-mail](mailto:prof.marcellini@gmail.com)  
 

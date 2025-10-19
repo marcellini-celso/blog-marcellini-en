@@ -1,11 +1,11 @@
 ---
 title: "📄 🐍 Python"
-description: "Conteúdos sobre a linguagem Python aplicados à análise de dados, automação, visualização gráfica e uso científico. Python é uma linguagem versátil usada amplamente na ciência de dados, automação e programação científica."
+description: "Content about the Python language applied to data analysis, automation, graphical visualization, and scientific use. Python is a versatile language widely used in data science, automation, and scientific programming."
 author: "Blog do Marcellini"
 date: 2025-07-11
-lang: pt-BR
-categories: [programação, Python, sumário de Python, sumário, Quarto]
-tags: [programação, Python, sumário de Python, sumário, Quarto]
+lang: en-US
+categories: [programming, Python, Python summary, summary, Quarto]
+tags: [programming, Python, Python summary, summary, Quarto]
 format:
   html:
     toc: true
@@ -19,59 +19,59 @@ format:
 page-layout: full
 ---
 
-[← Voltar para a Seção de Programação 👨‍💻](../index.qmd)
+[← Back to the Programming Section 👨‍💻](../index.qmd)
 
 ---
 
-## 📚 Séries e Projetos (relacionados)
+## 📚 Series and Related Projects
 
 ::: {.columns}
 ::: {.column width="50%"}
-::: {.callout-note title="🐍 Modelos em Python (Quarto)"}
-Exemplos prontos com gráficos, animações e integração com Quarto.
+::: {.callout-note title="🐍 Python Templates (Quarto)"}
+Ready-made examples with graphics, animations, and integration with Quarto.
 
-[Ver a série ›](../modelos-python-quarto.qmd){.button .button-outline}
+[View the series ›](models-python-quarto.qmd){.button .button-outline}
 :::
 :::
 ::: {.column width="50%"}
-::: {.callout-tip title="🧭 Guia de Programação"}
-Trilha sugerida com ordem progressiva de leitura.
+::: {.callout-tip title="🧭 Programming Guide"}
+A suggested path with a progressive reading order.
 
-[Ir para o guia ›](../guia-programacao.qmd){.button .button-outline}
+[Go to the guide ›](../guide-programming.qmd){.button .button-outline}
 :::
 :::
 :::
 
-## 📘 📄 🐍 Artigos e Reflexões
+## 📘 📄 🐍 Articles and Reflections
 
-### [📘 📄 🐍 Modelos Python para uso no Quarto](../modelos-python-quarto.qmd)
-Exemplos de uso do Python com Quarto, integração de código com visualizações e análise de dados.
+### [📘 📄 🐍 Python Templates for Quarto](models-python-quarto.qmd)
+Examples of using Python with Quarto, integrating code with visualizations and data analysis.
 
-## 🧭 📘 📄 🐍 Guia de Leitura
+## 🧭 📘 📄 🐍 Reading Guide
 
-1. **[📘 📄 🐍 Modelos Python para uso no Quarto](../modelos-python-quarto.qmd)** — Veja como utilizar Python para gerar visualizações e resultados dinâmicos dentro de documentos Quarto.
+1. **[📘 📄 🐍 Python Templates for Quarto](models-python-quarto.qmd)** — Learn how to use Python to generate visualizations and dynamic results within Quarto documents.
 
-📌 Este guia é atualizado à medida que novos conteúdos forem sendo publicados.
-
----
-
-[← Voltar para a Seção de Programação 👨‍💻](../index.qmd)
+📌 This guide is updated as new content is published.
 
 ---
 
-🔝 [Voltar ao Topo](#top)
+[← Back to the Programming Section 👨‍💻](../index.qmd)
 
 ---
 
-*Blog do Marcellini — Explorando a Matemática, a Estatística e a Física com Rigor e Beleza.*
+🔝 [Back to Top](#top)
+
+---
+
+*Blog do Marcellini — Exploring Mathematics, Statistics, and Physics with Rigor and Beauty.*
 
 :::{.callout-note}
-*Criado por Blog do Marcellini com ❤️ e código.*
+*Created by Blog do Marcellini with ❤️ and code.*
 :::
 
-## 🔗 Links Úteis
+## 🔗 Useful Links
 
-- 🧑‍🏫 [Sobre o Blog](../../pessoal/sobre-o-blog.qmd)
-- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-pt.git" target="_blank">GitHub do Projeto</a>
-- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
+- 🧑‍🏫 [About the Blog](../../personal/about-the-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">Project GitHub</a>
+- 📬 [Contact via Email](mailto:prof.marcellini@gmail.com)
 

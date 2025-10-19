@@ -3,10 +3,10 @@ title: "special relativity"
 format: html
 ---
 
-[⬅ Return to All Tags](../tags.qmd)
+[⬅ Back to All Tags](../tags.qmd)
 
 ## Posts with the tag **special relativity**
 
-- [📘 🛰️ Special Relativity: Einstein, Time, and the Speed of Light](/posts/physics/special-relativity.html)
 - [🧭 🛰️ Reading Guide — Special Relativity Series](/posts/physics/guide-special-relativity.html)
 - [📘 🛰️ Special Theory of Relativity — An Academic View](/posts/physics/special-relativity-academics.html)
+- [📘 🛰️ Special Relativity: Einstein, Time, and the Speed of Light](/posts/physics/special-relativity.html)

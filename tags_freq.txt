@@ -1,39 +1,45 @@
+16 programming
+14 Quarto
+13 article
 12 mathematics
 11 physics
+11 summary
 9 courses
 9 reading guide
-8 Quarto
-7 summary
-6 article
 6 calculus
-6 programação
-5 einstein
+6 einstein
 5 relativity
 5 series
 5 statistics
+4 YAML
 4 exercises
-4 sumário
+3 LaTeX
 3 Python
 3 R
-3 YAML
-3 programming
 3 quantum mechanics
 3 special relativity
-2 LaTeX
 2 about
 2 about me
 2 about the blog
-2 artigo
 2 general relativity
 2 inequalities
 2 normal
 2 normal distribution
 2 number sets
 2 personal
+2 personal blog
+2 templates
+1 Albert Einstein
 1 CLT
 1 Cantor
 1 LLN
+1 LaTeX summary
+1 Markdown
+1 Python summary
+1 Quarto summary
+1 R summary
 1 Taylor series
+1 The World As I See It
 1 absolute value
 1 applications
 1 combinatorics
@@ -41,11 +47,13 @@
 1 course
 1 derivatives
 1 differential equations
+1 education
 1 equations
 1 equivalence principle
 1 factorial
 1 field
 1 functions
+1 git
 1 gravity
 1 histograms
 1 history of calculus
@@ -55,20 +63,21 @@
 1 intervals
 1 limits
 1 mathematics summary
+1 models
 1 modulus
-1 personal blog
 1 personal blog summary
+1 philosophy
 1 philosophy of mathematics
 1 physics summary
 1 plots
 1 probabilities
 1 programming summary
 1 qqplot
+1 quotes
+1 reflection
+1 science
 1 sets
 1 statistics summary
-1 sumário de LaTeX
-1 sumário de Python
-1 sumário de Quarto
-1 sumário de R
+1 tutorials
 1 z-score
 1 z-table

@@ -60,3 +60,115 @@
   box-shadow: 2px 2px 8px rgba(0,0,0,0.05);
 }
 
+/* Padrão global para pares de figuras lado a lado */
+.figure-pair figure {
+  margin: 0 !important;                /* remove margens extras */
+}
+
+.figure-pair img {
+  display: block;
+  margin: auto;
+  object-fit: contain;
+}
+
+/* Responsividade: empilha as colunas em telas estreitas */
+@media (max-width: 820px) {
+  .figure-pair .column {
+    width: 100% !important;            /* uma coluna por linha */
+  }
+  .figure-pair img {
+    height: 300px !important;          /* reduz altura para mobile */
+  }
+}
+
+/* ===============================
+   FIGURE PAIR — padrão global
+   =============================== */
+.figure-pair figure {
+  margin: 0 !important;                /* remove margens extras do Quarto */
+}
+
+.figure-pair img {
+  display: block;
+  margin: auto;
+  object-fit: contain;
+  height: 380px;                       /* altura padrão */
+}
+
+/* Variante para imagens verticais (ex: Ishango, Pascaline) */
+.figure-pair.tall img {
+  height: 440px;                       /* ligeiramente mais alta */
+}
+
+/* Responsividade */
+@media (max-width: 820px) {
+  .figure-pair .column {
+    width: 100% !important;            /* empilha colunas no mobile */
+  }
+  .figure-pair img {
+    height: 300px !important;          /* altura reduzida */
+  }
+  .figure-pair.tall img {
+    height: 340px !important;          /* altura reduzida na variação tall */
+  }
+}
+
+/* Par de figuras global */
+.figure-pair {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+/* Variante rígida: evita ultrapassar a coluna do conteúdo (TOC ativo) */
+.figure-pair.hard {
+  max-width: 100%;
+  overflow: hidden;
+}
+.figure-pair.hard img {
+  flex: 1 1 0;
+  max-width: 100%;
+  height: 380px;           /* pode mudar para 360/400 se preferir */
+  object-fit: contain;
+  display: block;
+}
+
+/* Responsivo */
+@media (max-width: 820px){
+  .figure-pair { flex-direction: column; }
+  .figure-pair.hard img { height: 300px; }
+}
+
+/* Centralização perfeita das duplas de imagens (foto real + diagrama) */
+.figure-pair.hard {
+  display: flex;
+  justify-content: center;      /* centraliza o grupo dentro do container */
+  align-items: center;          /* alinha verticalmente */
+  gap: 1.2rem;                  /* espaço entre as imagens */
+  margin: 1.2rem auto;          /* centraliza o container */
+  max-width: 100%;
+  overflow: hidden;
+  text-align: center;           /* garante alinhamento dentro de grids do Quarto */
+}
+
+.figure-pair.hard img {
+  display: block;
+  margin: 0 auto;               /* força centralização individual */
+  flex: 1 1 auto;
+  max-width: 100%;
+  height: 380px;
+  object-fit: contain;
+}
+
+/* Responsividade */
+@media (max-width: 820px) {
+  .figure-pair.hard {
+    flex-direction: column;
+  }
+  .figure-pair.hard img {
+    height: 300px;
+  }
+}
+

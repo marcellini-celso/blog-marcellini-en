@@ -434,7 +434,7 @@ This equation was **experimentally verified** by Robert Millikan between 1905 an
 Light shines on a metallic surface as photons, each carrying energy $E = h\nu$. When the photon’s energy exceeds the work function $\phi$, an electron is ejected with kinetic energy $K = h\nu - \phi$. This phenomenon confirms the particle-like nature of light.
 :::
 
-```{r gráfico do efeito fotoelétrico}
+```{r photoeletric effect graphics}
 # R code:
 
 # Photoelectric Effect: K = hν − φ

@@ -26,7 +26,7 @@ page-layout: full
 ::: {.callout-note title="🐍 Python Models (Quarto)"}
 Ready-made examples for graphics, animations, and integration with Quarto.
 
-[View the series ›](modelos-python-quarto.qmd){.button .button-outline}
+[View the series ›](python/models-python-quarto.qmd){.button .button-outline}
 :::
 :::
 
@@ -34,7 +34,7 @@ Ready-made examples for graphics, animations, and integration with Quarto.
 ::: {.callout-note title="📊 R Models (Quarto)"}
 R snippets for statistics, visualizations, and reproducible reports.
 
-[View the series ›](modelos-r-quarto.qmd){.button .button-outline}
+[View the series ›](r/models-r-quarto.qmd){.button .button-outline}
 :::
 :::
 
@@ -42,7 +42,7 @@ R snippets for statistics, visualizations, and reproducible reports.
 ::: {.callout-note title="📐 LaTeX + Quarto: Templates"}
 Templates and standards for articles, slides, and technical posts.
 
-[View the templates ›](outros-modelos-markdown.html){.button .button-outline}
+[View the templates ›](quarto/others-models-markdown.html){.button .button-outline}
 :::
 :::
 :::
@@ -57,6 +57,9 @@ Tips on how to write scientific documents with LaTeX: mathematical formulas, pre
 ### [📘 📄 Quarto](quarto/index.qmd)
 Posts about the Quarto tool for creating websites, dynamic articles, and reproducible reports.
 
+### [📘 📄 🧰 Git — Blog Cheatsheet](tutorials/git.qmd)  
+Quick guide with the Git commands used in the blog workflow: `status`, `add/commit`, `pull --rebase`, `push`, switching **HTTPS→SSH**, and useful configurations.
+
 ### [📘 📄 🐍 Python](python/index.qmd)
 Introductory and practical content on Python with a focus on automation and data analysis.
 
@@ -65,7 +68,7 @@ Tips and examples with the R language focused on statistics, graphics, and inter
 
 ## 🧭 📘 👨‍💻 Reading Guide
 
-1. **[🧭 👨‍💻 Programming Section Reading Guide](programming-guide.qmd)** — Suggested path with a progressive order, interlinking the main content of the section.
+1. **[🧭 👨‍💻 Programming Section Reading Guide](guide-programming.qmd)** — Suggested path with a progressive order, interlinking the main content of the section.
 
 📌 This guide is updated as new content is published.
 

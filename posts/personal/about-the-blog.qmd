@@ -19,6 +19,8 @@ categories: [personal, about, about the blog, about me]
 tags: [personal, about, about the blog, about me]
 ---
 
+[← Back to the Personal Blog Reading Guide 🧭 🧮](/posts/personal/guide-personal.qmd)
+
 [← Back to the Personal Blog Section 🧑‍🏫](index.qmd)
 
 ---
@@ -100,6 +102,8 @@ This site was built with **[Quarto](https://quarto.org)**, a tool for creating s
   Runs everything in order (latest posts → JSON → tags → word cloud), ensuring the site is updated with a single command.
 
 ---
+
+[← Back to the Personal Blog Reading Guide 🧭 🧮](/posts/personal/guide-personal.qmd)
 
 [← Back to the Personal Blog Section 🧑‍🏫](index.qmd)
 

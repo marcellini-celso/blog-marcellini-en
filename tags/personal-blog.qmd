@@ -3,8 +3,9 @@ title: "personal blog"
 format: html
 ---
 
-[⬅ Return to All Tags](../tags.qmd)
+[⬅ Back to All Tags](../tags.qmd)
 
 ## Posts with the tag **personal blog**
 
+- [✨ Living as if Everything Were a Miracle](/posts/personal/einstein.html)
 - [🧭 🧑‍🏫 Reading Guide — Personal Blog](/posts/personal/guide-personal.html)
