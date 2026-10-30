@@ -1,133 +1,186 @@
 ---
+description: "Courses, articles, and guides to mathematics, statistics, physics, and programming, with rigor, intuition, and beauty."
 lang: en
+page-layout: full
 format:
   html:
-    toc: true
-    toc-title: "On this page"
+    body-classes: blog-home
+    toc: false
     number-sections: false
     theme: cosmo
-    fig-align: center
-    code-overflow: scroll
-    df-print: paged
-    highlight-style: github
-    code-link: true
+    css:
+      - assets/css/homepage.css
+      - assets/css/banner-v2.css
 ---
 
-<div style="text-align:right; font-size:0.95em;">
-  🌐 <a href="https://blogdomarcellini.com.br/">Português</a> ·
-  <span aria-current="page">English</span>
+::: {.home-masthead}
+
+::: {.home-masthead-copy}
+[👋 Welcome]{.home-masthead-welcome}
+
+# Marcellini’s Blog {#welcome-to-the-blog-do-marcellini}
+
+[Mathematics, science, and programming with **rigor, intuition, and beauty**.]{.home-masthead-tagline}
+
+Courses with exercises, essays, and ideas to explore.
+:::
+
+<div class="home-masthead-art" aria-hidden="true">
+<svg viewBox="0 0 420 300" xmlns="http://www.w3.org/2000/svg" focusable="false">
+  <defs>
+    <pattern id="masthead-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 H 0 V 28" fill="none" stroke="#bfd2e3" stroke-width="0.7"/>
+    </pattern>
+    <linearGradient id="masthead-curve" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7daace"/>
+      <stop offset="100%" stop-color="#174f7c"/>
+    </linearGradient>
+  </defs>
+  <circle cx="220" cy="150" r="128" fill="#e6f0f7"/>
+  <rect x="70" y="40" width="280" height="224" rx="16" fill="url(#masthead-grid)" opacity="0.75"/>
+  <path d="M 82 221 H 354 M 112 246 V 42" fill="none" stroke="#8ca8c1" stroke-width="1.5"/>
+  <path d="M 347 216 L 355 221 L 347 226 M 107 49 L 112 41 L 117 49" fill="none" stroke="#8ca8c1" stroke-width="1.5"/>
+  <path d="M 84 202 C 135 209 142 101 197 112 S 252 205 334 68" fill="none" stroke="url(#masthead-curve)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 83 158 C 135 94 175 88 213 147 S 286 210 347 139" fill="none" stroke="#d6a64c" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="197" cy="112" r="6" fill="#174f7c" stroke="#fff" stroke-width="3"/>
+  <circle cx="213" cy="147" r="5" fill="#d6a64c" stroke="#fff" stroke-width="2.5"/>
+  <text x="360" y="227" fill="#6686a3" font-family="Georgia,serif" font-size="17" font-style="italic">x</text>
+  <text x="102" y="33" fill="#6686a3" font-family="Georgia,serif" font-size="17" font-style="italic">y</text>
+  <text x="252" y="45" fill="#6989a6" font-family="Georgia,serif" font-size="22" opacity="0.85">∫ f(x) dx</text>
+  <g transform="translate(286 242)" fill="none" stroke="#6d94b5" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 13 0 L 2 10 L 13 20 M 36 0 L 47 10 L 36 20 M 29 -3 L 20 23"/>
+  </g>
+</svg>
 </div>
 
-![](images/banner.png){width=100% style="margin-bottom: 2rem;"}
+:::
 
-::: {.columns}
-::: {.column width="65%"}
+<span id="what-you-will-find-here"></span>
 
-::: {.callout-note title="👋 Welcome to the Blog do Marcellini"}
+## 🧭 Explore by subject {#areas}
 
-In this blog, you will find content on **Mathematics**, **Statistics**, and **Physics**, developed with **rigor**, solid **theoretical foundations**, and a **didactic approach**.  
-The goal is to combine conceptual clarity with a professional visual presentation, using tools such as **LaTeX**, **Quarto**, **Python**, and **R**.
+::: {.home-areas}
+[🧮 Mathematics](posts/mathematics/index.qmd){.home-area}
+[📊 Statistics](posts/statistics/index.qmd){.home-area}
+[🔭 Physics](posts/physics/index.qmd){.home-area}
+[💻 Programming](posts/programming/index.qmd){.home-area}
+[🧰 Templates](posts/programming/quarto/index.qmd){.home-area}
+[📝 Personal Blog](posts/personal/index.qmd){.home-area}
+:::
 
-The aim is to explore profound ideas with **simplicity**, **intuition**, and **beauty** — through accessible explanations, **graphical visualizations**, **complete courses with solved exercises**, and **structured reading guides**.
+## ✨ Highlights {#highlights}
+
+Three ways to begin: follow a course, explore ideas, or build a foundation in statistics.
+
+::: {.home-features}
+
+::: {.home-feature .home-feature-calculo}
+[COURSE · MATHEMATICS]{.home-kicker}
+
+### 📘 Differential and Integral Calculus
+
+Start with **five published lessons** on number sets, intervals, and inequalities, including exercises and optional Advanced Path topics.
+
+[🎓 Start the course](posts/courses/mathematics/calculus/index.qmd){.home-card-link}
+:::
+
+::: {.home-feature .home-feature-ensaios}
+[MATHEMATICS · PHYSICS]{.home-kicker}
+
+### 🧠 Equations that Shaped History
+
+Explore influential equations and the ideas behind them, from Euler’s identity to the wave equation.
+
+[🔭 Explore the equations](posts/mathematics/historical-equations.qmd){.home-card-link}
+:::
+
+::: {.home-feature .home-feature-estatistica}
+[COURSE · STATISTICS]{.home-kicker}
+
+### 📊 The Normal Distribution
+
+Understand the normal curve, its probabilities, and its applications, with plots and exercises in R and Python.
+
+[🌍 Study the normal distribution](posts/courses/statistics/normal_distribution/index.qmd){.home-card-link}
+:::
 
 :::
 
-
-### 🌟 What you will find here:
-
-- ✨ LaTeX and Quarto tips for visualizations  
-- 🧠 Step-by-step illustrated mathematical concepts  
-- 📘 Experiments with visual and graphical teaching  
-- 🧮 Mathematics that is both accessible and rigorous  
-- 🔭 Physics explained with context and history  
-- 📊 Statistics with focus on real-world applications  
-- 💻 Programming in R, Python, Julia, and Shell  
-- 📝 Reflections on science, method, and language  
-
-{{< include /_includes/editorial-policy-mini.qmd >}}
-
+::: {.home-more}
+🔎 **More to explore:** [Historical Equations](posts/mathematics/historical-equations.qmd) · [Models and templates](posts/programming/quarto/models-hub.qmd) · [Python examples](posts/programming/python/models-python-quarto.qmd) · [R examples](posts/programming/r/models-r-quarto.qmd)
 :::
 
-::: {.column width="35%"}
+## 🆕 Updates {#latest-posts}
 
-> **"Beauty is the first test: there is no permanent place in the world for ugly mathematics."**  
-> — G. H. Hardy  
-
-> **“The universe cannot be read until we have learned the language and become familiar with the characters in which it is written. It is written in the language of mathematics, and its letters are triangles, circles, and other geometrical figures, without which it is humanly impossible to comprehend a single word.”**  
-> — *Galileo Galilei*  
-
-:::
-
-{{< include /_includes/principal-menu.qmd >}}
-
-:::
-
----
-
-## ✨ Highlights
-
-::: {.callout-note collapse=true title="🧠 Historical Equations (Mathematics + Physics)"}
-A selection of formulas that shaped science, such as **Euler's Identity** \(e^{i\pi}+1=0\) and the **Wave Equation**.  
-[Explore Historical Equations ›](posts/mathematics/historical-equations.qmd){.button .button-outline}
-:::
-
-::: {.callout-note collapse=true title="🌍 Normal Distribution — Course (Statistics)"}
-Why does normality appear so often? Probabilities, confidence intervals, and hypothesis tests — with charts and exercises.  
-[See the course ›](posts/courses/statistics/normal_distribution/index.qmd){.button .button-outline}
-:::
-
-::: {.callout-note collapse=true title="📘 Calculus Course — Introduction"}
-A progressive course that combines **mathematical rigor**, **LaTeX typographical quality**, and **practical examples in R and Python**.
-
-📌 Topics already covered:
-
-- Number sets and fundamental properties  
-- Step-by-step solved exercises  
-
-[👉 Follow the Calculus Course ›](posts/courses/mathematics/calculus/index.qmd){.button .button-outline}
-:::
-
-<div style="margin-top: .25rem"></div>
-
-> 🔧 Programmable examples:  
-> 👉 [Python Models](posts/programming/python/models-python-quarto.qmd) · 👉 [R Models](posts/programming/r/models-r-quarto.qmd)
-
----
-
-🔝 [Back to Top](index.qmd)
-
----
-
-## 🆕 Latest Posts
+Discover the latest articles and follow new course lessons.
 
 <!-- inicio-ultimos-posts -->
-- [✨ Living as if Everything Were a Miracle](posts/personal/einstein.html)
-- [📘 🛰️ Special Theory of Relativity — An Academic View](posts/physics/special-relativity-academics.html)
-- [📚 🌠 General Relativity — Part 1: The Problem of Gravity](posts/physics/general-relativity-part1.html)
-- [📘 🛰️ Special Relativity: Einstein, Time, and the Speed of Light](posts/physics/special-relativity.html)
-- [📘 🧬 100 Years of Quantum Mechanics (1925–2025)](posts/physics/100-years-quantum-mechanics.html)
-- [📌 Git Cheatsheet for Blog do Marcellini](posts/programming/tutorials/git.html)
-- [📘 Module 1.3 AP: Absolute Value and Modular Inequalities](posts/courses/mathematics/calculus/module-1/1.3-absolute-value-AP.html)
-- [📘 Module 1.3: Intervals and Inequalities](posts/courses/mathematics/calculus/module-1/1.3-intervals-inequalities.html)
-- [📚 📄 Hub of Models & Templates (Quarto)](posts/programming/quarto/models-hub.html)
-- [🎓 📊 Statistics Course: The Normal Distribution](posts/courses/statistics/normal_distribution/index.html)
-<!-- fim-ultimos-posts -->
+::: {.home-updates}
 
-> This section is automatically updated with each new publication.
+::: {.home-update-panel}
 
----
+### 📝 Recent articles {#recent-articles}
 
-*Blog do Marcellini — Exploring Mathematics, Statistics, and Physics with Rigor and Beauty*
+- [✨ Living as if Everything Were a Miracle](posts/personal/einstein.html)  
+  [Personal Blog]{.home-topic} · [26 Sep 2025]{.home-date}
 
-{{< include /_includes/about-project.qmd >}}
+- [📘 🛰️ Special Theory of Relativity — An Academic View](posts/physics/special-relativity-academics.html)  
+  [Physics]{.home-topic} · [25 Sep 2025]{.home-date}
 
-:::{.callout-note}
-*Created by Blog do Marcellini with ❤️ and code.*
+- [📚 🌠 General Relativity — Part 1: The Problem of Gravity](posts/physics/general-relativity-part1.html)  
+  [Physics]{.home-topic} · [25 Sep 2025]{.home-date}
+
+- [📘 🛰️ Special Relativity: Einstein, Time, and the Speed of Light](posts/physics/special-relativity.html)  
+  [Physics]{.home-topic} · [24 Sep 2025]{.home-date}
+
+- [📘 🧬 100 Years of Quantum Mechanics (1925–2025)](posts/physics/100-years-quantum-mechanics.html)  
+  [Physics]{.home-topic} · [24 Sep 2025]{.home-date}
+
+- [📌 Git Cheatsheet for Blog do Marcellini](posts/programming/tutorials/git.html)  
+  [Programming]{.home-topic} · [19 Sep 2025]{.home-date}
+
 :::
 
-## 🔗 Useful Links
+::: {.home-update-panel}
 
-- 🧑‍🏫 [About the Blog](posts/personal/about-the-blog.qmd)  
-- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">Project GitHub</a>  
-- 📬 [Contact via Email](mailto:prof.marcellini@gmail.com)  
+### 🎓 New lessons {#new-lessons}
 
+- [📘 Module 1.3 AP: Absolute Value and Modular Inequalities](posts/courses/mathematics/calculus/module-1/1.3-absolute-value-AP.html)  
+  [Mathematics]{.home-topic} · [09 Sep 2025]{.home-date}
+
+- [📘 Module 1.3: Intervals and Inequalities](posts/courses/mathematics/calculus/module-1/1.3-intervals-inequalities.html)  
+  [Mathematics]{.home-topic} · [07 Sep 2025]{.home-date}
+
+- [🔢 Module 1.2: Number Sets](posts/courses/mathematics/calculus/module-1/1.2-sets.html)  
+  [Mathematics]{.home-topic} · [30 Jul 2025]{.home-date}
+
+- [🧠 🔢 Module 1.2 AP: Number Sets — Advanced](posts/courses/mathematics/calculus/module-1/1.2-sets-AP.html)  
+  [Mathematics]{.home-topic} · [27 Jul 2025]{.home-date}
+
+- [🎓📊 The Normal Distribution — Part 3: Plots, CLT, and Approximate Normality](posts/courses/statistics/normal_distribution/part-3/normal-distribution-part3.html)  
+  [Statistics]{.home-topic} · [24 Jul 2025]{.home-date}
+
+- [🎓📊 The Normal Distribution — Part 2: z-Score and z-Table](posts/courses/statistics/normal_distribution/part-2/normal-distribution-part2.html)  
+  [Statistics]{.home-topic} · [24 Jul 2025]{.home-date}
+
+:::
+
+:::
+
+<!-- fim-ultimos-posts -->
+
+## 👤 About the author {#about-the-author}
+
+A blog by **Celso Marcellini**, sharing explanations, courses, and reflections on mathematics, statistics, physics, and programming. The aim is to make deep ideas accessible to curious learners, with conceptual clarity and thoughtful presentation.
+
+[📘 About me and the blog](posts/personal/about-the-blog.qmd){.home-about-link}
+
+::: {.home-quote}
+> “Beauty is the first test: there is no permanent place in the world for ugly mathematics.”
+>
+> — G. H. Hardy
+:::
+
+## 🔗 Useful links {#useful-links}
+
+[🏷️ Tags](tags.qmd) · [📂 Categories](categories.qmd) · [🗺️ Site map](guide.qmd) · [🌐 Português](https://blogdomarcellini.com.br/)

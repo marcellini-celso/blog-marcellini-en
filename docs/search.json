@@ -2634,30 +2634,30 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Marcellini's Blog",
+    "title": "Marcellini’s Blog",
     "section": "",
-    "text": "🌐 Português · English"
+    "text": "👋 Welcome\n\n\nMathematics, science, and programming with rigor, intuition, and beauty.\nCourses with exercises, essays, and ideas to explore.\n\n\n\n\n                 x y ∫ f(x) dx"
   },
   {
     "objectID": "index.html#highlights",
     "href": "index.html#highlights",
-    "title": "Marcellini's Blog",
+    "title": "Marcellini’s Blog",
     "section": "✨ Highlights",
-    "text": "✨ Highlights\n\n\n\n\n\n\nNote🧠 Historical Equations (Mathematics + Physics)\n\n\n\n\n\nA selection of formulas that shaped science, such as Euler’s Identity \\(e^{i\\pi}+1=0\\) and the Wave Equation.\nExplore Historical Equations ›\n\n\n\n\n\n\n\n\n\nNote🌍 Normal Distribution — Course (Statistics)\n\n\n\n\n\nWhy does normality appear so often? Probabilities, confidence intervals, and hypothesis tests — with charts and exercises.\nSee the course ›\n\n\n\n\n\n\n\n\n\nNote📘 Calculus Course — Introduction\n\n\n\n\n\nA progressive course that combines mathematical rigor, LaTeX typographical quality, and practical examples in R and Python.\n📌 Topics already covered:\n\nNumber sets and fundamental properties\n\nStep-by-step solved exercises\n\n👉 Follow the Calculus Course ›\n\n\n\n\n\n\n\n🔧 Programmable examples:\n👉 Python Models · 👉 R Models\n\n\n🔝 Back to Top"
+    "text": "✨ Highlights\nThree ways to begin: follow a course, explore ideas, or build a foundation in statistics.\n\n\nCOURSE · MATHEMATICS\n\n📘 Differential and Integral Calculus\nStart with five published lessons on number sets, intervals, and inequalities, including exercises and optional Advanced Path topics.\n🎓 Start the course\n\n\n\nMATHEMATICS · PHYSICS\n\n🧠 Equations that Shaped History\nExplore influential equations and the ideas behind them, from Euler’s identity to the wave equation.\n🔭 Explore the equations\n\n\n\nCOURSE · STATISTICS\n\n📊 The Normal Distribution\nUnderstand the normal curve, its probabilities, and its applications, with plots and exercises in R and Python.\n🌍 Study the normal distribution\n\n\n\n\n🔎 More to explore: Historical Equations · Models and templates · Python examples · R examples"
   },
   {
     "objectID": "index.html#latest-posts",
     "href": "index.html#latest-posts",
-    "title": "Marcellini's Blog",
-    "section": "🆕 Latest Posts",
-    "text": "🆕 Latest Posts\n\n\n✨ Living as if Everything Were a Miracle\n📘 🛰️ Special Theory of Relativity — An Academic View\n📚 🌠 General Relativity — Part 1: The Problem of Gravity\n📘 🛰️ Special Relativity: Einstein, Time, and the Speed of Light\n📘 🧬 100 Years of Quantum Mechanics (1925–2025)\n📌 Git Cheatsheet for Blog do Marcellini\n📘 Module 1.3 AP: Absolute Value and Modular Inequalities\n📘 Module 1.3: Intervals and Inequalities\n📚 📄 Hub of Models & Templates (Quarto)\n🎓 📊 Statistics Course: The Normal Distribution \n\n\nThis section is automatically updated with each new publication.\n\n\nBlog do Marcellini — Exploring Mathematics, Statistics, and Physics with Rigor and Beauty\n\n\n\n\n\n\nTipAbout the Project\n\n\n\nThis site was born from the desire to share ideas with good mathematics, good typography, and good explanations.\nWant to know more about the editorial line, technologies, and behind-the-scenes?\n📘 Read “About the Blog and About Me” ›\n\n\n\n\n\n\n\n\nNote\n\n\n\nCreated by Blog do Marcellini with ❤️ and code."
+    "title": "Marcellini’s Blog",
+    "section": "🆕 Updates",
+    "text": "🆕 Updates\nDiscover the latest articles and follow new course lessons.\n\n\n\n📝 Recent articles\n\n✨ Living as if Everything Were a Miracle\nPersonal Blog · 26 Sep 2025\n📘 🛰️ Special Theory of Relativity — An Academic View\nPhysics · 25 Sep 2025\n📚 🌠 General Relativity — Part 1: The Problem of Gravity\nPhysics · 25 Sep 2025\n📘 🛰️ Special Relativity: Einstein, Time, and the Speed of Light\nPhysics · 24 Sep 2025\n📘 🧬 100 Years of Quantum Mechanics (1925–2025)\nPhysics · 24 Sep 2025\n📌 Git Cheatsheet for Blog do Marcellini\nProgramming · 19 Sep 2025\n\n\n\n🎓 New lessons\n\n📘 Module 1.3 AP: Absolute Value and Modular Inequalities\nMathematics · 09 Sep 2025\n📘 Module 1.3: Intervals and Inequalities\nMathematics · 07 Sep 2025\n🔢 Module 1.2: Number Sets\nMathematics · 30 Jul 2025\n🧠 🔢 Module 1.2 AP: Number Sets — Advanced\nMathematics · 27 Jul 2025\n🎓📊 The Normal Distribution — Part 3: Plots, CLT, and Approximate Normality\nStatistics · 24 Jul 2025\n🎓📊 The Normal Distribution — Part 2: z-Score and z-Table\nStatistics · 24 Jul 2025"
   },
   {
     "objectID": "index.html#useful-links",
     "href": "index.html#useful-links",
-    "title": "Marcellini's Blog",
-    "section": "🔗 Useful Links",
-    "text": "🔗 Useful Links\n\n🧑‍🏫 About the Blog\n\n💻 Project GitHub\n\n📬 Contact via Email"
+    "title": "Marcellini’s Blog",
+    "section": "🔗 Useful links",
+    "text": "🔗 Useful links\n🏷️ Tags · 📂 Categories · 🗺️ Site map · 🌐 Português"
   },
   {
     "objectID": "posts/programming/index.html",
@@ -3883,5 +3883,19 @@
     "title": "Quiz example",
     "section": "A quiz with additional information in callouts",
     "text": "A quiz with additional information in callouts\n\nBill Gates was the founder of:\n\n\n\n\n ✗Apple\n\n\n ✓Microsoft\n\n\n ✗Facebook\n\n\n ✗Google\n\n\nClear answer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipHint\n\n\n\n\n\nThe company name starts with an ‘M’…\n\n\n\n\n\n\n\n\n\nNoteAnswer\n\n\n\n\n\nBill Gates and Paul Allen founded Microsoft on April 4, 1975."
+  },
+  {
+    "objectID": "index.html#areas",
+    "href": "index.html#areas",
+    "title": "Marcellini’s Blog",
+    "section": "🧭 Explore by subject",
+    "text": "🧭 Explore by subject\n\n🧮 Mathematics 📊 Statistics 🔭 Physics 💻 Programming 🧰 Templates 📝 Personal Blog"
+  },
+  {
+    "objectID": "index.html#about-the-author",
+    "href": "index.html#about-the-author",
+    "title": "Marcellini’s Blog",
+    "section": "👤 About the author",
+    "text": "👤 About the author\nA blog by Celso Marcellini, sharing explanations, courses, and reflections on mathematics, statistics, physics, and programming. The aim is to make deep ideas accessible to curious learners, with conceptual clarity and thoughtful presentation.\n📘 About me and the blog\n\n\n“Beauty is the first test: there is no permanent place in the world for ugly mathematics.”\n— G. H. Hardy"
   }
 ]

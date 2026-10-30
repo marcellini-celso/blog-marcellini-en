@@ -2,17 +2,24 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.25">
+<meta name="generator" content="quarto-1.10.19">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Courses, articles, and guides to mathematics, statistics, physics, and programming, with rigor, intuition, and beauty.">
 
 <title>Marcellini’s Blog</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -33,15 +40,14 @@ ul.task-list li input[type="checkbox"] {
 <link href="./images/banner.jpeg" rel="icon" type="image/jpeg">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-065a5179aebd64318d7ea99d77b64a9e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-5c1318cf63eba56dbef7ba16bc7d56f5.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-737e4789bd97d657391bac76547a2d26.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-f033c7dbc0f6ce96e5658e4903595158.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/alpine-3.12/buttons.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -85,49 +91,22 @@ ul.task-list li input[type="checkbox"] {
 <link rel="alternate" hreflang="pt-BR" href="https://blogdomarcellini.com.br/">
 <link rel="alternate" hreflang="x-default" href="https://en.blogdomarcellini.com.br/">
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="assets/css/custom.css">
 <link rel="stylesheet" href="assets/css/cards.css">
 <link rel="stylesheet" href="assets/css/chips.css">
+<link rel="stylesheet" href="assets/css/homepage.css">
+<link rel="stylesheet" href="assets/css/banner-v2.css">
 <meta property="og:title" content="Marcellini’s Blog">
-<meta property="og:description" content="">
+<meta property="og:description" content="Courses, articles, and guides to mathematics, statistics, physics, and programming, with rigor, intuition, and beauty.">
 <meta property="og:image" content="https://en.blogdomarcellini.com.br/images/placeholder-dark-en.png">
-<meta property="og:site_name" content="Marcellini's Blog">
+<meta property="og:site_name" content="Marcellini’s Blog">
 <meta property="og:image:height" content="1380">
 <meta property="og:image:width" content="1830">
 <meta property="og:image:alt" content="Marcellini's Blog">
 <meta name="twitter:title" content="Marcellini’s Blog">
-<meta name="twitter:description" content="">
+<meta name="twitter:description" content="Courses, articles, and guides to mathematics, statistics, physics, and programming, with rigor, intuition, and beauty.">
 <meta name="twitter:image" content="https://en.blogdomarcellini.com.br/images/placeholder-dark-en.png">
 <meta name="twitter:image-height" content="1380">
 <meta name="twitter:image-width" content="1830">
@@ -135,15 +114,13 @@ window.Quarto = {
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed blog-home quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Marcellini’s Blog</span>
     </a>
@@ -249,255 +226,127 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#highlights" id="toc-highlights" class="nav-link active" data-scroll-target="#highlights">✨ Highlights</a></li>
-  <li><a href="#latest-posts" id="toc-latest-posts" class="nav-link" data-scroll-target="#latest-posts">🆕 Latest Posts</a></li>
-  <li><a href="#useful-links" id="toc-useful-links" class="nav-link" data-scroll-target="#useful-links">🔗 Useful Links</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<div style="text-align:right; font-size:0.95em;">
-<p>🌐 <a href="https://blogdomarcellini.com.br/">Português</a> · <span aria-current="page">English</span></p>
+<div class="home-masthead">
+<div class="home-masthead-copy">
+<p><span class="home-masthead-welcome">👋 Welcome</span></p>
+<section id="welcome-to-the-blog-do-marcellini" class="level1">
+<h1>Marcellini’s Blog</h1>
+<p><span class="home-masthead-tagline">Mathematics, science, and programming with <strong>rigor, intuition, and beauty</strong>.</span></p>
+<p>Courses with exercises, essays, and ideas to explore.</p>
+</section>
 </div>
-<p><img src="images/banner.png" class="img-fluid" style="margin-bottom: 2rem;;width:100.0%"></p>
-<div class="columns">
-<div class="column" style="width:65%;">
-<div class="callout callout-style-default callout-note callout-titled" title="👋 Welcome to the Blog do Marcellini">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>👋 Welcome to the Blog do Marcellini
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>In this blog, you will find content on <strong>Mathematics</strong>, <strong>Statistics</strong>, and <strong>Physics</strong>, developed with <strong>rigor</strong>, solid <strong>theoretical foundations</strong>, and a <strong>didactic approach</strong>.<br>
-The goal is to combine conceptual clarity with a professional visual presentation, using tools such as <strong>LaTeX</strong>, <strong>Quarto</strong>, <strong>Python</strong>, and <strong>R</strong>.</p>
-<p>The aim is to explore profound ideas with <strong>simplicity</strong>, <strong>intuition</strong>, and <strong>beauty</strong> — through accessible explanations, <strong>graphical visualizations</strong>, <strong>complete courses with solved exercises</strong>, and <strong>structured reading guides</strong>.</p>
+<div class="home-masthead-art" aria-hidden="true">
+<svg viewbox="0 0 420 300" xmlns="http://www.w3.org/2000/svg" focusable="false">
+<defs> <pattern id="masthead-grid" width="28" height="28" patternunits="userSpaceOnUse"> <path d="M 28 0 H 0 V 28" fill="none" stroke="#bfd2e3" stroke-width="0.7"></path> </pattern> <lineargradient id="masthead-curve" x1="0" y1="1" x2="1" y2="0"> <stop offset="0%" stop-color="#7daace"></stop> <stop offset="100%" stop-color="#174f7c"></stop> </lineargradient> </defs> <circle cx="220" cy="150" r="128" fill="#e6f0f7"></circle> <rect x="70" y="40" width="280" height="224" rx="16" fill="url(#masthead-grid)" opacity="0.75"></rect> <path d="M 82 221 H 354 M 112 246 V 42" fill="none" stroke="#8ca8c1" stroke-width="1.5"></path> <path d="M 347 216 L 355 221 L 347 226 M 107 49 L 112 41 L 117 49" fill="none" stroke="#8ca8c1" stroke-width="1.5"></path> <path d="M 84 202 C 135 209 142 101 197 112 S 252 205 334 68" fill="none" stroke="url(#masthead-curve)" stroke-width="4" stroke-linecap="round"></path> <path d="M 83 158 C 135 94 175 88 213 147 S 286 210 347 139" fill="none" stroke="#d6a64c" stroke-width="2.5" stroke-linecap="round"></path> <circle cx="197" cy="112" r="6" fill="#174f7c" stroke="#fff" stroke-width="3"></circle> <circle cx="213" cy="147" r="5" fill="#d6a64c" stroke="#fff" stroke-width="2.5"></circle> <text x="360" y="227" fill="#6686a3" font-family="Georgia,serif" font-size="17" font-style="italic">x</text> <text x="102" y="33" fill="#6686a3" font-family="Georgia,serif" font-size="17" font-style="italic">y</text> <text x="252" y="45" fill="#6989a6" font-family="Georgia,serif" font-size="22" opacity="0.85">∫ f(x) dx</text> <g transform="translate(286 242)" fill="none" stroke="#6d94b5" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"> <path d="M 13 0 L 2 10 L 13 20 M 36 0 L 47 10 L 36 20 M 29 -3 L 20 23"></path> </g>
+</svg>
 </div>
 </div>
-<section id="what-you-will-find-here" class="level3">
-<h3 class="anchored" data-anchor-id="what-you-will-find-here">🌟 What you will find here:</h3>
-<ul>
-<li>✨ LaTeX and Quarto tips for visualizations<br>
-</li>
-<li>🧠 Step-by-step illustrated mathematical concepts<br>
-</li>
-<li>📘 Experiments with visual and graphical teaching<br>
-</li>
-<li>🧮 Mathematics that is both accessible and rigorous<br>
-</li>
-<li>🔭 Physics explained with context and history<br>
-</li>
-<li>📊 Statistics with focus on real-world applications<br>
-</li>
-<li>💻 Programming in R, Python, Julia, and Shell<br>
-</li>
-<li>📝 Reflections on science, method, and language</li>
-</ul>
-<div class="callout callout-style-default callout-note callout-titled" title="Editorial Policy (summary)">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Editorial Policy (summary)
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p><strong>Rigor, beauty, and clarity.</strong><br>
-The <strong>courses</strong> emphasize <strong>Calculus</strong> and <strong>Statistics</strong> as fundamental foundations.<br>
-<strong>Articles and series</strong> cover a wide range of topics in science, mathematics, statistics, computing, and technology.<br>
-No hermetic style: advanced topics (manifolds, Lie groups, QFT, GR) are presented with a <strong>solid conceptual basis</strong> and <strong>clear language</strong>.</p>
-<p><a href="./posts/personal/about-the-blog.html" class="button button-outline">Learn more ›</a></p>
-</div>
-</div>
+<p><span id="what-you-will-find-here"></span></p>
+<section id="areas" class="level2">
+<h2 class="anchored" data-anchor-id="areas">🧭 Explore by subject</h2>
+<div class="home-areas">
+<p><a href="./posts/mathematics/index.html" class="home-area">🧮 Mathematics</a> <a href="./posts/statistics/index.html" class="home-area">📊 Statistics</a> <a href="./posts/physics/index.html" class="home-area">🔭 Physics</a> <a href="./posts/programming/index.html" class="home-area">💻 Programming</a> <a href="./posts/programming/quarto/index.html" class="home-area">🧰 Templates</a> <a href="./posts/personal/index.html" class="home-area">📝 Personal Blog</a></p>
 </div>
 </section>
-</div><div class="column" style="width:35%;">
-<blockquote class="blockquote">
-<p><strong>“Beauty is the first test: there is no permanent place in the world for ugly mathematics.”</strong><br>
-— G. H. Hardy</p>
-</blockquote>
-<blockquote class="blockquote">
-<p><strong>“The universe cannot be read until we have learned the language and become familiar with the characters in which it is written. It is written in the language of mathematics, and its letters are triangles, circles, and other geometrical figures, without which it is humanly impossible to comprehend a single word.”</strong><br>
-— <em>Galileo Galilei</em></p>
-</blockquote>
-</div><div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">🎓 Courses</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">📘 Special Projects</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">🏷️ Tags and 🗂️ Categories</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">🗺️ Sitemap</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<ul>
-<li>🧮 <a href="posts/courses/mathematics/">Mathematics</a></li>
-<li>📊 <a href="posts/courses/statistics/">Statistics</a></li>
-</ul>
-</div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<ul>
-<li>🔭 <a href="./posts/physics/guide-100-years-quantum-mechanics.html">100 Years of Quantum Mechanics Series</a></li>
-<li>🧠 <a href="./posts/physics/guide-special-relativity.html">Special Relativity Series</a></li>
-<li>🌠 <a href="./posts/physics/guide-general-relativity.html">General Relativity Series</a></li>
-</ul>
-</div>
-<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
-<ul>
-<li><a href="./tags.html">🏷️ Tags</a></li>
-<li><a href="./categories.html">🗂️ Categories</a></li>
-</ul>
-</div>
-<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
-<ul>
-<li><a href="./guide.html">🗺️ Sitemap</a></li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-<hr>
 <section id="highlights" class="level2">
 <h2 class="anchored" data-anchor-id="highlights">✨ Highlights</h2>
-<div class="callout callout-style-default callout-note callout-titled" title="🧠 Historical Equations (Mathematics + Physics)">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+<p>Three ways to begin: follow a course, explore ideas, or build a foundation in statistics.</p>
+<div class="home-features">
+<div class="home-feature home-feature-calculo">
+<p><span class="home-kicker">COURSE · MATHEMATICS</span></p>
+<section id="differential-and-integral-calculus" class="level3">
+<h3 class="anchored" data-anchor-id="differential-and-integral-calculus">📘 Differential and Integral Calculus</h3>
+<p>Start with <strong>five published lessons</strong> on number sets, intervals, and inequalities, including exercises and optional Advanced Path topics.</p>
+<p><a href="./posts/courses/mathematics/calculus/index.html" class="home-card-link">🎓 Start the course</a></p>
+</section>
 </div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>🧠 Historical Equations (Mathematics + Physics)
+<div class="home-feature home-feature-ensaios">
+<p><span class="home-kicker">MATHEMATICS · PHYSICS</span></p>
+<section id="equations-that-shaped-history" class="level3">
+<h3 class="anchored" data-anchor-id="equations-that-shaped-history">🧠 Equations that Shaped History</h3>
+<p>Explore influential equations and the ideas behind them, from Euler’s identity to the wave equation.</p>
+<p><a href="./posts/mathematics/historical-equations.html" class="home-card-link">🔭 Explore the equations</a></p>
+</section>
 </div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-3" class="callout-3-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>A selection of formulas that shaped science, such as <strong>Euler’s Identity</strong> <span class="math inline">\(e^{i\pi}+1=0\)</span> and the <strong>Wave Equation</strong>.<br>
-<a href="./posts/mathematics/historical-equations.html" class="button button-outline">Explore Historical Equations ›</a></p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled" title="🌍 Normal Distribution — Course (Statistics)">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>🌍 Normal Distribution — Course (Statistics)
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-4" class="callout-4-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>Why does normality appear so often? Probabilities, confidence intervals, and hypothesis tests — with charts and exercises.<br>
-<a href="./posts/courses/statistics/normal_distribution/index.html" class="button button-outline">See the course ›</a></p>
+<div class="home-feature home-feature-estatistica">
+<p><span class="home-kicker">COURSE · STATISTICS</span></p>
+<section id="the-normal-distribution" class="level3">
+<h3 class="anchored" data-anchor-id="the-normal-distribution">📊 The Normal Distribution</h3>
+<p>Understand the normal curve, its probabilities, and its applications, with plots and exercises in R and Python.</p>
+<p><a href="./posts/courses/statistics/normal_distribution/index.html" class="home-card-link">🌍 Study the normal distribution</a></p>
+</section>
 </div>
 </div>
+<div class="home-more">
+<p>🔎 <strong>More to explore:</strong> <a href="./posts/mathematics/historical-equations.html">Historical Equations</a> · <a href="./posts/programming/quarto/models-hub.html">Models and templates</a> · <a href="./posts/programming/python/models-python-quarto.html">Python examples</a> · <a href="./posts/programming/r/models-r-quarto.html">R examples</a></p>
 </div>
-<div class="callout callout-style-default callout-note callout-titled" title="📘 Calculus Course — Introduction">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>📘 Calculus Course — Introduction
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-5" class="callout-5-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>A progressive course that combines <strong>mathematical rigor</strong>, <strong>LaTeX typographical quality</strong>, and <strong>practical examples in R and Python</strong>.</p>
-<p>📌 Topics already covered:</p>
-<ul>
-<li>Number sets and fundamental properties<br>
-</li>
-<li>Step-by-step solved exercises</li>
-</ul>
-<p><a href="./posts/courses/mathematics/calculus/index.html" class="button button-outline">👉 Follow the Calculus Course ›</a></p>
-</div>
-</div>
-</div>
-<div style="margin-top: .25rem">
-
-</div>
-<blockquote class="blockquote">
-<p>🔧 Programmable examples:<br>
-👉 <a href="./posts/programming/python/models-python-quarto.html">Python Models</a> · 👉 <a href="./posts/programming/r/models-r-quarto.html">R Models</a></p>
-</blockquote>
-<hr>
-<p>🔝 <a href="./index.html">Back to Top</a></p>
-<hr>
 </section>
 <section id="latest-posts" class="level2">
-<h2 class="anchored" data-anchor-id="latest-posts">🆕 Latest Posts</h2>
+<h2 class="anchored" data-anchor-id="latest-posts">🆕 Updates</h2>
+<p>Discover the latest articles and follow new course lessons.</p>
 <!-- inicio-ultimos-posts -->
+<div class="home-updates">
+<section id="recent-articles" class="level3 home-update-panel">
+<h3 class="anchored" data-anchor-id="recent-articles">📝 Recent articles</h3>
 <ul>
-<li><a href="posts/personal/einstein.html">✨ Living as if Everything Were a Miracle</a></li>
-<li><a href="posts/physics/special-relativity-academics.html">📘 🛰️ Special Theory of Relativity — An Academic View</a></li>
-<li><a href="posts/physics/general-relativity-part1.html">📚 🌠 General Relativity — Part 1: The Problem of Gravity</a></li>
-<li><a href="posts/physics/special-relativity.html">📘 🛰️ Special Relativity: Einstein, Time, and the Speed of Light</a></li>
-<li><a href="posts/physics/100-years-quantum-mechanics.html">📘 🧬 100 Years of Quantum Mechanics (1925–2025)</a></li>
-<li><a href="posts/programming/tutorials/git.html">📌 Git Cheatsheet for Blog do Marcellini</a></li>
-<li><a href="posts/courses/mathematics/calculus/module-1/1.3-absolute-value-AP.html">📘 Module 1.3 AP: Absolute Value and Modular Inequalities</a></li>
-<li><a href="posts/courses/mathematics/calculus/module-1/1.3-intervals-inequalities.html">📘 Module 1.3: Intervals and Inequalities</a></li>
-<li><a href="posts/programming/quarto/models-hub.html">📚 📄 Hub of Models &amp; Templates (Quarto)</a></li>
-<li><a href="posts/courses/statistics/normal_distribution/index.html">🎓 📊 Statistics Course: The Normal Distribution</a> <!-- fim-ultimos-posts --></li>
+<li><p><a href="posts/personal/einstein.html">✨ Living as if Everything Were a Miracle</a><br>
+<span class="home-topic">Personal Blog</span> · <span class="home-date">26 Sep 2025</span></p></li>
+<li><p><a href="posts/physics/special-relativity-academics.html">📘 🛰️ Special Theory of Relativity — An Academic View</a><br>
+<span class="home-topic">Physics</span> · <span class="home-date">25 Sep 2025</span></p></li>
+<li><p><a href="posts/physics/general-relativity-part1.html">📚 🌠 General Relativity — Part 1: The Problem of Gravity</a><br>
+<span class="home-topic">Physics</span> · <span class="home-date">25 Sep 2025</span></p></li>
+<li><p><a href="posts/physics/special-relativity.html">📘 🛰️ Special Relativity: Einstein, Time, and the Speed of Light</a><br>
+<span class="home-topic">Physics</span> · <span class="home-date">24 Sep 2025</span></p></li>
+<li><p><a href="posts/physics/100-years-quantum-mechanics.html">📘 🧬 100 Years of Quantum Mechanics (1925–2025)</a><br>
+<span class="home-topic">Physics</span> · <span class="home-date">24 Sep 2025</span></p></li>
+<li><p><a href="posts/programming/tutorials/git.html">📌 Git Cheatsheet for Blog do Marcellini</a><br>
+<span class="home-topic">Programming</span> · <span class="home-date">19 Sep 2025</span></p></li>
 </ul>
+</section>
+<section id="new-lessons" class="level3 home-update-panel">
+<h3 class="anchored" data-anchor-id="new-lessons">🎓 New lessons</h3>
+<ul>
+<li><p><a href="posts/courses/mathematics/calculus/module-1/1.3-absolute-value-AP.html">📘 Module 1.3 AP: Absolute Value and Modular Inequalities</a><br>
+<span class="home-topic">Mathematics</span> · <span class="home-date">09 Sep 2025</span></p></li>
+<li><p><a href="posts/courses/mathematics/calculus/module-1/1.3-intervals-inequalities.html">📘 Module 1.3: Intervals and Inequalities</a><br>
+<span class="home-topic">Mathematics</span> · <span class="home-date">07 Sep 2025</span></p></li>
+<li><p><a href="posts/courses/mathematics/calculus/module-1/1.2-sets.html">🔢 Module 1.2: Number Sets</a><br>
+<span class="home-topic">Mathematics</span> · <span class="home-date">30 Jul 2025</span></p></li>
+<li><p><a href="posts/courses/mathematics/calculus/module-1/1.2-sets-AP.html">🧠 🔢 Module 1.2 AP: Number Sets — Advanced</a><br>
+<span class="home-topic">Mathematics</span> · <span class="home-date">27 Jul 2025</span></p></li>
+<li><p><a href="posts/courses/statistics/normal_distribution/part-3/normal-distribution-part3.html">🎓📊 The Normal Distribution — Part 3: Plots, CLT, and Approximate Normality</a><br>
+<span class="home-topic">Statistics</span> · <span class="home-date">24 Jul 2025</span></p></li>
+<li><p><a href="posts/courses/statistics/normal_distribution/part-2/normal-distribution-part2.html">🎓📊 The Normal Distribution — Part 2: z-Score and z-Table</a><br>
+<span class="home-topic">Statistics</span> · <span class="home-date">24 Jul 2025</span></p></li>
+</ul>
+</section>
+</div>
+<!-- fim-ultimos-posts -->
+</section>
+<section id="about-the-author" class="level2">
+<h2 class="anchored" data-anchor-id="about-the-author">👤 About the author</h2>
+<p>A blog by <strong>Celso Marcellini</strong>, sharing explanations, courses, and reflections on mathematics, statistics, physics, and programming. The aim is to make deep ideas accessible to curious learners, with conceptual clarity and thoughtful presentation.</p>
+<p><a href="./posts/personal/about-the-blog.html" class="home-about-link">📘 About me and the blog</a></p>
+<div class="home-quote">
 <blockquote class="blockquote">
-<p>This section is automatically updated with each new publication.</p>
+<p>“Beauty is the first test: there is no permanent place in the world for ugly mathematics.”</p>
+<p>— G. H. Hardy</p>
 </blockquote>
-<hr>
-<p><em>Blog do Marcellini — Exploring Mathematics, Statistics, and Physics with Rigor and Beauty</em></p>
-<div class="callout callout-style-default callout-tip callout-titled" title="About the Project">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>About the Project
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This site was born from the desire to share ideas with <strong>good mathematics</strong>, <strong>good typography</strong>, and <strong>good explanations</strong>.<br>
-Want to know more about the editorial line, technologies, and behind-the-scenes?</p>
-<p><a href="./posts/personal/about-the-blog.html" class="button button-outline">📘 Read “About the Blog and About Me” ›</a></p>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><em>Created by Blog do Marcellini with ❤️ and code.</em></p>
-</div>
 </div>
 </section>
 <section id="useful-links" class="level2">
-<h2 class="anchored" data-anchor-id="useful-links">🔗 Useful Links</h2>
-<ul>
-<li>🧑‍🏫 <a href="./posts/personal/about-the-blog.html">About the Blog</a><br>
-</li>
-<li>💻 <a href="https://github.com/marcellini-celso/blog-marcellini-en.git" target="_blank">Project GitHub</a><br>
-</li>
-<li>📬 <a href="mailto:prof.marcellini@gmail.com">Contact via Email</a></li>
-</ul>
+<h2 class="anchored" data-anchor-id="useful-links">🔗 Useful links</h2>
+<p><a href="./tags.html">🏷️ Tags</a> · <a href="./categories.html">📂 Categories</a> · <a href="./guide.html">🗺️ Site map</a> · <a href="https://blogdomarcellini.com.br/">🌐 Português</a></p>
 
 
 </section>

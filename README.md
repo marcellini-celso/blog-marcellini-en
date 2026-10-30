@@ -35,3 +35,10 @@ Run the full-update script:
 ```bash
 ./update_all.sh
 
+
+
+## Home page
+
+The home uses assets/css/homepage.css and assets/css/banner-v2.css, matching the Portuguese edition, including its mobile banner. Featured links reflect the content currently available in English.
+
+Run bash atualizar-ultimos-posts.sh to refresh the separate lists of six recent articles and six course lessons from source publication dates. This command is also called by atualizar_tudo.sh. The generator requires PyYAML and skips drafts and reading-guide indexes.
