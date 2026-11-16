@@ -102,14 +102,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-submit-button-title": "Submit",
     "search-label": "Search"
   }
-}</script><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-TZTRKLXEB9"></script><script>
-  if (!['localhost','127.0.0.1'].includes(location.hostname)) {
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-TZTRKLXEB9', {
-      linker: { domains: ['blogdomarcellini.com.br','en.blogdomarcellini.com.br'] }
-    });
+}</script><script>
+  if (location.hostname === 'en.blogdomarcellini.com.br') {
+    const dataLayer = window.dataLayer = window.dataLayer || [];
+    dataLayer.push({'gtm.start': Date.now(), event: 'gtm.js'});
+    const tag = document.createElement('script');
+    tag.async = true;
+    tag.src = 'https://www.googletagmanager.com/gtm.js?id=G-P2KY6K26MG';
+    document.head.appendChild(tag);
   }
 </script><link href="../../site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet">
 <script src="../../site_libs/pagedtable-1.1/js/pagedtable.js"></script><link rel="alternate" hreflang="pt-BR" href="https://blogdomarcellini.com.br/">

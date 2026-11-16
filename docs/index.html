@@ -76,15 +76,14 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-TZTRKLXEB9"></script>
 <script>
-  if (!['localhost','127.0.0.1'].includes(location.hostname)) {
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-TZTRKLXEB9', {
-      linker: { domains: ['blogdomarcellini.com.br','en.blogdomarcellini.com.br'] }
-    });
+  if (location.hostname === 'en.blogdomarcellini.com.br') {
+    const dataLayer = window.dataLayer = window.dataLayer || [];
+    dataLayer.push({'gtm.start': Date.now(), event: 'gtm.js'});
+    const tag = document.createElement('script');
+    tag.async = true;
+    tag.src = 'https://www.googletagmanager.com/gtm.js?id=G-P2KY6K26MG';
+    document.head.appendChild(tag);
   }
 </script>
 
